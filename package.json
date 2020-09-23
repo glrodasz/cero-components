@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -s ./assets",
     "semantic-release": "semantic-release",
     "chromatic": "npx chromatic --project-token 1e92mtu29xv"
   },

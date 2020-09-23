@@ -126,7 +126,7 @@ exports[`Storyshots Atoms/Icon Angle Down 1`] = `
     className="picture"
   >
     <img
-      src="/icons//angle-down.svg"
+      src="/icons/angle-down.svg"
       style={
         Object {
           "maxWidth": 26,
@@ -151,7 +151,7 @@ exports[`Storyshots Atoms/Icon Arrow Right 1`] = `
     className="picture"
   >
     <img
-      src="/icons//arrow-right.svg"
+      src="/icons/arrow-right.svg"
       style={
         Object {
           "maxWidth": 26,
@@ -176,7 +176,7 @@ exports[`Storyshots Atoms/Icon Has Background 1`] = `
     className="picture"
   >
     <img
-      src="/icons//angle-down.svg"
+      src="/icons/angle-down.svg"
       style={
         Object {
           "maxWidth": 26,
@@ -442,7 +442,7 @@ exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
       className="picture"
     >
       <img
-        src="/icons//arrow-right.svg"
+        src="/icons/arrow-right.svg"
         style={
           Object {
             "maxWidth": 26,
@@ -471,7 +471,7 @@ exports[`Storyshots Molecules/Dropdown Default 1`] = `
       className="picture"
     >
       <img
-        src="/icons//angle-down.svg"
+        src="/icons/angle-down.svg"
         style={
           Object {
             "maxWidth": 26,

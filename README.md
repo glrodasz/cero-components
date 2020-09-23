@@ -32,7 +32,7 @@ This is the components library related to the Cero a Producción project.
 1. Install Jest for React following [this](https://jestjs.io/docs/en/tutorial-react) instructions.
 2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)
 3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing)
-4. Configure Cromatic in https://www.chromatic.com/
+4. Configure Chromatic in https://www.chromatic.com/
 ### Creating the CI scripts
 ### Creating a NPM package
 ### Configure Semantic Release
