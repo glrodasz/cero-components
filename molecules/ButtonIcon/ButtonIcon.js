@@ -8,7 +8,7 @@ import Icon from '../../atoms/Icon'
 const ButtonIcon = ({ children, type, icon }) => (
   <Button type={type} isBlock={false}>
     {children}
-    <Spacer.Vertical size="xs"></Spacer.Vertical>
+    <Spacer.Vertical size="sm"></Spacer.Vertical>
     <Icon type={icon} />
   </Button>
 )

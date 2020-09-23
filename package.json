@@ -15,7 +15,8 @@
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
     "build-storybook": "build-storybook",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "chromatic": "npx chromatic --project-token 1e92mtu29xv"
   },
   "keywords": [
     "react",
@@ -34,6 +35,7 @@
     "@storybook/react": "6.0.21",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
+    "chromatic": "5.2.0",
     "eslint": "7.8.1",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-prettier": "3.1.4",
