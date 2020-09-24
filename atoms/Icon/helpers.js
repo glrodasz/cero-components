@@ -1,4 +1,4 @@
-const ICONS_ASSETS_PATH = '/icons/'
+const ICONS_ASSETS_PATH = '/icons'
 
 const iconMap = {
   arrowRight: 'arrow-right',

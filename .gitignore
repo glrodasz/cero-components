@@ -298,3 +298,4 @@ $RECYCLE.BIN/
 
 package-lock.json
 !atoms/Icon
+storybook-static
