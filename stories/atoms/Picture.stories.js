@@ -9,3 +9,7 @@ export default {
 export const Default = () => (
   <Picture src="https://placeimg.com/400/400/any" width={200} />
 )
+
+export const IsRounded = () => (
+  <Picture src="https://placeimg.com/400/400/any" width={200} isRounded />
+)

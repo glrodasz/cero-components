@@ -7,12 +7,10 @@ import styles from './Spacer.module.css'
 
 const Horizontal = ({ size, isVisible }) => (
   <div
-    className={classNames(styles.spacer, {
+    className={classNames(styles.spacer, styles.horizontal, {
       [styles['is-visible']]: isVisible,
     })}
     style={{
-      display: 'block',
-      width: '100%',
       height: getSize(size),
     }}
   />
