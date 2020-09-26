@@ -1,6 +1,6 @@
 {
   "name": "@glrodasz/components",
-  "version": "0.1.3",
+  "version": "0.0.0-development",
   "private": false,
   "description": "A components library to create apps from zero to production",
   "main": "index.js",
@@ -15,8 +15,7 @@
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
     "build-storybook": "build-storybook -s ./assets",
-    "semantic-release": "semantic-release",
-    "chromatic": "npx chromatic --project-token 1e92mtu29xv"
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "react",
@@ -51,12 +50,11 @@
     "semantic-release": "17.1.2"
   },
   "peerDependencies": {
-    "minireset.css": "^0.0.6",
     "react": "^16.13.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn build-tokens && lint-staged"
     }
   },
   "lint-staged": {
