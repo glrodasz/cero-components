@@ -39,7 +39,7 @@ function buildTokens() {
 
   fs.writeFile('./styles/tokens.css', data, 'utf8', function (error) {
     if (error) {
-      return console.error(error)
+      throw error
     }
     console.log('🎨 Custom properties created!')
   })

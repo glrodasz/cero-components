@@ -2,16 +2,16 @@ import React from 'react'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
-import styles from './Component.module.css'
+import styles from './Paragraph.module.css'
 
-const Component = ({ children }) => {
+const Paragraph = ({ children }) => {
   return <div className={classNames(styles.component)}>{children}</div>
 }
 
-Component.propTypes = {
+Paragraph.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-Component.defaultProps = {}
+Paragraph.defaultProps = {}
 
-export default Component
+export default Paragraph
