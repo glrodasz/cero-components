@@ -1,0 +1,6 @@
+.centered-content {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+}

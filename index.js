@@ -1,5 +1,8 @@
 // Layout
 export { default as Spacer } from './layout/Spacer'
+export { default as Container } from './layout/Container'
+export { default as CenteredContent } from './layout/CenteredContent'
+export { default as FullHeightContent } from './layout/FullHeightContent'
 
 // Atoms
 export { default as Button } from './atoms/Button'

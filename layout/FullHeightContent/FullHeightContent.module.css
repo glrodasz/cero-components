@@ -1,0 +1,7 @@
+.full-height-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+  text-align: center;
+}
