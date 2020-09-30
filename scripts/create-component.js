@@ -43,34 +43,32 @@ function createComponentFile(
   )
 }
 
-// TODO: Refactor to use async/await instead
-function createComponent(type, componentName) {
+async function createComponent(type, componentName) {
   const mappedType = ATOMIC_DESIGN_TYPES[type]
   const componentPath = `./${mappedType}/${componentName}`
 
   checkParams(type, componentName)
   checkParamType(mappedType)
 
-  readComponentFile()
-    .then((componentFile) => replaceComponentFile(componentFile, componentName))
-    .then((replacedComponentFile) => {
-      createComponentFolder(componentPath).then(() => {
-        console.log('🔧 component folder created!')
-        return createComponentFile(
-          componentPath,
-          componentName,
-          replacedComponentFile
-        ).then(() => {
-          console.log('🔧 component file created!')
-        })
-      })
-    })
-    .catch((error) => {
-      console.log(error)
-      process.exit(1)
-    })
+  try {
+    const componentFile = await readComponentFile()
+    const replacedComponentFile = await replaceComponentFile(
+      componentFile,
+      componentName
+    )
+    await createComponentFolder(componentPath)
+    console.log('🔧 component folder created!')
 
-  createComponentFile()
+    await createComponentFile(
+      componentPath,
+      componentName,
+      replacedComponentFile
+    )
+    console.log('🔧 component file created!')
+  } catch (error) {
+    console.log(error)
+    process.exit(1)
+  }
 }
 
 const [, , type, componentName] = process.argv
