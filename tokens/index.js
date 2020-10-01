@@ -156,6 +156,7 @@ const choices = {
   },
   fontFamily: {
     sans: ['Quicksand', 'Arial', 'sans-serif'],
+    // TODO: Add a monofont size to use in Tokens components
   },
   fontSize: {
     base: '10px',

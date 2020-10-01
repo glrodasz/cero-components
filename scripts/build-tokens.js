@@ -1,9 +1,6 @@
 const { choices, decisions } = require('../tokens')
+const toKebabCase = require('../utils/kebabCase')
 const fs = require('fs')
-
-// TODO: Move to utils/kebabCase.js
-const toKebabCase = (string) =>
-  string.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, '$1-$2').toLowerCase()
 
 function transformTokens(parentKey, object) {
   const objectKeys = Object.keys(object)
