@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 const fs = require('fs').promises
 const enquirer = require('enquirer')
+const toPascalCase = require('../utils/pascalCase')
 
 const ATOMIC_DESIGN_TYPES = {
   atom: 'atoms',
@@ -57,26 +58,6 @@ async function createComponent(type, componentName) {
   }
 }
 
-/**
- * Function to validate Component Name and capitaliz it if necessary
- * @param {str} str
- */
-// TODO: Move to utils/pascalCase.js
-function stringCheckAndCapitalize(str) {
-  const REG_EXP = /[A-Z]/
-
-  if (!REG_EXP.test(str)) {
-    return str
-      .replace(
-        /\w\S*/g,
-        (word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase()
-      )
-      .replace(/ /g, '')
-  } else {
-    return str
-  }
-}
-
 async function getPromptParams() {
   let { type } = await enquirer.prompt({
     type: 'select',
@@ -98,7 +79,7 @@ async function getPromptParams() {
     },
   })
 
-  createComponent(type, stringCheckAndCapitalize(componentName))
+  createComponent(type, toPascalCase(componentName))
 }
 
 getPromptParams()
