@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const fs = require('fs').promises
 const enquirer = require('enquirer')
-const toPascalCase = require('../utils/pascalCase')
+const toPascalCase = require('../utils/toPascalCase')
 
 const ATOMIC_DESIGN_TYPES = {
   atom: 'atoms',
