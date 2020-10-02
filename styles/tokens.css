@@ -131,6 +131,7 @@
 	--media-query-max-width-lg: 1199px;
 	
 	--font-family-sans: Quicksand, Arial, sans-serif;
+	--font-family-mono: Roboto Mono, monospace;
 	
 	--font-size-base: 10px;
 	--font-size-xs: 1.1rem;
