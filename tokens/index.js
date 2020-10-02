@@ -156,7 +156,7 @@ const choices = {
   },
   fontFamily: {
     sans: ['Quicksand', 'Arial', 'sans-serif'],
-    mono: ['Roboto Mono', 'monospace'],
+    mono: ['"Roboto Mono"', '"Courier New"', 'monospace'],
   },
   fontSize: {
     base: '10px',
