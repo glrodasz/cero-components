@@ -1,6 +1,6 @@
 import React from 'react'
 import Token from '../../tokens/Token'
-import kebabCase from '../../utils/kebabCase'
+import toKebabCase from '../../utils/toKebabCase'
 import { choices } from '../../tokens'
 
 export default {
@@ -30,7 +30,7 @@ export const Brand = () => {
       {keys.map((key) => (
         <Token.Color
           key={key}
-          label={`var(--color-brand-${kebabCase(key)})`}
+          label={`var(--color-brand-${toKebabCase(key)})`}
           value={choices.color.brand[key]}
         />
       ))}
@@ -45,7 +45,7 @@ export const Red = () => {
       {keys.map((key) => (
         <Token.Color
           key={key}
-          label={`var(--color-red-${kebabCase(key)})`}
+          label={`var(--color-red-${toKebabCase(key)})`}
           value={choices.color.red[key]}
         />
       ))}
