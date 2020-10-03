@@ -48,7 +48,9 @@
     "prettier": "2.1.1",
     "react-is": "16.13.1",
     "react-test-renderer": "16.13.1",
-    "semantic-release": "17.1.2"
+    "semantic-release": "17.1.2",
+    "stylelint": "13.7.2",
+    "stylelint-config-standard": "20.0.0"
   },
   "peerDependencies": {
     "react": "^16.13.1"
