@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "yarn storybook",
     "test": "jest",
-    "lint": "yarn lint-js",
+    "lint": "yarn lint-js && yarn lint-css",
     "lint-js": "eslint .",
     "lint-css": "stylelint \"**/*.css\"",
     "storybook": "start-storybook -p 6006 -s ./assets",
