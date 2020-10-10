@@ -1,6 +1,3 @@
 {
-  "extends": "stylelint-config-standard",
-  "rules": {
-    "no-missing-end-of-source-newline": "never"
-  }
+  "extends": ["stylelint-prettier/recommended"]
 }
