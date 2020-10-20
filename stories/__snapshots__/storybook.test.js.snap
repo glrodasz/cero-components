@@ -296,6 +296,94 @@ exports[`Storyshots Atoms/Input Text 1`] = `
 />
 `;
 
+exports[`Storyshots Atoms/Paragraph Colors 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="paragraph color-default size-md weight-medium"
+  >
+    Default Color
+  </div>
+  <div
+    className="paragraph color-muted size-md weight-medium"
+  >
+    Primary Color
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Default 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="paragraph color-default size-md weight-medium"
+  >
+    Hello Paragraph
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Sizes 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="paragraph color-default size-sm weight-medium"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+  <div
+    className="paragraph color-default size-md weight-medium"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+  <div
+    className="paragraph color-default size-lg weight-medium"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Weights 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="paragraph color-default size-md weight-normal"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+  <div
+    className="paragraph color-default size-md weight-medium"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms/Picture Default 1`] = `
 <picture
   className="picture"
@@ -506,6 +594,50 @@ exports[`Storyshots Layout/Spacer/Vertical Small 1`] = `
     }
   }
 />
+`;
+
+exports[`Storyshots Molecules/AddButton Default 1`] = `
+<div
+  className="add-button type-primary"
+>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 15,
+        "width": 15,
+      }
+    }
+  >
+    <picture
+      className="picture"
+    >
+      <img
+        src="/icons/arrow-right.svg"
+        style={
+          Object {
+            "height": "auto",
+            "maxWidth": 15,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="spacer vertical"
+    style={
+      Object {
+        "maxHeight": "100%",
+        "width": 5,
+      }
+    }
+  />
+  <div
+    className="paragraph color-default size-md weight-medium"
+  >
+    Hola mundo
+  </div>
+</div>
 `;
 
 exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
