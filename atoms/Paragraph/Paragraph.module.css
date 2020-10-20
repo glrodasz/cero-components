@@ -1,0 +1,27 @@
+.color-default {
+  color: var(--color-font-base);
+}
+
+.color-muted {
+  color: var(--color-font-muted);
+}
+
+.size-sm {
+  font-size: var(--font-size-xs);
+}
+
+.size-md {
+  font-size: var(--font-size-sm);
+}
+
+.size-lg {
+  font-size: var(--font-size-md);
+}
+
+.weight-normal {
+  font-weight: var(--font-weight-normal);
+}
+
+.weight-medium {
+  font-weight: var(--font-weight-medium);
+}

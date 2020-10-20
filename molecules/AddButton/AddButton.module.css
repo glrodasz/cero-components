@@ -1,0 +1,18 @@
+.add-button {
+  display: flex;
+  border: 1px dashed;
+  padding: 10px 12px;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.type-primary {
+  border-color: var(--color-font-base);
+  border-radius: var(--border-radius-sm);
+}
+
+.type-secondary {
+  border-color: var(--color-font-primary);
+  border-radius: var(--border-radius-md);
+}
