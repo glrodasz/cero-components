@@ -1,6 +1,6 @@
 {
   "name": "@glrodasz/components",
-  "version": "0.0.0-development",
+  "version": "0.2.0",
   "private": false,
   "description": "A components library to create apps from zero to production",
   "main": "index.js",
