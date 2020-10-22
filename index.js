@@ -12,7 +12,9 @@ export { default as Input } from './atoms/Input'
 export { default as Picture } from './atoms/Picture'
 export { default as Avatar } from './atoms/Avatar'
 export { default as Card } from './atoms/Card'
+export { default as Paragraph } from './atoms/Paragraph'
 
 // Molecules
 export { default as ButtonIcon } from './molecules/ButtonIcon'
 export { default as Dropdown } from './molecules/Dropdown'
+export { default as AddButton } from './molecules/AddButton'

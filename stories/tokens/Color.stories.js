@@ -6,13 +6,6 @@ import { choices } from '../../tokens'
 export default {
   title: 'Tokens/Colors',
   component: Token.Color,
-  decorators: [
-    (Story) => (
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <Story />
-      </div>
-    ),
-  ],
 }
 
 export const Default = () => (

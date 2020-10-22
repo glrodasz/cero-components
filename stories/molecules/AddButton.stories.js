@@ -6,4 +6,17 @@ export default {
   component: AddButton,
 }
 
-export const Default = () => <AddButton>Hola mundo</AddButton>
+export const Default = () => <AddButton>Toca para agregar la tarea</AddButton>
+
+export const Types = () => (
+  <>
+    <AddButton type="primary">Toca para agregar la tarea</AddButton>
+    <AddButton type="secondary">Toca para agregar la tarea</AddButton>
+  </>
+)
+
+export const Editable = () => (
+  <AddButton onAdd={alert} isEditable>
+    Toca para agregar la tarea
+  </AddButton>
+)

@@ -1,18 +1,40 @@
 .add-button {
   display: flex;
   border: 1px dashed;
-  padding: 10px 12px;
   align-items: center;
   cursor: pointer;
   user-select: none;
 }
 
 .type-primary {
+  height: 45px;
+  padding: 10px 12px;
   border-color: var(--color-font-base);
   border-radius: var(--border-radius-sm);
 }
 
 .type-secondary {
-  border-color: var(--color-font-primary);
+  height: 38px;
+  padding: 8px 12px;
+  border-color: var(--color-primary);
   border-radius: var(--border-radius-md);
+}
+
+.is-editable {
+  border: 1px solid;
+  background: var(--color-white);
+  border-color: var(--color-gray-300);
+  box-shadow: var(--box-shadow-sm);
+}
+
+.is-editable > input {
+  border: 1px solid transparent;
+  color: var(--color-font-base);
+  width: 100%;
+  padding: 12px 17px;
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-md);
+  height: var(--input-height);
 }
