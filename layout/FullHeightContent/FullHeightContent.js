@@ -7,8 +7,8 @@ import styles from './FullHeightContent.module.css'
 const FullHeightContent = ({ content, footer }) => {
   return (
     <div className={classNames(styles['full-height-content'])}>
-      <div>{content}</div>
-      <div>{footer}</div>
+      <div className={styles.content}>{content}</div>
+      <div className={styles.footer}>{footer}</div>
     </div>
   )
 }

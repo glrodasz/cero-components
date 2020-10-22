@@ -249,6 +249,7 @@ const decisions = {
   },
   input: {
     height: '38px',
+    maxWidth: '300px',
   },
 }
 
