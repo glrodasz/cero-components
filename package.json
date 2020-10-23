@@ -1,12 +1,16 @@
 {
   "name": "@glrodasz/components",
   "version": "0.2.1",
-  "private": false,
   "description": "A components library to create apps from zero to production",
+  "private": false,
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/glrodasz/cero-components.git"
+  },
+  "engines": {
+    "node": ">=15.0.0",
+    "yarn": ">=1.22.10"
   },
   "scripts": {
     "dev": "yarn storybook",
@@ -57,8 +61,7 @@
     "stylelint-prettier": "1.1.2"
   },
   "peerDependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "16.13.1"
   },
   "husky": {
     "hooks": {
