@@ -57,7 +57,8 @@
     "stylelint": "13.7.2"
   },
   "peerDependencies": {
-    "react": "16.13.1"
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "husky": {
     "hooks": {
