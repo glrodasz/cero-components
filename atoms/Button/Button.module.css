@@ -9,15 +9,15 @@
   cursor: pointer;
   transition: all 0.5s ease;
   font-size: var(--font-size-md);
-  max-width: var(--button-max-width);
+  width: 100%;
   min-width: max-content;
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-bold);
   height: 45px;
 }
 
-.is-block {
-  width: 100%;
+.button.is-inline {
+  max-width: max-content;
 }
 
 .type-primary {

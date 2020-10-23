@@ -5,9 +5,8 @@
   line-height: var(--line-height-tight);
   font-weight: var(--font-weight-medium);
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-md); 
   height: var(--input-height);
-  max-width: var(--input-max-width);
   width: 100%;
 }
 

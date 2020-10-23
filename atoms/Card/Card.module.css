@@ -1,13 +1,12 @@
 .card {
   display: flex;
   align-items: center;
-  width: 100%;
-  max-width: 320px;
   border: 1px solid var(--color-transparent);
   border-radius: var(--border-radius-sm);
   box-shadow: var(--box-shadow-sm);
   padding: 6px 12px;
   color: var(--color-font-base);
+  width: 100%;
 }
 
 .size-sm {
