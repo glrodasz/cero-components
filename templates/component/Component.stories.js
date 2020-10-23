@@ -1,9 +1,15 @@
-import React from 'react'
-import Component from '../../atomic/Component'
+import Component from '.'
+import { getTemplate, getListTemplate } from '../../helpers/storybookTemplates'
+
+const Template = getTemplate(Component)
+const ListTemplate = getListTemplate(Component)
 
 export default {
   title: 'Atomic/Component',
   component: Component,
+  args: {},
+  argTypes: {},
 }
 
-export const Default = () => <Component>Hello Component</Component>
+export const Default = () => Template.bind({})
+export const List = () => ListTemplate.bind({})

@@ -34,24 +34,25 @@ Component.stories.js
 index.js
 ```
 - Include inquirer to choose the options from the terminal
-- TODO: Copy and parse the rest of template files
+- Copy and parse the rest of template files
 ### Atoms & Molecules
 - Create Heading Atom
-- Create Paragraph Atom*
+- Create Paragraph Atom
 - Create Button Atom
 - Create Icon Atom
 - Create Picture Atom
-- Create ButtonIcon Molecule
-- Create Spacer's Layout
 - Create Avatar Atom
 - Create Card Atom
+- Create Spacer Layout
+- Create ButtonIcon Molecule
+- Create AddButton Molecule
 ### Lint and styling
 - Add a modified version of [EditorConfig](https://github.com/airbnb/javascript/blob/master/.editorconfig)
 1. Install ESLint and create a config file following the instructions [here](https://eslint.org/docs/user-guide/getting-started#installation-and-usage)
 2. Install Prettier `yarn add --dev prettier`
 3. Install the prettier configuration along ESLint following [these](https://github.com/prettier/eslint-plugin-prettier#recommended-configuration) instructions
 4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
-5. TODO: Configure stylelint
+5. Configure stylelint
 ### Creating tests
 1. Install Jest for React following [this](https://jestjs.io/docs/en/tutorial-react) instructions.
 2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)

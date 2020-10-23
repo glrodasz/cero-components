@@ -52,11 +52,9 @@ async function createComponent(componentTemplates, type, componentName) {
     __dirname,
     `../${mappedType}/${componentName}`
   )
-  const storiesComponentPath = path.join(__dirname, `../stories/${mappedType}`)
 
   try {
     await createComponentFolder(atomicComponentPath)
-    await createComponentFolder(storiesComponentPath)
     console.log('🔧 component folder created!')
 
     for (const componentTemplate of componentTemplates) {
@@ -74,10 +72,7 @@ async function createComponent(componentTemplates, type, componentName) {
         mappedType
       )
       await createComponentFile(
-        path.join(
-          componentIsStory ? storiesComponentPath : atomicComponentPath,
-          componentTemplateRenamed
-        ),
+        path.join(atomicComponentPath, componentTemplateRenamed),
         replacedComponentFile
       )
       console.log(`🔧 component file ${componentTemplateRenamed} created!`)

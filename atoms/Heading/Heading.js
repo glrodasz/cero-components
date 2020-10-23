@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import styles from './Heading.module.css'
+import { options } from './constants'
 
 const Heading = ({ children, color, size }) => (
   <heading
@@ -17,8 +18,8 @@ const Heading = ({ children, color, size }) => (
 
 Heading.propTypes = {
   children: PropTypes.node.isRequired,
-  color: PropTypes.oneOf(['primary', 'default']),
-  size: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl', '2xl']),
+  color: PropTypes.oneOf(options.colors),
+  size: PropTypes.oneOf(options.sizes),
 }
 
 Heading.defaultProps = {

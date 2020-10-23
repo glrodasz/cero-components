@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import styles from './Button.module.css'
+import { options } from './contants'
 
 const Button = ({ type, children, isInline, onClick }) => (
   <button
@@ -18,12 +19,13 @@ const Button = ({ type, children, isInline, onClick }) => (
 
 Button.propTypes = {
   children: PropTypes.node.isRequired,
-  type: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
+  type: PropTypes.oneOf(options.types),
   onClick: PropTypes.func,
   isInline: PropTypes.bool,
 }
 
 Button.defaultProps = {
+  type: 'primary',
   onClick: () => {},
   isInline: false,
 }
