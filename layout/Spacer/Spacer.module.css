@@ -4,7 +4,7 @@
 
 .vertical {
   display: inline-block;
-  height: 100vh;
+  height: 100%;
 }
 
 .horizontal {

@@ -6,22 +6,23 @@ import Spacer from '../Spacer'
 
 import styles from './FullHeightContent.module.css'
 
-const FullHeightContent = ({ isVisible, children }) => {
+const FullHeightContent = ({ isVisible, content, footer }) => {
   return (
     <div
       className={classNames(styles['full-height-content'], {
         [styles['is-visible']]: isVisible,
       })}
     >
-      <div className={styles.content}>{children[0]}</div>
+      <div className={styles.content}>{content}</div>
       <Spacer.Horizontal size="sm" />
-      <div className={styles.footer}>{children[1]}</div>
+      <div className={styles.footer}>{footer}</div>
     </div>
   )
 }
 
 FullHeightContent.propTypes = {
-  children: PropTypes.array.isRequired,
+  content: PropTypes.node.isRequired,
+  footer: PropTypes.node.isRequired,
   isVisible: PropTypes.bool,
 }
 

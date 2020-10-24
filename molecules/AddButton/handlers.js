@@ -2,11 +2,11 @@ export const handleClick = ({ setEditMode }) => () => {
   setEditMode(true)
 }
 
-export const handleOnChange = ({ setInputValue }) => (event) => {
+export const handleChange = ({ setInputValue }) => (event) => {
   setInputValue(event.currentTarget.value)
 }
 
-export const handleOnKeyDown = ({
+export const handleKeyDown = ({
   onAdd,
   setEditMode,
   setInputValue,
@@ -17,4 +17,13 @@ export const handleOnKeyDown = ({
     setInputValue('')
     setEditMode(false)
   }
+
+  if (event.key === 'Escape') {
+    setInputValue('')
+    setEditMode(false)
+  }
+}
+
+export const handleBlur = ({ inputValue, setEditMode }) => () => {
+  !inputValue && setEditMode(false)
 }

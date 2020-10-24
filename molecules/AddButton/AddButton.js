@@ -8,7 +8,12 @@ import Spacer from '../../layout/Spacer'
 
 import styles from './AddButton.module.css'
 import { options } from './constants'
-import { handleClick, handleOnChange, handleOnKeyDown } from './handlers'
+import {
+  handleClick,
+  handleChange,
+  handleKeyDown,
+  handleBlur,
+} from './handlers'
 
 const AddButton = ({ children, type, icon, onAdd }) => {
   const [editMode, setEditMode] = useState(false)
@@ -26,8 +31,9 @@ const AddButton = ({ children, type, icon, onAdd }) => {
         <input
           type="text"
           value={inputValue}
-          onChange={handleOnChange({ setInputValue })}
-          onKeyDown={handleOnKeyDown({
+          onChange={handleChange({ setInputValue })}
+          onBlur={handleBlur({ inputValue, setEditMode })}
+          onKeyDown={handleKeyDown({
             setInputValue,
             setEditMode,
             inputValue,
