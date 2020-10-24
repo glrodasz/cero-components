@@ -1,6 +1,6 @@
 .icon {
-  align-items: center;
   display: inline-flex;
+  align-items: center;
   justify-content: center;
   user-select: none;
 }
@@ -47,8 +47,8 @@
 }
 
 .background-inverted {
-  background: var(--color-primary-inverted);
   border: var(--border-width-thin) solid var(--color-gray-400);
+  background: var(--color-primary-inverted);
   border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);
 }

@@ -1,2 +1,2 @@
-export { default } from './Component'
+export { default } from './Check'
 export { options } from './constants'

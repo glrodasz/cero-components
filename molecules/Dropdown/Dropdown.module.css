@@ -1,24 +1,24 @@
 .dropdown {
-  display: inline-block;
   position: relative;
+  display: inline-block;
 }
 
 .dropdown :global(.icon) {
-  pointer-events: none;
   position: absolute;
-  right: 1px;
   top: 50%;
+  right: 1px;
+  pointer-events: none;
   transform: translateY(-50%);
 }
 
 .dropdown-select {
+  width: 100%;
+  height: var(--input-height);
+  padding: 10px 30px 10px 20px;
   border: var(--border-width-thin) solid var(--color-primary);
   border-radius: var(--border-radius-lg);
   color: var(--color-font-base);
-  height: var(--input-height);
-  padding: 10px 30px 10px 20px;
   transition: box-shadow 0.2s ease;
-  width: 100%;
 }
 
 .dropdown-select:focus {

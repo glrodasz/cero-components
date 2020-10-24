@@ -1,9 +1,9 @@
 .centered-content {
-  align-items: stretch;
   display: flex;
+  height: 100%;
   flex: auto;
   flex-direction: column;
-  height: 100%;
+  align-items: stretch;
   justify-content: center;
 }
 

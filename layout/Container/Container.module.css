@@ -1,12 +1,12 @@
 .container {
   display: flex;
-  flex: auto;
-  height: 100%;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: var(--container-max-width);
-  padding: 40px 30px 20px;
   width: 100%;
+  max-width: var(--container-max-width);
+  height: 100%;
+  flex: auto;
+  justify-content: center;
+  padding: 40px 30px 20px;
+  margin: 0 auto;
 }
 
 .is-visible {

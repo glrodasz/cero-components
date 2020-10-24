@@ -21,9 +21,8 @@ These are the instructions about how this components library project has been cr
 - Add typography from **Google Fonts**.
 ### Design Tokens
 - Create `tokens/index.js` file.
+- Add brand colors and decisions
 - Create `build-tokens` script
-- Add brand colors to tokens
-- FIXME: Add the rest of tokens
 ### Create template script
 - Create a template script for copy the template of a component with 
 the following structure `templates/components` and files:
@@ -31,6 +30,7 @@ the following structure `templates/components` and files:
 Component.js
 Component.module.css
 Component.stories.js
+constants.js
 index.js
 ```
 - Include inquirer to choose the options from the terminal
@@ -39,11 +39,12 @@ index.js
 - Create Heading Atom
 - Create Paragraph Atom
 - Create Button Atom
-- Create Icon Atom
 - Create Picture Atom
 - Create Avatar Atom
+- Create Icon Atom
 - Create Card Atom
 - Create Spacer Layout
+- Create Layout Components
 - Create ButtonIcon Molecule
 - Create AddButton Molecule
 ### Lint and styling
@@ -53,6 +54,11 @@ index.js
 3. Install the prettier configuration along ESLint following [these](https://github.com/prettier/eslint-plugin-prettier#recommended-configuration) instructions
 4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
 5. Configure stylelint
+- Install `yarn add --dev stylelint stylelint-config-recommended stylelint-config-idiomatic-order`
+- Create the `.stylelintrc.json` file
+- Configure the scripts for lint css
+- Make sure Prettier runs for CSS files as well
+Note: Idiomatic CSS order based on https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/ 
 ### Creating tests
 1. Install Jest for React following [this](https://jestjs.io/docs/en/tutorial-react) instructions.
 2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)
@@ -66,7 +72,7 @@ index.js
 - TODO: Create an script to watch when the `tokens/index.js` changes and build it. This script should be part of `yarn dev`.
 ### Github Actions
 - FIXME: Create a GitHub action for a pull request
-- FIXME: Create a GitHub action for a release
+- FIXME: Create a GitHub action for a release the library
 ### PUblishing in NPM
 - FIXME: Create the process of release a new version using `semantic-release`
 - TODO: Configure commitizen to enable conventional commits messages

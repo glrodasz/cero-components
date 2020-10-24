@@ -1,18 +1,18 @@
 .button {
+  display: inline-flex;
+  width: 100%;
+  min-width: max-content;
+  height: 45px;
   align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
   border: var(--border-width-thin) solid var(--color-transparent);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--box-shadow-sm);
-  display: inline-flex;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
-  height: 45px;
-  justify-content: center;
-  min-width: max-content;
-  padding: 10px 20px;
   transition: filter 0.5s ease, box-shadow 0.2s ease;
-  width: 100%;
 }
 
 .button:focus {
@@ -39,20 +39,20 @@
 }
 
 .type-secondary {
-  background: var(--color-transparent);
   border: var(--border-width-thin) solid var(--color-brand-medium-purple);
+  background: var(--color-transparent);
   color: var(--color-brand-medium-purple);
 }
 
 .type-tertiary {
-  background: var(--color-transparent);
+  height: 25px;
+  padding: 0;
   border-bottom: 1px solid var(--color-primary);
+  background: var(--color-transparent);
   border-radius: var(--border-radius-none);
   box-shadow: var(--shadows-none);
   color: var(--color-primary);
   cursor: pointer;
-  height: 25px;
-  padding: 0;
 }
 
 .type-tertiary:focus {

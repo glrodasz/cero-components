@@ -1,32 +1,32 @@
 .container {
-  align-items: center;
   display: inline-flex;
   flex-direction: row;
+  align-items: center;
   margin: 10px 0;
 }
 
 .description {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  align-items: flex-start;
   margin-left: 10px;
+  gap: 4px;
 }
 
 .label {
-  background-color: var(--color-gray-200);
+  padding: 4px 8px;
   border: var(--border-width-thin) solid var(--color-gray-500);
+  background-color: var(--color-gray-200);
   border-radius: var(--border-radius-sm);
   color: var(--color-gray-700);
   font-family: var(--font-family-mono);
   font-size: var(--font-size-md);
-  padding: 4px 8px;
 }
 
 .color {
+  width: 65px;
+  height: 65px;
   border: var(--border-width-thin) solid var(--color-gray-500);
   border-radius: var(--border-radius-sm);
   box-shadow: var(--box-shadow-sm);
-  height: 65px;
-  width: 65px;
 }

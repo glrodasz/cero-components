@@ -1,12 +1,12 @@
 .card {
+  display: flex;
+  width: 100%;
   align-items: center;
+  padding: 12px 10px;
   border: var(--border-width-thin) solid var(--color-transparent);
   border-radius: var(--border-radius-sm);
   box-shadow: var(--box-shadow-sm);
   color: var(--color-font-base);
-  display: flex;
-  padding: 12px 10px;
-  width: 100%;
 }
 
 .size-sm {
@@ -32,6 +32,6 @@
 }
 
 .color-default {
-  background: var(--color-primary-inverted);
   border: var(--border-width-thin) solid var(--color-gray-300);
+  background: var(--color-primary-inverted);
 }

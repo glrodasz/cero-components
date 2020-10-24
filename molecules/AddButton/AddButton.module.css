@@ -1,29 +1,29 @@
 .add-button {
+  display: flex;
   align-items: center;
   border: var(--border-width-thin) dashed;
   cursor: pointer;
-  display: flex;
   user-select: none;
 }
 
 .type-primary {
-  border-color: var(--color-font-base);
-  border-radius: var(--border-radius-sm);
   height: 48px;
   padding: 10px 12px;
+  border-color: var(--color-font-base);
+  border-radius: var(--border-radius-sm);
 }
 
 .type-secondary {
-  border-color: var(--color-primary);
-  border-radius: var(--border-radius-md);
   height: 40px;
   padding: 10px 12px;
+  border-color: var(--color-primary);
+  border-radius: var(--border-radius-md);
 }
 
 .is-editable {
-  background: var(--color-primary-inverted);
   border: var(--border-width-thin) solid;
   border-color: var(--color-gray-300);
+  background: var(--color-primary-inverted);
   box-shadow: var(--box-shadow-sm);
   transition: box-shadow 0.2s ease;
 }
@@ -34,14 +34,14 @@
 }
 
 .is-editable > input {
+  width: 100%;
+  height: auto;
   border: var(--border-width-thin) solid transparent;
   color: var(--color-font-base);
   font-family: var(--font-family-sans);
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-medium);
-  height: auto;
   line-height: var(--line-height-none);
-  width: 100%;
 }
 
 .is-editable > input:focus {

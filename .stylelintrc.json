@@ -1,8 +1,9 @@
 {
-  "extends": ["stylelint-config-recommended"],
-  "plugins": ["stylelint-order"],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-idiomatic-order"
+  ],
   "rules": {
-    "order/properties-alphabetical-order": true,
     "selector-pseudo-class-no-unknown": [
       true,
       {

@@ -1,8 +1,8 @@
 html,
 body {
+  height: 100%;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-base);
-  height: 100%;
 }
 
 #root,

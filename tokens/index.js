@@ -140,6 +140,7 @@ const choices = {
     lg: 40,
   },
   // https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints
+  // FIXME: Custom properties can't be used in @media queries
   mediaQuery: {
     minWidth: {
       sm: '576px',
@@ -243,7 +244,7 @@ const decisions = {
   },
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,
-    highlight: choices.color.brand.romance,
+    primaryHighlight: choices.color.brand.romance,
   },
   container: {
     maxWidth: '800px',

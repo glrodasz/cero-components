@@ -58,8 +58,8 @@
     "react-test-renderer": "16.13.1",
     "semantic-release": "17.1.2",
     "stylelint": "13.7.2",
-    "stylelint-config-recommended": "3.0.0",
-    "stylelint-order": "4.1.0"
+    "stylelint-config-idiomatic-order": "8.1.0",
+    "stylelint-config-recommended": "3.0.0"
   },
   "peerDependencies": {
     "react": "16.13.1"
