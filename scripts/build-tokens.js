@@ -12,16 +12,16 @@ function transformTokens(parentKey, object) {
       : `${objectKey}`
 
     if (Array.isArray(value)) {
-      return `${tokensTransformed}\n\t--${toKebabCase(
+      return `${tokensTransformed}\n  --${toKebabCase(
         customProperty
       )}: ${value.join(', ')};`
     } else if (typeof value === 'object') {
-      return `${tokensTransformed}\n\t${transformTokens(
+      return `${tokensTransformed}\n${transformTokens(
         `${toKebabCase(customProperty)}`,
         value
       )}`
     }
-    return `${tokensTransformed}\n\t--${parentKey}-${toKebabCase(
+    return `${tokensTransformed}\n  --${parentKey}-${toKebabCase(
       objectKey
     )}: ${value};`
   }, '')
@@ -33,7 +33,7 @@ function buildTokens() {
     decisions
   )}`
 
-  const data = [':root {', customProperties.trim()].join('\n\t').concat('\n}')
+  const data = [':root {', customProperties.trim()].join('\n  ').concat('\n}')
 
   fs.writeFile('./styles/tokens.css', data, 'utf8', function (error) {
     if (error) {

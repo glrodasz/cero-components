@@ -25,7 +25,7 @@
     "lint:css": "yarn lint:css:stylelint && yarn lint:css:prettier",
     "lint:js": "eslint --cache --fix",
     "lint": "run-p lint:*",
-    "script:cc": "node ./scripts/create-component",
+    "cc": "node ./scripts/create-component",
     "test": "jest"
   },
   "keywords": [
