@@ -2,22 +2,31 @@ import React from 'react'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
+import Spacer from '../Spacer'
+
 import styles from './FullHeightContent.module.css'
 
-const FullHeightContent = ({ content, footer }) => {
+const FullHeightContent = ({ isVisible, children }) => {
   return (
-    <div className={classNames(styles['full-height-content'])}>
-      <div className={styles.content}>{content}</div>
-      <div className={styles.footer}>{footer}</div>
+    <div
+      className={classNames(styles['full-height-content'], {
+        [styles['is-visible']]: isVisible,
+      })}
+    >
+      <div className={styles.content}>{children[0]}</div>
+      <Spacer.Horizontal size="sm" />
+      <div className={styles.footer}>{children[1]}</div>
     </div>
   )
 }
 
 FullHeightContent.propTypes = {
-  content: PropTypes.node.isRequired,
-  footer: PropTypes.node.isRequired,
+  children: PropTypes.array.isRequired,
+  isVisible: PropTypes.bool,
 }
 
-FullHeightContent.defaultProps = {}
+FullHeightContent.defaultProps = {
+  isVisible: false,
+}
 
 export default FullHeightContent

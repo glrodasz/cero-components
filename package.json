@@ -16,11 +16,12 @@
     "dev": "yarn storybook",
     "test": "jest",
     "lint": "yarn lint-js && yarn lint-css",
-    "lint-js": "eslint .",
-    "lint-css": "stylelint \"**/*.css\"",
-    "storybook": "start-storybook -p 6006 -s ./assets",
+    "lint-js": "eslint --cache --fix",
+    "lint-css": "prettier '**/*.css' --write && stylelint '**/*.css' --fix",
+    "storybook": "start-storybook -p 6006",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook -s ./assets",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "build-storybook && vercel --prod",
     "create-component": "node ./scripts/create-component"
   },
   "keywords": [
@@ -57,8 +58,8 @@
     "react-test-renderer": "16.13.1",
     "semantic-release": "17.1.2",
     "stylelint": "13.7.2",
-    "stylelint-config-prettier": "8.0.2",
-    "stylelint-prettier": "1.1.2"
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-order": "4.1.0"
   },
   "peerDependencies": {
     "react": "16.13.1"
@@ -69,6 +70,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "yarn lint-js",
+    "*.css": "yarn lint-css"
   }
 }

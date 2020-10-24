@@ -196,7 +196,7 @@ const choices = {
   },
   boxShadow: {
     none: 'none',
-    sm: `0px 4px 5px ${brandColors.whiteLilac}`,
+    sm: `0px 4px 5px rgba(0,0,0,0.07)`,
   },
   borderRadius: {
     none: '0',
@@ -207,7 +207,8 @@ const choices = {
   },
   borderWidth: {
     none: '0',
-    default: '1px',
+    thin: '1px',
+    thick: '2px',
   },
   opacity: {
     0: '0',
@@ -230,10 +231,13 @@ const choices = {
 const decisions = {
   color: {
     primary: choices.color.brand.mediumPurple,
+    primaryInverted: choices.color.white,
     primaryHighlight: choices.color.brand.blueMoon,
     primaryMuted: choices.color.brand.slateBlue,
     secondary: choices.color.brand.mandy,
+    secondaryInverted: choices.color.white,
     fontBase: choices.color.brand.eastBay,
+    fontInverted: choices.color.white,
     fontHighlight: choices.color.brand.loblolly,
     fontMuted: choices.color.brand.regentGray,
   },
@@ -249,7 +253,7 @@ const decisions = {
   },
   input: {
     height: '38px',
-    maxWidth: '300px',
+    maxWidth: '400px',
   },
 }
 

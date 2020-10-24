@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
-import Horizontal from './Horizontal'
-import Vertical from './Vertical'
+import Horizontal from './components/Horizontal'
+import Vertical from './components/Vertical'
 import { getSize } from './helpers'
 
 import styles from './Spacer.module.css'
@@ -21,13 +21,14 @@ const Spacer = ({ size, isVisible }) => (
   />
 )
 
-Spacer.defaultProps = {
-  size: 'none',
-}
-
 Spacer.propTypes = {
   size: PropTypes.string,
   isVisible: PropTypes.bool,
+}
+
+Spacer.defaultProps = {
+  size: 'none',
+  isVisible: false,
 }
 
 Spacer.Horizontal = Horizontal

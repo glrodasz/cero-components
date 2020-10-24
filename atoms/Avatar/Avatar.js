@@ -16,6 +16,7 @@ const Avatar = ({ src, size }) => {
         width={mapSize(size)}
         height={mapSize(size)}
         isRounded
+        withBorder
       />
     </div>
   )

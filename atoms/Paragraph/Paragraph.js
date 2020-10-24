@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
 import styles from './Paragraph.module.css'
+import { options } from './constants'
 
 const Paragraph = ({ children, size, color, weight }) => {
   return (
@@ -21,9 +22,9 @@ const Paragraph = ({ children, size, color, weight }) => {
 
 Paragraph.propTypes = {
   children: PropTypes.node.isRequired,
-  color: PropTypes.oneOf(['muted', 'default']),
-  size: PropTypes.oneOf(['sm', 'md', 'lg']),
-  weight: PropTypes.oneOf(['normal', 'medium']),
+  color: PropTypes.oneOf(options.colors),
+  size: PropTypes.oneOf(options.sizes),
+  weight: PropTypes.oneOf(options.weight),
 }
 
 Paragraph.defaultProps = {

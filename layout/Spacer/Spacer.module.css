@@ -1,10 +1,10 @@
 .is-visible {
-  border: 2px dashed var(--color-primary);
+  border: var(--border-width-thick) dashed var(--color-primary);
 }
 
 .vertical {
   display: inline-block;
-  height: auto;
+  height: 100vh;
 }
 
 .horizontal {

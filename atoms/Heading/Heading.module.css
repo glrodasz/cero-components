@@ -1,11 +1,15 @@
 .heading {
-  line-height: var(--line-height-tight);
-  font-weight: var(--font-weight-bold);
   font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
 }
 
 .color-default {
   color: var(--color-font-base);
+}
+
+.color-inverted {
+  color: var(--color-font-inverted);
 }
 
 .color-primary {

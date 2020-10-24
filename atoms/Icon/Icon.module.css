@@ -1,10 +1,29 @@
 .icon {
-  box-sizing: content-box;
+  align-items: center;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
-  padding: 5px;
+  padding: 8px;
   user-select: none;
+}
+
+.color-base path {
+  fill: var(--color-font-base);
+}
+
+.color-highlight path {
+  fill: var(--color-font-highlight);
+}
+
+.color-muted path {
+  fill: var(--color-font-muted);
+}
+
+.color-primary path {
+  fill: var(--color-primary);
+}
+
+.color-inverted path {
+  fill: var(--color-primary-inverted);
 }
 
 .has-background {

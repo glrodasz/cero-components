@@ -1,7 +1,7 @@
 import React from 'react'
-import Token from '../../tokens/Token'
-import toKebabCase from '../../utils/toKebabCase'
-import { choices } from '../../tokens'
+import Token from '..'
+import toKebabCase from '../../../utils/toKebabCase'
+import { choices } from '../..'
 
 export default {
   title: 'Tokens/Colors',

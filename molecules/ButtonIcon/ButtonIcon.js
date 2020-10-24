@@ -5,22 +5,25 @@ import Spacer from '../../layout/Spacer'
 import Button from '../../atoms/Button'
 import Icon from '../../atoms/Icon'
 
+import { options } from './constants'
+
 const ButtonIcon = ({ children, type, icon }) => (
-  <Button type={type} isBlock={false}>
+  <Button type={type} isInline={true}>
     {children}
     <Spacer.Vertical size="xs"></Spacer.Vertical>
-    <Icon type={icon} />
+    <Icon name={icon} color={type === 'primary' ? 'inverted' : 'primary'} />
   </Button>
 )
 
 ButtonIcon.propTypes = {
   children: PropTypes.node.isRequired,
-  icon: PropTypes.string.isRequired,
-  type: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
+  icon: PropTypes.oneOf(options.icons),
+  type: PropTypes.oneOf(options.types),
 }
 
 ButtonIcon.defaultProps = {
   type: 'secondary',
+  icon: 'arrowRight',
 }
 
 export default ButtonIcon

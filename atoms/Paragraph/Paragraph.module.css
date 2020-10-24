@@ -2,6 +2,10 @@
   color: var(--color-font-base);
 }
 
+.color-inverted {
+  color: var(--color-font-inverted);
+}
+
 .color-muted {
   color: var(--color-font-muted);
 }

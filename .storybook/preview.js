@@ -5,14 +5,32 @@ import '../styles/globals.css'
 import '../styles/tokens.css'
 
 export const decorators = [
-  (Story) => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+  (Story, { args }) => (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: args.__sbfd || 'column',
+        gap: '10px',
+        height: '100%',
+      }}
+    >
       <Story />
     </div>
   ),
 ]
 
-// FIXME: https://github.com/storybookjs/storybook/issues/12120
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-} 
+  argTypes: {
+    __sbfd: {
+      control: null,
+      table: {
+        type: {
+          summary: 'Ignore this prop',
+          detail: 'Only for Storybook decorator usage',
+        },
+      },
+    },
+  },
+  // FIXME: https://github.com/storybookjs/storybook/issues/12120
+  actions: { argTypesRegex: '^on[A-Z].*' },
+}

@@ -1,5 +1,9 @@
 import Button, { options } from '.'
-import { getTemplate, getListTemplate } from '../../helpers/storybookTemplates'
+import {
+  getTemplate,
+  getListTemplate,
+  getOptionsArgTypes,
+} from '../../helpers/storybook'
 
 const Template = getTemplate(Button)
 const ListTemplate = getListTemplate(Button)
@@ -11,10 +15,9 @@ export default {
     children: 'You Shall Not Pass!',
   },
   argTypes: {
-    type: {
-      control: { type: 'select', options: options.types },
-    },
-    onClick: { defaultValue: null, action: 'You Shall Not Pass!' },
+    type: getOptionsArgTypes(options.types),
+    children: { control: 'text' },
+    onClick: { defaultValue: null, action: 'clicked' },
   },
 }
 
@@ -24,6 +27,4 @@ export const Types = ListTemplate.bind({})
 Types.args = { items: options.types.map((type) => ({ type })) }
 
 export const Inline = Template.bind({})
-Inline.args = {
-  isInline: true,
-}
+Inline.args = { isInline: true }

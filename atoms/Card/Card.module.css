@@ -1,37 +1,37 @@
 .card {
-  display: flex;
   align-items: center;
-  border: 1px solid var(--color-transparent);
+  border: var(--border-width-thin) solid var(--color-transparent);
   border-radius: var(--border-radius-sm);
   box-shadow: var(--box-shadow-sm);
-  padding: 6px 12px;
   color: var(--color-font-base);
+  display: flex;
+  padding: 6px 12px;
   width: 100%;
 }
 
 .size-sm {
-  height: 45px;
+  min-height: 45px;
 }
 
 .size-md {
-  height: 80px;
+  min-height: 80px;
 }
 
 .size-lg {
-  height: 115px;
+  min-height: 115px;
 }
 
 .color-primary {
   background: var(--color-primary);
-  color: var(--color-white);
+  color: var(--color-primary-inverted);
 }
 
 .color-secondary {
   background: var(--color-secondary);
-  color: var(--color-white);
+  color: var(--color-secondary-inverted);
 }
 
 .color-default {
-  background: var(--color-white);
-  border: 1px solid var(--color-gray-300);
+  background: var(--color-primary-inverted);
+  border: var(--border-width-thin) solid var(--color-gray-300);
 }

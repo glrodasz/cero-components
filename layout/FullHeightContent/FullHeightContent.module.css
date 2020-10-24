@@ -1,15 +1,20 @@
 .full-height-content {
   display: flex;
+  flex: auto;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .content {
+  align-items: stretch;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
 }
 
 .footer {
   text-align: center;
+}
+
+.is-visible {
+  border: var(--border-width-thick) dashed var(--color-primary);
 }

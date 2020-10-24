@@ -1,28 +1,24 @@
 .button {
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  border: var(--border-width-default) solid var(--color-transparent);
-  padding: 10px 20px;
+  border: var(--border-width-thin) solid var(--color-transparent);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--box-shadow-sm);
   cursor: pointer;
-  transition: all 0.5s ease;
-  font-size: var(--font-size-md);
-  width: 100%;
-  min-width: max-content;
+  display: inline-flex;
   font-family: var(--font-family-sans);
+  font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
   height: 45px;
+  justify-content: center;
+  min-width: max-content;
+  padding: 10px 20px;
+  transition: filter 0.5s ease, box-shadow 0.2s ease;
+  width: 100%;
 }
 
-.button.is-inline {
-  max-width: max-content;
-}
-
-.type-primary {
-  background: var(--color-primary);
-  color: var(--color-white);
+.button:focus {
+  box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
+  outline: none;
 }
 
 .button:hover {
@@ -33,18 +29,36 @@
   filter: brightness(0.9);
 }
 
+.type-primary {
+  background: var(--color-primary);
+  color: var(--color-primary-inverted);
+}
+
+.type-primary:focus {
+  box-shadow: 0 0 0 1px var(--color-primary-inverted),
+    0 0 10px 0 var(--color-primary);
+}
+
 .type-secondary {
   background: var(--color-transparent);
+  border: var(--border-width-thin) solid var(--color-brand-medium-purple);
   color: var(--color-brand-medium-purple);
-  border: 1px solid var(--color-brand-medium-purple);
 }
 
 .type-tertiary {
   background: var(--color-transparent);
-  color: var(--color-primary);
-  box-shadow: var(--shadows-none);
-  padding: 0;
   border-bottom: 1px solid var(--color-primary);
   border-radius: var(--border-radius-none);
-  height: auto;
+  box-shadow: var(--shadows-none);
+  color: var(--color-primary);
+  height: 25px;
+  padding: 0;
+}
+
+.type-tertiary:focus {
+  box-shadow: 0 10px 10px -8px var(--color-primary);
+}
+
+.button.is-inline {
+  max-width: max-content;
 }

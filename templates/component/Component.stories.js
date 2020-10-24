@@ -1,5 +1,5 @@
 import Component from '.'
-import { getTemplate, getListTemplate } from '../../helpers/storybookTemplates'
+import { getTemplate, getListTemplate } from '../../helpers/storybook'
 
 const Template = getTemplate(Component)
 const ListTemplate = getListTemplate(Component)

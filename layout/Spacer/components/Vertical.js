@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { getSize } from './helpers'
+import { getSize } from '../helpers'
 
-import styles from './Spacer.module.css'
+import styles from '../Spacer.module.css'
 
 const Vertical = ({ size, maxHeight, isVisible }) => (
   <div
@@ -19,7 +19,8 @@ const Vertical = ({ size, maxHeight, isVisible }) => (
 
 Vertical.defaultProps = {
   size: 'none',
-  maxHeight: '100%',
+  maxHeight: 'auto',
+  isVisible: false,
 }
 
 Vertical.propTypes = {

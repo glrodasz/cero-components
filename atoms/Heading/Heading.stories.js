@@ -1,5 +1,9 @@
 import Heading, { options } from '.'
-import { getTemplate, getListTemplate } from '../../helpers/storybookTemplates'
+import {
+  getTemplate,
+  getListTemplate,
+  getOptionsArgTypes,
+} from '../../helpers/storybook'
 
 const Template = getTemplate(Heading)
 const ListTemplate = getListTemplate(Heading)
@@ -11,12 +15,9 @@ export default {
     children: 'Consent doubt Tuckborough challenge destroying.',
   },
   argTypes: {
-    color: {
-      control: { type: 'select', options: options.colors },
-    },
-    size: {
-      control: { type: 'select', options: options.sizes },
-    },
+    color: getOptionsArgTypes(options.colors),
+    size: getOptionsArgTypes(options.sizes),
+    children: { control: 'text' },
   },
 }
 

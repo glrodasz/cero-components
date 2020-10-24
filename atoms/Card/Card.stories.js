@@ -1,5 +1,9 @@
 import Card, { options } from '.'
-import { getTemplate, getListTemplate } from '../../helpers/storybookTemplates'
+import {
+  getTemplate,
+  getListTemplate,
+  getOptionsArgTypes,
+} from '../../helpers/storybook'
 
 const Template = getTemplate(Card)
 const ListTemplate = getListTemplate(Card)
@@ -12,12 +16,9 @@ export default {
       'Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!',
   },
   argTypes: {
-    color: {
-      control: { type: 'select', options: options.colors },
-    },
-    size: {
-      control: { type: 'select', options: options.sizes },
-    },
+    color: getOptionsArgTypes(options.colors),
+    size: getOptionsArgTypes(options.sizes),
+    children: { control: 'text' },
   },
 }
 

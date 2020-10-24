@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { getSize } from './helpers'
+import { getSize } from '../helpers'
 
-import styles from './Spacer.module.css'
+import styles from '../Spacer.module.css'
 
 const Horizontal = ({ size, isVisible }) => (
   <div
@@ -18,6 +18,7 @@ const Horizontal = ({ size, isVisible }) => (
 
 Horizontal.defaultProps = {
   size: 'none',
+  isVisible: false,
 }
 
 Horizontal.propTypes = {

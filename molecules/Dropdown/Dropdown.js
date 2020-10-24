@@ -6,9 +6,9 @@ import Icon from '../../atoms/Icon'
 
 import styles from './Dropdown.module.css'
 
-const Dropdown = ({ id, className, options, value, onChange }) => (
-  <div id={id} className={classNames(className, styles.dropdown)}>
-    <Icon className={styles['dropdown-icon']} type="angleDown" hasBackground />
+const Dropdown = ({ id, options, value, onChange }) => (
+  <div id={id} className={classNames(styles.dropdown)}>
+    <Icon className="icon" name="angleDown" hasBackground />
     <select
       className={styles['dropdown-select']}
       onChange={onChange}
@@ -27,17 +27,17 @@ Dropdown.propTypes = {
   onChange: PropTypes.func.isRequired,
   options: PropTypes.arrayOf(
     PropTypes.shape({
-      text: PropTypes.string.isRequired,
+      text: PropTypes.string,
       value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     })
   ).isRequired,
   value: PropTypes.string,
   id: PropTypes.string,
-  className: PropTypes.string,
 }
 
 Dropdown.defaultProps = {
   value: '',
+  onChange: () => {},
 }
 
 export default Dropdown
