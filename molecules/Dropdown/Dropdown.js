@@ -8,7 +8,7 @@ import styles from './Dropdown.module.css'
 
 const Dropdown = ({ id, options, value, onChange }) => (
   <div id={id} className={classNames(styles.dropdown)}>
-    <Icon className="icon" name="angleDown" hasBackground />
+    <Icon className="icon" name="angleDown" background="highlight" />
     <select
       className={styles['dropdown-select']}
       onChange={onChange}

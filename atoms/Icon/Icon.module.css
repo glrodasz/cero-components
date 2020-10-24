@@ -2,8 +2,23 @@
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  padding: 8px;
   user-select: none;
+}
+
+.size-sm {
+  padding: 5px;
+}
+
+.size-md {
+  padding: 8px;
+}
+
+.size-lg {
+  padding: 12px;
+}
+
+.size-xl {
+  padding: 15px;
 }
 
 .color-base path {
@@ -26,7 +41,18 @@
   fill: var(--color-primary-inverted);
 }
 
-.has-background {
+.background-highlight {
   background: var(--color-primary-highlight);
   border-radius: var(--border-radius-full);
+}
+
+.background-inverted {
+  background: var(--color-primary-inverted);
+  border: var(--border-width-thin) solid var(--color-gray-400);
+  border-radius: var(--border-radius-full);
+  box-shadow: var(--box-shadow-sm);
+}
+
+.is-clickable {
+  cursor: pointer;
 }

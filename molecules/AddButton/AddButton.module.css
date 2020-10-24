@@ -9,15 +9,15 @@
 .type-primary {
   border-color: var(--color-font-base);
   border-radius: var(--border-radius-sm);
-  height: 45px;
+  height: 48px;
   padding: 10px 12px;
 }
 
 .type-secondary {
   border-color: var(--color-primary);
   border-radius: var(--border-radius-md);
-  height: 38px;
-  padding: 8px 12px;
+  height: 40px;
+  padding: 10px 12px;
 }
 
 .is-editable {

@@ -46,10 +46,10 @@ const AddButton = ({ children, type, icon, onAdd }) => {
           <Icon
             name={icon}
             color={type === 'primary' ? 'base' : 'highlight'}
-            hasBackground={type === 'primary'}
+            background={type === 'primary' ? 'highlight' : undefined}
           />
           <Spacer.Vertical size="sm" />
-          <Paragraph>{children}</Paragraph>
+          <Paragraph weight="medium">{children}</Paragraph>
         </>
       )}
     </div>

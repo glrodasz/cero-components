@@ -19,6 +19,8 @@ export default {
     color: getOptionsArgTypes(options.colors),
     size: getOptionsArgTypes(options.sizes),
     name: getOptionsArgTypes(options.names),
+    background: getOptionsArgTypes(options.backgrounds),
+    onClick: { defaultValue: null, action: 'clicked' },
   },
 }
 
@@ -37,5 +39,7 @@ Colors.args = {
   items: options.colors.map((color) => ({ color })),
 }
 
-export const Background = Template.bind({})
-Background.args = { hasBackground: true }
+export const Backgrounds = ListTemplate.bind({})
+Backgrounds.args = {
+  items: options.backgrounds.map((background) => ({ background })),
+}

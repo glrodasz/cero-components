@@ -15,10 +15,12 @@ export default {
   args: {
     __sbfd: 'row',
     isVisible: true,
+    height: 100,
     maxHeight: 100,
   },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
+    height: { control: 'number' },
     maxHeight: { control: 'number' },
   },
 }
@@ -27,6 +29,3 @@ export const Default = Template.bind({})
 
 export const Sizes = ListTemplate.bind({})
 Sizes.args = { items: options.sizes.map((size) => ({ size })) }
-
-export const Height = Template.bind({})
-Height.args = { maxHeight: 50 }

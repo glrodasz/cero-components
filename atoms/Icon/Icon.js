@@ -6,7 +6,7 @@ import { iconsMap, mapSize } from './helpers'
 import styles from './Icon.module.css'
 import { options } from './constants'
 
-const Icon = ({ id, className, name, size, color, hasBackground }) => {
+const Icon = ({ id, className, onClick, name, size, color, background }) => {
   const icon = iconsMap[name]
   const mappedSize = mapSize(size)
 
@@ -14,10 +14,13 @@ const Icon = ({ id, className, name, size, color, hasBackground }) => {
     <div
       id={id}
       className={classNames(className, styles.icon, {
-        [styles['has-background']]: hasBackground,
         [styles[`color-${color}`]]: color,
+        [styles[`size-${size}`]]: size,
+        [styles[`background-${background}`]]: background,
+        [styles['is-clickable']]: !!onClick,
       })}
       style={{ width: mappedSize, height: mappedSize }}
+      onClick={onClick}
     >
       <svg
         viewBox={icon.viewBox}
@@ -33,17 +36,17 @@ const Icon = ({ id, className, name, size, color, hasBackground }) => {
 
 Icon.propTypes = {
   name: PropTypes.oneOf(options.names).isRequired,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(options.sizes),
   color: PropTypes.oneOf(options.colors),
+  background: PropTypes.oneOf(options.backgrounds),
   id: PropTypes.string,
   className: PropTypes.string,
-  hasBackground: PropTypes.bool,
 }
 
 Icon.defaultProps = {
   size: 'md',
   color: 'base',
-  hasBackground: false,
 }
 
 export default Icon
