@@ -25,9 +25,3 @@ export const Default = Template.bind({})
 
 export const Types = ListTemplate.bind({})
 Types.args = { items: options.types.map((type) => ({ type })) }
-
-export const Editable = Template.bind({})
-Editable.args = {
-  isEditable: true,
-  onAdd: alert,
-}

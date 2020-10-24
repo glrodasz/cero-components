@@ -10,8 +10,8 @@ import styles from './AddButton.module.css'
 import { options } from './constants'
 import { handleClick, handleOnChange, handleOnKeyDown } from './handlers'
 
-const AddButton = ({ children, type, icon, onAdd, isEditable }) => {
-  const [editMode, setEditMode] = useState(isEditable)
+const AddButton = ({ children, type, icon, onAdd }) => {
+  const [editMode, setEditMode] = useState(false)
   const [inputValue, setInputValue] = useState('')
 
   return (
@@ -55,13 +55,11 @@ AddButton.propTypes = {
   onAdd: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   icon: PropTypes.oneOf(options.icons),
-  isEditable: PropTypes.bool,
 }
 
 AddButton.defaultProps = {
   type: 'primary',
   icon: 'plusCircle',
-  isEditable: false,
   onAdd: () => {},
 }
 
