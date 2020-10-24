@@ -250,7 +250,7 @@ const decisions = {
     maxWidth: '800px',
   },
   button: {
-    maxWidth: '300px',
+    maxWidth: '310px',
   },
   input: {
     height: '38px',

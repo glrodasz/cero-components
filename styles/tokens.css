@@ -203,11 +203,11 @@
   --color-font-muted: #7e858c;
 
   --background-color-primary: #f9f9f9;
-  --background-color-highlight: #fcfdfd;
+  --background-color-primary-highlight: #fcfdfd;
 
   --container-max-width: 800px;
 
-  --button-max-width: 300px;
+  --button-max-width: 310px;
 
   --input-height: 38px;
   --input-max-width: 400px;

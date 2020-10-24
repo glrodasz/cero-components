@@ -13,16 +13,20 @@
     "yarn": ">=1.22.10"
   },
   "scripts": {
-    "dev": "yarn storybook",
-    "test": "jest",
-    "lint": "yarn lint-js && yarn lint-css",
-    "lint-js": "eslint --cache --fix",
-    "lint-css": "prettier '**/*.css' --write && stylelint '**/*.css' --fix",
-    "storybook": "start-storybook -p 6006",
-    "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "yarn build-tokens && build-storybook",
-    "deploy-storybook": "build-storybook && vercel --prod",
-    "create-component": "node ./scripts/create-component"
+    "build:storybook": "build-storybook",
+    "build:tokens": "node ./scripts/build-tokens",
+    "deploy:vercel": "vercel --prod",
+    "deploy": "run-s build:* deploy:*",
+    "dev:storybook": "start-storybook -p 6006",
+    "dev:tokens": "watch 'yarn build:tokens' ./tokens",
+    "dev": "concurrently 'npm:dev:*'",
+    "lint:css:prettier": "prettier '**/*.css' --write",
+    "lint:css:stylelint": "stylelint '**/*.css' --fix",
+    "lint:css": "yarn lint:css:stylelint && yarn lint:css:prettier",
+    "lint:js": "eslint --cache --fix",
+    "lint": "run-p lint:*",
+    "script:cc": "node ./scripts/create-component",
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -42,6 +46,7 @@
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
     "chromatic": "5.2.0",
+    "concurrently": "5.3.0",
     "enquirer": "2.3.6",
     "eslint": "7.8.1",
     "eslint-config-prettier": "6.11.0",
@@ -52,6 +57,7 @@
     "jest": "26.4.2",
     "lint-staged": "10.3.0",
     "minireset.css": "0.0.6",
+    "npm-run-all": "4.1.5",
     "prettier": "2.1.1",
     "react": "16.13.1",
     "react-is": "16.13.1",
@@ -59,7 +65,8 @@
     "semantic-release": "17.1.2",
     "stylelint": "13.7.2",
     "stylelint-config-idiomatic-order": "8.1.0",
-    "stylelint-config-recommended": "3.0.0"
+    "stylelint-config-recommended": "3.0.0",
+    "watch": "1.0.2"
   },
   "peerDependencies": {
     "react": "16.13.1"
@@ -70,7 +77,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "yarn lint-js",
-    "*.css": "yarn lint-css"
+    "*.js": "yarn lint:js",
+    "*.css": "yarn lint:css"
   }
 }
