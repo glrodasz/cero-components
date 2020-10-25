@@ -5,11 +5,12 @@ import classNames from 'classnames'
 import styles from './Button.module.css'
 import { options } from './contants'
 
-const Button = ({ type, children, isInline, onClick }) => (
+const Button = ({ type, children, isMuted, isInline, onClick }) => (
   <button
     className={classNames(styles.button, {
       [styles[`type-${type}`]]: type,
       [styles['is-inline']]: isInline || type === 'tertiary',
+      [styles['is-muted']]: isMuted && type === 'primary',
     })}
     onClick={onClick}
   >
@@ -22,6 +23,7 @@ Button.propTypes = {
   type: PropTypes.oneOf(options.types),
   onClick: PropTypes.func,
   isInline: PropTypes.bool,
+  isMuted: PropTypes.bool,
 }
 
 Button.defaultProps = {

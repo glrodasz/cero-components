@@ -1,25 +1,25 @@
 // https://github.com/tailwindlabs/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-const brandColors = {
-  mediumPurple: '#9879e9',
-  slateBlue: '#7559d1',
-  mandy: '#eb4e58',
-  whiteLilac: '#e8e8e8',
-  hintOfRed: '#f9f9f9',
-  romance: '#fcfdfd',
-  eastBay: '#455970',
-  regentGray: '#7e858c',
-  loblolly: '#b7b7b7',
-  blueMoon: '#eff1fd',
-}
 
 const choices = {
   color: {
-    brand: brandColors,
+    brand: {
+      slateBlue: '#7559d1',
+      mediumPurple: '#9879e9',
+      blueMoon: '#eff1fd',
+      mandy: '#eb4e58',
+      eastBay: '#455970',
+      regentGray: '#7e858c',
+      loblolly: '#b7b7b7',
+      whiteLilac: '#e8e8e8',
+      hintOfRed: '#f9f9f9',
+      romance: '#fcfdfd',
+    },
 
-    transparent: 'transparent',
-
-    black: '#000',
-    white: '#fff',
+    base: {
+      black: '#000',
+      white: '#fff',
+      transparent: 'transparent',
+    },
 
     gray: {
       100: '#f7fafc',
@@ -232,25 +232,26 @@ const choices = {
 const decisions = {
   color: {
     primary: choices.color.brand.mediumPurple,
-    primaryInverted: choices.color.white,
-    primaryHighlight: choices.color.brand.blueMoon,
     primaryMuted: choices.color.brand.slateBlue,
-    secondary: choices.color.brand.mandy,
-    secondaryInverted: choices.color.white,
+    primaryHighlight: choices.color.brand.blueMoon,
+    primaryInverted: choices.color.base.white,
     fontBase: choices.color.brand.eastBay,
-    fontInverted: choices.color.white,
-    fontHighlight: choices.color.brand.loblolly,
     fontMuted: choices.color.brand.regentGray,
+    fontHighlight: choices.color.brand.loblolly,
+    fontInverted: choices.color.base.white,
+    secondary: choices.color.brand.mandy,
+    secondaryInverted: choices.color.base.white,
   },
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,
     primaryHighlight: choices.color.brand.romance,
+    primaryInverted: choices.color.base.black,
   },
   container: {
     maxWidth: '800px',
   },
   button: {
-    maxWidth: '310px',
+    maxWidth: '300px',
   },
   input: {
     height: '38px',

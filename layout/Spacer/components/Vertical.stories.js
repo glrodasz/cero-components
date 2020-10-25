@@ -13,7 +13,7 @@ export default {
   title: 'Layout/Spacer/Vertical',
   component: Spacer.Vertical,
   args: {
-    __sbfd: 'row',
+    __sb: { fd: 'row' },
     isVisible: true,
     height: 100,
     maxHeight: 100,

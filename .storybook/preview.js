@@ -9,9 +9,13 @@ export const decorators = [
     <div
       style={{
         display: 'flex',
-        flexDirection: args.__sbfd || 'column',
-        gap: '10px',
+        flexDirection: args.__sb?.fd || 'column',
+        maxHeight: args.__sb?.mh || 'auto',
+        justifyContent: 'flex-start',
+        alignContent: 'flex-start',
+        flexWrap: 'wrap',
         height: '100%',
+        gap: '10px 30px',
       }}
     >
       <Story />
@@ -21,7 +25,7 @@ export const decorators = [
 
 export const parameters = {
   argTypes: {
-    __sbfd: {
+    __sb: {
       control: null,
       table: {
         type: {

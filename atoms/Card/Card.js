@@ -25,7 +25,7 @@ Card.propTypes = {
 }
 
 Card.defaultProps = {
-  color: 'default',
+  color: 'base',
   size: 'sm',
 }
 

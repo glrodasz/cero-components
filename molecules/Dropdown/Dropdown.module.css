@@ -1,6 +1,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 .dropdown :global(.icon) {
@@ -24,4 +25,8 @@
 .dropdown-select:focus {
   box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
   outline: none;
+}
+
+.is-inline {
+  max-width: max-content;
 }

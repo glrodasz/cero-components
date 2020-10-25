@@ -41,8 +41,22 @@
   fill: var(--color-primary-inverted);
 }
 
+.background-base {
+  background: var(--color-gray-100);
+  border-radius: var(--border-radius-full);
+}
+
+.background-transparent {
+  background: var(--color-base-transparent);
+}
+
 .background-highlight {
   background: var(--color-primary-highlight);
+  border-radius: var(--border-radius-full);
+}
+
+.background-muted {
+  background: var(--color-primary-muted);
   border-radius: var(--border-radius-full);
 }
 

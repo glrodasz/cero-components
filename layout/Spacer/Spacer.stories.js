@@ -13,7 +13,7 @@ export default {
   title: 'Layout/Spacer/Default',
   component: Spacer,
   args: {
-    __sbfd: 'row',
+    __sb: { fd: 'row' },
     isVisible: true,
   },
   argTypes: {

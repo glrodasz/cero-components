@@ -1,12 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import className from 'classnames'
 
 import styles from './Input.module.css'
 import { options } from './constants'
 
-const Input = ({ type, value, onChange, placeholder }) => (
+const Input = ({ type, value, isInline, onChange, placeholder }) => (
   <input
-    className={styles.input}
+    className={className(styles.input, {
+      [styles['is-inline']]: isInline,
+    })}
     type={type}
     value={value}
     placeholder={placeholder}
@@ -19,12 +22,14 @@ Input.propTypes = {
   type: PropTypes.oneOf(options.types),
   value: PropTypes.string,
   placeholder: PropTypes.string,
+  isInline: PropTypes.bool,
 }
 
 Input.defaultProps = {
   type: 'text',
   value: '',
   placeholder: '',
+  isInline: false,
   onChange: () => {},
 }
 

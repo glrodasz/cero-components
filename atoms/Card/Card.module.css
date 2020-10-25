@@ -3,7 +3,7 @@
   width: 100%;
   align-items: center;
   padding: 12px 10px;
-  border: var(--border-width-thin) solid var(--color-transparent);
+  border: var(--border-width-thin) solid var(--color-base-transparent);
   border-radius: var(--border-radius-sm);
   box-shadow: var(--box-shadow-sm);
   color: var(--color-font-base);
@@ -31,7 +31,7 @@
   color: var(--color-secondary-inverted);
 }
 
-.color-default {
+.color-base {
   border: var(--border-width-thin) solid var(--color-gray-300);
   background: var(--color-primary-inverted);
 }

@@ -23,7 +23,7 @@ Heading.propTypes = {
 }
 
 Heading.defaultProps = {
-  color: 'default',
+  color: 'base',
   size: 'md',
 }
 

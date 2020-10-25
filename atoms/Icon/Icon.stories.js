@@ -12,7 +12,7 @@ export default {
   title: 'Atoms/Icon',
   component: Icon,
   args: {
-    __sbfd: 'row',
+    __sb: { fd: 'row' },
     name: 'arrowRight',
   },
   argTypes: {

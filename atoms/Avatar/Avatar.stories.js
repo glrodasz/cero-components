@@ -13,7 +13,7 @@ export default {
   title: 'Atoms/Avatar',
   component: Avatar,
   args: {
-    __sbfd: 'row',
+    __sb: { fd: 'row' },
     src: 'https://picsum.photos/id/1027/200/200',
   },
   argTypes: {

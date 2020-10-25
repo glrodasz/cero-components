@@ -18,6 +18,7 @@ export default {
     type: getOptionsArgTypes(options.types),
     children: { control: 'text' },
     onClick: { defaultValue: null, action: 'clicked' },
+    isMuted: { description: 'It requires `type` to be "primary"' },
   },
 }
 
@@ -28,3 +29,6 @@ Types.args = { items: options.types.map((type) => ({ type })) }
 
 export const Inline = Template.bind({})
 Inline.args = { isInline: true }
+
+export const Muted = Template.bind({})
+Muted.args = { type: 'primary', isMuted: true }

@@ -1,17 +1,18 @@
 :root {
-  --color-brand-medium-purple: #9879e9;
   --color-brand-slate-blue: #7559d1;
+  --color-brand-medium-purple: #9879e9;
+  --color-brand-blue-moon: #eff1fd;
   --color-brand-mandy: #eb4e58;
-  --color-brand-white-lilac: #e8e8e8;
-  --color-brand-hint-of-red: #f9f9f9;
-  --color-brand-romance: #fcfdfd;
   --color-brand-east-bay: #455970;
   --color-brand-regent-gray: #7e858c;
   --color-brand-loblolly: #b7b7b7;
-  --color-brand-blue-moon: #eff1fd;
-  --color-transparent: transparent;
-  --color-black: #000;
-  --color-white: #fff;
+  --color-brand-white-lilac: #e8e8e8;
+  --color-brand-hint-of-red: #f9f9f9;
+  --color-brand-romance: #fcfdfd;
+
+  --color-base-black: #000;
+  --color-base-white: #fff;
+  --color-base-transparent: transparent;
 
   --color-gray-100: #f7fafc;
   --color-gray-200: #edf2f7;
@@ -192,22 +193,23 @@
   --z-index-auto: auto;
 
   --color-primary: #9879e9;
-  --color-primary-inverted: #fff;
-  --color-primary-highlight: #eff1fd;
   --color-primary-muted: #7559d1;
+  --color-primary-highlight: #eff1fd;
+  --color-primary-inverted: #fff;
+  --color-font-base: #455970;
+  --color-font-muted: #7e858c;
+  --color-font-highlight: #b7b7b7;
+  --color-font-inverted: #fff;
   --color-secondary: #eb4e58;
   --color-secondary-inverted: #fff;
-  --color-font-base: #455970;
-  --color-font-inverted: #fff;
-  --color-font-highlight: #b7b7b7;
-  --color-font-muted: #7e858c;
 
   --background-color-primary: #f9f9f9;
   --background-color-primary-highlight: #fcfdfd;
+  --background-color-primary-inverted: #000;
 
   --container-max-width: 800px;
 
-  --button-max-width: 310px;
+  --button-max-width: 300px;
 
   --input-height: 38px;
   --input-max-width: 400px;
