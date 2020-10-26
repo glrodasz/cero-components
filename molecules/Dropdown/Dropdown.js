@@ -13,7 +13,7 @@ const Dropdown = ({ id, options, value, isInline, onChange }) => (
       [styles['is-inline']]: isInline,
     })}
   >
-    <Icon className="icon" name="angleDown" background="highlight" />
+    <Icon className="dropdown-icon" name="angleDown" background="highlight" />
     <select
       className={styles['dropdown-select']}
       onChange={onChange}
@@ -36,7 +36,7 @@ Dropdown.propTypes = {
       value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     })
   ).isRequired,
-  value: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   id: PropTypes.string,
   isInline: PropTypes.bool,
 }

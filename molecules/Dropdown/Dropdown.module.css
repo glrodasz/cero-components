@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-.dropdown :global(.icon) {
+.dropdown :global(.dropdown-icon) {
   position: absolute;
   top: 50%;
   right: 1px;

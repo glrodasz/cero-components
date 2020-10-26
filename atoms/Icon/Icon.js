@@ -1,23 +1,21 @@
 import React from 'react'
-import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import { iconsMap, mapSize } from './helpers'
 
 import styles from './Icon.module.css'
 import { options } from './constants'
+import { getClasses } from '../../helpers/styles'
 
 const Icon = ({ id, className, onClick, name, size, color, background }) => {
   const icon = iconsMap[name]
   const mappedSize = mapSize(size)
+  const classes = getClasses(styles)({ color, size, background })
 
   return (
     <div
       id={id}
-      className={classNames(className, styles.icon, {
-        [styles[`color-${color}`]]: color,
-        [styles[`size-${size}`]]: size,
-        [styles[`background-${background}`]]: background,
-        [styles['is-clickable']]: !!onClick,
+      className={classes(className, 'icon', ['color', 'size', 'background'], {
+        'is-clickable': !!onClick,
       })}
       style={{ width: mappedSize, height: mappedSize }}
       onClick={onClick}
