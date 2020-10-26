@@ -2,11 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
-import Horizontal from './components/Horizontal'
-import Vertical from './components/Vertical'
-import { getSize } from './helpers'
+import { Horizontal, Vertical } from './components'
 
 import styles from './Spacer.module.css'
+import { mapSize } from './helpers'
 
 const Spacer = ({ size, isVisible }) => (
   <div
@@ -15,8 +14,8 @@ const Spacer = ({ size, isVisible }) => (
     })}
     style={{
       display: 'inline-block',
-      width: getSize(size),
-      height: getSize(size),
+      width: mapSize(size),
+      height: mapSize(size),
     }}
   />
 )

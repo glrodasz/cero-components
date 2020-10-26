@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { getSize } from '../helpers'
+import { mapSize } from '../helpers'
 
 import styles from '../Spacer.module.css'
 
@@ -11,7 +11,7 @@ const Horizontal = ({ size, isVisible }) => (
       [styles['is-visible']]: isVisible,
     })}
     style={{
-      height: getSize(size),
+      height: mapSize(size),
     }}
   />
 )

@@ -13,19 +13,44 @@
 }
 
 .label {
+  min-width: max-content;
   padding: 4px 8px;
-  border: var(--border-width-thin) solid var(--color-gray-500);
-  background-color: var(--color-gray-200);
+  border: var(--picture-border);
+  background-color: var(--color-gray-100);
   border-radius: var(--border-radius-sm);
   color: var(--color-gray-700);
   font-family: var(--font-family-mono);
   font-size: var(--font-size-sm);
 }
 
+.label:first-child {
+  border: var(--border-width-thin) solid var(--color-gray-500);
+  background-color: var(--color-gray-300);
+}
+
 .color {
   width: 65px;
   height: 65px;
-  border: var(--border-width-thin) solid var(--color-gray-500);
-  border-radius: var(--border-radius-sm);
+  border: var(--picture-border);
+  border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);
+}
+
+.spacer {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-size,
+.font-family {
+  width: 100%;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.font-size {
+  text-align: right;
 }

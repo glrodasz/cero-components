@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { getSize } from '../helpers'
+import { mapSize } from '../helpers'
 
 import styles from '../Spacer.module.css'
 
@@ -13,7 +13,7 @@ const Vertical = ({ size, height, maxHeight, isVisible }) => (
     style={{
       height,
       maxHeight,
-      width: getSize(size),
+      width: mapSize(size),
     }}
   />
 )

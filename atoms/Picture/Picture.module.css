@@ -8,5 +8,5 @@
 }
 
 .with-border img {
-  border: var(--border-width-thin) solid var(--color-gray-400);
+  border: var(--picture-border);
 }

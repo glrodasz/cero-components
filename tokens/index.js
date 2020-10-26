@@ -257,6 +257,9 @@ const decisions = {
     height: '38px',
     maxWidth: '400px',
   },
+  picture: {
+    border: `${choices.borderWidth.thin} solid ${choices.color.gray[400]}`,
+  },
 }
 
 module.exports = { choices, decisions }
