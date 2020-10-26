@@ -4,7 +4,7 @@ import React from 'react'
 export const getTemplate = (Component) => (args) => <Component {...args} />
 
 export const getListTemplate = (Component) => ({ items, ...args }) =>
-  items.map((item) => <Component {...args} {...item} />)
+  items.map((item, index) => <Component key={index} {...args} {...item} />)
 
 export const getOptionsArgTypes = (options) => ({
   description: '**options:**',

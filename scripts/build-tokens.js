@@ -2,43 +2,37 @@ const { choices, decisions } = require('../tokens')
 const toKebabCase = require('../utils/toKebabCase')
 const fs = require('fs')
 
+const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
+
 function transformTokens(parentKey, object) {
   const objectKeys = Object.keys(object)
 
-  return objectKeys.reduce((tokensTransformed, objectKey) => {
+  return objectKeys.reduce((transformedTokens, objectKey) => {
     const value = object[objectKey]
     const customProperty = parentKey
-      ? `${parentKey}-${objectKey}`
-      : `${objectKey}`
+      ? toKebabCase(`${parentKey}-${objectKey}`)
+      : toKebabCase(`${objectKey}`)
 
     if (Array.isArray(value)) {
-      return `${tokensTransformed}\n  --${toKebabCase(
-        customProperty
-      )}: ${value.join(', ')};`
+      return `${transformedTokens}\n  --${customProperty}: ${value.join(', ')};`
     } else if (typeof value === 'object') {
-      return `${tokensTransformed}\n${transformTokens(
-        `${toKebabCase(customProperty)}`,
-        value
-      )}`
+      return `${transformedTokens}\n${transformTokens(customProperty, value)}`
     }
-    return `${tokensTransformed}\n  --${parentKey}-${toKebabCase(
-      objectKey
-    )}: ${value};`
+
+    const label = `--${parentKey}-${toKebabCase(objectKey)}`
+    return `${transformedTokens}\n  ${label}: ${value};`
   }, '')
 }
 
 function buildTokens() {
-  const customProperties = `${transformTokens(null, choices)}${transformTokens(
-    null,
-    decisions
-  )}`
+  const transformedChoices = transformTokens(null, choices)
+  const transformedDecisions = transformTokens(null, decisions)
+  const customProperties = `${transformedChoices}${transformedDecisions}`
 
-  const data = [':root {', customProperties.trim()].join('\n  ').concat('\n}')
+  const data = `:root {\n  ${cleanLines(customProperties)}\n}\n`
 
-  fs.writeFile('./styles/tokens.css', data, 'utf8', function (error) {
-    if (error) {
-      throw error
-    }
+  fs.writeFile('./styles/tokens.css', data, 'utf8', (error) => {
+    if (error) throw error
     console.log('🎨 Custom properties created!')
   })
 }

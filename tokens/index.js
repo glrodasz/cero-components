@@ -157,7 +157,7 @@ const choices = {
   },
   fontFamily: {
     sans: ['Quicksand', 'Arial', 'sans-serif'],
-    mono: ['"Roboto Mono"', '"Courier New"', 'monospace'],
+    mono: ["'Roboto Mono'", "'Courier New'", 'monospace'],
   },
   fontSize: {
     base: '10px',
@@ -188,16 +188,16 @@ const choices = {
     loose: 2,
   },
   letterSpacing: {
-    tighter: '-.05em',
-    tight: '-.025em',
+    tighter: '-0.05em',
+    tight: '-0.025em',
     normal: '0',
-    wide: '.025em',
-    wider: '.05em',
-    widest: '.1em',
+    wide: '0.025em',
+    wider: '0.05em',
+    widest: '0.1em',
   },
   boxShadow: {
     none: 'none',
-    sm: `0px 4px 5px rgba(0,0,0,0.07)`,
+    sm: '0px 4px 5px rgba(0, 0, 0, 0.07)',
   },
   borderRadius: {
     none: '0',
