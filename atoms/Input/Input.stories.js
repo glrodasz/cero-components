@@ -17,7 +17,6 @@ export default {
   },
   argTypes: {
     type: getOptionsArgTypes(options.types),
-    onChange: { defaultValue: null, action: 'changed' },
   },
 }
 

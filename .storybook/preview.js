@@ -34,6 +34,8 @@ export const parameters = {
         },
       },
     },
+    onClick: { defaultValue: null },
+    onChange: { defaultValue: null },
   },
   // FIXME: https://github.com/storybookjs/storybook/issues/12120
   actions: { argTypesRegex: '^on[A-Z].*' },

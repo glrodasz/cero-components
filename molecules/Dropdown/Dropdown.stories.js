@@ -20,7 +20,6 @@ export default {
     ],
   },
   argTypes: {
-    onChange: { defaultValue: null, action: 'changed' },
     options: {
       description: '**array of shaped objects:**',
       table: {

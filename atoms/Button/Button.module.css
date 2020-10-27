@@ -9,6 +9,7 @@
   border: var(--border-width-thin) solid var(--color-base-transparent);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--box-shadow-sm);
+  cursor: pointer;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
@@ -52,7 +53,6 @@
   border-radius: var(--border-radius-none);
   box-shadow: var(--shadows-none);
   color: var(--color-primary);
-  cursor: pointer;
 }
 
 .type-tertiary:focus {
