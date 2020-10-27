@@ -205,7 +205,6 @@
 
   --background-color-primary: #f9f9f9;
   --background-color-primary-highlight: #fcfdfd;
-  --background-color-primary-inverted: #000;
 
   --container-max-width: 800px;
 
@@ -213,6 +212,7 @@
 
   --input-height: 38px;
   --input-max-width: 400px;
+  --input-background: #fff;
 
   --picture-border: 1px solid #cbd5e0;
 }

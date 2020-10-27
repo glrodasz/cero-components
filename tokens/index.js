@@ -245,7 +245,6 @@ const decisions = {
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,
     primaryHighlight: choices.color.brand.romance,
-    primaryInverted: choices.color.base.black,
   },
   container: {
     maxWidth: '800px',
@@ -256,6 +255,7 @@ const decisions = {
   input: {
     height: '38px',
     maxWidth: '400px',
+    background: choices.color.base.white,
   },
   picture: {
     border: `${choices.borderWidth.thin} solid ${choices.color.gray[400]}`,

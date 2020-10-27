@@ -4,6 +4,7 @@
   align-items: center;
   padding: 10px 12px;
   border: var(--border-width-thin) dashed;
+  background: var(--input-background);
   cursor: pointer;
   user-select: none;
 }
@@ -30,7 +31,7 @@
 }
 
 .is-editable.is-focused {
-  background: var(--color-primary-inverted);
+  background: var(--input-background);
   box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
 }
 

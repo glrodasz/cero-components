@@ -3,6 +3,7 @@
   height: var(--input-height);
   padding: 12px 17px;
   border: var(--border-width-thin) solid var(--color-primary);
+  background: var(--input-background);
   border-radius: var(--border-radius-lg);
   color: var(--color-font-base);
   font-family: var(--font-family-sans);
