@@ -17,7 +17,7 @@ export default {
   argTypes: {
     type: getOptionsArgTypes(options.types),
     icon: getOptionsArgTypes(options.icons),
-    onAdd: { defaultValue: null, action: 'added' },
+    onAdd: { defaultValue: null },
   },
 }
 

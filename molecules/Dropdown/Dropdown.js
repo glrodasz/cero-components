@@ -16,7 +16,7 @@ const Dropdown = ({ id, options, value, isInline, onChange }) => (
     <Icon className="dropdown-icon" name="angleDown" background="highlight" />
     <select
       className={styles['dropdown-select']}
-      onChange={onChange}
+      onChange={(event) => onChange(event?.currentTarget?.value)}
       value={value}
     >
       {options.map(({ text, value }) => (

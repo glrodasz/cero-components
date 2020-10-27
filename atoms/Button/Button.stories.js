@@ -18,6 +18,7 @@ export default {
     type: getOptionsArgTypes(options.types),
     children: { control: 'text' },
     isMuted: { description: 'It requires `type` to be "primary"' },
+    onClick: { defaultValue: null },
   },
 }
 
