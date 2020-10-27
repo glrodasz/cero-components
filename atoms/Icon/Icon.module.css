@@ -67,6 +67,12 @@
   box-shadow: var(--box-shadow-sm);
 }
 
+.background-spotlight {
+  background: var(--color-yellow-100);
+  border-radius: var(--border-radius-full);
+  box-shadow: var(--box-shadow-sm);
+}
+
 .is-clickable {
   cursor: pointer;
 }

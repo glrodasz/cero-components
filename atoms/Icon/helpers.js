@@ -3,7 +3,7 @@ import React from 'react'
 
 export const iconsMap = {
   arrowUp: {
-    viewBox: '0 0 19 19',
+    viewBox: '-1 -1 19 19',
     svg: (
       <>
         <path
