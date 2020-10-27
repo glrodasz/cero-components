@@ -25,7 +25,7 @@
   border: var(--border-width-thin) solid var(--color-primary);
   background: var(--color-primary);
   box-shadow: 0 0 0 1px var(--color-primary);
-  cursor: default;
+  cursor: text;
   transition: box-shadow 0.2s ease;
 }
 

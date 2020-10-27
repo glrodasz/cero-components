@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
@@ -30,6 +30,7 @@ const AddButton = ({
   const [editMode, setEditMode] = useState(defaultEditMode)
   const [inputValue, setInputValue] = useState(defaultValue)
   const [isFocused, setIsFocused] = useState(false)
+  const inputRef = useRef(null)
 
   return (
     <div
@@ -38,11 +39,12 @@ const AddButton = ({
         [styles['is-editable']]: editMode,
         [styles['is-focused']]: isFocused,
       })}
-      onClick={handleClick({ setEditMode })}
+      onClick={handleClick({ setEditMode, isFocused, inputRef })}
     >
       {editMode ? (
         <div className={styles['edit-container']}>
           <input
+            ref={inputRef}
             type="text"
             value={inputValue}
             autoFocus={!defaultEditMode}
