@@ -24,6 +24,12 @@ export const handleKeyDown = ({
   }
 }
 
-export const handleBlur = ({ inputValue, setEditMode }) => () => {
+export const handleBlur = ({ inputValue, setEditMode, setIsFocused }) => () => {
+  setIsFocused(false)
   !inputValue && setEditMode(false)
+}
+
+export const handleFocus = ({ setIsFocused }) => (event) => {
+  event && event.currentTarget.select()
+  setIsFocused(true)
 }

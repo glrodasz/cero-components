@@ -13,34 +13,66 @@ import {
   handleChange,
   handleKeyDown,
   handleBlur,
+  handleFocus,
 } from './handlers'
+import { shouldShowHelpText } from './helpers'
 
-const AddButton = ({ children, type, icon, onAdd }) => {
-  const [editMode, setEditMode] = useState(false)
-  const [inputValue, setInputValue] = useState('')
+const AddButton = ({
+  children,
+  focusHelpText,
+  blurHelpText,
+  type,
+  icon,
+  onAdd,
+  defaultEditMode,
+  defaultValue,
+}) => {
+  const [editMode, setEditMode] = useState(defaultEditMode)
+  const [inputValue, setInputValue] = useState(defaultValue)
+  const [isFocused, setIsFocused] = useState(false)
 
   return (
     <div
       className={classNames(styles['add-button'], {
         [styles[`type-${type}`]]: type,
         [styles['is-editable']]: editMode,
+        [styles['is-focused']]: isFocused,
       })}
       onClick={handleClick({ setEditMode })}
     >
       {editMode ? (
-        <input
-          type="text"
-          value={inputValue}
-          onChange={handleChange({ setInputValue })}
-          onBlur={handleBlur({ inputValue, setEditMode })}
-          onKeyDown={handleKeyDown({
-            setInputValue,
-            setEditMode,
+        <div className={styles['edit-container']}>
+          <input
+            type="text"
+            value={inputValue}
+            autoFocus={!defaultEditMode}
+            onFocus={handleFocus({ setIsFocused })}
+            onBlur={handleBlur({ inputValue, setEditMode, setIsFocused })}
+            onChange={handleChange({ setInputValue })}
+            onKeyDown={handleKeyDown({
+              setInputValue,
+              setEditMode,
+              inputValue,
+              onAdd,
+            })}
+          />
+          {shouldShowHelpText({
+            editMode,
             inputValue,
-            onAdd,
-          })}
-          autoFocus
-        />
+            focusHelpText,
+            blurHelpText,
+          }) && (
+            <>
+              <Paragraph
+                className="help-text"
+                color={isFocused ? 'muted' : 'inverted'}
+              >
+                {isFocused ? focusHelpText : blurHelpText}
+              </Paragraph>
+              <Spacer.Vertical size="sm" />
+            </>
+          )}
+        </div>
       ) : (
         <>
           <Icon
@@ -61,11 +93,17 @@ AddButton.propTypes = {
   onAdd: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   icon: PropTypes.oneOf(options.icons),
+  focusHelpText: PropTypes.string,
+  blurHelpText: PropTypes.string,
+  defaultEditMode: PropTypes.bool,
+  defaultValue: PropTypes.string,
 }
 
 AddButton.defaultProps = {
   type: 'primary',
   icon: 'plusCircle',
+  defaultEditMode: false,
+  defaultValue: '',
   onAdd: () => {},
 }
 
