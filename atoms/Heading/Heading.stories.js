@@ -1,12 +1,12 @@
-import Heading, { options } from '.'
+import { Heading, styles, options } from '.'
 import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Heading)
-const ListTemplate = getListTemplate(Heading)
+const Template = getTemplate(Heading, styles)
+const ListTemplate = getListTemplate(Heading, styles)
 
 export default {
   title: 'Atoms/Heading',
@@ -17,6 +17,7 @@ export default {
   argTypes: {
     color: getOptionsArgTypes(options.colors),
     size: getOptionsArgTypes(options.sizes),
+    weight: getOptionsArgTypes(options.weights),
     children: { control: 'text' },
   },
 }
@@ -28,3 +29,6 @@ Colors.args = { items: options.colors.map((color) => ({ color })) }
 
 export const Sizes = ListTemplate.bind({})
 Sizes.args = { items: options.sizes.map((size) => ({ size })) }
+
+export const Weights = ListTemplate.bind({})
+Weights.args = { items: options.weights.map((weight) => ({ weight })) }

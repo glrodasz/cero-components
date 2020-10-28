@@ -5,11 +5,11 @@ import styles from './Heading.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const Heading = ({ children, styles }) => {
+export const Heading = ({ children, styles }) => {
   return (
-    <heading className={styles('heading', ['color', 'size'])}>
+    <header className={styles('heading', ['color', 'size', 'weight'])}>
       {children}
-    </heading>
+    </header>
   )
 }
 
@@ -18,11 +18,13 @@ Heading.propTypes = {
   styles: PropTypes.func.isRequired,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
+  weight: PropTypes.oneOf(options.weights),
 }
 
 Heading.defaultProps = {
   color: 'base',
   size: 'md',
+  weight: 'bold',
 }
 
 export default withStyles(styles)(Heading)

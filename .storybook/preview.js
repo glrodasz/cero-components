@@ -24,6 +24,9 @@ export const decorators = [
 ]
 
 export const parameters = {
-  argTypes: { __sb: { table: { disable: true } } },
+  argTypes: {
+    __sb: { table: { disable: true } },
+    styles: { table: { disable: true } },
+  },
   actions: { argTypesRegex: '^on[A-Z].*' },
 }

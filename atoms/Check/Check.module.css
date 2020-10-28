@@ -1,3 +1,10 @@
 .check {
   display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: content-box;
+  border: var(--picture-border);
+  margin: 8px;
+  border-radius: var(--border-radius-full);
+  cursor: pointer;
 }

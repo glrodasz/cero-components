@@ -1,12 +1,13 @@
-import Icon, { options } from '.'
+import { Icon, styles, options } from '.'
+
 import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Icon)
-const ListTemplate = getListTemplate(Icon)
+const Template = getTemplate(Icon, styles)
+const ListTemplate = getListTemplate(Icon, styles)
 
 export default {
   title: 'Atoms/Icon',

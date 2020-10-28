@@ -35,3 +35,7 @@
   border: var(--border-width-thin) solid var(--color-gray-300);
   background: var(--color-primary-inverted);
 }
+
+.is-clickable {
+  cursor: pointer;
+}

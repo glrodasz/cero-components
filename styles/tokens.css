@@ -2,6 +2,7 @@
   --color-brand-slate-blue: #7559d1;
   --color-brand-medium-purple: #9879e9;
   --color-brand-blue-moon: #eff1fd;
+  --color-brand-amaranth: #eb2d52;
   --color-brand-mandy: #eb4e58;
   --color-brand-east-bay: #455970;
   --color-brand-regent-gray: #7e858c;
@@ -200,7 +201,8 @@
   --color-font-muted: #7e858c;
   --color-font-highlight: #b7b7b7;
   --color-font-inverted: #fff;
-  --color-secondary: #eb4e58;
+  --color-secondary: #eb2d52;
+  --color-secondary-muted: #eb4e58;
   --color-secondary-inverted: #fff;
 
   --background-color-primary: #f9f9f9;
@@ -210,9 +212,15 @@
 
   --button-max-width: 300px;
 
+  --button-border-radius-base: 30px;
+  --button-border-radius-sm: 10px;
+  --button-border-radius-md: 20px;
+
   --input-height: 38px;
   --input-max-width: 400px;
   --input-background: #fff;
+  --input-border-radius: 30px;
+  --input-font-size: 1.3rem;
 
   --picture-border: 1px solid #cbd5e0;
 }

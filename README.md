@@ -42,6 +42,7 @@ index.js
 - Create Picture Atom
 - Create Avatar Atom
 - Create Icon Atom
+- Create Check Atom
 - Create Card Atom
 - Create Spacer Layout
 - Create Layout Components
@@ -65,11 +66,12 @@ Note: Idiomatic CSS order based on https://css-tricks.com/poll-results-how-do-yo
 3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing)
 4. Configure Chromatic in https://www.chromatic.com/
 5. FIXME: Configure Chromatic with GitHub. Review with checks should with got with the Pull request.
-6. TODO: Creating unit tests for `scripts` and `utils`
+6. TODO: Creating unit tests for `scripts`, `utils` and `helpers`
 7. TODO: Create a coverage script with `instanbul`.
 8. TODO: Upload the coverage HTML report to a service per pull request
 ### NPM scripts
-- TODO: Create an script to watch when the `tokens/index.js` changes and build it. This script should be part of `yarn dev`.
+- Create an script to watch when the `tokens/index.js` changes and build it. This script should be part of `yarn dev`.
+- Improve scripts structure with `concurrently` and `npm-run-all`
 ### Github Actions
 - FIXME: Create a GitHub action for a pull request
 - FIXME: Create a GitHub action for a release the library

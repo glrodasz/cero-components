@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
+import Heading from '../Heading'
+
 import styles from './Button.module.css'
 import { options } from './contants'
 
@@ -14,7 +16,9 @@ const Button = ({ type, children, isMuted, isInline, onClick }) => (
     })}
     onClick={onClick}
   >
-    {children}
+    <Heading color={type === 'primary' ? 'inverted' : 'primary'}>
+      {children}
+    </Heading>
   </button>
 )
 

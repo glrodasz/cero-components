@@ -1,6 +1,6 @@
-export const handleClick = ({ setEditMode, isFocused, inputRef }) => () => {
+export const handleClick = ({ setEditMode, inputRef }) => () => {
   setEditMode(true)
-  !isFocused && inputRef?.current?.focus()
+  inputRef?.current?.focus()
 }
 
 export const handleChange = ({ setInputValue }) => (event) => {

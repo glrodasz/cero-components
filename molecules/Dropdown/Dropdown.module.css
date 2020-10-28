@@ -19,7 +19,7 @@
   padding: 10px 30px 10px 20px;
   border: var(--border-width-thin) solid var(--color-primary);
   background: var(--input-background);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--input-border-radius);
   color: var(--color-font-base);
   transition: box-shadow 0.2s ease;
 }

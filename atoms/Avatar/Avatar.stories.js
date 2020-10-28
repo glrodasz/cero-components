@@ -1,4 +1,4 @@
-import Avatar, { options } from '.'
+import { Avatar, styles, options } from '.'
 
 import {
   getTemplate,
@@ -6,8 +6,8 @@ import {
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Avatar)
-const ListTemplate = getListTemplate(Avatar)
+const Template = getTemplate(Avatar, styles)
+const ListTemplate = getListTemplate(Avatar, styles)
 
 export default {
   title: 'Atoms/Avatar',

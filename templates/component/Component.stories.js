@@ -1,15 +1,23 @@
-import Component from '.'
-import { getTemplate, getListTemplate } from '../../helpers/storybook'
+import { Component, styles, options } from '.'
 
-const Template = getTemplate(Component)
-const ListTemplate = getListTemplate(Component)
+import {
+  getTemplate,
+  getListTemplate,
+  getOptionsArgTypes,
+} from '../../helpers/storybook'
+
+const Template = getTemplate(Component, styles)
+const ListTemplate = getListTemplate(Component, styles)
 
 export default {
   title: 'Atomic/Component',
   component: Component,
   args: {},
-  argTypes: {},
+  argTypes: {
+    types: getOptionsArgTypes(options.types),
+  },
 }
 
-export const Default = () => Template.bind({})
-export const List = () => ListTemplate.bind({})
+export const Default = Template.bind({})
+export const List = ListTemplate.bind({})
+List.args = { items: options.types.map((type) => ({ type })) }

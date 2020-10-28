@@ -6,7 +6,7 @@ import styles from './Icon.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const Icon = ({ id, className, onClick, name, size, styles }) => {
+export const Icon = ({ id, className, onClick, name, size, styles }) => {
   const icon = iconsMap[name]
   const mappedSize = mapSize(size)
 
@@ -46,6 +46,7 @@ Icon.defaultProps = {
   size: 'md',
   color: 'base',
   background: 'transparent',
+  styles: () => {},
 }
 
 export default withStyles(styles)(Icon)

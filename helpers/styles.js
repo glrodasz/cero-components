@@ -17,7 +17,7 @@ export const getObjectClasses = (stylesModule, arg) => {
   }, {})
 }
 
-export const getClasses = (stylesModule) => (props) => (...args) => {
+export const getClasses = (stylesModule = {}) => (props) => (...args) => {
   return classNames(
     args.map((arg) => {
       if (Array.isArray(arg)) {

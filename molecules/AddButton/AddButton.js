@@ -39,7 +39,7 @@ const AddButton = ({
         [styles['is-editable']]: editMode,
         [styles['is-focused']]: isFocused,
       })}
-      onClick={handleClick({ setEditMode, isFocused, inputRef })}
+      onClick={handleClick({ setEditMode, inputRef })}
     >
       {editMode ? (
         <div className={styles['edit-container']}>
@@ -66,6 +66,7 @@ const AddButton = ({
           }) && (
             <>
               <Paragraph
+                size="sm"
                 className="help-text"
                 color={isFocused ? 'muted' : 'inverted'}
               >

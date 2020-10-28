@@ -8,7 +8,7 @@ import { options } from './contants'
 import { mapSize } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
-const Avatar = ({ src, size, styles }) => {
+export const Avatar = ({ src, size, styles }) => {
   return (
     <div className={styles('avatar')}>
       <Picture
@@ -30,6 +30,7 @@ Avatar.propTypes = {
 
 Avatar.defaultProps = {
   size: 'md',
+  styles: () => {},
 }
 
 export default withStyles(styles)(Avatar)

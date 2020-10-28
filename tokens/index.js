@@ -6,6 +6,7 @@ const choices = {
       slateBlue: '#7559d1',
       mediumPurple: '#9879e9',
       blueMoon: '#eff1fd',
+      amaranth: '#eb2d52',
       mandy: '#eb4e58',
       eastBay: '#455970',
       regentGray: '#7e858c',
@@ -140,7 +141,7 @@ const choices = {
     lg: 40,
   },
   // https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints
-  // FIXME: Custom properties can't be used in @media queries
+  // FIXME: Custom properties can't be used in @media queries https://github.com/postcss/postcss-custom-media/blob/master/INSTALL.md#webpack
   mediaQuery: {
     minWidth: {
       sm: '576px',
@@ -239,7 +240,8 @@ const decisions = {
     fontMuted: choices.color.brand.regentGray,
     fontHighlight: choices.color.brand.loblolly,
     fontInverted: choices.color.base.white,
-    secondary: choices.color.brand.mandy,
+    secondary: choices.color.brand.amaranth,
+    secondaryMuted: choices.color.brand.mandy,
     secondaryInverted: choices.color.base.white,
   },
   backgroundColor: {
@@ -251,11 +253,18 @@ const decisions = {
   },
   button: {
     maxWidth: '300px',
+    borderRadius: {
+      base: choices.borderRadius.lg,
+      sm: choices.borderRadius.sm,
+      md: choices.borderRadius.md,
+    },
   },
   input: {
     height: '38px',
     maxWidth: '400px',
     background: choices.color.base.white,
+    borderRadius: choices.borderRadius.lg,
+    fontSize: choices.fontSize.sm,
   },
   picture: {
     border: `${choices.borderWidth.thin} solid ${choices.color.gray[400]}`,
