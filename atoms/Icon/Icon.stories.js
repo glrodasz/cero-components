@@ -27,6 +27,9 @@ export default {
 
 export const Default = Template.bind({})
 
+export const Clickable = Template.bind({})
+Clickable.args = { isClickable: true }
+
 export const Names = ListTemplate.bind({})
 Names.args = {
   items: options.names.map((name) => ({ name })),

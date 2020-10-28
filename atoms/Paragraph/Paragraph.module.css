@@ -1,3 +1,7 @@
+.paragraph {
+  width: 100%;
+}
+
 .color-base {
   color: var(--color-font-base);
 }
@@ -28,4 +32,8 @@
 
 .weight-medium {
   font-weight: var(--font-weight-medium);
+}
+
+.is-striked {
+  text-decoration: line-through;
 }
