@@ -21,7 +21,7 @@ const Spacer = ({ size, isVisible }) => (
 )
 
 Spacer.propTypes = {
-  size: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   isVisible: PropTypes.bool,
 }
 

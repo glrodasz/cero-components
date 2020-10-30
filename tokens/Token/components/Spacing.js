@@ -18,7 +18,7 @@ const Spacing = ({ label, value }) => {
 
 Spacing.propTypes = {
   label: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.number.isRequired,
 }
 
 export default Spacing

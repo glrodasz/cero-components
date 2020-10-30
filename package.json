@@ -26,7 +26,7 @@
     "lint:js": "eslint --cache --fix",
     "lint": "run-p lint:*",
     "cc": "node ./scripts/create-component",
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "keywords": [
     "react",

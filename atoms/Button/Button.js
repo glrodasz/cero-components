@@ -7,7 +7,7 @@ import Heading from '../Heading'
 import styles from './Button.module.css'
 import { options } from './contants'
 
-const Button = ({ type, children, isMuted, isInline, onClick }) => (
+const Button = ({ type, children, addons, isMuted, isInline, onClick }) => (
   <button
     className={classNames(styles.button, {
       [styles[`type-${type}`]]: type,
@@ -16,15 +16,21 @@ const Button = ({ type, children, isMuted, isInline, onClick }) => (
     })}
     onClick={onClick}
   >
+    {addons && addons.prepend}
     <Heading color={type === 'primary' ? 'inverted' : 'primary'}>
       {children}
     </Heading>
+    {addons && addons.append}
   </button>
 )
 
 Button.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.string.isRequired,
   type: PropTypes.oneOf(options.types),
+  addons: PropTypes.shape({
+    prepend: PropTypes.node,
+    append: PropTypes.node,
+  }),
   onClick: PropTypes.func,
   isInline: PropTypes.bool,
   isMuted: PropTypes.bool,

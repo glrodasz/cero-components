@@ -17,7 +17,7 @@ const FontSize = ({ label, value, children }) => {
 
 FontSize.propTypes = {
   label: PropTypes.string.isRequired,
-  value: PropTypes.arrayOf(PropTypes.string).isRequired,
+  value: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
 }
 

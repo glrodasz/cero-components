@@ -21,6 +21,7 @@ Helper.propTypes = {
   label: PropTypes.string.isRequired,
   value: PropTypes.oneOfType([
     PropTypes.string,
+    PropTypes.number,
     PropTypes.arrayOf(PropTypes.string),
   ]),
   children: PropTypes.node.isRequired,

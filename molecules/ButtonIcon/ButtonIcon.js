@@ -8,10 +8,22 @@ import Icon from '../../atoms/Icon'
 import { options } from './constants'
 
 const ButtonIcon = ({ children, type, icon }) => (
-  <Button type={type} isInline={true}>
+  <Button
+    type={type}
+    isInline={true}
+    addons={{
+      append: (
+        <>
+          <Spacer.Vertical size="xs"></Spacer.Vertical>
+          <Icon
+            name={icon}
+            color={type === 'primary' ? 'inverted' : 'primary'}
+          />
+        </>
+      ),
+    }}
+  >
     {children}
-    <Spacer.Vertical size="xs"></Spacer.Vertical>
-    <Icon name={icon} color={type === 'primary' ? 'inverted' : 'primary'} />
   </Button>
 )
 

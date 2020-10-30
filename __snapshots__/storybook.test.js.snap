@@ -1,0 +1,7345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Avatar Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 44,
+            "maxWidth": 44,
+          }
+        }
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Avatar Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 22,
+            "maxWidth": 22,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 44,
+            "maxWidth": 44,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 66,
+            "maxWidth": 66,
+          }
+        }
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Inline 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Muted 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary is-muted"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+  <button
+    className="button type-secondary"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-primary size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+  <button
+    className="button type-tertiary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-primary size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Card Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    className="card color-primary size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    className="card color-secondary size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Card Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Card Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    className="card color-base size-md"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    className="card color-base size-lg"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Check Checked 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon color-muted size-md background-transparent is-clickable"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="5 1 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M14.93 20.86C9.45472 20.86 5 16.4053 5 10.93C5 5.45472 9.45472 1 14.93 1C20.4053 1 24.86 5.45472 24.86 10.93C24.86 16.4053 20.4053 20.86 14.93 20.86ZM14.93 2.09095C10.0559 2.09095 6.09095 6.05591 6.09095 10.93C6.09095 15.8041 10.0559 19.769 14.93 19.769C19.8041 19.769 23.769 15.8041 23.769 10.93C23.769 6.05591 19.8041 2.09095 14.93 2.09095Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.744 15.221L8.67871 10.1423L9.45059 9.37155L13.7458 13.6773L20.41 7.01251L21.1807 7.78439L13.744 15.221Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Check Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <span
+    className="check"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading color-inverted"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading size-xs"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-sm"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-md"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-lg"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-xl"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-2xl"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Weights 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading weight-normal"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon background-transparent"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-base"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-highlight"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-inverted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-muted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-spotlight"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Clickable 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon is-clickable"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon color-base"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-highlight"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-muted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-primary"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-inverted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Names 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-1 -1 19 19"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M9.07 18.14C4.06891 18.14 0 14.0711 0 9.07C0 4.06891 4.06891 0 9.07 0C14.0711 0 18.14 4.06891 18.14 9.07C18.14 14.0711 14.0711 18.14 9.07 18.14ZM9.07 0.996468C4.61804 0.996468 0.996468 4.61804 0.996468 9.07C0.996468 13.522 4.61804 17.1435 9.07 17.1435C13.522 17.1435 17.1435 13.522 17.1435 9.07C17.1435 4.61804 13.522 0.996468 9.07 0.996468Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.539 9.95834L9.06994 5.4887L4.60084 9.95834L3.89581 9.25331L9.06994 4.07971L14.2441 9.25331L13.539 9.95834Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M8.5343 4.78418H9.60577V13.8917H8.5343V4.78418Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 15 9"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-3 0 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M9.707 19.414L0 9.707L9.707 0L11.121 1.414L2.828 9.707L11.121 18L9.707 19.414Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 9 6"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.28864 5.121L4.46988 1.30224L0.651119 5.121L0 4.46988L4.46988 0L8.93976 4.46988L8.28864 5.121Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 28 28"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M27.86 13.93C27.86 21.6108 21.6108 27.86 13.93 27.86C6.24916 27.86 -2.73159e-07 21.6108 -6.08899e-07 13.93C-9.44639e-07 6.24917 6.24916 1.6893e-05 13.93 1.65572e-05C21.6108 1.62215e-05 27.86 6.24917 27.86 13.93ZM1.53041 13.93C1.53041 20.7675 7.09253 26.3296 13.93 26.3296C20.7674 26.3296 26.3296 20.7675 26.3296 13.93C26.3296 7.09254 20.7674 1.53042 13.93 1.53042C7.09252 1.53042 1.5304 7.09254 1.53041 13.93Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M10 19L10 9L12 9L12 19L10 19Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M16 19L16 9L18 9L18 19L16 19Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="5 1 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M14.93 20.86C9.45472 20.86 5 16.4053 5 10.93C5 5.45472 9.45472 1 14.93 1C20.4053 1 24.86 5.45472 24.86 10.93C24.86 16.4053 20.4053 20.86 14.93 20.86ZM14.93 2.09095C10.0559 2.09095 6.09095 6.05591 6.09095 10.93C6.09095 15.8041 10.0559 19.769 14.93 19.769C19.8041 19.769 23.769 15.8041 23.769 10.93C23.769 6.05591 19.8041 2.09095 14.93 2.09095Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.744 15.221L8.67871 10.1423L9.45059 9.37155L13.7458 13.6773L20.41 7.01251L21.1807 7.78439L13.744 15.221Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M4.68396 9.4093H15.316V10.5906H4.68396V9.4093Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M9.40942 4.68396H10.5908V15.316H9.40942V4.68396Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-1 0 12 12"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 19"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M7.78343 18.086C7.23221 18.086 6.71447 17.8722 6.32617 17.4839L0.602738 11.7605C-0.200913 10.9568 -0.200913 9.6496 0.602738 8.84595L8.25802 1.19066C8.9258 0.522888 10.1879 0 11.132 0H16.026C17.1619 0 18.0866 0.924069 18.0866 2.06064V6.95467C18.0866 7.8987 17.5638 9.16084 16.896 9.82862L9.24069 17.4839C8.85239 17.8722 8.33465 18.086 7.78343 18.086ZM11.132 1.2879C10.5196 1.2879 9.60195 1.66783 9.16857 2.10121L1.51328 9.7565C1.21192 10.0579 1.21192 10.5486 1.51328 10.8499L7.23672 16.5734C7.52714 16.8625 8.03972 16.8625 8.33015 16.5734L15.9854 8.91807C16.4188 8.48469 16.7987 7.56706 16.7987 6.95467V2.06064C16.7987 1.63499 16.4517 1.2879 16.026 1.2879H11.132Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M12.9353 7.68236C11.5398 7.68236 10.4045 6.54708 10.4045 5.15164C10.4045 3.7562 11.5398 2.62091 12.9353 2.62091C14.3307 2.62091 15.466 3.7562 15.466 5.15164C15.466 6.54708 14.3307 7.68236 12.9353 7.68236ZM12.9353 3.81866C12.1999 3.81866 11.6023 4.41625 11.6023 5.15164C11.6023 5.88703 12.1999 6.48461 12.9353 6.48461C13.6707 6.48461 14.2682 5.88703 14.2682 5.15164C14.2682 4.41625 13.6707 3.81866 12.9353 3.81866Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-1 0 21 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.1265 15.143L9.40942 11.4259V4.68402H10.5908V10.9368L13.9617 14.3078L13.1265 15.143Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 14 15"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M1.01693 15L0 14.5538C0.308723 13.8561 1.22056 13.4481 2.2775 12.975C3.29682 12.5187 4.56575 11.9509 4.56575 11.2777V10.3614C4.20448 10.0594 3.59241 9.41 3.49627 8.43355C3.20367 8.15831 2.71819 7.59711 2.71819 6.90245C2.71819 6.48066 2.88539 6.14048 3.03229 5.92422C2.94272 5.47204 2.77432 4.52538 2.77432 3.83073C2.77432 1.50369 4.39855 0 6.91192 0C7.63327 0 8.50928 0.193026 8.99714 0.714314C10.1365 0.914489 11.0501 2.26031 11.0501 3.83073C11.0501 4.83815 10.8728 5.66685 10.7659 6.07673C10.8847 6.2775 11.0131 6.57538 11.0131 6.92092C11.0131 7.70196 10.6178 8.20716 10.2488 8.47704C10.1443 9.43979 9.59429 10.0606 9.25869 10.3549V11.2777C9.25869 11.8502 10.2989 12.2351 11.3051 12.6074C12.4492 13.0304 13.6328 13.4683 14 14.4257L12.9616 14.8213C12.7753 14.3328 11.7888 13.9681 10.9187 13.6464C9.62056 13.1657 8.1486 12.6211 8.1486 11.2777V9.77997L8.40776 9.61732C8.43404 9.60005 9.15598 9.11629 9.15598 8.14997V7.77524L9.50471 7.63583C9.56323 7.60902 9.90241 7.43089 9.90241 6.92092C9.90241 6.76483 9.78298 6.59028 9.74118 6.54142L9.53875 6.30431L9.63191 6.00226C9.63489 5.99273 9.94003 5.0562 9.94003 3.83073C9.94003 2.78517 9.33931 1.79681 8.70335 1.79681H8.38447L8.22384 1.52216C8.10621 1.32139 7.607 1.10811 6.91192 1.10811C5.01659 1.10811 3.88441 2.12567 3.88441 3.83073C3.88441 4.63619 4.16746 5.93316 4.17044 5.94626L4.23613 6.24653L4.01638 6.461C4.01638 6.461 3.82828 6.65939 3.82828 6.90245C3.82828 7.20927 4.19731 7.59115 4.37586 7.72818L4.59202 7.89439L4.59382 8.16844C4.59382 9.08114 5.38324 9.59588 5.41727 9.61732L5.67285 9.78056L5.67584 11.2777C5.67584 12.6688 4.11192 13.3688 2.73133 13.986C2.06492 14.2839 1.15308 14.6926 1.01693 15Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-2 0 14 15"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 14V12H2V14H0ZM4 14V12H6V14H4ZM8 14V12H10V14H8ZM0 10V8H2V10H0ZM4 10V8H6V10H4ZM8 10V8H10V10H8ZM0 6V4H2V6H0ZM4 6V4H6V6H4ZM8 6V4H10V6H8ZM0 2V0H2V2H0ZM4 2V0H6V2H4ZM8 2V0H10V2H8Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon size-sm"
+    style={
+      Object {
+        "height": 25,
+        "width": 25,
+      }
+    }
+  >
+    <svg
+      height={25}
+      viewBox="0 0 19 20"
+      width={25}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon size-md"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon size-lg"
+    style={
+      Object {
+        "height": 50,
+        "width": 50,
+      }
+    }
+  >
+    <svg
+      height={50}
+      viewBox="0 0 19 20"
+      width={50}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon size-xl"
+    style={
+      Object {
+        "height": 70,
+        "width": 70,
+      }
+    }
+  >
+    <svg
+      height={70}
+      viewBox="0 0 19 20"
+      width={70}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Inline 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input is-inline"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Value 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value="Others mainly cakehole Thorin moldy facial."
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="paragraph color-base size-md weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+  <div
+    className="paragraph color-muted size-md weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+  <div
+    className="paragraph color-inverted size-md weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="paragraph color-base size-md weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="paragraph color-base size-sm weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+  <div
+    className="paragraph color-base size-md weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+  <div
+    className="paragraph color-base size-lg weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Weights 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="paragraph color-base size-md weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+  <div
+    className="paragraph color-base size-md weight-medium"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Border 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture with-border"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Height 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/800"
+      style={
+        Object {
+          "height": 400,
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Rounded 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Width 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/800/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 400,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Layout/CenteredContent Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="centered-content is-visible"
+  >
+    Farthings pulled strain? Half they'll greater land sordid Elessar. Glamdring um 17 13 motion? Creaked fate spawning chief lords loved loveliest ashes Elfs witness. Brook born Caradhras dining raining! Seeing-stones taking unlost working. A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to. Oakenshield despite distinct prosperous wields relight dark weighed leader reaches rid honor. Moments poison Sackville-Bagginses echoes dozens fend get. Scales exist apple Gundabad retaken bunch agreeable mantle cannot name's seasoning private.
+    Brave dry defeats? Remembered unleashed Denethor niceties legacy. Streets cares pretty Brandybucks ostler. Intact dispatch their expenses suffered flaming bacon should Fili? Jacksie begins hallway needed tracked Gondor's wonderful popularity. Seemed ears perfectly Oakenshield's pale fall animals stabs betrayed grumbling? Stuff awake Brandybuck large done. Curse you and all the halflings!
+    Dared sit torment goes Anárion forgiven west. Summon Bucklebury ship. Terms none Farthings. Tea choose Dwarvish! Leagues gracious carpet payment Brandywine senses very thousand! Don't you leave him, Samwise Gamgee. Firestorm raising Shire reaction mud morninged shines death should! It'll Halflings nab pot drove start. Carpet Lasgalen seen sleepies!
+    Seeing renown knocked battered contend World shepherd. Roof sautéed kingdom agree curtain lived preparing down material Galion appearance! Faramir one-fourteenth study talked amongst fisherman barren recoil responsible. There is one Dwarf yet in Moria who still draws breath. Boats wait exaggerate guessed Muil usurper suffice. Unspoken swears stands serpent depart Mithril. Ugly threat Dwarf possessions yours homage long-term unmade. Well-earned suffice tapestry tongue piled smoke lacerations talisman helps Dragon-Slayer crown? Blanket shan't dare appearances hours grave Muil.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/Container Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container is-visible"
+  >
+    Farthings pulled strain? Half they'll greater land sordid Elessar. Glamdring um 17 13 motion? Creaked fate spawning chief lords loved loveliest ashes Elfs witness. Brook born Caradhras dining raining! Seeing-stones taking unlost working. A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to. Oakenshield despite distinct prosperous wields relight dark weighed leader reaches rid honor. Moments poison Sackville-Bagginses echoes dozens fend get. Scales exist apple Gundabad retaken bunch agreeable mantle cannot name's seasoning private.
+    Brave dry defeats? Remembered unleashed Denethor niceties legacy. Streets cares pretty Brandybucks ostler. Intact dispatch their expenses suffered flaming bacon should Fili? Jacksie begins hallway needed tracked Gondor's wonderful popularity. Seemed ears perfectly Oakenshield's pale fall animals stabs betrayed grumbling? Stuff awake Brandybuck large done. Curse you and all the halflings!
+    Dared sit torment goes Anárion forgiven west. Summon Bucklebury ship. Terms none Farthings. Tea choose Dwarvish! Leagues gracious carpet payment Brandywine senses very thousand! Don't you leave him, Samwise Gamgee. Firestorm raising Shire reaction mud morninged shines death should! It'll Halflings nab pot drove start. Carpet Lasgalen seen sleepies!
+    Seeing renown knocked battered contend World shepherd. Roof sautéed kingdom agree curtain lived preparing down material Galion appearance! Faramir one-fourteenth study talked amongst fisherman barren recoil responsible. There is one Dwarf yet in Moria who still draws breath. Boats wait exaggerate guessed Muil usurper suffice. Unspoken swears stands serpent depart Mithril. Ugly threat Dwarf possessions yours homage long-term unmade. Well-earned suffice tapestry tongue piled smoke lacerations talisman helps Dragon-Slayer crown? Blanket shan't dare appearances hours grave Muil.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/FullHeightContent Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="full-height-content is-visible"
+  >
+    <div
+      className="content"
+    >
+      Mice defiling required Bilbo sailing unspoiled this hunting. 14th refuge knowing breath Middle-earth sack demon children?
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": 15,
+        }
+      }
+    />
+    <div
+      className="footer"
+    >
+      Ambition living aid indeed mutton suffered l failing kindness Éothain? Red others Goblin-town spot stuff riddles hero?
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer is-visible"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 0,
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer is-visible"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 0,
+        "width": 0,
+      }
+    }
+  />
+  <div
+    className="spacer is-visible"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 5,
+        "width": 5,
+      }
+    }
+  />
+  <div
+    className="spacer is-visible"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 15,
+        "width": 15,
+      }
+    }
+  />
+  <div
+    className="spacer is-visible"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 20,
+        "width": 20,
+      }
+    }
+  />
+  <div
+    className="spacer is-visible"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": 40,
+        "width": 40,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 5,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 15,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 20,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 40,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer vertical is-visible"
+    style={
+      Object {
+        "height": 100,
+        "maxHeight": 100,
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer vertical is-visible"
+    style={
+      Object {
+        "height": 100,
+        "maxHeight": 100,
+        "width": 0,
+      }
+    }
+  />
+  <div
+    className="spacer vertical is-visible"
+    style={
+      Object {
+        "height": 100,
+        "maxHeight": 100,
+        "width": 5,
+      }
+    }
+  />
+  <div
+    className="spacer vertical is-visible"
+    style={
+      Object {
+        "height": 100,
+        "maxHeight": 100,
+        "width": 15,
+      }
+    }
+  />
+  <div
+    className="spacer vertical is-visible"
+    style={
+      Object {
+        "height": 100,
+        "maxHeight": 100,
+        "width": 20,
+      }
+    }
+  />
+  <div
+    className="spacer vertical is-visible"
+    style={
+      Object {
+        "height": 100,
+        "maxHeight": 100,
+        "width": 40,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Molecules/AddButton Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="add-button type-primary"
+    onClick={[Function]}
+  >
+    <div
+      className="icon color-base size-md background-highlight"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 20 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M4.68396 9.4093H15.316V10.5906H4.68396V9.4093Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M9.40942 4.68396H10.5908V15.316H9.40942V4.68396Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
+        }
+      }
+    />
+    <div
+      className="paragraph color-base size-md weight-medium"
+    >
+      Caves they've pick stealth Dwarf?
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/AddButton Edit Mode 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="add-button type-primary is-editable"
+    onClick={[Function]}
+  >
+    <div
+      className="edit-container"
+    >
+      <input
+        autoFocus={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        type="text"
+        value="Fixed caught squash wax Silvan sweet-taking keeps."
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/AddButton Help Text 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="add-button type-primary is-editable"
+    onClick={[Function]}
+  >
+    <div
+      className="edit-container"
+    >
+      <input
+        autoFocus={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        type="text"
+        value="Understand bravely halfling's rank balls."
+      />
+      <div
+        className="help-text paragraph color-inverted size-sm weight-normal"
+      >
+        Morgul-rats cripples you'll?
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/AddButton Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="add-button type-primary"
+    onClick={[Function]}
+  >
+    <div
+      className="icon color-base size-md background-highlight"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 20 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M4.68396 9.4093H15.316V10.5906H4.68396V9.4093Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M9.40942 4.68396H10.5908V15.316H9.40942V4.68396Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
+        }
+      }
+    />
+    <div
+      className="paragraph color-base size-md weight-medium"
+    >
+      Caves they've pick stealth Dwarf?
+    </div>
+  </div>
+  <div
+    className="add-button type-secondary"
+    onClick={[Function]}
+  >
+    <div
+      className="icon color-highlight size-md"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 20 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M4.68396 9.4093H15.316V10.5906H4.68396V9.4093Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M9.40942 4.68396H10.5908V15.316H9.40942V4.68396Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
+        }
+      }
+    />
+    <div
+      className="paragraph color-base size-md weight-medium"
+    >
+      Caves they've pick stealth Dwarf?
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-secondary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-primary size-md weight-bold"
+    >
+      Cowards Agreed
+    </header>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 5,
+        }
+      }
+    />
+    <div
+      className="icon color-primary size-md background-transparent"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 19 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      Cowards Agreed
+    </header>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 5,
+        }
+      }
+    />
+    <div
+      className="icon color-inverted size-md background-transparent"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 19 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+  <button
+    className="button type-secondary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-primary size-md weight-bold"
+    >
+      Cowards Agreed
+    </header>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 5,
+        }
+      }
+    />
+    <div
+      className="icon color-primary size-md background-transparent"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 19 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Dropdown Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="dropdown"
+  >
+    <div
+      className="dropdown-icon icon color-base size-md background-highlight"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 15 9"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <select
+      className="dropdown-select"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value={800}
+      >
+        8:00 AM
+      </option>
+      <option
+        value={1300}
+      >
+        1:00 PM
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Dropdown Inline 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="dropdown is-inline"
+  >
+    <div
+      className="dropdown-icon icon color-base size-md background-highlight"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 15 9"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <select
+      className="dropdown-select"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value={800}
+      >
+        8:00 AM
+      </option>
+      <option
+        value={1300}
+      >
+        1:00 PM
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Dropdown Value 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="dropdown"
+  >
+    <div
+      className="dropdown-icon icon color-base size-md background-highlight"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 15 9"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <select
+      className="dropdown-select"
+      onChange={[Function]}
+      value={1300}
+    >
+      <option
+        value={800}
+      >
+        8:00 AM
+      </option>
+      <option
+        value={1300}
+      >
+        1:00 PM
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Checked 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm is-clickable"
+    onClick={[Function]}
+  >
+    <div
+      className="task"
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="icon color-muted size-md background-transparent is-clickable"
+          style={
+            Object {
+              "height": 35,
+              "width": 35,
+            }
+          }
+        >
+          <svg
+            height={35}
+            viewBox="5 1 20 20"
+            width={35}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M14.93 20.86C9.45472 20.86 5 16.4053 5 10.93C5 5.45472 9.45472 1 14.93 1C20.4053 1 24.86 5.45472 24.86 10.93C24.86 16.4053 20.4053 20.86 14.93 20.86ZM14.93 2.09095C10.0559 2.09095 6.09095 6.05591 6.09095 10.93C6.09095 15.8041 10.0559 19.769 14.93 19.769C19.8041 19.769 23.769 15.8041 23.769 10.93C23.769 6.05591 19.8041 2.09095 14.93 2.09095Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M13.744 15.221L8.67871 10.1423L9.45059 9.37155L13.7458 13.6773L20.41 7.01251L21.1807 7.78439L13.744 15.221Z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 5,
+            }
+          }
+        />
+        <div
+          className="paragraph color-muted size-md weight-medium is-striked"
+        >
+          Sir Goblin-town feels characters ruined precautions.
+        </div>
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
+          }
+        }
+      />
+      <div
+        onClick={[Function]}
+      >
+        <div
+          className="icon color-base size-sm background-inverted is-clickable"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": 25,
+              "width": 25,
+            }
+          }
+        >
+          <svg
+            height={25}
+            viewBox="-1 0 12 12"
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm is-clickable"
+    onClick={[Function]}
+  >
+    <div
+      className="task"
+    >
+      <div
+        className="content"
+      >
+        <span
+          className="check"
+        />
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 5,
+            }
+          }
+        />
+        <div
+          className="paragraph color-base size-md weight-medium"
+        >
+          Sir Goblin-town feels characters ruined precautions.
+        </div>
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
+          }
+        }
+      />
+      <div
+        onClick={[Function]}
+      >
+        <div
+          className="icon color-base size-sm background-inverted is-clickable"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": 25,
+              "width": 25,
+            }
+          }
+        >
+          <svg
+            height={25}
+            viewBox="-1 0 12 12"
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Long 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm is-clickable"
+    onClick={[Function]}
+  >
+    <div
+      className="task"
+    >
+      <div
+        className="content"
+      >
+        <span
+          className="check"
+        />
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 5,
+            }
+          }
+        />
+        <div
+          className="paragraph color-base size-md weight-medium"
+        >
+          Swords are no more use here. Moments shiny rings Cirith nowhere garrison ax pointy endless mention trousers. Retribution Frodo's wrong? Them leaf question require spared houses sapphire Balin. Kind pouring Lothlórien ragged retribution covers lair less goings recognizes unleash. Whence Precious token hidden hire bandy make farming. Shards farmer unfriendly handle Bain gongs. Mend recall sorry oncoming roll unmade cries visitors Lobelia Sackville-Baggins was bidden. Dank rather between short doomed Mellon tomb consequence girl crescent attacking.
+        </div>
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
+          }
+        }
+      />
+      <div
+        onClick={[Function]}
+      >
+        <div
+          className="icon color-base size-sm background-inverted is-clickable"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": 25,
+              "width": 25,
+            }
+          }
+        >
+          <svg
+            height={25}
+            viewBox="-1 0 12 12"
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="card color-base size-sm is-clickable"
+    onClick={[Function]}
+  >
+    <div
+      className="task"
+    >
+      <div
+        className="content"
+      >
+        <span
+          className="check"
+        />
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 5,
+            }
+          }
+        />
+        <div
+          className="paragraph color-base size-md weight-medium"
+        >
+          Sir Goblin-town feels characters ruined precautions.
+        </div>
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
+          }
+        }
+      />
+      <div
+        onClick={[Function]}
+      >
+        <div
+          className="icon color-base size-sm background-inverted is-clickable"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": 25,
+              "width": 25,
+            }
+          }
+        >
+          <svg
+            height={25}
+            viewBox="-1 0 12 12"
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card color-base size-sm is-clickable"
+    onClick={[Function]}
+  >
+    <div
+      className="task"
+    >
+      <div
+        className="content"
+      >
+        <span
+          className="check"
+        />
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 5,
+            }
+          }
+        />
+        <div
+          className="paragraph color-base size-md weight-medium"
+        >
+          Sir Goblin-town feels characters ruined precautions.
+        </div>
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
+          }
+        }
+      />
+      <div
+        onClick={[Function]}
+      >
+        <div
+          className="icon color-base size-sm background-inverted is-clickable"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": 25,
+              "width": 25,
+            }
+          }
+        >
+          <svg
+            height={25}
+            viewBox="-1 0 12 12"
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Backgrounds 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 400,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f9f9f9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--background-color-primary)
+      </span>
+      <span
+        className="label"
+      >
+        #f9f9f9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fcfdfd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--background-color-primary-highlight)
+      </span>
+      <span
+        className="label"
+      >
+        #fcfdfd
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Base 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#000",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-base-black)
+      </span>
+      <span
+        className="label"
+      >
+        #000
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-base-white)
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-base-transparent)
+      </span>
+      <span
+        className="label"
+      >
+        transparent
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Blue 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ebf8ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-100)
+      </span>
+      <span
+        className="label"
+      >
+        #ebf8ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#bee3f8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-200)
+      </span>
+      <span
+        className="label"
+      >
+        #bee3f8
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#90cdf4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-300)
+      </span>
+      <span
+        className="label"
+      >
+        #90cdf4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#63b3ed",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-400)
+      </span>
+      <span
+        className="label"
+      >
+        #63b3ed
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4299e1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-500)
+      </span>
+      <span
+        className="label"
+      >
+        #4299e1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#3182ce",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-600)
+      </span>
+      <span
+        className="label"
+      >
+        #3182ce
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#2b6cb0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-700)
+      </span>
+      <span
+        className="label"
+      >
+        #2b6cb0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#2c5282",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-800)
+      </span>
+      <span
+        className="label"
+      >
+        #2c5282
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#2a4365",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-900)
+      </span>
+      <span
+        className="label"
+      >
+        #2a4365
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Brand 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 400,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7559d1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-slate-blue)
+      </span>
+      <span
+        className="label"
+      >
+        #7559d1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9879e9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-medium-purple)
+      </span>
+      <span
+        className="label"
+      >
+        #9879e9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eff1fd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-blue-moon)
+      </span>
+      <span
+        className="label"
+      >
+        #eff1fd
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eb2d52",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-amaranth)
+      </span>
+      <span
+        className="label"
+      >
+        #eb2d52
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eb4e58",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-mandy)
+      </span>
+      <span
+        className="label"
+      >
+        #eb4e58
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#455970",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-east-bay)
+      </span>
+      <span
+        className="label"
+      >
+        #455970
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7e858c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-regent-gray)
+      </span>
+      <span
+        className="label"
+      >
+        #7e858c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b7b7b7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-loblolly)
+      </span>
+      <span
+        className="label"
+      >
+        #b7b7b7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e8e8e8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-white-lilac)
+      </span>
+      <span
+        className="label"
+      >
+        #e8e8e8
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f9f9f9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-hint-of-red)
+      </span>
+      <span
+        className="label"
+      >
+        #f9f9f9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fcfdfd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-romance)
+      </span>
+      <span
+        className="label"
+      >
+        #fcfdfd
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Decisions 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9879e9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-primary)
+      </span>
+      <span
+        className="label"
+      >
+        #9879e9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7559d1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-primary-muted)
+      </span>
+      <span
+        className="label"
+      >
+        #7559d1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eff1fd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-primary-highlight)
+      </span>
+      <span
+        className="label"
+      >
+        #eff1fd
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-primary-inverted)
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#455970",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-font-base)
+      </span>
+      <span
+        className="label"
+      >
+        #455970
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7e858c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-font-muted)
+      </span>
+      <span
+        className="label"
+      >
+        #7e858c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b7b7b7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-font-highlight)
+      </span>
+      <span
+        className="label"
+      >
+        #b7b7b7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-font-inverted)
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eb2d52",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-secondary)
+      </span>
+      <span
+        className="label"
+      >
+        #eb2d52
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eb4e58",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-secondary-muted)
+      </span>
+      <span
+        className="label"
+      >
+        #eb4e58
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-secondary-inverted)
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9879e9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-primary)
+      </span>
+      <span
+        className="label"
+      >
+        #9879e9
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Gray 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f7fafc",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-100)
+      </span>
+      <span
+        className="label"
+      >
+        #f7fafc
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#edf2f7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-200)
+      </span>
+      <span
+        className="label"
+      >
+        #edf2f7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e2e8f0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-300)
+      </span>
+      <span
+        className="label"
+      >
+        #e2e8f0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#cbd5e0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-400)
+      </span>
+      <span
+        className="label"
+      >
+        #cbd5e0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a0aec0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-500)
+      </span>
+      <span
+        className="label"
+      >
+        #a0aec0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#718096",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-600)
+      </span>
+      <span
+        className="label"
+      >
+        #718096
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4a5568",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-700)
+      </span>
+      <span
+        className="label"
+      >
+        #4a5568
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#2d3748",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-800)
+      </span>
+      <span
+        className="label"
+      >
+        #2d3748
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#1a202c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-gray-900)
+      </span>
+      <span
+        className="label"
+      >
+        #1a202c
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Green 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f0fff4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-100)
+      </span>
+      <span
+        className="label"
+      >
+        #f0fff4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#c6f6d5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-200)
+      </span>
+      <span
+        className="label"
+      >
+        #c6f6d5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9ae6b4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-300)
+      </span>
+      <span
+        className="label"
+      >
+        #9ae6b4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#68d391",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-400)
+      </span>
+      <span
+        className="label"
+      >
+        #68d391
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#48bb78",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-500)
+      </span>
+      <span
+        className="label"
+      >
+        #48bb78
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#38a169",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-600)
+      </span>
+      <span
+        className="label"
+      >
+        #38a169
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#2f855a",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-700)
+      </span>
+      <span
+        className="label"
+      >
+        #2f855a
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#276749",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-800)
+      </span>
+      <span
+        className="label"
+      >
+        #276749
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#22543d",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-green-900)
+      </span>
+      <span
+        className="label"
+      >
+        #22543d
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Indigo 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ebf4ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-100)
+      </span>
+      <span
+        className="label"
+      >
+        #ebf4ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#c3dafe",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-200)
+      </span>
+      <span
+        className="label"
+      >
+        #c3dafe
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a3bffa",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-300)
+      </span>
+      <span
+        className="label"
+      >
+        #a3bffa
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7f9cf5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-400)
+      </span>
+      <span
+        className="label"
+      >
+        #7f9cf5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#667eea",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-500)
+      </span>
+      <span
+        className="label"
+      >
+        #667eea
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#5a67d8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-600)
+      </span>
+      <span
+        className="label"
+      >
+        #5a67d8
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4c51bf",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-700)
+      </span>
+      <span
+        className="label"
+      >
+        #4c51bf
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#434190",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-800)
+      </span>
+      <span
+        className="label"
+      >
+        #434190
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#3c366b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-indigo-900)
+      </span>
+      <span
+        className="label"
+      >
+        #3c366b
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Orange 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fffaf0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-100)
+      </span>
+      <span
+        className="label"
+      >
+        #fffaf0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#feebc8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-200)
+      </span>
+      <span
+        className="label"
+      >
+        #feebc8
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fbd38d",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-300)
+      </span>
+      <span
+        className="label"
+      >
+        #fbd38d
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f6ad55",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-400)
+      </span>
+      <span
+        className="label"
+      >
+        #f6ad55
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ed8936",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-500)
+      </span>
+      <span
+        className="label"
+      >
+        #ed8936
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#dd6b20",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-600)
+      </span>
+      <span
+        className="label"
+      >
+        #dd6b20
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#c05621",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-700)
+      </span>
+      <span
+        className="label"
+      >
+        #c05621
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9c4221",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-800)
+      </span>
+      <span
+        className="label"
+      >
+        #9c4221
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7b341e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-orange-900)
+      </span>
+      <span
+        className="label"
+      >
+        #7b341e
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Pink 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff5f7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-100)
+      </span>
+      <span
+        className="label"
+      >
+        #fff5f7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fed7e2",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-200)
+      </span>
+      <span
+        className="label"
+      >
+        #fed7e2
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fbb6ce",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-300)
+      </span>
+      <span
+        className="label"
+      >
+        #fbb6ce
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f687b3",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-400)
+      </span>
+      <span
+        className="label"
+      >
+        #f687b3
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ed64a6",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-500)
+      </span>
+      <span
+        className="label"
+      >
+        #ed64a6
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d53f8c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-600)
+      </span>
+      <span
+        className="label"
+      >
+        #d53f8c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b83280",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-700)
+      </span>
+      <span
+        className="label"
+      >
+        #b83280
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#97266d",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-800)
+      </span>
+      <span
+        className="label"
+      >
+        #97266d
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#702459",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-pink-900)
+      </span>
+      <span
+        className="label"
+      >
+        #702459
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Purple 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#faf5ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-100)
+      </span>
+      <span
+        className="label"
+      >
+        #faf5ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e9d8fd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-200)
+      </span>
+      <span
+        className="label"
+      >
+        #e9d8fd
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d6bcfa",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-300)
+      </span>
+      <span
+        className="label"
+      >
+        #d6bcfa
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b794f4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-400)
+      </span>
+      <span
+        className="label"
+      >
+        #b794f4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9f7aea",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-500)
+      </span>
+      <span
+        className="label"
+      >
+        #9f7aea
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#805ad5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-600)
+      </span>
+      <span
+        className="label"
+      >
+        #805ad5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6b46c1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-700)
+      </span>
+      <span
+        className="label"
+      >
+        #6b46c1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#553c9a",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-800)
+      </span>
+      <span
+        className="label"
+      >
+        #553c9a
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#44337a",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-purple-900)
+      </span>
+      <span
+        className="label"
+      >
+        #44337a
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Red 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff5f5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-100)
+      </span>
+      <span
+        className="label"
+      >
+        #fff5f5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fed7d7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-200)
+      </span>
+      <span
+        className="label"
+      >
+        #fed7d7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#feb2b2",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-300)
+      </span>
+      <span
+        className="label"
+      >
+        #feb2b2
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fc8181",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-400)
+      </span>
+      <span
+        className="label"
+      >
+        #fc8181
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f56565",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-500)
+      </span>
+      <span
+        className="label"
+      >
+        #f56565
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e53e3e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-600)
+      </span>
+      <span
+        className="label"
+      >
+        #e53e3e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#c53030",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-700)
+      </span>
+      <span
+        className="label"
+      >
+        #c53030
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9b2c2c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-800)
+      </span>
+      <span
+        className="label"
+      >
+        #9b2c2c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#742a2a",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-red-900)
+      </span>
+      <span
+        className="label"
+      >
+        #742a2a
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Teal 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e6fffa",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-100)
+      </span>
+      <span
+        className="label"
+      >
+        #e6fffa
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b2f5ea",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-200)
+      </span>
+      <span
+        className="label"
+      >
+        #b2f5ea
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#81e6d9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-300)
+      </span>
+      <span
+        className="label"
+      >
+        #81e6d9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4fd1c5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-400)
+      </span>
+      <span
+        className="label"
+      >
+        #4fd1c5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#38b2ac",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-500)
+      </span>
+      <span
+        className="label"
+      >
+        #38b2ac
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#319795",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-600)
+      </span>
+      <span
+        className="label"
+      >
+        #319795
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#2c7a7b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-700)
+      </span>
+      <span
+        className="label"
+      >
+        #2c7a7b
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#285e61",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-800)
+      </span>
+      <span
+        className="label"
+      >
+        #285e61
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#234e52",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-teal-900)
+      </span>
+      <span
+        className="label"
+      >
+        #234e52
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Yellow 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fffff0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-100)
+      </span>
+      <span
+        className="label"
+      >
+        #fffff0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fefcbf",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-200)
+      </span>
+      <span
+        className="label"
+      >
+        #fefcbf
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#faf089",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-300)
+      </span>
+      <span
+        className="label"
+      >
+        #faf089
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f6e05e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-400)
+      </span>
+      <span
+        className="label"
+      >
+        #f6e05e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ecc94b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-500)
+      </span>
+      <span
+        className="label"
+      >
+        #ecc94b
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d69e2e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-600)
+      </span>
+      <span
+        className="label"
+      >
+        #d69e2e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b7791f",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-700)
+      </span>
+      <span
+        className="label"
+      >
+        #b7791f
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#975a16",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-800)
+      </span>
+      <span
+        className="label"
+      >
+        #975a16
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#744210",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-yellow-900)
+      </span>
+      <span
+        className="label"
+      >
+        #744210
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/FontFamily Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="font-family"
+      style={
+        Object {
+          "fontFamily": Array [
+            "Quicksand",
+            "Arial",
+            "sans-serif",
+          ],
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-family-sans)
+      </span>
+      <span
+        className="label"
+      >
+        Quicksand, Arial, sans-serif
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/FontFamily Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="font-family"
+      style={
+        Object {
+          "fontFamily": Array [
+            "Quicksand",
+            "Arial",
+            "sans-serif",
+          ],
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-family-sans)
+      </span>
+      <span
+        className="label"
+      >
+        Quicksand, Arial, sans-serif
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-family"
+      style={
+        Object {
+          "fontFamily": Array [
+            "'Roboto Mono'",
+            "'Courier New'",
+            "monospace",
+          ],
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-family-mono)
+      </span>
+      <span
+        className="label"
+      >
+        'Roboto Mono', 'Courier New', monospace
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/FontSize Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "10px",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-base)
+      </span>
+      <span
+        className="label"
+      >
+        10px
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/FontSize Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "10px",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-base)
+      </span>
+      <span
+        className="label"
+      >
+        10px
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "1.1rem",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-xs)
+      </span>
+      <span
+        className="label"
+      >
+        1.1rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "1.3rem",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-sm)
+      </span>
+      <span
+        className="label"
+      >
+        1.3rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "1.5rem",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-md)
+      </span>
+      <span
+        className="label"
+      >
+        1.5rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "1.8rem",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-lg)
+      </span>
+      <span
+        className="label"
+      >
+        1.8rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "2.1rem",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-xl)
+      </span>
+      <span
+        className="label"
+      >
+        2.1rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="font-size"
+      style={
+        Object {
+          "fontSize": "6rem",
+        }
+      }
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--font-size-2xl)
+      </span>
+      <span
+        className="label"
+      >
+        6rem
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Spacing Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="spacer"
+    >
+      <div
+        className="spacer is-visible"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--spacing-none)
+      </span>
+      <span
+        className="label"
+      >
+        0
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Spacing Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="spacer"
+    >
+      <div
+        className="spacer is-visible"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--spacing-none)
+      </span>
+      <span
+        className="label"
+      >
+        0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="spacer"
+    >
+      <div
+        className="spacer is-visible"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 5,
+            "width": 5,
+          }
+        }
+      />
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--spacing-xs)
+      </span>
+      <span
+        className="label"
+      >
+        5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="spacer"
+    >
+      <div
+        className="spacer is-visible"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 15,
+            "width": 15,
+          }
+        }
+      />
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--spacing-sm)
+      </span>
+      <span
+        className="label"
+      >
+        15
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="spacer"
+    >
+      <div
+        className="spacer is-visible"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 20,
+            "width": 20,
+          }
+        }
+      />
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--spacing-md)
+      </span>
+      <span
+        className="label"
+      >
+        20
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="spacer"
+    >
+      <div
+        className="spacer is-visible"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 40,
+            "width": 40,
+          }
+        }
+      />
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--spacing-lg)
+      </span>
+      <span
+        className="label"
+      >
+        40
+      </span>
+    </div>
+  </div>
+</div>
+`;
