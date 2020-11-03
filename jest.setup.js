@@ -1,6 +1,6 @@
 const CONSOLE_LEVELS = ['debug', 'log', 'info', 'warn', 'error']
 
-// By default allowedConsoleLevels is ["error"]
+// Notice that by default the levels will be ["error"]
 const allowedConsoleLevels = CONSOLE_LEVELS.slice(
   CONSOLE_LEVELS.indexOf(process.env.CONSOLE_LEVEL)
 )

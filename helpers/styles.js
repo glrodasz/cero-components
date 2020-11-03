@@ -1,40 +1,36 @@
 import classNames from 'classnames'
 
-export const getDynamicClasses = (stylesModule = {}, props = {}, arg) => {
-  return arg.reduce((pre, cur) => {
-    const prop = props[cur]
-    const className = stylesModule[`${cur}-${prop}`]
+export const getDynamicClasses = (cssModule = {}, props = {}, classes) => {
+  return classes.reduce((classesObject, classKey) => {
+    const propValue = props[classKey]
+    const className = cssModule[`${classKey}-${propValue}`]
 
-    if (className && prop) {
-      return { ...pre, [stylesModule[`${cur}-${prop}`]]: prop }
-    }
-
-    return pre
+    return className && propValue
+      ? { ...classesObject, [className]: propValue }
+      : classesObject
   }, {})
 }
 
-export const getModuleClasses = (stylesModule = {}, arg) => {
-  return (stylesModule && stylesModule[arg]) || arg
+export const getModuleClasses = (cssModule, classKey) => {
+  return (cssModule && cssModule[classKey]) || classKey
 }
 
-export const getObjectClasses = (stylesModule, arg) => {
-  return Object.keys(arg).reduce((pre, cur) => {
-    return { ...pre, [stylesModule[cur]]: arg[cur] }
+export const getObjectClasses = (cssModule, object) => {
+  return Object.keys(object).reduce((classes, classKey) => {
+    const className = cssModule[classKey]
+    return className ? { ...classes, [className]: object[classKey] } : {}
   }, {})
 }
 
-// ['sizes'] => { [styles[`size-${size}`]]: size }
-// 'icon' => styles['icon'] || 'icon'
-// { 'is-editable': isEditable } => { styles['is-editable']: isEditable }
-export const getClasses = (stylesModule = {}) => (props) => (...args) => {
+export const getClasses = (cssModule = {}) => (props) => (...args) => {
   return classNames(
     args.map((arg) => {
       if (Array.isArray(arg)) {
-        return getDynamicClasses(stylesModule, props, arg)
+        return getDynamicClasses(cssModule, props, arg)
       } else if (typeof arg === 'string') {
-        return getModuleClasses(stylesModule, arg)
+        return getModuleClasses(cssModule, arg)
       } else if (typeof arg === 'object') {
-        return getObjectClasses(stylesModule, arg)
+        return getObjectClasses(cssModule, arg)
       }
     })
   )
