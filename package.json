@@ -15,8 +15,9 @@
   "scripts": {
     "build:storybook": "build-storybook",
     "build:tokens": "node ./scripts/build-tokens",
+    "build": "run-s build:*",
     "deploy:vercel": "vercel --prod",
-    "deploy": "run-s build:* deploy:*",
+    "deploy": "run-s build deploy:*",
     "dev:storybook": "start-storybook -p 6006",
     "dev:tokens": "watch 'yarn build:tokens' ./tokens",
     "dev": "concurrently 'npm:dev:*'",
@@ -70,14 +71,5 @@
   },
   "peerDependencies": {
     "react": "16.13.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "yarn lint:js",
-    "*.css": "yarn lint:css"
   }
 }

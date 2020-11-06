@@ -8,7 +8,7 @@ const cssModuleMock = {
 }
 const propsMock = { size: 'sm', color: 'red' }
 
-describe.only('[ helpers / styles ]', () => {
+describe('[ helpers / styles ]', () => {
   describe('#getDynamicClasses', () => {
     describe('when all `props` match the `classes` array', () => {
       it('should return the dynamic classes', () => {

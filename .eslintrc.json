@@ -16,11 +16,11 @@
     "SharedArrayBuffer": "readonly"
   },
   "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    },
-    "ecmaVersion": 11,
-    "sourceType": "module"
+    }
   },
   "plugins": ["react"],
   "settings": {
