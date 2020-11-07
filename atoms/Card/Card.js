@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import styles from './Card.module.css'
-import { options } from './contants'
+import { options } from './constants'
 
 const Card = ({ color, size, onClick, children }) => {
   return (

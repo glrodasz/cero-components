@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import Heading from '../Heading'
 
 import styles from './Button.module.css'
-import { options } from './contants'
+import { options } from './constants'
 
 const Button = ({ type, children, addons, isMuted, isInline, onClick }) => (
   <button
