@@ -1,2 +1,2 @@
 export { default } from './Button'
-export { options } from './contants'
+export { options } from './constants'

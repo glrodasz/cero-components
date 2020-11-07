@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Picture from '../Picture'
 
 import styles from './Avatar.module.css'
-import { options } from './contants'
+import { options } from './constants'
 import { mapSize } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
