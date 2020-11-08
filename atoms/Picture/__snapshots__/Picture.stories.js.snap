@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Picture Border 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture with-border"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Height 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/800"
+      style={
+        Object {
+          "height": 400,
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Rounded 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 200,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Width 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/800/400"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 400,
+        }
+      }
+    />
+  </picture>
+</div>
+`;

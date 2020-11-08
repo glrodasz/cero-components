@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-secondary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-primary size-md weight-bold"
+    >
+      Cowards Agreed
+    </header>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 5,
+        }
+      }
+    />
+    <div
+      className="icon color-primary size-md background-transparent"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 19 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      Cowards Agreed
+    </header>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 5,
+        }
+      }
+    />
+    <div
+      className="icon color-inverted size-md background-transparent"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 19 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+  <button
+    className="button type-secondary is-inline"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-primary size-md weight-bold"
+    >
+      Cowards Agreed
+    </header>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 5,
+        }
+      }
+    />
+    <div
+      className="icon color-primary size-md background-transparent"
+      style={
+        Object {
+          "height": 35,
+          "width": 35,
+        }
+      }
+    >
+      <svg
+        height={35}
+        viewBox="0 0 19 20"
+        width={35}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fillRule="evenodd"
+        />
+        <path
+          clipRule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
