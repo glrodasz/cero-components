@@ -99,12 +99,12 @@ index.js
 
 ### Github Actions
 
-- FIXME: Create a GitHub action for a pull request
-- FIXME: Create a GitHub action for a release the library
+- Create a GitHub action when a pull request is made: `.github/workflows/review.yml`
+- Create a GitHub action when pushing in master: `.github/workflows/release.yml`
 
 ### PUblishing in NPM
 
-- FIXME: Create the process of release a new version using `semantic-release`
+- Create the process of release a new version using `semantic-release`: You need to create a NPM Token that is able to publish without multifactor auth.
 - TODO: Configure commitizen to enable conventional commits messages
 - TODO: Create a hook to force conventional commit messages
 
