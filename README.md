@@ -105,6 +105,7 @@ index.js
 ### PUblishing in NPM
 
 - Create the process of release a new version using `semantic-release`: You need to create a NPM Token that is able to publish without multifactor auth.
+- Add `yarn add --dev @semantic-release/git` plugin and follow [these intructions](https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/github-actions.md#pushing-packagejson-changes-to-a-master-branch).
 - TODO: Configure commitizen to enable conventional commits messages
 - TODO: Create a hook to force conventional commit messages
 
