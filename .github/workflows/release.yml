@@ -41,11 +41,11 @@ jobs:
       - name: Deploy in Vercel (prod)
         uses: amondnet/vercel-action@v19
         with:
-          vercel-args: '--prod'
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
           vercel-project-id: ${{ secrets.PROJECT_ID}}
+          vercel-args: '--prod'
   release:
     name: Release package
     if: "!contains(github.event.head_commit.message, 'skip ci')"
