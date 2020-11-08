@@ -9,7 +9,7 @@
     "url": "https://github.com/glrodasz/cero-components.git"
   },
   "engines": {
-    "node": ">=12.19.0",
+    "node": ">=15.0.0",
     "yarn": ">=1.22.5"
   },
   "scripts": {
