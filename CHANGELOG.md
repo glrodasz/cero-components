@@ -1,3 +1,11 @@
+## [1.6.9](https://github.com/glrodasz/cero-components/compare/v1.6.8...v1.6.9) (2020-11-08)
+
+
+### Bug Fixes
+
+* avoid merge message ([1beb4c7](https://github.com/glrodasz/cero-components/commit/1beb4c717318b0acafb5ad04fa3c044770f9ad56))
+* testing that skip ci does not trigger the GitHub Actions ([10ea77a](https://github.com/glrodasz/cero-components/commit/10ea77ab45234df09759b096df53cfc27ba9e6ca))
+
 ## [1.6.8](https://github.com/glrodasz/cero-components/compare/v1.6.7...v1.6.8) (2020-11-08)
 
 
