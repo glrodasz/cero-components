@@ -109,8 +109,8 @@ index.js
 - Make sure the `GH_SEMANTIC_RELEASE_TOKEN` is configured like [this](https://github.com/semantic-release/git/issues/196#issuecomment-702839100)
 - Update the `.github/workflows/release.yml` to skip ci commits with `if: "!contains(github.event.head_commit.message, 'skip ci')"`.
 - It is also good idea only enable rebase for pull request in order to let semantic-release check the commit messages properly.
-- TODO: Configure commitlint https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional and follow these instructions https://commitlint.js.org/#/guides-local-setup
-- TODO: Configure commitizen to enable conventional commits messages
+- Configure commitlint https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional and follow these instructions https://commitlint.js.org/#/guides-local-setup
+- Configure commitizen to enable conventional commits messages
 
 ### Adding a Good README
 
