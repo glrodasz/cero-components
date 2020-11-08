@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build:
-    name: Build
+    name: Build, Lint, and Test
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout code
@@ -19,20 +19,18 @@ jobs:
       - name: Lint code
         run: yarn lint
       - name: Run tests
-        run: CONSOLE_LEVEL=debug yarn test
+        run: yarn test
       - name: Build storybook
         run: yarn build
   deploy:
-    name: Deploy Storybook
-    runs-on: ubuntu-18.04
+    name: Deploy Storybook (Production)
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v1
-      - name: Setup Node.js v15
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: amondnet/vercel-action@v19
         with:
-          node-version: 15
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Deploy in production
-        run: yarn deploy:prod
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-args: '--prod'
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
