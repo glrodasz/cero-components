@@ -1,3 +1,4 @@
+// https://console.spec.whatwg.org/#loglevel-severity
 const CONSOLE_LEVELS = ['debug', 'log', 'info', 'warn', 'error']
 
 // Notice that by default the levels will be ["error"]
