@@ -23,7 +23,7 @@ jobs:
       - name: Build storybook
         run: yarn build
   deploy:
-    name: Deploy Storybook (Staging)
+    name: Deploy Storybook
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -36,7 +36,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build storybook
         run: yarn build
-      - name: Deploy in Vercel
+      - name: Deploy in Vercel (stag)
         uses: amondnet/vercel-action@v19
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}

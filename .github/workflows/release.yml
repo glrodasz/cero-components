@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build, Lint, and Test
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
@@ -23,7 +23,7 @@ jobs:
       - name: Build storybook
         run: yarn build
   deploy:
-    name: Deploy Storybook (Production)
+    name: Deploy Storybook
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -36,11 +36,11 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build storybook
         run: yarn build
-      - name: Deploy in Vercel
+      - name: Deploy in Vercel (prod)
         uses: amondnet/vercel-action@v19
         with:
+          vercel-args: '--prod'
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
-          vercel-args: '--prod'
           vercel-project-id: ${{ secrets.PROJECT_ID}}
