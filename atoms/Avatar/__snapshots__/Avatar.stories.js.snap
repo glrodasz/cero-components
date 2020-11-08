@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Avatar Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 44,
+            "maxWidth": 44,
+          }
+        }
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Avatar Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 22,
+            "maxWidth": 22,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 44,
+            "maxWidth": 44,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="avatar"
+  >
+    <picture
+      className="picture is-rounded with-border"
+    >
+      <img
+        src="https://picsum.photos/id/1027/200/200"
+        style={
+          Object {
+            "height": 66,
+            "maxWidth": 66,
+          }
+        }
+      />
+    </picture>
+  </div>
+</div>
+`;

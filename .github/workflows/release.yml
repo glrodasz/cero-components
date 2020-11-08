@@ -4,20 +4,35 @@ on:
     branches:
       - master
 jobs:
-  release:
-    name: Release
+  build:
+    name: Build
     runs-on: ubuntu-18.04
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v1
-      - name: Setup Node.js
+      - name: Setup Node.js v15
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+      - name: Lint code
+        run: yarn lint
+      - name: Run tests
+        run: CONSOLE_LEVEL=debug yarn test
+      - name: Build storybook
+        run: yarn build
+  deploy:
+    name: Deploy Storybook
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Deploy in production
+        run: yarn deploy:prod

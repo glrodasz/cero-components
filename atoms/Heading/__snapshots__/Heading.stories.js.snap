@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Heading Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading color-inverted"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading size-xs"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-sm"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-md"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-lg"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-xl"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading size-2xl"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Weights 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="heading weight-normal"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="heading weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;

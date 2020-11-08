@@ -1,0 +1,927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon background-transparent"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-base"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-highlight"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-inverted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-muted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon background-spotlight"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Clickable 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon is-clickable"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon color-base"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-highlight"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-muted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-primary"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon color-inverted"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Names 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-1 -1 19 19"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M9.07 18.14C4.06891 18.14 0 14.0711 0 9.07C0 4.06891 4.06891 0 9.07 0C14.0711 0 18.14 4.06891 18.14 9.07C18.14 14.0711 14.0711 18.14 9.07 18.14ZM9.07 0.996468C4.61804 0.996468 0.996468 4.61804 0.996468 9.07C0.996468 13.522 4.61804 17.1435 9.07 17.1435C13.522 17.1435 17.1435 13.522 17.1435 9.07C17.1435 4.61804 13.522 0.996468 9.07 0.996468Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.539 9.95834L9.06994 5.4887L4.60084 9.95834L3.89581 9.25331L9.06994 4.07971L14.2441 9.25331L13.539 9.95834Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M8.5343 4.78418H9.60577V13.8917H8.5343V4.78418Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 15 9"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-3 0 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M9.707 19.414L0 9.707L9.707 0L11.121 1.414L2.828 9.707L11.121 18L9.707 19.414Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 9 6"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.28864 5.121L4.46988 1.30224L0.651119 5.121L0 4.46988L4.46988 0L8.93976 4.46988L8.28864 5.121Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 28 28"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M27.86 13.93C27.86 21.6108 21.6108 27.86 13.93 27.86C6.24916 27.86 -2.73159e-07 21.6108 -6.08899e-07 13.93C-9.44639e-07 6.24917 6.24916 1.6893e-05 13.93 1.65572e-05C21.6108 1.62215e-05 27.86 6.24917 27.86 13.93ZM1.53041 13.93C1.53041 20.7675 7.09253 26.3296 13.93 26.3296C20.7674 26.3296 26.3296 20.7675 26.3296 13.93C26.3296 7.09254 20.7674 1.53042 13.93 1.53042C7.09252 1.53042 1.5304 7.09254 1.53041 13.93Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M10 19L10 9L12 9L12 19L10 19Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M16 19L16 9L18 9L18 19L16 19Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="5 1 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M14.93 20.86C9.45472 20.86 5 16.4053 5 10.93C5 5.45472 9.45472 1 14.93 1C20.4053 1 24.86 5.45472 24.86 10.93C24.86 16.4053 20.4053 20.86 14.93 20.86ZM14.93 2.09095C10.0559 2.09095 6.09095 6.05591 6.09095 10.93C6.09095 15.8041 10.0559 19.769 14.93 19.769C19.8041 19.769 23.769 15.8041 23.769 10.93C23.769 6.05591 19.8041 2.09095 14.93 2.09095Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.744 15.221L8.67871 10.1423L9.45059 9.37155L13.7458 13.6773L20.41 7.01251L21.1807 7.78439L13.744 15.221Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M4.68396 9.4093H15.316V10.5906H4.68396V9.4093Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M9.40942 4.68396H10.5908V15.316H9.40942V4.68396Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-1 0 12 12"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 19"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M7.78343 18.086C7.23221 18.086 6.71447 17.8722 6.32617 17.4839L0.602738 11.7605C-0.200913 10.9568 -0.200913 9.6496 0.602738 8.84595L8.25802 1.19066C8.9258 0.522888 10.1879 0 11.132 0H16.026C17.1619 0 18.0866 0.924069 18.0866 2.06064V6.95467C18.0866 7.8987 17.5638 9.16084 16.896 9.82862L9.24069 17.4839C8.85239 17.8722 8.33465 18.086 7.78343 18.086ZM11.132 1.2879C10.5196 1.2879 9.60195 1.66783 9.16857 2.10121L1.51328 9.7565C1.21192 10.0579 1.21192 10.5486 1.51328 10.8499L7.23672 16.5734C7.52714 16.8625 8.03972 16.8625 8.33015 16.5734L15.9854 8.91807C16.4188 8.48469 16.7987 7.56706 16.7987 6.95467V2.06064C16.7987 1.63499 16.4517 1.2879 16.026 1.2879H11.132Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M12.9353 7.68236C11.5398 7.68236 10.4045 6.54708 10.4045 5.15164C10.4045 3.7562 11.5398 2.62091 12.9353 2.62091C14.3307 2.62091 15.466 3.7562 15.466 5.15164C15.466 6.54708 14.3307 7.68236 12.9353 7.68236ZM12.9353 3.81866C12.1999 3.81866 11.6023 4.41625 11.6023 5.15164C11.6023 5.88703 12.1999 6.48461 12.9353 6.48461C13.6707 6.48461 14.2682 5.88703 14.2682 5.15164C14.2682 4.41625 13.6707 3.81866 12.9353 3.81866Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-1 0 21 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M13.1265 15.143L9.40942 11.4259V4.68402H10.5908V10.9368L13.9617 14.3078L13.1265 15.143Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 14 15"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M1.01693 15L0 14.5538C0.308723 13.8561 1.22056 13.4481 2.2775 12.975C3.29682 12.5187 4.56575 11.9509 4.56575 11.2777V10.3614C4.20448 10.0594 3.59241 9.41 3.49627 8.43355C3.20367 8.15831 2.71819 7.59711 2.71819 6.90245C2.71819 6.48066 2.88539 6.14048 3.03229 5.92422C2.94272 5.47204 2.77432 4.52538 2.77432 3.83073C2.77432 1.50369 4.39855 0 6.91192 0C7.63327 0 8.50928 0.193026 8.99714 0.714314C10.1365 0.914489 11.0501 2.26031 11.0501 3.83073C11.0501 4.83815 10.8728 5.66685 10.7659 6.07673C10.8847 6.2775 11.0131 6.57538 11.0131 6.92092C11.0131 7.70196 10.6178 8.20716 10.2488 8.47704C10.1443 9.43979 9.59429 10.0606 9.25869 10.3549V11.2777C9.25869 11.8502 10.2989 12.2351 11.3051 12.6074C12.4492 13.0304 13.6328 13.4683 14 14.4257L12.9616 14.8213C12.7753 14.3328 11.7888 13.9681 10.9187 13.6464C9.62056 13.1657 8.1486 12.6211 8.1486 11.2777V9.77997L8.40776 9.61732C8.43404 9.60005 9.15598 9.11629 9.15598 8.14997V7.77524L9.50471 7.63583C9.56323 7.60902 9.90241 7.43089 9.90241 6.92092C9.90241 6.76483 9.78298 6.59028 9.74118 6.54142L9.53875 6.30431L9.63191 6.00226C9.63489 5.99273 9.94003 5.0562 9.94003 3.83073C9.94003 2.78517 9.33931 1.79681 8.70335 1.79681H8.38447L8.22384 1.52216C8.10621 1.32139 7.607 1.10811 6.91192 1.10811C5.01659 1.10811 3.88441 2.12567 3.88441 3.83073C3.88441 4.63619 4.16746 5.93316 4.17044 5.94626L4.23613 6.24653L4.01638 6.461C4.01638 6.461 3.82828 6.65939 3.82828 6.90245C3.82828 7.20927 4.19731 7.59115 4.37586 7.72818L4.59202 7.89439L4.59382 8.16844C4.59382 9.08114 5.38324 9.59588 5.41727 9.61732L5.67285 9.78056L5.67584 11.2777C5.67584 12.6688 4.11192 13.3688 2.73133 13.986C2.06492 14.2839 1.15308 14.6926 1.01693 15Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="-2 0 14 15"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 14V12H2V14H0ZM4 14V12H6V14H4ZM8 14V12H10V14H8ZM0 10V8H2V10H0ZM4 10V8H6V10H4ZM8 10V8H10V10H8ZM0 6V4H2V6H0ZM4 6V4H6V6H4ZM8 6V4H10V6H8ZM0 2V0H2V2H0ZM4 2V0H6V2H4ZM8 2V0H10V2H8Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="icon size-sm"
+    style={
+      Object {
+        "height": 25,
+        "width": 25,
+      }
+    }
+  >
+    <svg
+      height={25}
+      viewBox="0 0 19 20"
+      width={25}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon size-md"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 19 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon size-lg"
+    style={
+      Object {
+        "height": 50,
+        "width": 50,
+      }
+    }
+  >
+    <svg
+      height={50}
+      viewBox="0 0 19 20"
+      width={50}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="icon size-xl"
+    style={
+      Object {
+        "height": 70,
+        "width": 70,
+      }
+    }
+  >
+    <svg
+      height={70}
+      viewBox="0 0 19 20"
+      width={70}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;

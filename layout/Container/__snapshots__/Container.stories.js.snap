@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/Container Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container is-visible"
+  >
+    Farthings pulled strain? Half they'll greater land sordid Elessar. Glamdring um 17 13 motion? Creaked fate spawning chief lords loved loveliest ashes Elfs witness. Brook born Caradhras dining raining! Seeing-stones taking unlost working. A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to. Oakenshield despite distinct prosperous wields relight dark weighed leader reaches rid honor. Moments poison Sackville-Bagginses echoes dozens fend get. Scales exist apple Gundabad retaken bunch agreeable mantle cannot name's seasoning private.
+    Brave dry defeats? Remembered unleashed Denethor niceties legacy. Streets cares pretty Brandybucks ostler. Intact dispatch their expenses suffered flaming bacon should Fili? Jacksie begins hallway needed tracked Gondor's wonderful popularity. Seemed ears perfectly Oakenshield's pale fall animals stabs betrayed grumbling? Stuff awake Brandybuck large done. Curse you and all the halflings!
+    Dared sit torment goes Anárion forgiven west. Summon Bucklebury ship. Terms none Farthings. Tea choose Dwarvish! Leagues gracious carpet payment Brandywine senses very thousand! Don't you leave him, Samwise Gamgee. Firestorm raising Shire reaction mud morninged shines death should! It'll Halflings nab pot drove start. Carpet Lasgalen seen sleepies!
+    Seeing renown knocked battered contend World shepherd. Roof sautéed kingdom agree curtain lived preparing down material Galion appearance! Faramir one-fourteenth study talked amongst fisherman barren recoil responsible. There is one Dwarf yet in Moria who still draws breath. Boats wait exaggerate guessed Muil usurper suffice. Unspoken swears stands serpent depart Mithril. Ugly threat Dwarf possessions yours homage long-term unmade. Well-earned suffice tapestry tongue piled smoke lacerations talisman helps Dragon-Slayer crown? Blanket shan't dare appearances hours grave Muil.
+  </div>
+</div>
+`;

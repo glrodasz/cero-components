@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/Spacer/Horizontal Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 5,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 15,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 20,
+      }
+    }
+  />
+  <div
+    className="spacer horizontal is-visible"
+    style={
+      Object {
+        "height": 40,
+      }
+    }
+  />
+</div>
+`;

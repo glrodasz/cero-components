@@ -8,20 +8,31 @@ jobs:
     name: Build
     runs-on: ubuntu-18.04
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v1
-      - name: Setup Node.js
+      - name: Setup Node.js v15
         uses: actions/setup-node@v1
         with:
-          node-version: 12
-      - name: Install Dependencies
+          node-version: 15
+      - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Lint Code
+      - name: Lint code
         run: yarn lint
-      - name: Run Tests
-        run: yarn test
-      - name: Run Chromatic
-        uses: chromaui/action@v1
+      - name: Run tests
+        run: CONSOLE_LEVEL=debug yarn test
+      - name: Build storybook
+        run: yarn build
+  deploy:
+    name: Deploy staging
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Deploy in staging
+        run: yarn deploy:prod

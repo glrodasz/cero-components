@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Inline 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input is-inline"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Value 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Kingdom slowed"
+    type="text"
+    value="Others mainly cakehole Thorin moldy facial."
+  />
+</div>
+`;
