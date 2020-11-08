@@ -28,10 +28,11 @@
     "lint:css:stylelint": "stylelint '**/*.css'",
     "lint:css:stylelint:fix": "yarn lint:css:stylelint --fix",
     "lint:css": "run-s lint:css:stylelint lint:css:prettier",
-    "lint:css:fix": "run-s lint:css:*:fix",
+    "lint:css:fix": "yarn lint:css:prettier:fix && yarn lint:css:stylelint:fix",
     "lint:js": "eslint --cache",
     "lint:js:fix": "yarn lint:js --fix",
     "lint": "run-p lint:js lint:css",
+    "lint:fix": "run-p lint:js:fix lint:css:fix",
     "cc": "node ./scripts/create-component",
     "test": "jest"
   },
