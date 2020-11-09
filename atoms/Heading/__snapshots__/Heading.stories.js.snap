@@ -16,17 +16,17 @@ exports[`Storyshots Atoms/Heading Colors 1`] = `
   }
 >
   <header
-    className="heading color-base"
+    className="heading color-base size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading color-primary"
+    className="heading color-primary size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading color-inverted"
+    className="heading color-inverted size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
@@ -49,7 +49,7 @@ exports[`Storyshots Atoms/Heading Default 1`] = `
   }
 >
   <header
-    className="heading"
+    className="heading color-base size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
@@ -72,32 +72,32 @@ exports[`Storyshots Atoms/Heading Sizes 1`] = `
   }
 >
   <header
-    className="heading size-xs"
+    className="heading color-base size-xs weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading size-sm"
+    className="heading color-base size-sm weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading size-md"
+    className="heading color-base size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading size-lg"
+    className="heading color-base size-lg weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading size-xl"
+    className="heading color-base size-xl weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading size-2xl"
+    className="heading color-base size-2xl weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
@@ -120,12 +120,12 @@ exports[`Storyshots Atoms/Heading Weights 1`] = `
   }
 >
   <header
-    className="heading weight-normal"
+    className="heading color-base size-md weight-normal"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
-    className="heading weight-bold"
+    className="heading color-base size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.
   </header>

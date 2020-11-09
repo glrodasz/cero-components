@@ -6,12 +6,12 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
     Object {
       "alignContent": "flex-start",
       "display": "flex",
-      "flexDirection": "column",
+      "flexDirection": "row",
       "flexWrap": "wrap",
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 400,
+      "maxHeight": 250,
     }
   }
 >
@@ -429,7 +429,7 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 400,
+      "maxHeight": 300,
     }
   }
 >
