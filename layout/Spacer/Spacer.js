@@ -32,7 +32,9 @@ Spacer.defaultProps = {
   getStyles: () => {},
 }
 
-Spacer.Horizontal = Horizontal
-Spacer.Vertical = Vertical
+const SpacerWithStyles = withStyles(styles)(Spacer)
 
-export default withStyles(styles)(Spacer)
+SpacerWithStyles.Horizontal = Horizontal
+SpacerWithStyles.Vertical = Vertical
+
+export default SpacerWithStyles
