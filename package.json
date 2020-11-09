@@ -13,7 +13,7 @@
     "yarn": ">=1.22.5"
   },
   "scripts": {
-    "build:storybook": "build-storybook",
+    "build:storybook": "build-storybook --no-dll",
     "build:tokens": "node ./scripts/build-tokens",
     "build": "run-s build:*",
     "cc": "node ./scripts/create-component",

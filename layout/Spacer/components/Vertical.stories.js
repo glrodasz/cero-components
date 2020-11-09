@@ -13,7 +13,6 @@ export default {
   title: 'Layout/Spacer/Vertical',
   component: Spacer.Vertical,
   args: {
-    __sb: { fd: 'row' },
     isVisible: true,
     height: 100,
     maxHeight: 100,
@@ -23,6 +22,7 @@ export default {
     height: { control: 'number' },
     maxHeight: { control: 'number' },
   },
+  parameters: { __sb: { fd: 'row' } },
 }
 
 export const Default = Template.bind({})

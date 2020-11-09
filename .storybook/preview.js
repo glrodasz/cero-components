@@ -4,10 +4,10 @@ import 'minireset.css'
 import '../styles/globals.css'
 import '../styles/tokens.css'
 
-const getStyles = (args) => ({
+const getStyles = (parameters) => ({
   display: 'flex',
-  flexDirection: args.__sb?.fd || 'column',
-  maxHeight: args.__sb?.mh || 'auto',
+  flexDirection: parameters.__sb?.fd || 'column',
+  maxHeight: parameters.__sb?.mh || 'auto',
   justifyContent: 'flex-start',
   alignContent: 'flex-start',
   flexWrap: 'wrap',
@@ -16,8 +16,8 @@ const getStyles = (args) => ({
 })
 
 export const decorators = [
-  (Story, { args }) => (
-    <div style={getStyles(args)}>
+  (Story, { parameters }) => (
+    <div style={getStyles(parameters)}>
       <Story />
     </div>
   ),
@@ -25,7 +25,6 @@ export const decorators = [
 
 export const parameters = {
   argTypes: {
-    __sb: { table: { disable: true } },
     styles: { table: { disable: true } },
   },
   actions: { argTypesRegex: '^on[A-Z].*' },

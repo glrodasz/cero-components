@@ -13,12 +13,12 @@ export default {
   title: 'Atoms/Avatar',
   component: Avatar,
   args: {
-    __sb: { fd: 'row' },
     src: 'https://picsum.photos/id/1027/200/200',
   },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
   },
+  parameters: { __sb: { fd: 'row' } },
 }
 
 export const Default = Template.bind({})
