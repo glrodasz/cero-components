@@ -10,13 +10,11 @@ const ListTemplate = getListTemplate(Token.Spacing)
 export default {
   title: 'Tokens/Spacing',
   component: Token.Spacing,
-  args: {
-    __sb: { fd: 'row' },
-  },
   argTypes: {
     value: { control: null },
     label: { control: null },
   },
+  parameters: { __sb: { fd: 'row' } },
 }
 
 const getItems = getTokenItems(choices.spacing, 'spacing')

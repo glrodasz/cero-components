@@ -13,12 +13,12 @@ export default {
   title: 'Layout/Spacer/Default',
   component: Spacer,
   args: {
-    __sb: { fd: 'row' },
     isVisible: true,
   },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
   },
+  parameters: { __sb: { fd: 'row' } },
 }
 
 export const Default = Template.bind({})
