@@ -5,18 +5,18 @@ import styles from './Component.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-export const Component = ({ children, styles }) => {
-  return <div className={styles('component')}>{children}</div>
+export const Component = ({ children, getStyles }) => {
+  return <div className={getStyles('component')}>{children}</div>
 }
 
 Component.propTypes = {
   children: PropTypes.node.isRequired,
-  styles: PropTypes.func.isRequired,
+  getStyles: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
 }
 
 Component.defaultProps = {
-  styles: () => {},
+  getStyles: () => {},
 }
 
 export default withStyles(styles)(Component)

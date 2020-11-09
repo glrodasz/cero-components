@@ -1,4 +1,4 @@
-import Input, { options } from '.'
+import { Input, options, styles } from '.'
 
 import {
   getTemplate,
@@ -6,8 +6,8 @@ import {
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Input)
-const ListTemplate = getListTemplate(Input)
+const Template = getTemplate(Input, styles)
+const ListTemplate = getListTemplate(Input, styles)
 
 export default {
   title: 'Atoms/Input',

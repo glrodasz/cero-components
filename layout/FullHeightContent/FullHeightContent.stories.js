@@ -1,8 +1,8 @@
-import FullHeightContent from '.'
+import { FullHeightContent, styles } from '.'
 
 import { getTemplate } from '../../helpers/storybook'
 
-const Template = getTemplate(FullHeightContent)
+const Template = getTemplate(FullHeightContent, styles)
 
 export default {
   title: 'Layout/FullHeightContent',

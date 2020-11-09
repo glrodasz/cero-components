@@ -3,15 +3,19 @@ import PropTypes from 'prop-types'
 
 import styles from './Paragraph.module.css'
 import { options } from './constants'
-import { getClasses } from '../../helpers/styles'
+import withStyles from '../../hocs/withStyles'
 
-const Paragraph = ({ children, className, size, color, weight, isStriked }) => {
-  const classes = getClasses(styles)({ color, size, weight })
+export const Paragraph = ({ getStyles, children, className, isStriked }) => {
   return (
     <div
-      className={classes(className, 'paragraph', ['color', 'size', 'weight'], {
-        'is-striked': isStriked,
-      })}
+      className={getStyles(
+        className,
+        'paragraph',
+        ['color', 'size', 'weight'],
+        {
+          'is-striked': isStriked,
+        }
+      )}
     >
       {children}
     </div>
@@ -20,6 +24,7 @@ const Paragraph = ({ children, className, size, color, weight, isStriked }) => {
 
 Paragraph.propTypes = {
   children: PropTypes.node.isRequired,
+  getStyles: PropTypes.func.isRequired,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
   weight: PropTypes.oneOf(options.weights),
@@ -31,6 +36,7 @@ Paragraph.defaultProps = {
   color: 'base',
   size: 'md',
   weight: 'normal',
+  getStyles: () => {},
 }
 
-export default Paragraph
+export default withStyles(styles)(Paragraph)

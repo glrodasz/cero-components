@@ -1,2 +1,2 @@
-export { default } from './ButtonIcon'
+export { default, ButtonIcon } from './ButtonIcon'
 export { options } from './constants'

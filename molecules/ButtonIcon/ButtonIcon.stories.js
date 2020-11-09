@@ -1,4 +1,4 @@
-import ButtonIcon, { options } from '.'
+import { ButtonIcon, options } from '.'
 import {
   getTemplate,
   getListTemplate,

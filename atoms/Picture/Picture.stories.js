@@ -1,8 +1,8 @@
-import Picture from '.'
+import { Picture, styles } from '.'
 
 import { getTemplate } from '../../helpers/storybook'
 
-const Template = getTemplate(Picture)
+const Template = getTemplate(Picture, styles)
 
 export default {
   title: 'Atoms/Picture',

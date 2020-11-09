@@ -5,9 +5,9 @@ import styles from './Heading.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-export const Heading = ({ children, styles }) => {
+export const Heading = ({ children, getStyles }) => {
   return (
-    <header className={styles('heading', ['color', 'size', 'weight'])}>
+    <header className={getStyles('heading', ['color', 'size', 'weight'])}>
       {children}
     </header>
   )
@@ -15,7 +15,7 @@ export const Heading = ({ children, styles }) => {
 
 Heading.propTypes = {
   children: PropTypes.string.isRequired,
-  styles: PropTypes.func.isRequired,
+  getStyles: PropTypes.func.isRequired,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
   weight: PropTypes.oneOf(options.weights),

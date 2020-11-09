@@ -1,4 +1,4 @@
-import Spacer, { options } from '.'
+import { Spacer, options, styles } from '.'
 
 import {
   getTemplate,
@@ -6,8 +6,8 @@ import {
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Spacer)
-const ListTemplate = getListTemplate(Spacer)
+const Template = getTemplate(Spacer, styles)
+const ListTemplate = getListTemplate(Spacer, styles)
 
 export default {
   title: 'Layout/Spacer/Default',

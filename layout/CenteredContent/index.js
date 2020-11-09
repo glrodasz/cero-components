@@ -1,1 +1,2 @@
-export { default } from './CenteredContent'
+export { default, CenteredContent } from './CenteredContent'
+export { default as styles } from './CenteredContent.module.css'

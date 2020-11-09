@@ -1,12 +1,12 @@
-import AddButton, { options } from '.'
+import { AddButton, options, styles } from '.'
 import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(AddButton)
-const ListTemplate = getListTemplate(AddButton)
+const Template = getTemplate(AddButton, styles)
+const ListTemplate = getListTemplate(AddButton, styles)
 
 export default {
   title: 'Molecules/AddButton',

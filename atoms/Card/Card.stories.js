@@ -1,12 +1,12 @@
-import Card, { options } from '.'
+import { Card, options, styles } from '.'
 import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Card)
-const ListTemplate = getListTemplate(Card)
+const Template = getTemplate(Card, styles)
+const ListTemplate = getListTemplate(Card, styles)
 
 export default {
   title: 'Atoms/Card',

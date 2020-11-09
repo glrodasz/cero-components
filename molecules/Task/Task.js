@@ -21,14 +21,14 @@ export const Task = ({
   defaultChecked,
   onCheck,
   onDelete,
-  styles,
+  getStyles,
 }) => {
   const [checked, setChecked] = useState(defaultChecked)
 
   return (
     <Card onClick={handleClick({ checked, setChecked, onCheck })}>
-      <div className={styles('task')}>
-        <div className={styles('content')}>
+      <div className={getStyles('task')}>
+        <div className={getStyles('content')}>
           <Check checked={checked} />
           <Spacer.Vertical size="xs" />
           <Paragraph
@@ -55,7 +55,7 @@ export const Task = ({
 
 Task.propTypes = {
   children: PropTypes.node.isRequired,
-  styles: PropTypes.func.isRequired,
+  getStyles: PropTypes.func.isRequired,
   onCheck: PropTypes.func.isRequired,
   onDelete: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
@@ -63,7 +63,7 @@ Task.propTypes = {
 }
 
 Task.defaultProps = {
-  styles: () => {},
+  getStyles: () => {},
   onCheck: () => {},
   onDelete: () => {},
   defaultChecked: false,

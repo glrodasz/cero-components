@@ -7,7 +7,7 @@ import Icon from '../../atoms/Icon'
 
 import { options } from './constants'
 
-const ButtonIcon = ({ children, type, icon }) => (
+export const ButtonIcon = ({ children, type, icon }) => (
   <Button
     type={type}
     isInline={true}

@@ -1,18 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classNames from 'classnames'
 
 import Heading from '../Heading'
 
 import styles from './Button.module.css'
 import { options } from './constants'
+import withStyles from '../../hocs/withStyles'
 
-const Button = ({ type, children, addons, isMuted, isInline, onClick }) => (
+export const Button = ({
+  type,
+  children,
+  addons,
+  isMuted,
+  isInline,
+  onClick,
+  getStyles,
+}) => (
   <button
-    className={classNames(styles.button, {
-      [styles[`type-${type}`]]: type,
-      [styles['is-inline']]: isInline || type === 'tertiary',
-      [styles['is-muted']]: isMuted && type === 'primary',
+    className={getStyles('button', ['type'], {
+      'is-inline': isInline || type === 'tertiary',
+      'is-muted': isMuted && type === 'primary',
     })}
     onClick={onClick}
   >
@@ -26,6 +33,7 @@ const Button = ({ type, children, addons, isMuted, isInline, onClick }) => (
 
 Button.propTypes = {
   children: PropTypes.string.isRequired,
+  getStyles: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   addons: PropTypes.shape({
     prepend: PropTypes.node,
@@ -38,8 +46,9 @@ Button.propTypes = {
 
 Button.defaultProps = {
   type: 'primary',
+  getStyles: () => {},
   onClick: () => {},
   isInline: false,
 }
 
-export default Button
+export default withStyles(styles)(Button)

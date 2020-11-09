@@ -1,8 +1,8 @@
-import Container from '.'
+import { Container, styles } from '.'
 
 import { getTemplate } from '../../helpers/storybook'
 
-const Template = getTemplate(Container)
+const Template = getTemplate(Container, styles)
 
 export default {
   title: 'Layout/Container',

@@ -4,10 +4,10 @@ import 'minireset.css'
 import '../styles/globals.css'
 import '../styles/tokens.css'
 
-const getStyles = (parameters) => ({
+const getStyles = ({ __sb } = {}) => ({
   display: 'flex',
-  flexDirection: parameters.__sb?.fd || 'column',
-  maxHeight: parameters.__sb?.mh || 'auto',
+  flexDirection: __sb?.fd || 'column',
+  maxHeight: __sb?.mh || 'auto',
   justifyContent: 'flex-start',
   alignContent: 'flex-start',
   flexWrap: 'wrap',
