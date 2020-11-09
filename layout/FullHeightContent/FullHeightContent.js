@@ -1,16 +1,21 @@
 import React from 'react'
-import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
 import Spacer from '../Spacer'
 
 import styles from './FullHeightContent.module.css'
+import withStyles from '../../hocs/withStyles'
 
-const FullHeightContent = ({ isVisible, content, footer }) => {
+export const FullHeightContent = ({
+  getStyles,
+  isVisible,
+  content,
+  footer,
+}) => {
   return (
     <div
-      className={classNames(styles['full-height-content'], {
-        [styles['is-visible']]: isVisible,
+      className={getStyles('full-height-content', {
+        'is-visible': isVisible,
       })}
     >
       <div className={styles.content}>{content}</div>
@@ -21,6 +26,7 @@ const FullHeightContent = ({ isVisible, content, footer }) => {
 }
 
 FullHeightContent.propTypes = {
+  getStyles: PropTypes.func.isRequired,
   content: PropTypes.node.isRequired,
   footer: PropTypes.node.isRequired,
   isVisible: PropTypes.bool,
@@ -28,6 +34,7 @@ FullHeightContent.propTypes = {
 
 FullHeightContent.defaultProps = {
   isVisible: false,
+  getStyles: () => {},
 }
 
-export default FullHeightContent
+export default withStyles(styles)(FullHeightContent)

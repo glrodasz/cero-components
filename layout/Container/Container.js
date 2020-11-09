@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classNames from 'classnames'
 import styles from './Container.module.css'
+import withStyles from '../../hocs/withStyles'
 
-const Container = ({ children, isVisible }) => {
+export const Container = ({ getStyles, children, isVisible }) => {
   return (
     <div
-      className={classNames(styles.container, {
-        [styles['is-visible']]: isVisible,
+      className={getStyles('container', {
+        'is-visible': isVisible,
       })}
     >
       {children}
@@ -17,11 +17,13 @@ const Container = ({ children, isVisible }) => {
 
 Container.propTypes = {
   children: PropTypes.node.isRequired,
+  getStyles: PropTypes.func.isRequired,
   isVisible: PropTypes.bool,
 }
 
 Container.defaultProps = {
   isVisible: false,
+  getStyles: () => {},
 }
 
-export default Container
+export default withStyles(styles)(Container)

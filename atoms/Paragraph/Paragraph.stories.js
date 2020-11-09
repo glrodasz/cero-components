@@ -1,4 +1,4 @@
-import Paragraph, { options } from '.'
+import { Paragraph, options, styles } from '.'
 
 import {
   getTemplate,
@@ -6,8 +6,8 @@ import {
   getOptionsArgTypes,
 } from '../../helpers/storybook'
 
-const Template = getTemplate(Paragraph)
-const ListTemplate = getListTemplate(Paragraph)
+const Template = getTemplate(Paragraph, styles)
+const ListTemplate = getListTemplate(Paragraph, styles)
 
 export default {
   title: 'Atoms/Paragraph',

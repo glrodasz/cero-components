@@ -1,17 +1,18 @@
-import Spacer, { options } from '..'
+import { Horizontal } from '.'
+import { options, styles } from '../..'
 
 import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
-} from '../../../helpers/storybook'
+} from '../../../../helpers/storybook'
 
-const Template = getTemplate(Spacer.Horizontal)
-const ListTemplate = getListTemplate(Spacer.Horizontal)
+const Template = getTemplate(Horizontal, styles)
+const ListTemplate = getListTemplate(Horizontal, styles)
 
 export default {
   title: 'Layout/Spacer/Horizontal',
-  component: Spacer.Horizontal,
+  component: Horizontal,
   args: {
     isVisible: true,
   },

@@ -1,8 +1,8 @@
-import CenteredContent from '.'
+import { CenteredContent, styles } from '.'
 
 import { getTemplate } from '../../helpers/storybook'
 
-const Template = getTemplate(CenteredContent)
+const Template = getTemplate(CenteredContent, styles)
 
 export default {
   title: 'Layout/CenteredContent',

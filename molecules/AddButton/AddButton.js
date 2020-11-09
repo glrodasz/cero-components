@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react'
-import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
 import Paragraph from '../../atoms/Paragraph'
@@ -16,8 +15,10 @@ import {
   handleFocus,
 } from './handlers'
 import { shouldShowHelpText } from './helpers'
+import withStyles from '../../hocs/withStyles'
 
-const AddButton = ({
+export const AddButton = ({
+  getStyles,
   children,
   focusHelpText,
   blurHelpText,
@@ -34,15 +35,14 @@ const AddButton = ({
 
   return (
     <div
-      className={classNames(styles['add-button'], {
-        [styles[`type-${type}`]]: type,
-        [styles['is-editable']]: editMode,
-        [styles['is-focused']]: isFocused,
+      className={getStyles('add-button', ['type'], {
+        'is-editable': editMode,
+        'is-focused': isFocused,
       })}
       onClick={handleClick({ setEditMode, inputRef })}
     >
       {editMode ? (
-        <div className={styles['edit-container']}>
+        <div className={getStyles('edit-container')}>
           <input
             ref={inputRef}
             type="text"
@@ -93,6 +93,7 @@ const AddButton = ({
 
 AddButton.propTypes = {
   children: PropTypes.node.isRequired,
+  getStyles: PropTypes.func.isRequired,
   onAdd: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   icon: PropTypes.oneOf(options.icons),
@@ -108,6 +109,7 @@ AddButton.defaultProps = {
   defaultEditMode: false,
   defaultValue: '',
   onAdd: () => {},
+  getStyles: () => {},
 }
 
-export default AddButton
+export default withStyles(styles)(AddButton)

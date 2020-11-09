@@ -8,9 +8,9 @@ import { options } from './constants'
 import { mapSize } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
-export const Avatar = ({ src, size, styles }) => {
+export const Avatar = ({ src, size, getStyles }) => {
   return (
-    <div className={styles('avatar')}>
+    <div className={getStyles('avatar')}>
       <Picture
         src={src}
         width={mapSize(size)}
@@ -24,13 +24,13 @@ export const Avatar = ({ src, size, styles }) => {
 
 Avatar.propTypes = {
   src: PropTypes.string.isRequired,
-  styles: PropTypes.func.isRequired,
+  getStyles: PropTypes.func.isRequired,
   size: PropTypes.oneOf(options.sizes),
 }
 
 Avatar.defaultProps = {
   size: 'md',
-  styles: () => {},
+  getStyles: () => {},
 }
 
 export default withStyles(styles)(Avatar)
