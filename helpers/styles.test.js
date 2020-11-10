@@ -145,5 +145,17 @@ describe('[ helpers / styles ]', () => {
     })
   })
 
-  // TODO: describe('#getClasses', () => {})
+  // describe.only('#getClasses', () => {
+  //   describe('when `arg` is an array', () => {
+  //     it('should return the classnames', () => {})
+  //   })
+
+  //   describe('when `arg` is an string', () => {
+  //     it('should return the classnames', () => {})
+  //   })
+
+  //   describe('when `arg` is an object', () => {
+  //     it('should return the classnames', () => {})
+  //   })
+  // })
 })
