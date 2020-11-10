@@ -1,3 +1,10 @@
+## [1.6.10](https://github.com/glrodasz/cero-components/compare/v1.6.9...v1.6.10) (2020-11-10)
+
+
+### Bug Fixes
+
+* **storybook:** snapshot tests with proper default props and correct Spacer subcomponent integration ([dd400b0](https://github.com/glrodasz/cero-components/commit/dd400b04572009db8b46a1825f753af0981866b9))
+
 ## [1.6.9](https://github.com/glrodasz/cero-components/compare/v1.6.8...v1.6.9) (2020-11-08)
 
 
