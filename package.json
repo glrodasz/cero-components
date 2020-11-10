@@ -35,7 +35,8 @@
     "lint:js:fix": "yarn lint:js --fix",
     "lint:js": "eslint --cache --ignore-path .gitignore '**/*.js'",
     "lint": "run-p lint:js lint:css",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "CONSOLE_LEVEL=debug yarn test --watch"
   },
   "keywords": [
     "react",
