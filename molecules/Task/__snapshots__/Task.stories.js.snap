@@ -16,41 +16,60 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
-    onClick={[Function]}
+    className="container"
   >
     <div
-      className="task"
+      className="card color-base size-sm is-clickable"
+      onClick={[Function]}
     >
       <div
-        className="content"
+        className="task"
       >
         <div
-          className="icon color-muted size-md background-transparent is-clickable"
-          style={
-            Object {
-              "height": 35,
-              "width": 35,
-            }
-          }
+          className="content"
         >
-          <svg
-            height={35}
-            viewBox="5 1 20 20"
-            width={35}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="icon color-muted size-md background-transparent is-clickable"
+            style={
+              Object {
+                "height": 35,
+                "width": 35,
+              }
+            }
           >
-            <path
-              clipRule="evenodd"
-              d="M14.93 20.86C9.45472 20.86 5 16.4053 5 10.93C5 5.45472 9.45472 1 14.93 1C20.4053 1 24.86 5.45472 24.86 10.93C24.86 16.4053 20.4053 20.86 14.93 20.86ZM14.93 2.09095C10.0559 2.09095 6.09095 6.05591 6.09095 10.93C6.09095 15.8041 10.0559 19.769 14.93 19.769C19.8041 19.769 23.769 15.8041 23.769 10.93C23.769 6.05591 19.8041 2.09095 14.93 2.09095Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M13.744 15.221L8.67871 10.1423L9.45059 9.37155L13.7458 13.6773L20.41 7.01251L21.1807 7.78439L13.744 15.221Z"
-              fillRule="evenodd"
-            />
-          </svg>
+            <svg
+              height={35}
+              viewBox="5 1 20 20"
+              width={35}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M14.93 20.86C9.45472 20.86 5 16.4053 5 10.93C5 5.45472 9.45472 1 14.93 1C20.4053 1 24.86 5.45472 24.86 10.93C24.86 16.4053 20.4053 20.86 14.93 20.86ZM14.93 2.09095C10.0559 2.09095 6.09095 6.05591 6.09095 10.93C6.09095 15.8041 10.0559 19.769 14.93 19.769C19.8041 19.769 23.769 15.8041 23.769 10.93C23.769 6.05591 19.8041 2.09095 14.93 2.09095Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M13.744 15.221L8.67871 10.1423L9.45059 9.37155L13.7458 13.6773L20.41 7.01251L21.1807 7.78439L13.744 15.221Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-muted size-md weight-medium is-striked"
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </div>
         </div>
         <div
           className="spacer vertical"
@@ -58,76 +77,61 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
             Object {
               "height": "100%",
               "maxHeight": "auto",
-              "width": 5,
+              "width": 15,
             }
           }
         />
         <div
-          className="paragraph color-muted size-md weight-medium is-striked"
-        >
-          Sir Goblin-town feels characters ruined precautions.
-        </div>
-      </div>
-      <div
-        className="spacer vertical"
-        style={
-          Object {
-            "height": "100%",
-            "maxHeight": "auto",
-            "width": 15,
-          }
-        }
-      />
-      <div
-        onClick={[Function]}
-      >
-        <div
-          className="icon color-base size-sm background-inverted is-clickable"
           onClick={[Function]}
-          style={
-            Object {
-              "height": 25,
-              "width": 25,
-            }
-          }
         >
-          <svg
-            height={25}
-            viewBox="-1 0 12 12"
-            width={25}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
           >
-            <path
-              clipRule="evenodd"
-              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
-              fillRule="evenodd"
-            />
-          </svg>
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -151,94 +155,98 @@ exports[`Storyshots Molecules/Task Default 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
-    onClick={[Function]}
+    className="container"
   >
     <div
-      className="task"
+      className="card color-base size-sm is-clickable"
+      onClick={[Function]}
     >
       <div
-        className="content"
+        className="task"
       >
-        <span
-          className="check"
-        />
+        <div
+          className="content"
+        >
+          <span
+            className="check"
+          />
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-base size-md weight-medium"
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </div>
+        </div>
         <div
           className="spacer vertical"
           style={
             Object {
               "height": "100%",
               "maxHeight": "auto",
-              "width": 5,
+              "width": 15,
             }
           }
         />
         <div
-          className="paragraph color-base size-md weight-medium"
-        >
-          Sir Goblin-town feels characters ruined precautions.
-        </div>
-      </div>
-      <div
-        className="spacer vertical"
-        style={
-          Object {
-            "height": "100%",
-            "maxHeight": "auto",
-            "width": 15,
-          }
-        }
-      />
-      <div
-        onClick={[Function]}
-      >
-        <div
-          className="icon color-base size-sm background-inverted is-clickable"
           onClick={[Function]}
-          style={
-            Object {
-              "height": 25,
-              "width": 25,
-            }
-          }
         >
-          <svg
-            height={25}
-            viewBox="-1 0 12 12"
-            width={25}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
           >
-            <path
-              clipRule="evenodd"
-              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
-              fillRule="evenodd"
-            />
-          </svg>
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -262,94 +270,98 @@ exports[`Storyshots Molecules/Task Long 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
-    onClick={[Function]}
+    className="container"
   >
     <div
-      className="task"
+      className="card color-base size-sm is-clickable"
+      onClick={[Function]}
     >
       <div
-        className="content"
+        className="task"
       >
-        <span
-          className="check"
-        />
+        <div
+          className="content"
+        >
+          <span
+            className="check"
+          />
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-base size-md weight-medium"
+          >
+            Swords are no more use here. Moments shiny rings Cirith nowhere garrison ax pointy endless mention trousers. Retribution Frodo's wrong? Them leaf question require spared houses sapphire Balin. Kind pouring Lothlórien ragged retribution covers lair less goings recognizes unleash. Whence Precious token hidden hire bandy make farming. Shards farmer unfriendly handle Bain gongs. Mend recall sorry oncoming roll unmade cries visitors Lobelia Sackville-Baggins was bidden. Dank rather between short doomed Mellon tomb consequence girl crescent attacking.
+          </div>
+        </div>
         <div
           className="spacer vertical"
           style={
             Object {
               "height": "100%",
               "maxHeight": "auto",
-              "width": 5,
+              "width": 15,
             }
           }
         />
         <div
-          className="paragraph color-base size-md weight-medium"
-        >
-          Swords are no more use here. Moments shiny rings Cirith nowhere garrison ax pointy endless mention trousers. Retribution Frodo's wrong? Them leaf question require spared houses sapphire Balin. Kind pouring Lothlórien ragged retribution covers lair less goings recognizes unleash. Whence Precious token hidden hire bandy make farming. Shards farmer unfriendly handle Bain gongs. Mend recall sorry oncoming roll unmade cries visitors Lobelia Sackville-Baggins was bidden. Dank rather between short doomed Mellon tomb consequence girl crescent attacking.
-        </div>
-      </div>
-      <div
-        className="spacer vertical"
-        style={
-          Object {
-            "height": "100%",
-            "maxHeight": "auto",
-            "width": 15,
-          }
-        }
-      />
-      <div
-        onClick={[Function]}
-      >
-        <div
-          className="icon color-base size-sm background-inverted is-clickable"
           onClick={[Function]}
-          style={
-            Object {
-              "height": 25,
-              "width": 25,
-            }
-          }
         >
-          <svg
-            height={25}
-            viewBox="-1 0 12 12"
-            width={25}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
           >
-            <path
-              clipRule="evenodd"
-              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
-              fillRule="evenodd"
-            />
-          </svg>
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -373,187 +385,195 @@ exports[`Storyshots Molecules/Task Types 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
-    onClick={[Function]}
+    className="container"
   >
     <div
-      className="task"
+      className="card color-base size-sm is-clickable"
+      onClick={[Function]}
     >
       <div
-        className="content"
+        className="task type-primary"
       >
-        <span
-          className="check"
-        />
+        <div
+          className="content"
+        >
+          <span
+            className="check"
+          />
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-base size-md weight-medium"
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </div>
+        </div>
         <div
           className="spacer vertical"
           style={
             Object {
               "height": "100%",
               "maxHeight": "auto",
-              "width": 5,
+              "width": 15,
             }
           }
         />
         <div
-          className="paragraph color-base size-md weight-medium"
-        >
-          Sir Goblin-town feels characters ruined precautions.
-        </div>
-      </div>
-      <div
-        className="spacer vertical"
-        style={
-          Object {
-            "height": "100%",
-            "maxHeight": "auto",
-            "width": 15,
-          }
-        }
-      />
-      <div
-        onClick={[Function]}
-      >
-        <div
-          className="icon color-base size-sm background-inverted is-clickable"
           onClick={[Function]}
-          style={
-            Object {
-              "height": 25,
-              "width": 25,
-            }
-          }
         >
-          <svg
-            height={25}
-            viewBox="-1 0 12 12"
-            width={25}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
           >
-            <path
-              clipRule="evenodd"
-              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
-              fillRule="evenodd"
-            />
-          </svg>
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div
-    className="card color-base size-sm is-clickable"
-    onClick={[Function]}
+    className="container"
   >
     <div
-      className="task"
+      className="card color-base size-sm is-clickable"
+      onClick={[Function]}
     >
       <div
-        className="content"
+        className="task type-secondary"
       >
-        <span
-          className="check"
-        />
+        <div
+          className="content"
+        >
+          <span
+            className="check"
+          />
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-base size-md weight-medium"
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </div>
+        </div>
         <div
           className="spacer vertical"
           style={
             Object {
               "height": "100%",
               "maxHeight": "auto",
-              "width": 5,
+              "width": 15,
             }
           }
         />
         <div
-          className="paragraph color-base size-md weight-medium"
-        >
-          Sir Goblin-town feels characters ruined precautions.
-        </div>
-      </div>
-      <div
-        className="spacer vertical"
-        style={
-          Object {
-            "height": "100%",
-            "maxHeight": "auto",
-            "width": 15,
-          }
-        }
-      />
-      <div
-        onClick={[Function]}
-      >
-        <div
-          className="icon color-base size-sm background-inverted is-clickable"
           onClick={[Function]}
-          style={
-            Object {
-              "height": 25,
-              "width": 25,
-            }
-          }
         >
-          <svg
-            height={25}
-            viewBox="-1 0 12 12"
-            width={25}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
           >
-            <path
-              clipRule="evenodd"
-              d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
-              fillRule="evenodd"
-            />
-            <path
-              clipRule="evenodd"
-              d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
-              fillRule="evenodd"
-            />
-          </svg>
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
