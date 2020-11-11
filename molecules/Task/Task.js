@@ -26,30 +26,32 @@ export const Task = ({
   const [checked, setChecked] = useState(defaultChecked)
 
   return (
-    <Card onClick={handleClick({ checked, setChecked, onCheck })}>
-      <div className={getStyles('task')}>
-        <div className={getStyles('content')}>
-          <Check checked={checked} />
-          <Spacer.Vertical size="xs" />
-          <Paragraph
-            color={checked ? 'muted' : 'base'}
-            weight="medium"
-            isStriked={checked}
-          >
-            {children}
-          </Paragraph>
+    <div className={getStyles('container')}>
+      <Card onClick={handleClick({ checked, setChecked, onCheck })}>
+        <div className={getStyles('task', ['type'])}>
+          <div className={getStyles('content')}>
+            <Check checked={checked} />
+            <Spacer.Vertical size="xs" />
+            <Paragraph
+              color={checked ? 'muted' : 'base'}
+              weight="medium"
+              isStriked={checked}
+            >
+              {children}
+            </Paragraph>
+          </div>
+          <Spacer.Vertical size="sm" />
+          <div onClick={(event) => event.stopPropagation()}>
+            <Icon
+              name="trash"
+              size="sm"
+              onClick={onDelete}
+              background="inverted"
+            />
+          </div>
         </div>
-        <Spacer.Vertical size="sm" />
-        <div onClick={(event) => event.stopPropagation()}>
-          <Icon
-            name="trash"
-            size="sm"
-            onClick={onDelete}
-            background="inverted"
-          />
-        </div>
-      </div>
-    </Card>
+      </Card>
+    </div>
   )
 }
 

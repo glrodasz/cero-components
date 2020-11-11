@@ -1,3 +1,8 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
 .task {
   display: flex;
   width: 100%;
@@ -9,4 +14,26 @@
   display: flex;
   width: 100%;
   align-items: center;
+}
+
+.type-primary::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--box-shadow-sm), inset 0 -3px 0 var(--color-green-300);
+  content: '';
+}
+
+.type-secondary::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--box-shadow-sm), inset 0 -3px 0 var(--color-yellow-400);
+  content: '';
 }

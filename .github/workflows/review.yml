@@ -22,27 +22,6 @@ jobs:
         run: yarn test
       - name: Build storybook
         run: yarn build
-  deploy:
-    name: Deploy Storybook
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Setup Node.js v15
-        uses: actions/setup-node@v1
-        with:
-          node-version: 15
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Build storybook
-        run: yarn build
-      - name: Deploy in Vercel (stag)
-        uses: amondnet/vercel-action@v19
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          vercel-org-id: ${{ secrets.ORG_ID}}
-          vercel-project-id: ${{ secrets.PROJECT_ID}}
   visual:
     name: Vistual testing
     runs-on: ubuntu-latest
@@ -64,4 +43,25 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: 'storybook-static'
+          storybookBuildDir: 'storybook-static'        
+  deploy:
+    name: Deploy Storybook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build storybook
+        run: yarn build
+      - name: Deploy in Vercel (stag)
+        uses: amondnet/vercel-action@v19
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
