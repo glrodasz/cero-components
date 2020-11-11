@@ -39,3 +39,8 @@
 .is-clickable {
   cursor: pointer;
 }
+
+.is-draggable {
+  cursor: grab;
+  user-select: none;
+}

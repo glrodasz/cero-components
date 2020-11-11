@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.type-primary::after {
+.type-active:not(.is-checked)::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -27,7 +27,7 @@
   content: '';
 }
 
-.type-secondary::after {
+.type-standby:not(.is-checked)::after {
   position: absolute;
   top: 0;
   right: 0;

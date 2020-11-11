@@ -11,31 +11,46 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleClick = ({ checked, setChecked, onCheck }) => () => {
-  setChecked(!checked)
-  onCheck(!checked)
+const handleClick = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
+  if (!isPending) {
+    setIsChecked(!isChecked)
+    onCheck(!isChecked)
+  }
 }
 
 export const Task = ({
   children,
-  defaultChecked,
+  defaultIsChecked,
   onCheck,
   onDelete,
   getStyles,
+  isPending,
 }) => {
-  const [checked, setChecked] = useState(defaultChecked)
+  const [isChecked, setIsChecked] = useState(defaultIsChecked && !isPending)
 
   return (
     <div className={getStyles('container')}>
-      <Card onClick={handleClick({ checked, setChecked, onCheck })}>
-        <div className={getStyles('task', ['type'])}>
+      <Card
+        onClick={handleClick({ isChecked, setIsChecked, isPending, onCheck })}
+        isClickable={!isPending}
+        isDraggable={isPending}
+      >
+        <div
+          className={getStyles('task', ['type'], {
+            'is-checked': isChecked,
+          })}
+        >
           <div className={getStyles('content')}>
-            <Check checked={checked} />
+            {isPending ? (
+              <Icon name="grip" size="sm" />
+            ) : (
+              <Check checked={isChecked} />
+            )}
             <Spacer.Vertical size="xs" />
             <Paragraph
-              color={checked ? 'muted' : 'base'}
+              color={isChecked ? 'muted' : 'base'}
               weight="medium"
-              isStriked={checked}
+              isStriked={isChecked}
             >
               {children}
             </Paragraph>
@@ -61,14 +76,15 @@ Task.propTypes = {
   onCheck: PropTypes.func.isRequired,
   onDelete: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
-  defaultChecked: PropTypes.bool,
+  defaultIsChecked: PropTypes.bool,
+  isPending: PropTypes.bool,
 }
 
 Task.defaultProps = {
   getStyles: () => {},
   onCheck: () => {},
   onDelete: () => {},
-  defaultChecked: false,
+  defaultIsChecked: false,
 }
 
 export default withStyles(styles)(Task)

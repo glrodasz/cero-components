@@ -25,10 +25,10 @@ export const AddButton = ({
   type,
   icon,
   onAdd,
-  defaultEditMode,
+  defaultIsEditable,
   defaultValue,
 }) => {
-  const [editMode, setEditMode] = useState(defaultEditMode)
+  const [isEditable, setIsEditable] = useState(defaultIsEditable)
   const [inputValue, setInputValue] = useState(defaultValue)
   const [isFocused, setIsFocused] = useState(false)
   const inputRef = useRef(null)
@@ -36,30 +36,30 @@ export const AddButton = ({
   return (
     <div
       className={getStyles('add-button', ['type'], {
-        'is-editable': editMode,
+        'is-editable': isEditable,
         'is-focused': isFocused,
       })}
-      onClick={handleClick({ setEditMode, inputRef })}
+      onClick={handleClick({ setIsEditable, inputRef })}
     >
-      {editMode ? (
+      {isEditable ? (
         <div className={getStyles('edit-container')}>
           <input
             ref={inputRef}
             type="text"
             value={inputValue}
-            autoFocus={!defaultEditMode}
+            autoFocus={!defaultIsEditable}
             onFocus={handleFocus({ setIsFocused })}
-            onBlur={handleBlur({ inputValue, setEditMode, setIsFocused })}
+            onBlur={handleBlur({ inputValue, setIsEditable, setIsFocused })}
             onChange={handleChange({ setInputValue })}
             onKeyDown={handleKeyDown({
               setInputValue,
-              setEditMode,
+              setIsEditable,
               inputValue,
               onAdd,
             })}
           />
           {shouldShowHelpText({
-            editMode,
+            isEditable,
             inputValue,
             focusHelpText,
             blurHelpText,
@@ -99,14 +99,14 @@ AddButton.propTypes = {
   icon: PropTypes.oneOf(options.icons),
   focusHelpText: PropTypes.string,
   blurHelpText: PropTypes.string,
-  defaultEditMode: PropTypes.bool,
+  defaultIsEditable: PropTypes.bool,
   defaultValue: PropTypes.string,
 }
 
 AddButton.defaultProps = {
   type: 'primary',
   icon: 'plusCircle',
-  defaultEditMode: false,
+  defaultIsEditable: false,
   defaultValue: '',
   onAdd: () => {},
   getStyles: () => {},
