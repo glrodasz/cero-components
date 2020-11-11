@@ -16,7 +16,7 @@ export default {
     children: 'Sir Goblin-town feels characters ruined precautions.',
   },
   argTypes: {
-    types: getOptionsArgTypes(options.types),
+    type: getOptionsArgTypes(options.types),
     onCheck: { defaultValue: null },
     onDelete: { defaultValue: null },
   },
@@ -32,7 +32,12 @@ Long.args = {
 
 export const Checked = Template.bind({})
 Checked.args = {
-  defaultChecked: true,
+  defaultIsChecked: true,
+}
+
+export const Pending = Template.bind({})
+Pending.args = {
+  isPending: true,
 }
 
 export const Types = ListTemplate.bind({})

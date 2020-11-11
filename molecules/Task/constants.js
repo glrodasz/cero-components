@@ -1,1 +1,1 @@
-export const options = { types: ['primary', 'secondary'] }
+export const options = { types: ['active', 'standby'] }

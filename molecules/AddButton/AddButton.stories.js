@@ -29,13 +29,13 @@ Types.args = { items: options.types.map((type) => ({ type })) }
 export const EditMode = Template.bind({})
 EditMode.args = {
   defaultValue: 'Fixed caught squash wax Silvan sweet-taking keeps.',
-  defaultEditMode: true,
+  defaultIsEditable: true,
 }
 
 export const HelpText = Template.bind({})
 HelpText.args = {
   defaultValue: "Understand bravely halfling's rank balls.",
-  defaultEditMode: true,
+  defaultIsEditable: true,
   focusHelpText: 'Fly, you fools!',
   blurHelpText: "Morgul-rats cripples you'll?",
 }
