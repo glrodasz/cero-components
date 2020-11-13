@@ -296,7 +296,14 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,node,visualstudiocode,webstorm
 
-package-lock.json
-storybook-static
-!Icon
+# vercel
 .vercel
+
+# npm
+package-lock.json
+
+# storybook
+storybook-static
+
+# project
+!Icon

@@ -16,7 +16,7 @@ exports[`Storyshots Atoms/Card Clickable 1`] = `
   }
 >
   <div
-    className="card color-base size-sm"
+    className="card color-base size-sm is-clickable"
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
