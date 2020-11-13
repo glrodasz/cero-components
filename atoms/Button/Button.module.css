@@ -10,7 +10,7 @@
   border-radius: var(--button-border-radius-base);
   box-shadow: var(--box-shadow-sm);
   cursor: pointer;
-  transition: filter 0.5s ease, box-shadow 0.2s ease;
+  transition: filter 0.5s ease, box-shadow 0.2s ease-in;
 }
 
 .button:focus {
@@ -23,6 +23,7 @@
 }
 
 .button:active {
+  box-shadow: var(--box-shadow-xs);
   filter: brightness(0.9);
 }
 

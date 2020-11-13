@@ -19,27 +19,19 @@ export default {
     color: getOptionsArgTypes(options.colors),
     size: getOptionsArgTypes(options.sizes),
     children: { control: 'text' },
-    isClickable: {
-      table: {
-        type: {
-          summary: 'bool',
-          detail: '// `onClick` needs to be defined in order to have effect',
-        },
-      },
-    },
   },
 }
 
 export const Default = Template.bind({})
 
-export const Dragabble = Template.bind({})
-Dragabble.args = {
-  isDraggable: true,
-}
-
 export const Clickable = Template.bind({})
 Clickable.args = {
   isClickable: true,
+}
+
+export const Dragabble = Template.bind({})
+Dragabble.args = {
+  isDraggable: true,
 }
 
 export const Colors = ListTemplate.bind({})

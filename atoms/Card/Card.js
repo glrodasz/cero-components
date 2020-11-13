@@ -16,7 +16,7 @@ export const Card = ({
     <div
       onClick={onClick}
       className={getStyles('card', ['color', 'size'], {
-        'is-clickable': isClickable && !!onClick,
+        'is-clickable': isClickable,
         'is-draggable': isDraggable,
       })}
     >
