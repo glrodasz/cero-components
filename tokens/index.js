@@ -198,6 +198,7 @@ const choices = {
   },
   boxShadow: {
     none: 'none',
+    xs: '0px 3px 6px rgba(0, 0, 0, 0.05)',
     sm: '0px 4px 5px rgba(0, 0, 0, 0.07)',
   },
   borderRadius: {

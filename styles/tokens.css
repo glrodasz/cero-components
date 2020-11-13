@@ -167,6 +167,7 @@
   --letter-spacing-widest: 0.1em;
 
   --box-shadow-none: none;
+  --box-shadow-xs: 0px 3px 6px rgba(0, 0, 0, 0.05);
   --box-shadow-sm: 0px 4px 5px rgba(0, 0, 0, 0.07);
 
   --border-radius-none: 0;
