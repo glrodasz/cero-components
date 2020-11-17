@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/glrodasz/cero-components/compare/v1.6.10...v1.7.0) (2020-11-17)
+
+
+### Features
+
+* **card, task, addbutton:** add Card draggable state, add pending Task, fix AddButton prop name ([6733b6e](https://github.com/glrodasz/cero-components/commit/6733b6eb021cb1005942bea4e8c2903d373bcdc9))
+* **task:** enable task type ([f390347](https://github.com/glrodasz/cero-components/commit/f390347e69361144affd65480d33fb4f81c39557))
+
 ## [1.6.10](https://github.com/glrodasz/cero-components/compare/v1.6.9...v1.6.10) (2020-11-10)
 
 
