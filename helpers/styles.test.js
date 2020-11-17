@@ -1,4 +1,9 @@
-import { getDynamicClasses, getModuleClasses, getObjectClasses } from './styles'
+import {
+  getDynamicClasses,
+  getModuleClasses,
+  getObjectClasses,
+  getClasses,
+} from './styles'
 
 const cssModuleMock = {
   ['size-sm']: '.xyz_size_sm',
@@ -6,7 +11,13 @@ const cssModuleMock = {
   ['is-editable']: '.xyz_is_editable',
   ['is-inverted']: '.xyz_is_inverted',
 }
+
 const propsMock = { size: 'sm', color: 'red' }
+
+jest.mock('classnames', () => ({
+  __esModule: true,
+  default: (value) => value,
+}))
 
 describe('[ helpers / styles ]', () => {
   describe('#getDynamicClasses', () => {
@@ -131,6 +142,19 @@ describe('[ helpers / styles ]', () => {
       })
     })
 
+    describe('when the `object` match some `cssModule` class', () => {
+      it('should return an empty object', () => {
+        // given
+        const args = { 'is-editable': true, 'is-inline': false }
+        // when
+        const result = getObjectClasses(cssModuleMock, args)
+        // then
+        const expected = { '.xyz_is_editable': true }
+
+        expect(result).toStrictEqual(expected)
+      })
+    })
+
     describe('when `object` is empty', () => {
       it('should return an empty object', () => {
         // given
@@ -145,17 +169,57 @@ describe('[ helpers / styles ]', () => {
     })
   })
 
-  // describe.only('#getClasses', () => {
-  //   describe('when `arg` is an array', () => {
-  //     it('should return the classnames', () => {})
-  //   })
+  describe('#getClasses', () => {
+    describe('when `arg` is an array', () => {
+      it('should return the classnames', () => {
+        // given
+        const args = ['size', 'color']
+        // when
+        const result = getClasses(cssModuleMock)(propsMock)(args)
+        // then
+        const expected = [{ '.xyz_size_sm': 'sm', '.xyz_color_red': 'red' }]
 
-  //   describe('when `arg` is an string', () => {
-  //     it('should return the classnames', () => {})
-  //   })
+        expect(result).toStrictEqual(expected)
+      })
+    })
 
-  //   describe('when `arg` is an object', () => {
-  //     it('should return the classnames', () => {})
-  //   })
-  // })
+    describe('when `arg` is an string and `cssModule` contains the `classKey`', () => {
+      it('should return the classnames', () => {
+        // given
+        const args = 'size-sm'
+        // when
+        const result = getClasses(cssModuleMock)(propsMock)(args)
+        // then
+        const expected = ['.xyz_size_sm']
+
+        expect(result).toStrictEqual(expected)
+      })
+    })
+
+    describe("when `arg` is an string and `cssModule` doesn't contain the `classKey`", () => {
+      it('should return the classnames', () => {
+        // given
+        const args = 'width-full'
+        // when
+        const result = getClasses(cssModuleMock)(propsMock)(args)
+        // then
+        const expected = ['width-full']
+
+        expect(result).toStrictEqual(expected)
+      })
+    })
+
+    describe('when `arg` is an object', () => {
+      it('should return the classnames', () => {
+        // given
+        const args = { 'is-editable': true, 'is-block': true }
+        // when
+        const result = getClasses(cssModuleMock)(propsMock)(args)
+        // then
+        const expected = [{ '.xyz_is_editable': true }]
+
+        expect(result).toStrictEqual(expected)
+      })
+    })
+  })
 })

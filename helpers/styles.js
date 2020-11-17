@@ -18,7 +18,7 @@ export const getModuleClasses = (cssModule, classKey) => {
 export const getObjectClasses = (cssModule, object) => {
   return Object.keys(object).reduce((classes, classKey) => {
     const className = cssModule[classKey]
-    return className ? { ...classes, [className]: object[classKey] } : {}
+    return className ? { ...classes, [className]: object[classKey] } : classes
   }, {})
 }
 
