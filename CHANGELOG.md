@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/glrodasz/cero-components/compare/v1.7.0...v1.8.0) (2020-12-06)
+
+
+### Features
+
+* **tokens:** fix border radius tokens ([ebd8f9c](https://github.com/glrodasz/cero-components/commit/ebd8f9cf69cdb6df64d77d4f93eb0f1e4e6a56eb))
+
 # [1.7.0](https://github.com/glrodasz/cero-components/compare/v1.6.10...v1.7.0) (2020-11-17)
 
 
