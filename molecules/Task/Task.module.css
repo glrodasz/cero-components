@@ -22,7 +22,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--border-radius-sm);
+  border-radius: var(--task-border-radius);
   box-shadow: var(--box-shadow-sm), inset 0 -3px 0 var(--color-green-300);
   content: '';
 }
@@ -33,7 +33,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--border-radius-sm);
+  border-radius: var(--task-border-radius);
   box-shadow: var(--box-shadow-sm), inset 0 -3px 0 var(--color-yellow-400);
   content: '';
 }

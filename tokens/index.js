@@ -255,9 +255,9 @@ const decisions = {
   button: {
     maxWidth: '300px',
     borderRadius: {
-      base: choices.borderRadius.lg,
       sm: choices.borderRadius.sm,
       md: choices.borderRadius.md,
+      lg: choices.borderRadius.lg,
     },
   },
   input: {
@@ -269,6 +269,12 @@ const decisions = {
   },
   picture: {
     border: `${choices.borderWidth.thin} solid ${choices.color.gray[400]}`,
+  },
+  card: {
+    borderRadius: choices.borderRadius.sm,
+  },
+  task: {
+    borderRadius: choices.borderRadius.sm,
   },
 }
 

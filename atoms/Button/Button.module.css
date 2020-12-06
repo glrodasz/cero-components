@@ -7,7 +7,7 @@
   justify-content: center;
   padding: 10px 20px;
   border: var(--border-width-thin) solid var(--color-base-transparent);
-  border-radius: var(--button-border-radius-base);
+  border-radius: var(--button-border-radius-lg);
   box-shadow: var(--box-shadow-sm);
   cursor: pointer;
   transition: filter 0.5s ease, box-shadow 0.2s ease-in;
