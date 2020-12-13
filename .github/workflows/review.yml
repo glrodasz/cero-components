@@ -22,6 +22,24 @@ jobs:
         run: yarn test
       - name: Build storybook
         run: yarn build
+  coverage:
+    name: Coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Lint code
+        run: yarn lint
+      - name: Run coverage tests
+        run: yarn test:coveage
+      - name: Upload coverage
+        uses: codecov/codecov-action@v1
   visual:
     name: Vistual testing
     runs-on: ubuntu-latest
