@@ -59,7 +59,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: 'storybook-static'        
+          storybookBuildDir: 'storybook-static'
   deploy:
     name: Deploy Storybook
     runs-on: ubuntu-latest
@@ -72,8 +72,8 @@ jobs:
           node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Build storybook
-        run: yarn build
+      - name: Build storybook docs
+        run: yarn build:docs
       - name: Deploy in Vercel (stag)
         uses: amondnet/vercel-action@v19
         with:
