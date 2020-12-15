@@ -89,8 +89,8 @@ index.js
 3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing) and move snapshots to separate files.
 4. Configure Chromatic in https://www.chromatic.com/
 5. TODO: Creating unit tests for `scripts`, `utils` and `helpers`
-6. TODO: Create a coverage script with `instanbul`.
-7. TODO: Upload the coverage HTML report to a service per pull request
+6. Create a coverage script with `jest --coverage`.
+7. Upload the coverage HTML report to a service per pull request
 
 ### NPM scripts
 
