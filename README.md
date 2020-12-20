@@ -2,6 +2,22 @@
 
 Zero to Production is a project in which we will build a productivity management application. In this series of live broadcasts, I will be revealing all the complications that a programmer has when building a web app. This project is live streamed in https://glrz.me/glrodasz.
 
+### Table of Contents
+
+- [Methodologies](#Methodologies)
+  - [Atomic Design](#Atomic-Design)
+  - [Molecules definition](#Molecules-definition)
+- [Components Library](#Components-library)
+  - [Storybook configuration](#Storybook-configuration)
+  - [Design Tokens](#Design-Tokens)
+  - [Create template script](#Create-template-script)
+  - [Atoms & Molecules](#Atoms--Molecules)
+  - [Lint and styling](#Lint-and-styling)
+  - [Creating tests](#Creating-tests)
+  - [NPM scripts](#NPM-scripts)
+  - [Github Actions](#Github-Actions)
+  - [Publishing in NPM](#Publishing-in-NPM)
+
 ## Methodologies
 
 ### Atomic Design
@@ -102,7 +118,7 @@ index.js
 - Create a GitHub action when a pull request is made: `.github/workflows/review.yml`
 - Create a GitHub action when pushing in master: `.github/workflows/release.yml`
 
-### PUblishing in NPM
+### Publishing in NPM
 
 - Create the process of release a new version using `semantic-release`: You need to create a NPM Token (publish) and enable 2FA only for login. Read more [here](https://github.com/semantic-release/npm/issues/277).
 - Add `yarn add --dev @semantic-release/git @semantic-release/changelog` plugin and follow [these intructions](https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/github-actions.md#pushing-packagejson-changes-to-a-master-branch). Make sure [these plugins](https://semantic-release.gitbook.io/semantic-release/usage/plugins#plugins-installation) instructions are clear. Create a `.releaserc.json` file.
