@@ -5,7 +5,8 @@ Zero to Production is a project in which we will build a productivity management
 ### Table of Contents
 
 - [Getting Started](#Getting-Started)
-- [Start developing](#Start-developing)
+- [Run project in dev](#Run-project-in-dev)
+- [Run test](#Run-test)
 - [Methodologies](#Methodologies)
   - [Atomic Design](#Atomic-Design)
   - [Molecules definition](#Molecules-definition)
@@ -48,15 +49,20 @@ import { Icon, ButtonIcon } from '@glrodasz/components'
 </ButtonIcon>
 ```
 
-## Start developing
+## Run project in dev
 
 Follow these steps to `start the project` in development
 
 1. Clone repository. `git clone https://github.com/glrodasz/cero-components.git`
-2. Install dependencies in the project folder. `yarm` or `npm install`.
-3. Run Storybook `yarm dev` or `npm run dev`, this command run Storybook and build tokens.
+2. Install dependencies in the project folder. `yarn` or `npm install`.
+3. Run Storybook `yarn dev` or `npm run dev`, this command run Storybook and build tokens. This comman run 2 task `yarn dev:storybook` and ` yarn dev:tokens`
 
 Check the `package.json` file, there you will find the commands necessary for the development
+
+## Run test
+
+1. Run `yarn run test`or `npm run test``
+2. To keep the tests running, run `yarn run test:watch`
 
 ---
 
