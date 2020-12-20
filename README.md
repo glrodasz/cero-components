@@ -4,6 +4,8 @@ Zero to Production is a project in which we will build a productivity management
 
 ### Table of Contents
 
+- [Getting Started](#Getting-Started)
+- [Start developing](#Start-developing)
 - [Methodologies](#Methodologies)
   - [Atomic Design](#Atomic-Design)
   - [Molecules definition](#Molecules-definition)
@@ -17,6 +19,46 @@ Zero to Production is a project in which we will build a productivity management
   - [NPM scripts](#NPM-scripts)
   - [Github Actions](#Github-Actions)
   - [Publishing in NPM](#Publishing-in-NPM)
+
+## Getting Started
+
+These are the necessary steps to start using `Cero Components`
+
+> You must have `react installed` for our components to work in your application
+
+1. Installation
+
+```bash
+  npm install @glrodasz/components
+```
+
+2. Use the components.
+
+- Import component
+
+```jsx
+import { Icon, ButtonIcon } from '@glrodasz/components'
+```
+
+- Use component
+
+```js
+<ButtonIcon getStyles={() => {}} icon="arrowRight" type="primary">
+  Cowards Agreed
+</ButtonIcon>
+```
+
+## Start developing
+
+Follow these steps to `start the project` in development
+
+1. Clone repository. `git clone https://github.com/glrodasz/cero-components.git`
+2. Install dependencies in the project folder. `yarm` or `npm install`.
+3. Run Storybook `yarm dev` or `npm run dev`, this command run Storybook and build tokens.
+
+Check the `package.json` file, there you will find the commands necessary for the development
+
+---
 
 ## Methodologies
 
