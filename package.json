@@ -32,7 +32,7 @@
     "lint:css:stylelint:fix": "yarn lint:css:stylelint --fix",
     "lint:css:stylelint": "stylelint '**/*.css' --ignore-path .gitignore",
     "lint:css": "run-s lint:css:stylelint lint:css:prettier",
-    "lint:fix": "run-p lint:js:fix lint:json:fix lint:css:fix ",
+    "lint:fix": "run-p lint:js:fix lint:json:fix lint:css:fix",
     "lint:js:fix": "yarn lint:js --fix",
     "lint:js": "eslint --cache --ignore-path .gitignore '**/*.js'",
     "lint:json:fix": "yarn lint:json --write",
