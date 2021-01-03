@@ -23,8 +23,26 @@ jobs:
         run: yarn test
       - name: Build storybook
         run: yarn build
+  coverage:
+    name: Coverage
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Run coverage tests
+        run: yarn test:coverage
+      - name: Upload coverage
+        uses: codecov/codecov-action@v1
   visual:
     name: Vistual testing
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -44,7 +62,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: 'storybook-static'          
+          storybookBuildDir: 'storybook-static'
   deploy:
     name: Deploy Storybook
     if: "!contains(github.event.head_commit.message, 'skip ci')"
@@ -58,10 +76,10 @@ jobs:
           node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Build storybook
-        run: yarn build
+      - name: Build storybook docs
+        run: yarn build:docs
       - name: Deploy in Vercel (prod)
-        uses: amondnet/vercel-action@v19
+        uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}

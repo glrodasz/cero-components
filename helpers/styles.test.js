@@ -14,10 +14,7 @@ const cssModuleMock = {
 
 const propsMock = { size: 'sm', color: 'red' }
 
-jest.mock('classnames', () => ({
-  __esModule: true,
-  default: (value) => value,
-}))
+jest.mock('classnames', () => (value) => value)
 
 describe('[ helpers / styles ]', () => {
   describe('#getDynamicClasses', () => {

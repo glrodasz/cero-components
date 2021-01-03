@@ -10,7 +10,7 @@ Zero to Production is a project in which we will build a productivity management
 - [Methodologies](#Methodologies)
   - [Atomic Design](#Atomic-Design)
   - [Molecules definition](#Molecules-definition)
-- [Components Library](#Components-library)
+- [Components Library Creation Guide](#Components-library-creation-guide)
   - [Storybook configuration](#Storybook-configuration)
   - [Design Tokens](#Design-Tokens)
   - [Create template script](#Create-template-script)
@@ -23,7 +23,7 @@ Zero to Production is a project in which we will build a productivity management
 
 ## Getting Started
 
-These are the necessary steps to start using `Cero Components`
+These are the necessary steps to start using `Cero Components` as a dependency for a web project.
 
 > You must have `react installed` for our components to work in your application
 
@@ -44,7 +44,7 @@ import { Icon, ButtonIcon } from '@glrodasz/components'
 - Use component
 
 ```js
-<ButtonIcon getStyles={() => {}} icon="arrowRight" type="primary">
+<ButtonIcon icon="arrowRight" type="primary">
   Cowards Agreed
 </ButtonIcon>
 ```
@@ -80,7 +80,7 @@ For this project an atom will be a component that is composed by an unique Atom 
 
 For this project a molecule is a component that is composed by at least 2 different atoms.
 
-## Components Library
+## Components Library Creation Guide
 
 These are the instructions about how this components library project has been created for future reference.
 
@@ -153,8 +153,8 @@ index.js
 3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing) and move snapshots to separate files.
 4. Configure Chromatic in https://www.chromatic.com/
 5. TODO: Creating unit tests for `scripts`, `utils` and `helpers`
-6. TODO: Create a coverage script with `instanbul`.
-7. TODO: Upload the coverage HTML report to a service per pull request
+6. Create a coverage script with `jest --coverage`.
+7. Upload the coverage HTML report to a service per pull request
 
 ### NPM scripts
 
@@ -178,7 +178,7 @@ index.js
 
 ### Adding a Good README
 
-- TODO: Create instructions to run this project in dev
-- TODO: Create instructions to run the tests of this project
+- Create instructions to run this project in dev
+- Create instructions to run the tests of this project
 - TODO: Add NPM, Coverage, GitHub actions badges to the README.
 - TODO: Create a `CONTRIBUTING.md` file with instructions.
