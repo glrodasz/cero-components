@@ -75,7 +75,7 @@ jobs:
       - name: Build storybook docs
         run: yarn build:docs
       - name: Deploy in Vercel (stag)
-        uses: amondnet/vercel-action@v19
+        uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
