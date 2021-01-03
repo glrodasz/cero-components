@@ -86,6 +86,7 @@
     "stylelint": "13.7.2",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-recommended": "3.0.0",
+    "vercel": "21.0.1",
     "watch": "1.0.2"
   },
   "peerDependencies": {
