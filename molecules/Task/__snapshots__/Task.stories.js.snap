@@ -501,6 +501,252 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
 </div>
 `;
 
+exports[`Storyshots Molecules/Task Pending Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="card color-base size-sm is-draggable"
+      onClick={[Function]}
+    >
+      <div
+        className="task type-active"
+      >
+        <div
+          className="content"
+        >
+          <div
+            className="icon color-base size-sm background-transparent"
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
+          >
+            <svg
+              height={25}
+              viewBox="-2 0 14 15"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 14V12H2V14H0ZM4 14V12H6V14H4ZM8 14V12H10V14H8ZM0 10V8H2V10H0ZM4 10V8H6V10H4ZM8 10V8H10V10H8ZM0 6V4H2V6H0ZM4 6V4H6V6H4ZM8 6V4H10V6H8ZM0 2V0H2V2H0ZM4 2V0H6V2H4ZM8 2V0H10V2H8Z"
+              />
+            </svg>
+          </div>
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-base size-md weight-medium"
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </div>
+        </div>
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 15,
+            }
+          }
+        />
+        <div
+          onClick={[Function]}
+        >
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
+          >
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="card color-base size-sm is-draggable"
+      onClick={[Function]}
+    >
+      <div
+        className="task type-standby"
+      >
+        <div
+          className="content"
+        >
+          <div
+            className="icon color-base size-sm background-transparent"
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
+          >
+            <svg
+              height={25}
+              viewBox="-2 0 14 15"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 14V12H2V14H0ZM4 14V12H6V14H4ZM8 14V12H10V14H8ZM0 10V8H2V10H0ZM4 10V8H6V10H4ZM8 10V8H10V10H8ZM0 6V4H2V6H0ZM4 6V4H6V6H4ZM8 6V4H10V6H8ZM0 2V0H2V2H0ZM4 2V0H6V2H4ZM8 2V0H10V2H8Z"
+              />
+            </svg>
+          </div>
+          <div
+            className="spacer vertical"
+            style={
+              Object {
+                "height": "100%",
+                "maxHeight": "auto",
+                "width": 5,
+              }
+            }
+          />
+          <div
+            className="paragraph color-base size-md weight-medium"
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </div>
+        </div>
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 15,
+            }
+          }
+        />
+        <div
+          onClick={[Function]}
+        >
+          <div
+            className="icon color-base size-sm background-inverted is-clickable"
+            onClick={[Function]}
+            style={
+              Object {
+                "height": 25,
+                "width": 25,
+              }
+            }
+          >
+            <svg
+              height={25}
+              viewBox="-1 0 12 12"
+              width={25}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M6.72534 3.71014H5.97808V9.68822H6.72534V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M5.23071 3.71014H4.48345V9.68822H5.23071V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.73633 3.71014H2.98907V9.68822H3.73633V3.71014Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M9.71436 1.46838H-2.28882e-05V2.21564H9.71436V1.46838Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M3.01523 1.842H3.71018V1.09474C3.71018 0.874294 3.88952 0.694952 4.10996 0.694952H5.60448C5.82492 0.694952 6.00427 0.874294 6.00427 1.09474V1.842H6.69922V1.09474C6.69922 0.49095 6.2079 0 5.60448 0H4.10996C3.50655 0 3.01523 0.49095 3.01523 1.09474V1.842Z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M2.61523 11.93H7.09879C7.70183 11.93 8.22977 11.4409 8.27573 10.8398L8.96582 1.87077L8.2208 1.81323L7.53071 10.7826C7.51427 10.9959 7.31251 11.1827 7.09879 11.1827H2.61523C2.40152 11.1827 2.19976 10.9959 2.18332 10.783L1.49322 1.81323L0.748204 1.87077L1.4383 10.8398C1.48426 11.4409 2.01219 11.93 2.61523 11.93Z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Molecules/Task Types 1`] = `
 <div
   style={
