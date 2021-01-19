@@ -42,3 +42,8 @@ Pending.args = {
 
 export const Types = ListTemplate.bind({})
 Types.args = { items: options.types.map((type) => ({ type })) }
+
+export const PendingTypes = ListTemplate.bind({})
+PendingTypes.args = {
+  items: options.types.map((type) => ({ type, isPending: true })),
+}

@@ -25,6 +25,7 @@
   border-radius: var(--task-border-radius);
   box-shadow: var(--box-shadow-sm), inset 0 -3px 0 var(--color-green-300);
   content: '';
+  pointer-events: none;
 }
 
 .type-standby:not(.is-checked)::after {
@@ -36,4 +37,5 @@
   border-radius: var(--task-border-radius);
   box-shadow: var(--box-shadow-sm), inset 0 -3px 0 var(--color-yellow-400);
   content: '';
+  pointer-events: none;
 }
