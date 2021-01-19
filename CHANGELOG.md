@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/glrodasz/cero-components/compare/v1.8.0...v1.8.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* **task:** fix onDelete click when pending and type props are passed ([6a202a7](https://github.com/glrodasz/cero-components/commit/6a202a73e362ebc44b8897cfca1fbdaed068d67a))
+
 # [1.8.0](https://github.com/glrodasz/cero-components/compare/v1.7.0...v1.8.0) (2020-12-06)
 
 
