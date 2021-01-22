@@ -12,4 +12,4 @@ export default {
 export const Default = Template.bind({})
 
 export const Checked = Template.bind({})
-Checked.args = { checked: true }
+Checked.args = { isChecked: true }
