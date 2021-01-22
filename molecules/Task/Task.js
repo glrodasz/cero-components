@@ -44,7 +44,7 @@ export const Task = ({
             {isPending ? (
               <Icon name="grip" size="sm" />
             ) : (
-              <Check checked={isChecked} />
+              <Check isChecked={isChecked} />
             )}
             <Spacer.Vertical size="xs" />
             <Paragraph

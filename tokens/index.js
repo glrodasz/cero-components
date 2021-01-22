@@ -268,7 +268,7 @@ const decisions = {
     fontSize: choices.fontSize.sm,
   },
   picture: {
-    border: `${choices.borderWidth.thin} solid ${choices.color.gray[400]}`,
+    border: `${choices.borderWidth.thin} solid ${choices.color.brand.regentGray}`,
   },
   card: {
     borderRadius: choices.borderRadius.sm,
