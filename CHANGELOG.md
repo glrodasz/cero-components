@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/glrodasz/cero-components/compare/v1.8.1...v1.8.2) (2021-01-22)
+
+
+### Bug Fixes
+
+* **check:** add the proper prop change ([6270f4b](https://github.com/glrodasz/cero-components/commit/6270f4b7eb0faf90f144441de71f494c37577495))
+
 ## [1.8.1](https://github.com/glrodasz/cero-components/compare/v1.8.0...v1.8.1) (2021-01-19)
 
 
