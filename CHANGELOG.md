@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/glrodasz/cero-components/compare/v1.8.2...v1.9.0) (2021-02-02)
+
+
+### Features
+
+* **divider:** add divider atom ([adfd280](https://github.com/glrodasz/cero-components/commit/adfd280c855955596879f0bee5ab3d5e26587c9e))
+* **task-counter:** add Task Counter and remaining snapshots ([c0c88a9](https://github.com/glrodasz/cero-components/commit/c0c88a9ab760a726eba063690e69a2b827db99b4))
+
 ## [1.8.2](https://github.com/glrodasz/cero-components/compare/v1.8.1...v1.8.2) (2021-01-22)
 
 
