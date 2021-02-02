@@ -14,6 +14,7 @@ export { default as Button } from './atoms/Button'
 export { default as Input } from './atoms/Input'
 export { default as Card } from './atoms/Card'
 export { default as Check } from './atoms/Check'
+export { default as Divider } from './atoms/Divider'
 
 // Molecules
 export { default as ButtonIcon } from './molecules/ButtonIcon'
