@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/TaskCounter Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="task-counter"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="paragraph color-base size-md weight-medium"
+      >
+        Em Sméagol body.
+      </div>
+      <div
+        className="paragraph color-base size-md weight-medium is-inline"
+      >
+        2
+      </div>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": 5,
+        }
+      }
+    />
+    <div
+      className="divider"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/TaskCounter With Total 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="task-counter"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="paragraph color-base size-md weight-medium"
+      >
+        Em Sméagol body.
+      </div>
+      <div
+        className="paragraph color-base size-md weight-medium is-inline"
+      >
+        2/10
+      </div>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": 5,
+        }
+      }
+    />
+    <div
+      className="divider"
+    />
+  </div>
+</div>
+`;
