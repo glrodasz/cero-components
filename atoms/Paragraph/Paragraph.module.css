@@ -37,3 +37,7 @@
 .is-striked {
   text-decoration: line-through;
 }
+
+.is-inline {
+  width: auto;
+}
