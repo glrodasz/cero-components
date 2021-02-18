@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/glrodasz/cero-components/compare/v1.9.0...v1.10.0) (2021-02-18)
+
+
+### Features
+
+* **icon, task-counter:** add new background to icon and make task counter toggleable ([9313a94](https://github.com/glrodasz/cero-components/commit/9313a94452180fbf0c559f32e03f5bd7da54daea))
+
 # [1.9.0](https://github.com/glrodasz/cero-components/compare/v1.8.2...v1.9.0) (2021-02-02)
 
 
