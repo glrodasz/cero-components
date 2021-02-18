@@ -47,7 +47,87 @@ exports[`Storyshots Molecules/TaskCounter Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules/TaskCounter With Total 1`] = `
+exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="task-counter"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="icon color-inverted size-sm background-fulfilled is-clickable"
+        onClick={[Function]}
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      >
+        <svg
+          height={25}
+          viewBox="0 0 9 6"
+          width={25}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M8.28864 5.121L4.46988 1.30224L0.651119 5.121L0 4.46988L4.46988 0L8.93976 4.46988L8.28864 5.121Z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </div>
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 5,
+          }
+        }
+      />
+      <div
+        className="paragraph color-base size-md weight-medium"
+      >
+        Em Sméagol body.
+      </div>
+      <div
+        className="paragraph color-base size-md weight-medium is-inline"
+      >
+        2/10
+      </div>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": 5,
+        }
+      }
+    />
+    <div
+      className="divider"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/TaskCounter Total 1`] = `
 <div
   style={
     Object {

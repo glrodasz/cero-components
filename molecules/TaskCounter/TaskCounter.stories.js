@@ -17,5 +17,8 @@ export default {
 }
 
 export const Default = Template.bind({})
-export const WithTotal = Template.bind({})
-WithTotal.args = { total: 10 }
+export const Total = Template.bind({})
+Total.args = { total: 10 }
+
+export const Toggleable = Template.bind({})
+Toggleable.args = { isToggleable: true, total: 10 }
