@@ -11,7 +11,7 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleClick = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
+const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
   if (!isPending) {
     setIsChecked(!isChecked)
     onCheck(!isChecked)
@@ -31,7 +31,7 @@ export const Task = ({
   return (
     <div className={getStyles('container')}>
       <Card
-        onClick={handleClick({ isChecked, setIsChecked, isPending, onCheck })}
+        onClick={handleCheck({ isChecked, setIsChecked, isPending, onCheck })}
         isClickable={!isPending}
         isDraggable={isPending}
       >
