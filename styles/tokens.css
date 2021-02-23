@@ -10,6 +10,7 @@
   --color-brand-white-lilac: #e8e8e8;
   --color-brand-hint-of-red: #f9f9f9;
   --color-brand-romance: #fcfdfd;
+  --color-brand-medium-spring-green: #00e5a8;
 
   --color-base-black: #000;
   --color-base-white: #fff;
@@ -205,6 +206,7 @@
   --color-secondary: #eb2d52;
   --color-secondary-muted: #eb4e58;
   --color-secondary-inverted: #fff;
+  --color-tertiary: #00e5a8;
 
   --background-color-primary: #f9f9f9;
   --background-color-primary-highlight: #fcfdfd;

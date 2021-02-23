@@ -8,7 +8,6 @@ export default {
   title: 'Layout/FullHeightContent',
   component: FullHeightContent,
   args: {
-    isVisible: true,
     content:
       'Mice defiling required Bilbo sailing unspoiled this hunting. 14th refuge knowing breath Middle-earth sack demon children?',
     footer:

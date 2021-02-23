@@ -10,7 +10,7 @@ const Spacing = ({ label, value }) => {
   return (
     <Helper label={label} value={value}>
       <div className={styles.spacer}>
-        <Spacer size={value} isVisible />
+        <Spacer size={value} isPlayground />
       </div>
     </Helper>
   )

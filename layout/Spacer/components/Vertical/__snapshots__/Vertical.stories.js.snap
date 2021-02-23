@@ -16,7 +16,7 @@ exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
   }
 >
   <div
-    className="spacer vertical is-visible"
+    className="spacer vertical is-playground"
     style={
       Object {
         "height": 100,
@@ -44,7 +44,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
   }
 >
   <div
-    className="spacer vertical is-visible"
+    className="spacer vertical is-playground"
     style={
       Object {
         "height": 100,
@@ -54,7 +54,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-visible"
+    className="spacer vertical is-playground"
     style={
       Object {
         "height": 100,
@@ -64,7 +64,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-visible"
+    className="spacer vertical is-playground"
     style={
       Object {
         "height": 100,
@@ -74,7 +74,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-visible"
+    className="spacer vertical is-playground"
     style={
       Object {
         "height": 100,
@@ -84,7 +84,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-visible"
+    className="spacer vertical is-playground"
     style={
       Object {
         "height": 100,

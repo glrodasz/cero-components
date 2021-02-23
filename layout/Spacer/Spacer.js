@@ -7,10 +7,10 @@ import styles from './Spacer.module.css'
 import { mapSize } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
-export const Spacer = ({ getStyles, size, isVisible }) => (
+export const Spacer = ({ getStyles, size, isPlayground }) => (
   <div
     className={getStyles('spacer', {
-      'is-visible': isVisible,
+      'is-playground': isPlayground,
     })}
     style={{
       display: 'inline-block',
@@ -23,12 +23,12 @@ export const Spacer = ({ getStyles, size, isVisible }) => (
 Spacer.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   getStyles: PropTypes.func.isRequired,
-  isVisible: PropTypes.bool,
+  isPlayground: PropTypes.bool,
 }
 
 Spacer.defaultProps = {
   size: 'none',
-  isVisible: false,
+  isPlayground: false,
   getStyles: () => {},
 }
 

@@ -719,6 +719,32 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       </span>
     </div>
   </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#00e5a8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-brand-medium-spring-green)
+      </span>
+      <span
+        className="label"
+      >
+        #00e5a8
+      </span>
+    </div>
+  </div>
 </div>
 `;
 
@@ -1020,6 +1046,32 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
         className="label"
       >
         #fff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#00e5a8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-tertiary)
+      </span>
+      <span
+        className="label"
+      >
+        #00e5a8
       </span>
     </div>
   </div>

@@ -1,0 +1,26 @@
+.modal {
+  position: absolute;
+  z-index: var(--z-index-50);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 32px;
+}
+
+.is-playground {
+  position: relative;
+  width: calc(50% - 15px);
+  height: 400px;
+  border: var(--border-width-thick) dashed var(--color-primary);
+}
+
+.type-primary {
+  background-color: var(--color-primary);
+}
+
+.type-secondary {
+  background-color: var(--background-color-primary);
+}

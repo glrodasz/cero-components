@@ -12,9 +12,6 @@ const ListTemplate = getListTemplate(Spacer, styles)
 export default {
   title: 'Layout/Spacer/Default',
   component: Spacer,
-  args: {
-    isVisible: true,
-  },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
   },

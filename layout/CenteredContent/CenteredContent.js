@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 import styles from './CenteredContent.module.css'
 import withStyles from '../../hocs/withStyles'
 
-export const CenteredContent = ({ getStyles, children, isVisible }) => {
+export const CenteredContent = ({ getStyles, children, isPlayground }) => {
   return (
     <div
       className={getStyles('centered-content', {
-        'is-visible': isVisible,
+        'is-playground': isPlayground,
       })}
     >
       {children}
@@ -19,11 +19,11 @@ export const CenteredContent = ({ getStyles, children, isVisible }) => {
 CenteredContent.propTypes = {
   children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
-  isVisible: PropTypes.bool,
+  isPlayground: PropTypes.bool,
 }
 
 CenteredContent.defaultProps = {
-  isVisible: false,
+  isPlayground: false,
   getStyles: () => {},
 }
 

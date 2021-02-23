@@ -16,7 +16,7 @@ exports[`Storyshots Layout/Spacer/Default Default 1`] = `
   }
 >
   <div
-    className="spacer is-visible"
+    className="spacer is-playground"
     style={
       Object {
         "display": "inline-block",
@@ -44,7 +44,7 @@ exports[`Storyshots Layout/Spacer/Default Sizes 1`] = `
   }
 >
   <div
-    className="spacer is-visible"
+    className="spacer is-playground"
     style={
       Object {
         "display": "inline-block",
@@ -54,7 +54,7 @@ exports[`Storyshots Layout/Spacer/Default Sizes 1`] = `
     }
   />
   <div
-    className="spacer is-visible"
+    className="spacer is-playground"
     style={
       Object {
         "display": "inline-block",
@@ -64,7 +64,7 @@ exports[`Storyshots Layout/Spacer/Default Sizes 1`] = `
     }
   />
   <div
-    className="spacer is-visible"
+    className="spacer is-playground"
     style={
       Object {
         "display": "inline-block",
@@ -74,7 +74,7 @@ exports[`Storyshots Layout/Spacer/Default Sizes 1`] = `
     }
   />
   <div
-    className="spacer is-visible"
+    className="spacer is-playground"
     style={
       Object {
         "display": "inline-block",
@@ -84,7 +84,7 @@ exports[`Storyshots Layout/Spacer/Default Sizes 1`] = `
     }
   />
   <div
-    className="spacer is-visible"
+    className="spacer is-playground"
     style={
       Object {
         "display": "inline-block",

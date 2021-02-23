@@ -17,6 +17,10 @@
   color: var(--color-primary);
 }
 
+.color-tertiary {
+  color: var(--color-tertiary);
+}
+
 .size-xs {
   font-size: var(--font-size-xs);
 }

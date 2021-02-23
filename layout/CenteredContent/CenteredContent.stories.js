@@ -8,7 +8,6 @@ export default {
   title: 'Layout/CenteredContent',
   component: CenteredContent,
   args: {
-    isVisible: true,
     children: `Farthings pulled strain? Half they'll greater land sordid Elessar. Glamdring um 17 13 motion? Creaked fate spawning chief lords loved loveliest ashes Elfs witness. Brook born Caradhras dining raining! Seeing-stones taking unlost working. A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to. Oakenshield despite distinct prosperous wields relight dark weighed leader reaches rid honor. Moments poison Sackville-Bagginses echoes dozens fend get. Scales exist apple Gundabad retaken bunch agreeable mantle cannot name's seasoning private.
     Brave dry defeats? Remembered unleashed Denethor niceties legacy. Streets cares pretty Brandybucks ostler. Intact dispatch their expenses suffered flaming bacon should Fili? Jacksie begins hallway needed tracked Gondor's wonderful popularity. Seemed ears perfectly Oakenshield's pale fall animals stabs betrayed grumbling? Stuff awake Brandybuck large done. Curse you and all the halflings!
     Dared sit torment goes Anárion forgiven west. Summon Bucklebury ship. Terms none Farthings. Tea choose Dwarvish! Leagues gracious carpet payment Brandywine senses very thousand! Don't you leave him, Samwise Gamgee. Firestorm raising Shire reaction mud morninged shines death should! It'll Halflings nab pot drove start. Carpet Lasgalen seen sleepies!

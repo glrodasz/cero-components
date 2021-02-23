@@ -14,6 +14,7 @@ const choices = {
       whiteLilac: '#e8e8e8',
       hintOfRed: '#f9f9f9',
       romance: '#fcfdfd',
+      mediumSpringGreen: '#00e5a8',
     },
 
     base: {
@@ -244,6 +245,7 @@ const decisions = {
     secondary: choices.color.brand.amaranth,
     secondaryMuted: choices.color.brand.mandy,
     secondaryInverted: choices.color.base.white,
+    tertiary: choices.color.brand.mediumSpringGreen,
   },
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,

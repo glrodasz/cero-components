@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import styles from './Container.module.css'
 import withStyles from '../../hocs/withStyles'
 
-export const Container = ({ getStyles, children, isVisible }) => {
+export const Container = ({ getStyles, children, isPlayground }) => {
   return (
     <div
       className={getStyles('container', {
-        'is-visible': isVisible,
+        'is-playground': isPlayground,
       })}
     >
       {children}
@@ -18,11 +18,11 @@ export const Container = ({ getStyles, children, isVisible }) => {
 Container.propTypes = {
   children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
-  isVisible: PropTypes.bool,
+  isPlayground: PropTypes.bool,
 }
 
 Container.defaultProps = {
-  isVisible: false,
+  isPlayground: false,
   getStyles: () => {},
 }
 

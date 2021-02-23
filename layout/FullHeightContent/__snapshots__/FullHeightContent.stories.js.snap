@@ -16,7 +16,7 @@ exports[`Storyshots Layout/FullHeightContent Default 1`] = `
   }
 >
   <div
-    className="full-height-content is-visible"
+    className="full-height-content is-playground"
   >
     <div
       className="content"
