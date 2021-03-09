@@ -246,6 +246,8 @@ const decisions = {
     secondaryMuted: choices.color.brand.mandy,
     secondaryInverted: choices.color.base.white,
     tertiary: choices.color.brand.mediumSpringGreen,
+    tertiaryMuted: choices.color.green[500],
+    tertiaryInverted: choices.color.base.white,
   },
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,

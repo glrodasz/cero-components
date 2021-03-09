@@ -5,11 +5,17 @@ import styles from './Modal.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 import Icon from '../../atoms/Icon'
+import Container from '../../layout/Container'
 
 const handleClose = ({ onClose }) => () => {
   onClose()
 }
 
+// TODO: Define if this is an Atom or a Molecule. Review if
+// there are more Atoms with a Layout component and decide
+// if a Layout component behaves like a different Atom or
+// we should not take them into consideration
+// The people spoke and they think is a Molecule
 export const Modal = ({ onClose, children, getStyles, isPlayground }) => {
   return (
     <div
@@ -25,7 +31,7 @@ export const Modal = ({ onClose, children, getStyles, isPlayground }) => {
           onClick={handleClose({ onClose })}
         />
       )}
-      {children}
+      <Container>{children}</Container>
     </div>
   )
 }

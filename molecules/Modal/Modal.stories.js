@@ -26,7 +26,9 @@ export default {
 }
 
 export const Default = Template.bind({})
+
 export const Closable = Template.bind({})
 Closable.args = { onClose: () => {} }
-export const List = ListTemplate.bind({})
-List.args = { items: options.types.map((type) => ({ type })) }
+
+export const Types = ListTemplate.bind({})
+Types.args = { items: options.types.map((type) => ({ type })) }
