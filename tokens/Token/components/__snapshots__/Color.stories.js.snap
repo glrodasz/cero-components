@@ -1075,6 +1075,58 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       </span>
     </div>
   </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#48bb78",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-tertiary-muted)
+      </span>
+      <span
+        className="label"
+      >
+        #48bb78
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-tertiary-inverted)
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
 </div>
 `;
 

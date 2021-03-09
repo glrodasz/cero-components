@@ -1,7 +1,7 @@
 .error {
   display: flex;
   padding: 10px 20px;
-  border-top: 5px solid var(--color-red-500);
+  border-top: 4px solid var(--color-red-500);
   background: var(--color-red-200);
   color: var(--color-red-800);
 }

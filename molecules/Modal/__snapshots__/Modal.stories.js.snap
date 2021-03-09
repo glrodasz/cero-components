@@ -41,7 +41,11 @@ exports[`Storyshots Molecules/Modal Closable 1`] = `
         />
       </svg>
     </div>
-    Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    <div
+      className="container"
+    >
+      Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    </div>
   </div>
 </div>
 `;
@@ -64,12 +68,16 @@ exports[`Storyshots Molecules/Modal Default 1`] = `
   <div
     className="modal type-primary is-playground"
   >
-    Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    <div
+      className="container"
+    >
+      Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Molecules/Modal List 1`] = `
+exports[`Storyshots Molecules/Modal Types 1`] = `
 <div
   style={
     Object {
@@ -87,12 +95,20 @@ exports[`Storyshots Molecules/Modal List 1`] = `
   <div
     className="modal type-primary is-playground"
   >
-    Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    <div
+      className="container"
+    >
+      Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    </div>
   </div>
   <div
     className="modal type-secondary is-playground"
   >
-    Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    <div
+      className="container"
+    >
+      Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught
+    </div>
   </div>
 </div>
 `;
