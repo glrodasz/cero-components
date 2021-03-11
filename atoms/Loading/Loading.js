@@ -8,9 +8,7 @@ export const Loading = ({ children, isShown, getStyles, isPlayground }) => {
   if (isShown || isPlayground) {
     return (
       <div className={getStyles('container')}>
-        <div className={getStyles('loading', { 'is-shown': isShown })}>
-          {children}
-        </div>
+        <div className={getStyles('loading', { 'is-shown': isShown })} />
       </div>
     )
   }

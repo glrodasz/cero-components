@@ -1,12 +1,13 @@
 .container {
-  position: relative;
+  --size: 15px;
+  --gap: 25px;
 }
 
 .loading,
 .loading:before,
 .loading:after {
-  width: 2.5em;
-  height: 2.5em;
+  width: var(--size);
+  height: var(--size);
   animation: pulse 1.8s infinite ease-in-out;
   animation-fill-mode: both;
   border-radius: var(--border-radius-full);
@@ -14,11 +15,10 @@
 
 .loading {
   position: relative;
-  top: -2.5em;
-  left: 3.5em;
+  top: calc(var(--size) * -1);
+  left: var(--gap);
   animation-delay: -0.16s;
   color: var(--color-primary);
-  font-size: 10px;
   transform: translateZ(0);
 }
 
@@ -30,22 +30,22 @@
 }
 
 .loading:before {
-  left: -3.5em;
+  left: calc(var(--gap) * -1);
   animation-delay: -0.32s;
 }
 
 .loading:after {
-  left: 3.5em;
+  left: var(--gap);
 }
 
 @keyframes pulse {
   0%,
   80%,
   100% {
-    box-shadow: 0 2.5em 0 -1.3em;
+    box-shadow: 0 var(--size) 0 calc(var(--size) / -2);
   }
 
   40% {
-    box-shadow: 0 2.5em 0 0;
+    box-shadow: 0 var(--size) 0 0;
   }
 }
