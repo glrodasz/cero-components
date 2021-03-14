@@ -13,6 +13,7 @@ const ListTemplate = getListTemplate(Horizontal, styles)
 export default {
   title: 'Layout/Spacer/Horizontal',
   component: Horizontal,
+  args: { isPlayground: true },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
   },

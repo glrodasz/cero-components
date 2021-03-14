@@ -17,8 +17,8 @@ export const Loading = ({ children, isShown, getStyles, isPlayground }) => {
 }
 
 Loading.propTypes = {
-  children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
+  children: PropTypes.node,
   isShown: PropTypes.bool,
   isPlayground: PropTypes.bool,
 }

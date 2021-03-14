@@ -16,6 +16,7 @@ export default {
   args: {
     height: 100,
     maxHeight: 100,
+    isPlayground: true,
   },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),

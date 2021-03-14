@@ -14,6 +14,7 @@ export default {
   title: 'Molecules/Modal',
   component: Modal,
   args: {
+    isPlayground: true,
     onClose: null,
     children:
       "Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught",
