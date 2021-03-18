@@ -1,3 +1,16 @@
+# [1.11.0](https://github.com/glrodasz/cero-components/compare/v1.10.0...v1.11.0) (2021-03-18)
+
+
+### Bug Fixes
+
+* **loading:** remove children when loadin is shown ([c2f0626](https://github.com/glrodasz/cero-components/commit/c2f062670e6afb9227059f545f94d88bad2ebfa6))
+
+
+### Features
+
+* **loading, error:** add loading and error components ([e9777de](https://github.com/glrodasz/cero-components/commit/e9777de29f7efb890658143d6a2291799afa0d0e))
+* **modal:** add modal molecule ([282e146](https://github.com/glrodasz/cero-components/commit/282e146b5abd02ddab3bca17f69b31e458875b39))
+
 # [1.10.0](https://github.com/glrodasz/cero-components/compare/v1.9.0...v1.10.0) (2021-02-18)
 
 
