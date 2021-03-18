@@ -824,6 +824,31 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
       />
     </svg>
   </div>
+  <div
+    className="icon color-base size-md background-transparent"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 20 20"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+        fillRule="evenodd"
+      />
+      <path
+        d="M10.7837 11.8579H9.25293L9.08447 4.33594H10.9595L10.7837 11.8579ZM9.0332 14.1577C9.0332 13.8794 9.12354 13.6499 9.3042 13.4692C9.48486 13.2837 9.73145 13.1909 10.0439 13.1909C10.3564 13.1909 10.603 13.2837 10.7837 13.4692C10.9644 13.6499 11.0547 13.8794 11.0547 14.1577C11.0547 14.4263 10.9668 14.6509 10.791 14.8315C10.6152 15.0122 10.3662 15.1025 10.0439 15.1025C9.72168 15.1025 9.47266 15.0122 9.29688 14.8315C9.12109 14.6509 9.0332 14.4263 9.0332 14.1577Z"
+      />
+    </svg>
+  </div>
 </div>
 `;
 
@@ -842,6 +867,33 @@ exports[`Storyshots Atoms/Icon Sizes 1`] = `
     }
   }
 >
+  <div
+    className="icon color-base size-xs background-transparent"
+    style={
+      Object {
+        "height": 14,
+        "width": 14,
+      }
+    }
+  >
+    <svg
+      height={14}
+      viewBox="0 0 19 20"
+      width={14}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M0 8.65796H17V10.658H0V8.65796Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
   <div
     className="icon color-base size-sm background-transparent"
     style={

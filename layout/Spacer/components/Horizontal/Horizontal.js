@@ -5,10 +5,10 @@ import { mapSize } from '../../helpers'
 import styles from '../../Spacer.module.css'
 import withStyles from '../../../../hocs/withStyles'
 
-export const Horizontal = ({ getStyles, size, isVisible }) => (
+export const Horizontal = ({ getStyles, size, isPlayground }) => (
   <div
     className={getStyles('spacer', 'horizontal', {
-      'is-visible': isVisible,
+      'is-playground': isPlayground,
     })}
     style={{
       height: mapSize(size),
@@ -19,12 +19,12 @@ export const Horizontal = ({ getStyles, size, isVisible }) => (
 Horizontal.propTypes = {
   getStyles: PropTypes.func.isRequired,
   size: PropTypes.string.isRequired,
-  isVisible: PropTypes.bool,
+  isPlayground: PropTypes.bool,
 }
 
 Horizontal.defaultProps = {
   size: 'none',
-  isVisible: false,
+  isPlayground: false,
   getStyles: () => {},
 }
 

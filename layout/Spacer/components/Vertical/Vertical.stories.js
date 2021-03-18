@@ -14,9 +14,9 @@ export default {
   title: 'Layout/Spacer/Vertical',
   component: Vertical,
   args: {
-    isVisible: true,
     height: 100,
     maxHeight: 100,
+    isPlayground: true,
   },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),

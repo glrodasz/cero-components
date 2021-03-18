@@ -26,6 +26,11 @@ exports[`Storyshots Atoms/Heading Colors 1`] = `
     Consent doubt Tuckborough challenge destroying.
   </header>
   <header
+    className="heading color-tertiary size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
     className="heading color-inverted size-md weight-bold"
   >
     Consent doubt Tuckborough challenge destroying.

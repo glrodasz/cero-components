@@ -1,0 +1,51 @@
+.container {
+  --size: 15px;
+  --gap: 25px;
+}
+
+.loading,
+.loading:before,
+.loading:after {
+  width: var(--size);
+  height: var(--size);
+  animation: pulse 1.8s infinite ease-in-out;
+  animation-fill-mode: both;
+  border-radius: var(--border-radius-full);
+}
+
+.loading {
+  position: relative;
+  top: calc(var(--size) * -1);
+  left: var(--gap);
+  animation-delay: -0.16s;
+  color: var(--color-primary);
+  transform: translateZ(0);
+}
+
+.loading:before,
+.loading:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+
+.loading:before {
+  left: calc(var(--gap) * -1);
+  animation-delay: -0.32s;
+}
+
+.loading:after {
+  left: var(--gap);
+}
+
+@keyframes pulse {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 var(--size) 0 calc(var(--size) / -2);
+  }
+
+  40% {
+    box-shadow: 0 var(--size) 0 0;
+  }
+}

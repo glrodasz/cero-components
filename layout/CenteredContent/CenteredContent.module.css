@@ -7,6 +7,6 @@
   justify-content: center;
 }
 
-.is-visible {
+.is-playground {
   border: var(--border-width-thick) dashed var(--color-primary);
 }

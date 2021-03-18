@@ -28,5 +28,6 @@ export const parameters = {
     styles: { table: { disable: true } },
     getStyles: { table: { disable: true } },
   },
+  args: { isPlayground: true },
   actions: { argTypesRegex: '^on[A-Z].*' },
 }

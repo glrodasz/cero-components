@@ -1,4 +1,5 @@
 const iconSize = {
+  xs: 14,
   sm: 25,
   md: 35,
   lg: 50,
