@@ -27,5 +27,9 @@
     "react": {
       "version": "detect"
     }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/forbid-prop-types": "warn"
   }
 }
