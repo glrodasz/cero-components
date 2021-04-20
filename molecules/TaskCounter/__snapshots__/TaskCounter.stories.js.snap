@@ -66,11 +66,11 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
     className="task-counter"
   >
     <div
-      className="container"
+      className="container is-toggleable"
+      onClick={[Function]}
     >
       <div
-        className="icon color-inverted size-sm background-fulfilled is-clickable"
-        onClick={[Function]}
+        className="icon color-inverted size-sm background-fulfilled"
         style={
           Object {
             "height": 25,
@@ -97,7 +97,7 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
           Object {
             "height": "100%",
             "maxHeight": "auto",
-            "width": 5,
+            "width": 15,
           }
         }
       />

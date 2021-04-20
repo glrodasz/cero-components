@@ -16,18 +16,26 @@ const handleToggle = ({ onToggle, isCollapsed, setIsCollapsed }) => () => {
 }
 
 export const TaskCounter = ({
+  title,
   children,
   current,
   total,
   isToggleable,
   onToggle,
   getStyles,
+  defaultIsCollapsed,
 }) => {
-  const [isCollapsed, setIsCollapsed] = useState(true)
+  const [isCollapsed, setIsCollapsed] = useState(defaultIsCollapsed)
 
   return (
     <div className={getStyles('task-counter')}>
-      <div className={getStyles('container')}>
+      <div
+        className={getStyles('container', { 'is-toggleable': isToggleable })}
+        onClick={
+          isToggleable &&
+          handleToggle({ onToggle, isCollapsed, setIsCollapsed })
+        }
+      >
         {isToggleable && (
           <>
             <Icon
@@ -35,36 +43,39 @@ export const TaskCounter = ({
               size="sm"
               name={isCollapsed ? 'angleUp' : 'angleDown'}
               background="fulfilled"
-              isClickable
-              onClick={handleToggle({ onToggle, isCollapsed, setIsCollapsed })}
             />
-            <Spacer.Vertical size="xs" />
+            <Spacer.Vertical size="sm" />
           </>
         )}
-        <Paragraph weight="medium">{children}</Paragraph>
+        <Paragraph weight="medium">{title}</Paragraph>
         <Paragraph weight="medium" isInline>
           {total ? `${current}/${total}` : current}
         </Paragraph>
       </div>
       <Spacer.Horizontal size="xs" />
       <Divider />
+      {!isCollapsed && children}
     </div>
   )
 }
 
 TaskCounter.propTypes = {
-  children: PropTypes.node.isRequired,
+  title: PropTypes.string.isRequired,
   getStyles: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   current: PropTypes.number.isRequired,
+  children: PropTypes.node,
   onToggle: PropTypes.func,
   isToggleable: PropTypes.bool,
   total: PropTypes.number,
+  defaultIsCollapsed: PropTypes.bool,
 }
 
 TaskCounter.defaultProps = {
   getStyles: () => {},
+  onToggle: () => {},
   current: 0,
+  defaultIsCollapsed: true,
 }
 
 export default withStyles(styles)(TaskCounter)

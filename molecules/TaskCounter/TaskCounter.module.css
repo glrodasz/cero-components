@@ -9,3 +9,7 @@
   line-height: 1;
   text-transform: uppercase;
 }
+
+.is-toggleable {
+  cursor: pointer;
+}
