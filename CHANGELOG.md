@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/glrodasz/cero-components/compare/v1.11.0...v1.12.0) (2021-04-20)
+
+
+### Features
+
+* **task-counter:** enable default is collapse in task counter ([e02db79](https://github.com/glrodasz/cero-components/commit/e02db79444a190218a0f526df6126e21a2879127))
+
 # [1.11.0](https://github.com/glrodasz/cero-components/compare/v1.10.0...v1.11.0) (2021-03-18)
 
 
