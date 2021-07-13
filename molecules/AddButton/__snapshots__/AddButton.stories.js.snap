@@ -17,6 +17,7 @@ exports[`Storyshots Molecules/AddButton Default 1`] = `
 >
   <div
     className="add-button type-primary"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -87,6 +88,7 @@ exports[`Storyshots Molecules/AddButton Edit Mode 1`] = `
 >
   <div
     className="add-button type-primary is-editable"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -94,6 +96,7 @@ exports[`Storyshots Molecules/AddButton Edit Mode 1`] = `
     >
       <input
         autoFocus={false}
+        id="-add-button-input"
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -123,6 +126,7 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
 >
   <div
     className="add-button type-primary is-editable"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -130,6 +134,7 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
     >
       <input
         autoFocus={false}
+        id="-add-button-input"
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -174,6 +179,7 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
 >
   <div
     className="add-button type-primary"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -226,6 +232,7 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
   </div>
   <div
     className="add-button type-secondary"
+    id="-add-button"
     onClick={[Function]}
   >
     <div

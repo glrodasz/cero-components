@@ -39,6 +39,7 @@
     "lint:json": "prettier '**/*.json' --list-different --ignore-path .gitignore",
     "lint": "run-p lint:js lint:json lint:css",
     "test:coverage": "yarn test --coverage",
+    "test:coverage:html": "yarn test:coverage & open coverage/lcov-report/index.html",
     "test:watch": "CONSOLE_LEVEL=debug yarn test --watch",
     "test": "jest"
   },
