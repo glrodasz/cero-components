@@ -18,6 +18,7 @@ import { shouldShowHelpText } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
 export const AddButton = ({
+  id,
   getStyles,
   children,
   focusHelpText,
@@ -35,6 +36,7 @@ export const AddButton = ({
 
   return (
     <div
+      id={`${id}-add-button`}
       className={getStyles('add-button', ['type'], {
         'is-editable': isEditable,
         'is-focused': isFocused,
@@ -44,6 +46,7 @@ export const AddButton = ({
       {isEditable ? (
         <div className={getStyles('edit-container')}>
           <input
+            id={`${id}-add-button-input`}
             ref={inputRef}
             type="text"
             value={inputValue}
@@ -97,6 +100,7 @@ AddButton.propTypes = {
   onAdd: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   icon: PropTypes.oneOf(options.icons),
+  id: PropTypes.string,
   focusHelpText: PropTypes.string,
   blurHelpText: PropTypes.string,
   defaultIsEditable: PropTypes.bool,
@@ -104,6 +108,7 @@ AddButton.propTypes = {
 }
 
 AddButton.defaultProps = {
+  id: '',
   type: 'primary',
   icon: 'plusCircle',
   defaultIsEditable: false,
