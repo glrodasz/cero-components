@@ -1,12 +1,14 @@
 # Cero to Production — Components
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/glrodasz/cero-components/Release) ![Codecov](https://img.shields.io/codecov/c/github/glrodasz/cero-components) ![npm](https://img.shields.io/npm/v/@glrodasz/components) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/glrodasz/cero-components/Release) ![Codecov](https://img.shields.io/codecov/c/github/glrodasz/cero-components) ![npm](https://img.shields.io/npm/v/@glrodasz/components) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
  [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybooks/storybook)
 
 
-0️⃣ 🚀 **Cero A Producción** is a project of live coding sessions in [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream) where we develop a a productivity management app called **RETO** from the scratch.
+0️⃣ 🚀 **Cero A Producción** is a project of live coding sessions where we develop a a productivity management app called **RETO** from the scratch to production.
 
 ## The idea behind
-The idea behindd this sessions is to show a real developer experience where we explore every decision that a common programmer do in daily basis with JavaScript and other tools. You will see failing tests, refactors, Google and StackOverflow searchs, but also a lot of fun and the struggle of naming things. The project streamed in 🇪🇸 Spanish, every **Tuesdays** and **Thursdays**.
+The idea behind this sessions is to show a real developer experience where we explore every decision that a common programmer do in daily basis with JavaScript and other tools. You will see failing tests, refactors, Google and StackOverflow searchs, but also a lot of fun and the struggle of naming things.
+
+Watch the project in live streaming in 🇪🇸 Spanish, every **Tuesdays** and **Thursdays**. [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream) 
 
 ## Table of Contents
 
