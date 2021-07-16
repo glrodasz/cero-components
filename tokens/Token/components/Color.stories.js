@@ -60,32 +60,68 @@ Backgrounds.parameters = {
   __sb: { fd: 'row' },
 }
 
-export const Gray = ListTemplate.bind({})
-Gray.args = { items: getItems('gray') }
+export const Rose = ListTemplate.bind({})
+Rose.args = { items: getItems('rose') }
 
-export const Red = ListTemplate.bind({})
-Red.args = { items: getItems('red') }
+export const Pink = ListTemplate.bind({})
+Pink.args = { items: getItems('pink') }
 
-export const Orange = ListTemplate.bind({})
-Orange.args = { items: getItems('orange') }
-
-export const Yellow = ListTemplate.bind({})
-Yellow.args = { items: getItems('yellow') }
-
-export const Green = ListTemplate.bind({})
-Green.args = { items: getItems('green') }
-
-export const Teal = ListTemplate.bind({})
-Teal.args = { items: getItems('teal') }
-
-export const Blue = ListTemplate.bind({})
-Blue.args = { items: getItems('blue') }
-
-export const Indigo = ListTemplate.bind({})
-Indigo.args = { items: getItems('indigo') }
+export const Fuchsia = ListTemplate.bind({})
+Fuchsia.args = { items: getItems('fuchsia') }
 
 export const Purple = ListTemplate.bind({})
 Purple.args = { items: getItems('purple') }
 
-export const Pink = ListTemplate.bind({})
-Pink.args = { items: getItems('pink') }
+export const Violet = ListTemplate.bind({})
+Violet.args = { items: getItems('violet') }
+
+export const Indigo = ListTemplate.bind({})
+Indigo.args = { items: getItems('indigo') }
+
+export const Blue = ListTemplate.bind({})
+Blue.args = { items: getItems('blue') }
+
+export const Sky = ListTemplate.bind({})
+Sky.args = { items: getItems('sky') }
+
+export const Cyan = ListTemplate.bind({})
+Cyan.args = { items: getItems('cyan') }
+
+export const Teal = ListTemplate.bind({})
+Teal.args = { items: getItems('teal') }
+
+export const Emerald = ListTemplate.bind({})
+Emerald.args = { items: getItems('emerald') }
+
+export const Green = ListTemplate.bind({})
+Green.args = { items: getItems('green') }
+
+export const Lime = ListTemplate.bind({})
+Lime.args = { items: getItems('lime') }
+
+export const Yellow = ListTemplate.bind({})
+Yellow.args = { items: getItems('yellow') }
+
+export const Amber = ListTemplate.bind({})
+Amber.args = { items: getItems('amber') }
+
+export const Orange = ListTemplate.bind({})
+Orange.args = { items: getItems('orange') }
+
+export const Red = ListTemplate.bind({})
+Red.args = { items: getItems('red') }
+
+export const WarmGray = ListTemplate.bind({})
+WarmGray.args = { items: getItems('warmGray') }
+
+export const TrueGray = ListTemplate.bind({})
+TrueGray.args = { items: getItems('trueGray') }
+
+export const Gray = ListTemplate.bind({})
+Gray.args = { items: getItems('gray') }
+
+export const CoolGray = ListTemplate.bind({})
+CoolGray.args = { items: getItems('coolGray') }
+
+export const BlueGray = ListTemplate.bind({})
+BlueGray.args = { items: getItems('blueGray') }
