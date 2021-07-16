@@ -1,5 +1,6 @@
 .link {
-  display: flex;
+  display: inline;
+  max-width: max-content;
   border-bottom: 1px solid currentColor;
   cursor: pointer;
 }

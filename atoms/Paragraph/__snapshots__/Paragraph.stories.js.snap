@@ -84,7 +84,7 @@ exports[`Storyshots Atoms/Paragraph Inline 1`] = `
   <div
     className="paragraph color-base size-md weight-normal is-inline"
   >
-    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+    Swords are no more.
   </div>
 </div>
 `;

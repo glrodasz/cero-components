@@ -30,7 +30,7 @@ export const Striked = Template.bind({})
 Striked.args = { isStriked: true }
 
 export const Inline = Template.bind({})
-Inline.args = { isInline: true }
+Inline.args = { isInline: true, children: 'Swords are no more.' }
 
 export const Colors = ListTemplate.bind({})
 Colors.args = { items: options.colors.map((color) => ({ color })) }

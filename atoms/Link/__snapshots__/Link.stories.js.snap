@@ -19,7 +19,7 @@ exports[`Storyshots Atoms/Link Colors 1`] = `
     className="link color-primary"
   >
     <div
-      className="paragraph color-primary size-md weight-medium"
+      className="paragraph color-primary size-md weight-medium is-inline"
     >
       Mouths Muil
     </div>
@@ -28,7 +28,7 @@ exports[`Storyshots Atoms/Link Colors 1`] = `
     className="link color-tertiary"
   >
     <div
-      className="paragraph color-tertiary size-md weight-medium"
+      className="paragraph color-tertiary size-md weight-medium is-inline"
     >
       Mouths Muil
     </div>
@@ -55,7 +55,7 @@ exports[`Storyshots Atoms/Link Default 1`] = `
     className="link color-primary"
   >
     <div
-      className="paragraph color-primary size-md weight-medium"
+      className="paragraph color-primary size-md weight-medium is-inline"
     >
       Mouths Muil
     </div>

@@ -47,5 +47,6 @@
 }
 
 .is-inline {
-  width: auto;
+  display: inline-block;
+  max-width: max-content;
 }
