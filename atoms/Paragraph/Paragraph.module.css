@@ -14,6 +14,14 @@
   color: var(--color-font-muted);
 }
 
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-tertiary {
+  color: var(--color-tertiary);
+}
+
 .size-sm {
   font-size: var(--font-size-xs);
 }

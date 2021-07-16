@@ -1,0 +1,13 @@
+.link {
+  display: flex;
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-tertiary {
+  color: var(--color-tertiary);
+}
