@@ -33,7 +33,7 @@
 }
 
 .color-base {
-  border: var(--border-width-thin) solid var(--color-gray-300);
+  border: var(--border-width-thin) solid var(--color-gray-400);
   background: var(--color-primary-inverted);
 }
 
