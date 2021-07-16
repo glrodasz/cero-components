@@ -3,7 +3,7 @@
  [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybooks/storybook)
 
 
-0️⃣🚀 **Cero A Producción** is a project of live coding sessions in [Twitch](https://glrz.me/stream) where we develop a a productivity management app called **RETO** from the scratch.
+0️⃣ 🚀 **Cero A Producción** is a project of live coding sessions in [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream) where we develop a a productivity management app called **RETO** from the scratch.
 
 ## The idea behind
 The idea behindd this sessions is to show a real developer experience where we explore every decision that a common programmer do in daily basis with JavaScript and other tools. You will see failing tests, refactors, Google and StackOverflow searchs, but also a lot of fun and the struggle of naming things. The project streamed in 🇪🇸 Spanish, every **Tuesdays** and **Thursdays**.
