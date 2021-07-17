@@ -42,7 +42,7 @@ export const TaskCounter = ({
               color="inverted"
               size="sm"
               name={isCollapsed ? 'angleUp' : 'angleDown'}
-              background="fulfilled"
+              background="muted"
             />
             <Spacer.Horizontal size="sm" />
           </>
