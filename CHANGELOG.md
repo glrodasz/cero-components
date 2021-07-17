@@ -1,3 +1,15 @@
+# [1.13.0](https://github.com/glrodasz/cero-components/compare/v1.12.0...v1.13.0) (2021-07-16)
+
+
+### Bug Fixes
+
+* **paragraph:** fix inline prop ([c39e7e5](https://github.com/glrodasz/cero-components/commit/c39e7e5cea2967691824c3ebe9b60102868693bd))
+
+
+### Features
+
+* **link:** add a link component ([abac610](https://github.com/glrodasz/cero-components/commit/abac610b6c0295fd1d0da94d13c5379516144ea2))
+
 # [1.12.0](https://github.com/glrodasz/cero-components/compare/v1.11.0...v1.12.0) (2021-04-20)
 
 
