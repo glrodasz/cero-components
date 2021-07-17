@@ -24,7 +24,7 @@ exports[`Storyshots Layout/FullHeightContent Default 1`] = `
       Mice defiling required Bilbo sailing unspoiled this hunting. 14th refuge knowing breath Middle-earth sack demon children?
     </div>
     <div
-      className="spacer bertical"
+      className="spacer vertical"
       style={
         Object {
           "height": 15,

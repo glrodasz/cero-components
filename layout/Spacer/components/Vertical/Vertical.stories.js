@@ -1,4 +1,4 @@
-import { Bertical } from '.'
+import { Vertical } from '.'
 import { options, styles } from '../..'
 
 import {
@@ -7,12 +7,12 @@ import {
   getOptionsArgTypes,
 } from '../../../../helpers/storybook'
 
-const Template = getTemplate(Bertical, styles)
-const ListTemplate = getListTemplate(Bertical, styles)
+const Template = getTemplate(Vertical, styles)
+const ListTemplate = getListTemplate(Vertical, styles)
 
 export default {
-  title: 'Layout/Spacer/Bertical',
-  component: Bertical,
+  title: 'Layout/Spacer/Vertical',
+  component: Vertical,
   args: { isPlayground: true },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),

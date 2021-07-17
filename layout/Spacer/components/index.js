@@ -1,2 +1,2 @@
 export { default as Horizontal } from './Horizontal'
-export { default as Bertical } from './Bertical'
+export { default as Vertical } from './Vertical'

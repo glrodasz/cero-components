@@ -9,7 +9,7 @@ export default {
   component: LoadingError,
   args: {
     children:
-      "Exile ruins brook Angmar inn wars retaken. Swiftly attacks Grma merely! Opinion Eorlingas inquisitive windlance? You are full of surprises, Master Baggins. Houses warning garden noble innocent silver charm numerous thirsty came Treebeard's warm. ",
+      "Exile ruins brook Angmar inn wars retaken. Swiftly attacks Grma merely! Opinion Eorlingas inquisitive windlance? You are full of surprises, Master Baggins. Houses warning garden noble innocent silver charm numerous thirsty came Treebeard's warm.",
   },
 }
 
