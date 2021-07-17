@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/glrodasz/cero-components/compare/v2.0.0...v2.1.0) (2021-07-17)
+
+
+### Features
+
+* **colors:** improve colors definitions ([d8e84b7](https://github.com/glrodasz/cero-components/commit/d8e84b78d457f65e445e2a9bbd95f361bb8b2576))
+
 # [2.0.0](https://github.com/glrodasz/cero-components/compare/v1.14.0...v2.0.0) (2021-07-17)
 
 
