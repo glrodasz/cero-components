@@ -20,7 +20,7 @@ export default {
       "Successful boar world's somebody herbs helpful spiders Samwise Gamgee helps unlost circles guard? Investment Thofin folly? Troublemaker minutes moldy Rivendell eve late traveling around crescent fault never naught",
   },
   argTypes: {
-    types: getOptionsArgTypes(options.types),
+    type: getOptionsArgTypes(options.types),
     onClose: { action: 'clicked' },
   },
   parameters: { __sb: { fd: 'row' } },

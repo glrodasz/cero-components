@@ -268,11 +268,11 @@
   --font-family-mono: 'Roboto Mono', 'Courier New', monospace;
 
   --font-size-base: 10px;
-  --font-size-xs: 1.1rem;
-  --font-size-sm: 1.3rem;
-  --font-size-md: 1.5rem;
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-md: 1.6rem;
   --font-size-lg: 1.8rem;
-  --font-size-xl: 2.1rem;
+  --font-size-xl: 2.2rem;
   --font-size-2xl: 6rem;
 
   --font-weight-hairline: 100;
@@ -360,7 +360,7 @@
   --input-max-width: 400px;
   --input-background: #fff;
   --input-border-radius: 30px;
-  --input-font-size: 1.3rem;
+  --input-font-size: 1.4rem;
 
   --picture-border: 1px solid #7e858c;
 

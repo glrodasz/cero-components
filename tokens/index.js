@@ -319,11 +319,11 @@ const choices = {
   },
   fontSize: {
     base: '10px',
-    xs: '1.1rem',
-    sm: '1.3rem',
-    md: '1.5rem',
+    xs: '1.2rem',
+    sm: '1.4rem',
+    md: '1.6rem',
     lg: '1.8rem',
-    xl: '2.1rem',
+    xl: '2.2rem',
     '2xl': '6rem',
   },
   fontWeight: {
