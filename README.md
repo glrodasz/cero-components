@@ -3,7 +3,7 @@
  [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybooks/storybook)
 
 
-0️⃣ 🚀 **Cero A Producción** is a project of live coding sessions where we develop a a productivity management app called **RETO** from the scratch to production.
+0️⃣ 🚀 **Cero a Producción** is a project of live coding sessions where we develop a a productivity management app called **RETO** from the scratch to production.
 
 ## The idea behind
 The idea behind this sessions is to show a real developer experience where we explore every decision that a common programmer do in daily basis with JavaScript and other tools. You will see failing tests, refactors, Google and StackOverflow searchs, but also a lot of fun and the struggle of naming things.
