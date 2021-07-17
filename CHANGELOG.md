@@ -1,3 +1,15 @@
+# [1.14.0](https://github.com/glrodasz/cero-components/compare/v1.13.0...v1.14.0) (2021-07-17)
+
+
+### Bug Fixes
+
+* **tokens:** color tokens label description ([7d2a5e0](https://github.com/glrodasz/cero-components/commit/7d2a5e0fe411611700d18d053bbda3a0a289a2c4))
+
+
+### Features
+
+* **colors, tokens:** add new tailwind colors into the tokens and font weight token in the storybook ([a8520a7](https://github.com/glrodasz/cero-components/commit/a8520a74e2f4180700c51021f8b8dc3b83bc8728))
+
 # [1.13.0](https://github.com/glrodasz/cero-components/compare/v1.12.0...v1.13.0) (2021-07-16)
 
 
