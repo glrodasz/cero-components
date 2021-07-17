@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/glrodasz/cero-components/compare/v1.14.0...v2.0.0) (2021-07-17)
+
+
+### Bug Fixes
+
+* **link:** add a better weight to the link ([5c6cde8](https://github.com/glrodasz/cero-components/commit/5c6cde8ff6f33670d7562262f5f5dfa538e2d608))
+* change horizontal to vertical ([c82ed5b](https://github.com/glrodasz/cero-components/commit/c82ed5b15c80fc5e5a4149c78aee2bc60d5ca724))
+* rename bertical to vertical ([3b5656e](https://github.com/glrodasz/cero-components/commit/3b5656ee75678c42b2cb40e95846515f646db557))
+* rename vertical to horizontal ([24c7ab3](https://github.com/glrodasz/cero-components/commit/24c7ab3f60db23687bef52ffa8580f5824cf4221))
+
+
+### BREAKING CHANGES
+
+* **link:** Spacer.Horizontal now behaves like Spacer.Vertical and in the other way around
+Spacer.Vertical behaves like Spacer.Horizontal.
+
 # [1.14.0](https://github.com/glrodasz/cero-components/compare/v1.13.0...v1.14.0) (2021-07-17)
 
 
