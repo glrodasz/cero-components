@@ -1,4 +1,4 @@
-import { Vertical } from '.'
+import { Horizontal } from '.'
 import { options, styles } from '../..'
 
 import {
@@ -7,12 +7,12 @@ import {
   getOptionsArgTypes,
 } from '../../../../helpers/storybook'
 
-const Template = getTemplate(Vertical, styles)
-const ListTemplate = getListTemplate(Vertical, styles)
+const Template = getTemplate(Horizontal, styles)
+const ListTemplate = getListTemplate(Horizontal, styles)
 
 export default {
-  title: 'Layout/Spacer/Vertical',
-  component: Vertical,
+  title: 'Layout/Spacer/Horizontal',
+  component: Horizontal,
   args: {
     height: 100,
     maxHeight: 100,

@@ -92,7 +92,7 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
         </svg>
       </div>
       <div
-        className="spacer vertical"
+        className="spacer horizontal"
         style={
           Object {
             "height": "100%",

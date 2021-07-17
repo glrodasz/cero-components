@@ -44,7 +44,7 @@ export const TaskCounter = ({
               name={isCollapsed ? 'angleUp' : 'angleDown'}
               background="fulfilled"
             />
-            <Spacer.Vertical size="sm" />
+            <Spacer.Horizontal size="sm" />
           </>
         )}
         <Paragraph weight="medium">{title}</Paragraph>

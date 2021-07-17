@@ -53,7 +53,7 @@ exports[`Storyshots Molecules/AddButton Default 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",
@@ -148,7 +148,7 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
         Morgul-rats cripples you'll?
       </div>
       <div
-        className="spacer vertical"
+        className="spacer horizontal"
         style={
           Object {
             "height": "100%",
@@ -215,7 +215,7 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",
@@ -268,7 +268,7 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",

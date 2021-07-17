@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
+exports[`Storyshots Layout/Spacer/Horizontal Default 1`] = `
 <div
   style={
     Object {
@@ -16,7 +16,7 @@ exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
   }
 >
   <div
-    className="spacer vertical is-playground"
+    className="spacer horizontal is-playground"
     style={
       Object {
         "height": 100,
@@ -28,7 +28,7 @@ exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
+exports[`Storyshots Layout/Spacer/Horizontal Sizes 1`] = `
 <div
   style={
     Object {
@@ -44,7 +44,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
   }
 >
   <div
-    className="spacer vertical is-playground"
+    className="spacer horizontal is-playground"
     style={
       Object {
         "height": 100,
@@ -54,7 +54,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-playground"
+    className="spacer horizontal is-playground"
     style={
       Object {
         "height": 100,
@@ -64,7 +64,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-playground"
+    className="spacer horizontal is-playground"
     style={
       Object {
         "height": 100,
@@ -74,7 +74,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-playground"
+    className="spacer horizontal is-playground"
     style={
       Object {
         "height": 100,
@@ -84,7 +84,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
     }
   />
   <div
-    className="spacer vertical is-playground"
+    className="spacer horizontal is-playground"
     style={
       Object {
         "height": 100,

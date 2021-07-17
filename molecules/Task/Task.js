@@ -46,7 +46,7 @@ export const Task = ({
             ) : (
               <Check isChecked={isChecked} />
             )}
-            <Spacer.Vertical size="xs" />
+            <Spacer.Horizontal size="xs" />
             <Paragraph
               color={isChecked ? 'muted' : 'base'}
               weight="medium"
@@ -55,7 +55,7 @@ export const Task = ({
               {children}
             </Paragraph>
           </div>
-          <Spacer.Vertical size="sm" />
+          <Spacer.Horizontal size="sm" />
           <div onClick={(event) => event.stopPropagation()}>
             <Icon
               name="trash"

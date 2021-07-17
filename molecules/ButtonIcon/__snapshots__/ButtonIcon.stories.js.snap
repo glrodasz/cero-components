@@ -25,7 +25,7 @@ exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
       Cowards Agreed
     </header>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",
@@ -90,7 +90,7 @@ exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
       Cowards Agreed
     </header>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",
@@ -137,7 +137,7 @@ exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
       Cowards Agreed
     </header>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",

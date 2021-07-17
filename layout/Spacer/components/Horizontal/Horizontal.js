@@ -5,7 +5,7 @@ import { mapSize } from '../../helpers'
 import styles from '../../Spacer.module.css'
 import withStyles from '../../../../hocs/withStyles'
 
-export const Vertical = ({
+export const Horizontal = ({
   getStyles,
   size,
   height,
@@ -13,7 +13,7 @@ export const Vertical = ({
   isPlayground,
 }) => (
   <div
-    className={getStyles('spacer', 'vertical', {
+    className={getStyles('spacer', 'horizontal', {
       'is-playground': isPlayground,
     })}
     style={{
@@ -24,7 +24,7 @@ export const Vertical = ({
   />
 )
 
-Vertical.propTypes = {
+Horizontal.propTypes = {
   getStyles: PropTypes.func.isRequired,
   size: PropTypes.string,
   isPlayground: PropTypes.bool,
@@ -32,7 +32,7 @@ Vertical.propTypes = {
   maxHeight: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 }
 
-Vertical.defaultProps = {
+Horizontal.defaultProps = {
   size: 'none',
   height: '100%',
   maxHeight: 'auto',
@@ -40,4 +40,4 @@ Vertical.defaultProps = {
   getStyles: () => {},
 }
 
-export default withStyles(styles)(Vertical)
+export default withStyles(styles)(Horizontal)
