@@ -393,7 +393,7 @@ const decisions = {
     primary: choices.color.brand.mediumPurple,
     primaryMuted: choices.color.brand.slateBlue,
     primaryHighlight: choices.color.brand.blueMoon,
-    primaryInverted: choices.color.base.white,
+    primaryInverted: choices.color.brand.romance,
     fontBase: choices.color.brand.eastBay,
     fontMuted: choices.color.brand.regentGray,
     fontHighlight: choices.color.brand.loblolly,

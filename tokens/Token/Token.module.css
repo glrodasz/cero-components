@@ -16,7 +16,7 @@
   min-width: max-content;
   padding: 4px 8px;
   border: var(--picture-border);
-  background-color: var(--color-gray-100);
+  background-color: var(--color-blue-gray-50);
   border-radius: var(--border-radius-sm);
   color: var(--color-gray-700);
   font-family: var(--font-family-mono);
@@ -25,12 +25,12 @@
 
 .label:first-child {
   border: var(--border-width-thin) solid var(--color-gray-500);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-blue-gray-200);
 }
 
 .color {
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
   border: var(--picture-border);
   border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);

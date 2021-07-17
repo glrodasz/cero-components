@@ -754,7 +754,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-50)
+        var(--color-blue-gray-50)
       </span>
       <span
         className="label"
@@ -780,7 +780,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-100)
+        var(--color-blue-gray-100)
       </span>
       <span
         className="label"
@@ -806,7 +806,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-200)
+        var(--color-blue-gray-200)
       </span>
       <span
         className="label"
@@ -832,7 +832,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-300)
+        var(--color-blue-gray-300)
       </span>
       <span
         className="label"
@@ -858,7 +858,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-400)
+        var(--color-blue-gray-400)
       </span>
       <span
         className="label"
@@ -884,7 +884,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-500)
+        var(--color-blue-gray-500)
       </span>
       <span
         className="label"
@@ -910,7 +910,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-600)
+        var(--color-blue-gray-600)
       </span>
       <span
         className="label"
@@ -936,7 +936,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-700)
+        var(--color-blue-gray-700)
       </span>
       <span
         className="label"
@@ -962,7 +962,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-800)
+        var(--color-blue-gray-800)
       </span>
       <span
         className="label"
@@ -988,7 +988,7 @@ exports[`Storyshots Tokens/Color Blue Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-blueGray-900)
+        var(--color-blue-gray-900)
       </span>
       <span
         className="label"
@@ -1362,7 +1362,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-50)
+        var(--color-cool-gray-50)
       </span>
       <span
         className="label"
@@ -1388,7 +1388,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-100)
+        var(--color-cool-gray-100)
       </span>
       <span
         className="label"
@@ -1414,7 +1414,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-200)
+        var(--color-cool-gray-200)
       </span>
       <span
         className="label"
@@ -1440,7 +1440,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-300)
+        var(--color-cool-gray-300)
       </span>
       <span
         className="label"
@@ -1466,7 +1466,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-400)
+        var(--color-cool-gray-400)
       </span>
       <span
         className="label"
@@ -1492,7 +1492,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-500)
+        var(--color-cool-gray-500)
       </span>
       <span
         className="label"
@@ -1518,7 +1518,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-600)
+        var(--color-cool-gray-600)
       </span>
       <span
         className="label"
@@ -1544,7 +1544,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-700)
+        var(--color-cool-gray-700)
       </span>
       <span
         className="label"
@@ -1570,7 +1570,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-800)
+        var(--color-cool-gray-800)
       </span>
       <span
         className="label"
@@ -1596,7 +1596,7 @@ exports[`Storyshots Tokens/Color Cool Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-coolGray-900)
+        var(--color-cool-gray-900)
       </span>
       <span
         className="label"
@@ -1986,7 +1986,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fff",
+          "backgroundColor": "#fcfdfd",
         }
       }
     />
@@ -2001,7 +2001,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #fff
+        #fcfdfd
       </span>
     </div>
   </div>
@@ -5958,7 +5958,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-50)
+        var(--color-true-gray-50)
       </span>
       <span
         className="label"
@@ -5984,7 +5984,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-100)
+        var(--color-true-gray-100)
       </span>
       <span
         className="label"
@@ -6010,7 +6010,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-200)
+        var(--color-true-gray-200)
       </span>
       <span
         className="label"
@@ -6036,7 +6036,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-300)
+        var(--color-true-gray-300)
       </span>
       <span
         className="label"
@@ -6062,7 +6062,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-400)
+        var(--color-true-gray-400)
       </span>
       <span
         className="label"
@@ -6088,7 +6088,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-500)
+        var(--color-true-gray-500)
       </span>
       <span
         className="label"
@@ -6114,7 +6114,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-600)
+        var(--color-true-gray-600)
       </span>
       <span
         className="label"
@@ -6140,7 +6140,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-700)
+        var(--color-true-gray-700)
       </span>
       <span
         className="label"
@@ -6166,7 +6166,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-800)
+        var(--color-true-gray-800)
       </span>
       <span
         className="label"
@@ -6192,7 +6192,7 @@ exports[`Storyshots Tokens/Color True Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-trueGray-900)
+        var(--color-true-gray-900)
       </span>
       <span
         className="label"
@@ -6514,7 +6514,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-50)
+        var(--color-warm-gray-50)
       </span>
       <span
         className="label"
@@ -6540,7 +6540,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-100)
+        var(--color-warm-gray-100)
       </span>
       <span
         className="label"
@@ -6566,7 +6566,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-200)
+        var(--color-warm-gray-200)
       </span>
       <span
         className="label"
@@ -6592,7 +6592,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-300)
+        var(--color-warm-gray-300)
       </span>
       <span
         className="label"
@@ -6618,7 +6618,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-400)
+        var(--color-warm-gray-400)
       </span>
       <span
         className="label"
@@ -6644,7 +6644,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-500)
+        var(--color-warm-gray-500)
       </span>
       <span
         className="label"
@@ -6670,7 +6670,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-600)
+        var(--color-warm-gray-600)
       </span>
       <span
         className="label"
@@ -6696,7 +6696,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-700)
+        var(--color-warm-gray-700)
       </span>
       <span
         className="label"
@@ -6722,7 +6722,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-800)
+        var(--color-warm-gray-800)
       </span>
       <span
         className="label"
@@ -6748,7 +6748,7 @@ exports[`Storyshots Tokens/Color Warm Gray 1`] = `
       <span
         className="label"
       >
-        var(--color-warmGray-900)
+        var(--color-warm-gray-900)
       </span>
       <span
         className="label"

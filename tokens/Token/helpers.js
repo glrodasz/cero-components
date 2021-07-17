@@ -3,7 +3,9 @@ import toKebabCase from '../../utils/toKebabCase'
 export const getTokenItems = (tokens, tokenKey) => (group) => {
   if (group) {
     return Object.keys(tokens[group]).map((key) => ({
-      label: `var(--${toKebabCase(tokenKey)}-${group}-${toKebabCase(key)})`,
+      label: `var(--${toKebabCase(tokenKey)}-${toKebabCase(
+        group
+      )}-${toKebabCase(key)})`,
       value: tokens[group][key],
     }))
   }
