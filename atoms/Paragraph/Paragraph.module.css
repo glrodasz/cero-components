@@ -42,6 +42,10 @@
   font-weight: var(--font-weight-medium);
 }
 
+.weight-semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
 .is-striked {
   text-decoration: line-through;
 }

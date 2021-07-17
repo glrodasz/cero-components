@@ -10,7 +10,7 @@ import Paragraph from '../Paragraph'
 export const Link = ({ children, color, getStyles }) => {
   return (
     <a className={getStyles('link', ['color'])}>
-      <Paragraph color={color} weight="medium" isInline>
+      <Paragraph color={color} weight="semibold" isInline>
         {children}
       </Paragraph>
     </a>

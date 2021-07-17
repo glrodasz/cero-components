@@ -17,7 +17,7 @@ const FontWeight = ({ label, value, children }) => {
 
 FontWeight.propTypes = {
   label: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.number.isRequired,
   children: PropTypes.string.isRequired,
 }
 

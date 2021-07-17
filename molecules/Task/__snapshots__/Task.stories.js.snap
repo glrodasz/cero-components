@@ -56,7 +56,7 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
             </svg>
           </div>
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -72,7 +72,7 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -171,7 +171,7 @@ exports[`Storyshots Molecules/Task Default 1`] = `
             className="check"
           />
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -187,7 +187,7 @@ exports[`Storyshots Molecules/Task Default 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -286,7 +286,7 @@ exports[`Storyshots Molecules/Task Long 1`] = `
             className="check"
           />
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -302,7 +302,7 @@ exports[`Storyshots Molecules/Task Long 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -418,7 +418,7 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
             </svg>
           </div>
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -434,7 +434,7 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -550,7 +550,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
             </svg>
           </div>
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -566,7 +566,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -664,7 +664,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
             </svg>
           </div>
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -680,7 +680,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -779,7 +779,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
             className="check"
           />
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -795,7 +795,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",
@@ -876,7 +876,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
             className="check"
           />
           <div
-            className="spacer vertical"
+            className="spacer horizontal"
             style={
               Object {
                 "height": "100%",
@@ -892,7 +892,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
           </div>
         </div>
         <div
-          className="spacer vertical"
+          className="spacer horizontal"
           style={
             Object {
               "height": "100%",

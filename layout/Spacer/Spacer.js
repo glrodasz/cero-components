@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Horizontal, Vertical } from './components'
+import { Vertical, Horizontal } from './components'
 
 import styles from './Spacer.module.css'
 import { mapSize } from './helpers'
@@ -34,7 +34,7 @@ Spacer.defaultProps = {
 
 const SpacerWithStyles = withStyles(styles)(Spacer)
 
-SpacerWithStyles.Horizontal = Horizontal
 SpacerWithStyles.Vertical = Vertical
+SpacerWithStyles.Horizontal = Horizontal
 
 export default SpacerWithStyles

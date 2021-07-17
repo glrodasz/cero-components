@@ -44,7 +44,7 @@ exports[`Storyshots Molecules/Error Default 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",
@@ -108,7 +108,7 @@ exports[`Storyshots Molecules/Error Title 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": "100%",

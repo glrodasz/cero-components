@@ -44,7 +44,7 @@ export const TaskCounter = ({
               name={isCollapsed ? 'angleUp' : 'angleDown'}
               background="fulfilled"
             />
-            <Spacer.Vertical size="sm" />
+            <Spacer.Horizontal size="sm" />
           </>
         )}
         <Paragraph weight="medium">{title}</Paragraph>
@@ -52,7 +52,7 @@ export const TaskCounter = ({
           {total ? `${current}/${total}` : current}
         </Paragraph>
       </div>
-      <Spacer.Horizontal size="xs" />
+      <Spacer.Vertical size="xs" />
       <Divider />
       {!isCollapsed && children}
     </div>

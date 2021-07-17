@@ -75,7 +75,7 @@ export const AddButton = ({
               >
                 {isFocused ? focusHelpText : blurHelpText}
               </Paragraph>
-              <Spacer.Vertical size="sm" />
+              <Spacer.Horizontal size="sm" />
             </>
           )}
         </div>
@@ -86,7 +86,7 @@ export const AddButton = ({
             color={type === 'primary' ? 'base' : 'highlight'}
             background={type === 'primary' ? 'highlight' : undefined}
           />
-          <Spacer.Vertical size="sm" />
+          <Spacer.Horizontal size="sm" />
           <Paragraph weight="medium">{children}</Paragraph>
         </>
       )}
