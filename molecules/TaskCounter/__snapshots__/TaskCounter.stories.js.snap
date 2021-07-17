@@ -33,7 +33,7 @@ exports[`Storyshots Molecules/TaskCounter Default 1`] = `
       </div>
     </div>
     <div
-      className="spacer horizontal"
+      className="spacer bertical"
       style={
         Object {
           "height": 5,
@@ -113,7 +113,7 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
       </div>
     </div>
     <div
-      className="spacer horizontal"
+      className="spacer bertical"
       style={
         Object {
           "height": 5,
@@ -160,7 +160,7 @@ exports[`Storyshots Molecules/TaskCounter Total 1`] = `
       </div>
     </div>
     <div
-      className="spacer horizontal"
+      className="spacer bertical"
       style={
         Object {
           "height": 5,

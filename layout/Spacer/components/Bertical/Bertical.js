@@ -5,9 +5,9 @@ import { mapSize } from '../../helpers'
 import styles from '../../Spacer.module.css'
 import withStyles from '../../../../hocs/withStyles'
 
-export const Horizontal = ({ getStyles, size, isPlayground }) => (
+export const Bertical = ({ getStyles, size, isPlayground }) => (
   <div
-    className={getStyles('spacer', 'horizontal', {
+    className={getStyles('spacer', 'bertical', {
       'is-playground': isPlayground,
     })}
     style={{
@@ -16,16 +16,16 @@ export const Horizontal = ({ getStyles, size, isPlayground }) => (
   />
 )
 
-Horizontal.propTypes = {
+Bertical.propTypes = {
   getStyles: PropTypes.func.isRequired,
   size: PropTypes.string.isRequired,
   isPlayground: PropTypes.bool,
 }
 
-Horizontal.defaultProps = {
+Bertical.defaultProps = {
   size: 'none',
   isPlayground: false,
   getStyles: () => {},
 }
 
-export default withStyles(styles)(Horizontal)
+export default withStyles(styles)(Bertical)

@@ -52,7 +52,7 @@ export const TaskCounter = ({
           {total ? `${current}/${total}` : current}
         </Paragraph>
       </div>
-      <Spacer.Horizontal size="xs" />
+      <Spacer.Bertical size="xs" />
       <Divider />
       {!isCollapsed && children}
     </div>
