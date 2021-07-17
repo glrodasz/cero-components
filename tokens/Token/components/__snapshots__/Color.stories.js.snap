@@ -1897,7 +1897,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 400,
     }
   }
 >
@@ -2168,6 +2168,32 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
+          "backgroundColor": "#fecdd3",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-secondary-highlight)
+      </span>
+      <span
+        className="label"
+      >
+        #fecdd3
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
           "backgroundColor": "#fff",
         }
       }
@@ -2220,7 +2246,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#22c55e",
+          "backgroundColor": "#34d399",
         }
       }
     />
@@ -2235,7 +2261,33 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #22c55e
+        #34d399
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a7f3d0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-tertiary-highlight)
+      </span>
+      <span
+        className="label"
+      >
+        #a7f3d0
       </span>
     </div>
   </div>
