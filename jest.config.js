@@ -7,7 +7,7 @@ module.exports = {
   },
   collectCoverageFrom: [
     '{atoms,molecules,layout}/**/!(index).js',
-    '{hocs,helpers,scripts}/*.js',
+    '{hocs,helpers}/*.js',
   ],
   coverageThreshold: {
     global: {
