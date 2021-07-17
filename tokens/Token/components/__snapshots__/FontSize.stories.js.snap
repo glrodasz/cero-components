@@ -96,7 +96,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       className="font-size"
       style={
         Object {
-          "fontSize": "1.1rem",
+          "fontSize": "1.2rem",
         }
       }
     >
@@ -113,7 +113,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        1.1rem
+        1.2rem
       </span>
     </div>
   </div>
@@ -124,7 +124,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       className="font-size"
       style={
         Object {
-          "fontSize": "1.3rem",
+          "fontSize": "1.4rem",
         }
       }
     >
@@ -141,7 +141,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        1.3rem
+        1.4rem
       </span>
     </div>
   </div>
@@ -152,7 +152,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       className="font-size"
       style={
         Object {
-          "fontSize": "1.5rem",
+          "fontSize": "1.6rem",
         }
       }
     >
@@ -169,7 +169,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        1.5rem
+        1.6rem
       </span>
     </div>
   </div>
@@ -208,7 +208,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       className="font-size"
       style={
         Object {
-          "fontSize": "2.1rem",
+          "fontSize": "2.2rem",
         }
       }
     >
@@ -225,7 +225,7 @@ exports[`Storyshots Tokens/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        2.1rem
+        2.2rem
       </span>
     </div>
   </div>

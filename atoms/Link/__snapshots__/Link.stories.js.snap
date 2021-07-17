@@ -62,3 +62,48 @@ exports[`Storyshots Atoms/Link Default 1`] = `
   </a>
 </div>
 `;
+
+exports[`Storyshots Atoms/Link Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <a
+    className="link color-primary"
+  >
+    <div
+      className="paragraph color-primary size-sm weight-semibold is-inline"
+    >
+      Mouths Muil
+    </div>
+  </a>
+  <a
+    className="link color-primary"
+  >
+    <div
+      className="paragraph color-primary size-md weight-semibold is-inline"
+    >
+      Mouths Muil
+    </div>
+  </a>
+  <a
+    className="link color-primary"
+  >
+    <div
+      className="paragraph color-primary size-lg weight-semibold is-inline"
+    >
+      Mouths Muil
+    </div>
+  </a>
+</div>
+`;

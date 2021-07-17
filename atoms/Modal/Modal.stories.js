@@ -11,7 +11,7 @@ const ListTemplate = getListTemplate(Modal, styles)
 
 // FIXME: Make onClose an storybook action
 export default {
-  title: 'Molecules/Modal',
+  title: 'Atoms/Modal',
   component: Modal,
   args: {
     isPlayground: true,
