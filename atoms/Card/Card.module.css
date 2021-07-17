@@ -34,7 +34,7 @@
 
 .color-base {
   border: var(--border-width-thin) solid var(--color-gray-400);
-  background: var(--color-primary-inverted);
+  background: var(--background-color-primary-highlight);
 }
 
 .is-clickable {

@@ -360,6 +360,7 @@ const choices = {
   },
   borderRadius: {
     none: '0',
+    xs: '4px',
     sm: '10px',
     md: '20px',
     lg: '30px',
@@ -400,9 +401,11 @@ const decisions = {
     fontInverted: choices.color.base.white,
     secondary: choices.color.brand.amaranth,
     secondaryMuted: choices.color.brand.mandy,
+    secondaryHighlight: choices.color.rose[200],
     secondaryInverted: choices.color.base.white,
     tertiary: choices.color.brand.mediumSpringGreen,
-    tertiaryMuted: choices.color.green[500],
+    tertiaryMuted: choices.color.emerald[400],
+    tertiaryHighlight: choices.color.emerald[200],
     tertiaryInverted: choices.color.base.white,
   },
   backgroundColor: {

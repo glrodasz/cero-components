@@ -45,11 +45,10 @@ Brand.parameters = {
 
 export const Decisions = ListTemplate.bind({})
 Decisions.args = {
-  __sb: { mh: 300 },
   items: getDecisionItems(),
 }
 Decisions.parameters = {
-  __sb: { mh: 300 },
+  __sb: { mh: 400 },
 }
 
 export const Backgrounds = ListTemplate.bind({})

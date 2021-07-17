@@ -10,7 +10,7 @@
 }
 
 .color-inverted {
-  color: var(--color-font-inverted);
+  color: var(--color-primary-inverted);
 }
 
 .color-primary {

@@ -62,7 +62,7 @@
 
 .background-inverted {
   border: var(--picture-border);
-  background: var(--color-primary-inverted);
+  background: var(--color-font-inverted);
   border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);
 }
@@ -74,7 +74,7 @@
 }
 
 .background-fulfilled {
-  background: var(--color-font-base);
+  background: var(--color-primary-muted);
   border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);
 }

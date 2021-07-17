@@ -304,6 +304,7 @@
   --box-shadow-sm: 0px 4px 5px rgba(0, 0, 0, 0.07);
 
   --border-radius-none: 0;
+  --border-radius-xs: 4px;
   --border-radius-sm: 10px;
   --border-radius-md: 20px;
   --border-radius-lg: 30px;
@@ -337,9 +338,11 @@
   --color-font-inverted: #fff;
   --color-secondary: #eb2d52;
   --color-secondary-muted: #eb4e58;
+  --color-secondary-highlight: #fecdd3;
   --color-secondary-inverted: #fff;
   --color-tertiary: #00e5a8;
-  --color-tertiary-muted: #22c55e;
+  --color-tertiary-muted: #34d399;
+  --color-tertiary-highlight: #a7f3d0;
   --color-tertiary-inverted: #fff;
 
   --background-color-primary: #f9f9f9;
