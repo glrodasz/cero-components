@@ -19,7 +19,7 @@
     "build:docs": "yarn build:tokens && yarn build:storybook --docs",
     "cc": "node ./scripts/create-component",
     "commit": "cz",
-    "deploy:prod": "run-s build deploy:vercel:prod",
+    "deploy:prod": "run-s build:docs deploy:vercel:prod",
     "deploy:stag": "run-s build deploy:vercel:stag",
     "deploy:vercel:prod": "vercel --prod",
     "deploy:vercel:stag": "vercel",
