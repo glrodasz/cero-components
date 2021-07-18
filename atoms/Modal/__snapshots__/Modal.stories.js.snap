@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Molecules/Modal Closable 1`] = `
+exports[`Storyshots Atoms/Modal Closable 1`] = `
 <div
   style={
     Object {
@@ -50,7 +50,7 @@ exports[`Storyshots Molecules/Modal Closable 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules/Modal Default 1`] = `
+exports[`Storyshots Atoms/Modal Default 1`] = `
 <div
   style={
     Object {
@@ -77,7 +77,7 @@ exports[`Storyshots Molecules/Modal Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules/Modal Types 1`] = `
+exports[`Storyshots Atoms/Modal Types 1`] = `
 <div
   style={
     Object {

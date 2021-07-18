@@ -73,12 +73,6 @@
   box-shadow: var(--box-shadow-sm);
 }
 
-.background-fulfilled {
-  background: var(--color-primary-muted);
-  border-radius: var(--border-radius-full);
-  box-shadow: var(--box-shadow-sm);
-}
-
 .is-clickable {
   cursor: pointer;
 }

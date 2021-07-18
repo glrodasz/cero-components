@@ -6,7 +6,6 @@ import Icon from '../Icon'
 import styles from './Check.module.css'
 import withStyles from '../../hocs/withStyles'
 
-// FIXME: Review color and shifted position when is checked
 export const Check = ({ isChecked, getStyles }) => {
   return isChecked ? (
     <Icon name="checkCircle" color="muted" isClickable />

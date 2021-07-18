@@ -244,6 +244,5 @@ export const options = {
     'inverted',
     'muted',
     'spotlight',
-    'fulfilled',
   ],
 }
