@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/glrodasz/cero-components/compare/v2.1.0...v2.2.0) (2021-07-18)
+
+
+### Bug Fixes
+
+* support more sizes link and fix minor issues with arg types ([63b3a2a](https://github.com/glrodasz/cero-components/commit/63b3a2a1f07eef6f83c5b8dbf8dae2459bd60fa9))
+
+
+### Features
+
+* **icon:** remove fullfiled background ([da6b128](https://github.com/glrodasz/cero-components/commit/da6b128bf05407b71fd000ff34cd38bf7a301f09))
+
 # [2.1.0](https://github.com/glrodasz/cero-components/compare/v2.0.0...v2.1.0) (2021-07-17)
 
 
