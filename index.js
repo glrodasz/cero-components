@@ -19,6 +19,7 @@ export { default as Paragraph } from './atoms/Paragraph'
 export { default as Picture } from './atoms/Picture'
 
 // Molecules
+export { default as Accordion } from './molecules/Accordion'
 export { default as AddButton } from './molecules/AddButton'
 export { default as ButtonIcon } from './molecules/ButtonIcon'
 export { default as Dropdown } from './molecules/Dropdown'
