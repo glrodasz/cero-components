@@ -1,6 +1,6 @@
-import { TaskCounter, styles, options } from '.'
+import { TaskCounter, styles } from '.'
 
-import { getTemplate, getOptionsArgTypes } from '../../helpers/storybook'
+import { getTemplate } from '../../helpers/storybook'
 
 const Template = getTemplate(TaskCounter, styles)
 
@@ -10,9 +10,6 @@ export default {
   args: {
     title: 'Em Sméagol body.',
     current: 2,
-  },
-  argTypes: {
-    types: getOptionsArgTypes(options.types),
   },
 }
 
