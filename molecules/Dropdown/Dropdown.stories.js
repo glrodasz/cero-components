@@ -29,7 +29,6 @@ export default {
         },
       },
     },
-    onChange: { defaultValue: null },
   },
 }
 
