@@ -1,3 +1,16 @@
+# [2.3.0](https://github.com/glrodasz/cero-components/compare/v2.2.0...v2.3.0) (2021-07-22)
+
+
+### Bug Fixes
+
+* **accordion:** export accordion molecule in the index ([f87dfb2](https://github.com/glrodasz/cero-components/commit/f87dfb223a45b8080b3e0aaed0435c35d87827a7))
+
+
+### Features
+
+* **accordion:** add accordion molecule and refactor task counter ([cbafb55](https://github.com/glrodasz/cero-components/commit/cbafb55cbedd3c15c788b9949c324de51d00d4c7))
+* **textarea:** add new textarea atom ([c7c8f32](https://github.com/glrodasz/cero-components/commit/c7c8f32e8d687cec4556f6c83b48477c7db26293))
+
 # [2.2.0](https://github.com/glrodasz/cero-components/compare/v2.1.0...v2.2.0) (2021-07-18)
 
 
