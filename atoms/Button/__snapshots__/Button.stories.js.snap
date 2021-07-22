@@ -1,5 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms/Button Addon Append 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary"
+    onClick={[Function]}
+  >
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+    But ill-tempered Thengel.
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Addon Prepend 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="button type-primary"
+    onClick={[Function]}
+  >
+    Dare Erebor forgive most.
+    <header
+      className="heading color-inverted size-md weight-bold"
+    >
+      You Shall Not Pass!
+    </header>
+  </button>
+</div>
+`;
+
 exports[`Storyshots Atoms/Button Default 1`] = `
 <div
   style={

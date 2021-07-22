@@ -430,6 +430,9 @@ const decisions = {
     borderRadius: choices.borderRadius.lg,
     fontSize: choices.fontSize.sm,
   },
+  textarea: {
+    borderRadius: choices.borderRadius.sm,
+  },
   picture: {
     border: `${choices.borderWidth.thin} solid ${choices.color.brand.regentGray}`,
   },

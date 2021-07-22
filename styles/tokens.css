@@ -362,6 +362,8 @@
   --input-border-radius: 30px;
   --input-font-size: 1.4rem;
 
+  --textarea-border-radius: 10px;
+
   --picture-border: 1px solid #7e858c;
 
   --card-border-radius: 10px;

@@ -20,7 +20,6 @@ export default {
     size: getOptionsArgTypes(options.sizes),
     name: getOptionsArgTypes(options.names),
     background: getOptionsArgTypes(options.backgrounds),
-    onClick: { defaultValue: null },
   },
   parameters: { __sb: { fd: 'row' } },
 }

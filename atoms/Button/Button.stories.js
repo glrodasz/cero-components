@@ -18,7 +18,6 @@ export default {
     type: getOptionsArgTypes(options.types),
     children: { control: 'text' },
     isMuted: { description: 'It requires `type` to be "primary"' },
-    onClick: { defaultValue: null },
   },
 }
 
@@ -32,3 +31,17 @@ Inline.args = { isInline: true }
 
 export const Muted = Template.bind({})
 Muted.args = { type: 'primary', isMuted: true }
+
+export const AddonPrepend = Template.bind({})
+AddonPrepend.args = {
+  addons: {
+    prepend: 'Dare Erebor forgive most.',
+  },
+}
+
+export const AddonAppend = Template.bind({})
+AddonAppend.args = {
+  addons: {
+    append: 'But ill-tempered Thengel.',
+  },
+}
