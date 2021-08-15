@@ -6,12 +6,23 @@ import withStyles from '../../hocs/withStyles'
 
 const DEFAULT_TEXTAREA_ROWS = 5
 
-export const Textarea = ({ children, rows, placeholder, getStyles }) => {
+const handleChange = ({ onChange }) => () => {
+  onChange()
+}
+
+export const Textarea = ({
+  children,
+  rows,
+  placeholder,
+  onChange,
+  getStyles,
+}) => {
   return (
     <textarea
       className={getStyles('textarea')}
       rows={rows}
       placeholder={placeholder}
+      onChange={handleChange({ onChange })}
     >
       {children}
     </textarea>
@@ -21,12 +32,14 @@ export const Textarea = ({ children, rows, placeholder, getStyles }) => {
 Textarea.propTypes = {
   children: PropTypes.node,
   getStyles: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
   rows: PropTypes.number,
   placeholder: PropTypes.string,
 }
 
 Textarea.defaultProps = {
   getStyles: () => {},
+  onChange: () => {},
   rows: DEFAULT_TEXTAREA_ROWS,
 }
 

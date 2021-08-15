@@ -63,6 +63,7 @@
     "@storybook/addon-storyshots": "6.3.5",
     "@storybook/react": "6.3.5",
     "@svgr/webpack": "5.5.0",
+    "@testing-library/react": "12.0.0",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
     "chromatic": "5.2.0",

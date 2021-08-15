@@ -14,7 +14,7 @@ import withStyles from '../../hocs/withStyles'
 const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
   if (!isPending) {
     setIsChecked(!isChecked)
-    onCheck(!isChecked)
+    onCheck({ isChecked: !isChecked })
   }
 }
 

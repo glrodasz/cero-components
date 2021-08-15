@@ -7,6 +7,10 @@ import styles from './Button.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
+const handleClick = ({ onClick }) => (event) => {
+  onClick(event)
+}
+
 export const Button = ({
   type,
   children,
@@ -21,7 +25,7 @@ export const Button = ({
       'is-inline': isInline || type === 'tertiary',
       'is-muted': isMuted && type === 'primary',
     })}
-    onClick={onClick}
+    onClick={handleClick({ onClick })}
   >
     {addons && addons.prepend}
     <Heading color={type === 'primary' ? 'inverted' : 'primary'}>

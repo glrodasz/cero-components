@@ -17,6 +17,7 @@ exports[`Storyshots Atoms/Textarea Default 1`] = `
 >
   <textarea
     className="textarea"
+    onChange={[Function]}
     placeholder="Country speed seat newfound ah stained Gundabad stinking runt."
     rows={5}
   />

@@ -14,7 +14,7 @@ export const handleKeyDown = ({
   inputValue,
 }) => (event) => {
   if (event.key === 'Enter') {
-    onAdd(inputValue)
+    onAdd({ value: inputValue })
     setInputValue('')
     setIsEditable(false)
   }
