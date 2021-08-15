@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/glrodasz/cero-components/compare/v2.3.0...v2.4.0) (2021-08-15)
+
+
+### Features
+
+* **handlers:** add missing handlers to the components ([d0d89b7](https://github.com/glrodasz/cero-components/commit/d0d89b7c154afd7d73edb1f326cf398cb0d62edb))
+
 # [2.3.0](https://github.com/glrodasz/cero-components/compare/v2.2.0...v2.3.0) (2021-07-22)
 
 
