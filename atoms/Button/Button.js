@@ -7,7 +7,7 @@ import styles from './Button.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleClick = ({ onClick }) => (event) => {
+export const handleClick = ({ onClick }) => (event) => {
   onClick(event)
 }
 
