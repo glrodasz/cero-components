@@ -28,9 +28,11 @@ export const Button = ({
     onClick={handleClick({ onClick })}
   >
     {addons && addons.prepend}
+
     <Heading color={type === 'primary' ? 'inverted' : 'primary'}>
       {children}
     </Heading>
+
     {addons && addons.append}
   </button>
 )
