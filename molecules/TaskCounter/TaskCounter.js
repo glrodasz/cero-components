@@ -48,6 +48,7 @@ export const TaskCounter = ({
       </div>
       <Spacer.Vertical size="xs" />
       <Divider />
+      {children}
     </div>
   )
 }
