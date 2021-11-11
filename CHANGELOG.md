@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/glrodasz/cero-components/compare/v2.4.0...v2.4.1) (2021-11-11)
+
+
+### Bug Fixes
+
+* **taskcounter:** return children when is toggleable ([1e8d166](https://github.com/glrodasz/cero-components/commit/1e8d16613bd5252b10efe72496cafa0960bd1deb))
+
 # [2.4.0](https://github.com/glrodasz/cero-components/compare/v2.3.0...v2.4.0) (2021-08-15)
 
 
