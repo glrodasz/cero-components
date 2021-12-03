@@ -39,3 +39,9 @@
   content: '';
   pointer-events: none;
 }
+
+.check-container {
+  display: inline-flex;
+  width: 100%;
+  max-width: 35px;
+}
