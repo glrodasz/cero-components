@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/glrodasz/cero-components/compare/v2.5.0...v2.6.0) (2021-12-07)
+
+
+### Features
+
+* **modal:** allow secondary option ([3fe6393](https://github.com/glrodasz/cero-components/commit/3fe639316e216345c1c6f31f5792dd6d6eed283e))
+
 # [2.5.0](https://github.com/glrodasz/cero-components/compare/v2.4.1...v2.5.0) (2021-12-03)
 
 
