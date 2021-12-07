@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/glrodasz/cero-components/compare/v2.4.1...v2.5.0) (2021-12-03)
+
+
+### Features
+
+* **task:** move onCheck action to the check component ([c524fe7](https://github.com/glrodasz/cero-components/commit/c524fe74fc1f3e54d00f17c500a697705388121c))
+
 ## [2.4.1](https://github.com/glrodasz/cero-components/compare/v2.4.0...v2.4.1) (2021-11-11)
 
 
