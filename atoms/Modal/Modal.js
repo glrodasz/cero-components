@@ -6,26 +6,49 @@ import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 import Icon from '../Icon'
 import Container from '../../layout/Container'
+import isEmptyObject from '../../utils/isEmptyObject'
 
 const handleClose = ({ onClose }) => () => {
   onClose()
 }
 
-export const Modal = ({ onClose, children, getStyles, isPlayground }) => {
+const handleSecondaryAction = ({ onSecondaryAction }) => () => {
+  onSecondaryAction()
+}
+
+export const Modal = ({
+  onClose,
+  secondaryAction,
+  children,
+  getStyles,
+  isPlayground,
+}) => {
   return (
     <div
       className={getStyles('modal', ['type'], {
         'is-playground': isPlayground,
       })}
     >
-      {!!onClose && (
-        <Icon
-          color="inverted"
-          name="angleLeft"
-          background="muted"
-          onClick={handleClose({ onClose })}
-        />
-      )}
+      <div className={getStyles('heading')}>
+        {!!onClose && (
+          <Icon
+            color="inverted"
+            name="angleLeft"
+            background="muted"
+            onClick={handleClose({ onClose })}
+          />
+        )}
+        {secondaryAction && !isEmptyObject(secondaryAction) && (
+          <Icon
+            color="inverted"
+            name={secondaryAction?.icon}
+            background="muted"
+            onClick={handleSecondaryAction({
+              onSecondaryAction: secondaryAction?.handler,
+            })}
+          />
+        )}
+      </div>
       <Container>{children}</Container>
     </div>
   )
@@ -35,6 +58,10 @@ Modal.propTypes = {
   children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
   onClose: PropTypes.func,
+  secondaryAction: PropTypes.shape({
+    icon: PropTypes.string,
+    handler: PropTypes.func,
+  }),
   type: PropTypes.oneOf(options.types),
   isPlayground: PropTypes.bool,
 }

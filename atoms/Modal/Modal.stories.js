@@ -31,5 +31,14 @@ export const Default = Template.bind({})
 export const Closable = Template.bind({})
 Closable.args = { onClose: () => {} }
 
+export const SecondaryAction = Template.bind({})
+SecondaryAction.args = {
+  onClose: () => {},
+  secondaryAction: {
+    icon: 'checkCircle',
+    handler: () => {},
+  },
+}
+
 export const Types = ListTemplate.bind({})
 Types.args = { items: options.types.map((type) => ({ type })) }
