@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/glrodasz/cero-components/compare/v2.6.0...v2.7.0) (2021-12-11)
+
+
+### Features
+
+* **iconlabel:** add IconLabel component ([3c5a324](https://github.com/glrodasz/cero-components/commit/3c5a3245d521f3534cea1058d701a4744dd89942))
+
 # [2.6.0](https://github.com/glrodasz/cero-components/compare/v2.5.0...v2.6.0) (2021-12-07)
 
 
