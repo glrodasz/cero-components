@@ -25,7 +25,7 @@ export const Button = ({
       'is-inline': isInline || type === 'tertiary',
       'is-muted': isMuted && type === 'primary',
     })}
-    onClick={handleClick({ onClick })}
+    onClick={onClick && handleClick({ onClick })}
   >
     {addons && addons.prepend}
 

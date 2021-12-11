@@ -22,16 +22,20 @@
   color: var(--color-tertiary);
 }
 
+.size-xs {
+  font-size: var(--paragraph-font-size-xs);
+}
+
 .size-sm {
-  font-size: var(--font-size-xs);
+  font-size: var(--paragraph-font-size-sm);
 }
 
 .size-md {
-  font-size: var(--font-size-sm);
+  font-size: var(--paragraph-font-size-md);
 }
 
 .size-lg {
-  font-size: var(--font-size-md);
+  font-size: var(--paragraph-font-size-lg);
 }
 
 .weight-normal {

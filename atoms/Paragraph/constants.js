@@ -1,5 +1,5 @@
 export const options = {
   colors: ['base', 'muted', 'inverted', 'primary', 'tertiary'],
-  sizes: ['sm', 'md', 'lg'],
+  sizes: ['xs', 'sm', 'md', 'lg'],
   weights: ['normal', 'medium', 'semibold'],
 }

@@ -345,7 +345,7 @@
   --color-tertiary-highlight: #a7f3d0;
   --color-tertiary-inverted: #fff;
 
-  --background-color-primary: #f9f9f9;
+  --background-color-primary: #e8e8e8;
   --background-color-primary-highlight: #fcfdfd;
 
   --container-max-width: 800px;
@@ -361,6 +361,11 @@
   --input-background: #fff;
   --input-border-radius: 30px;
   --input-font-size: 1.4rem;
+
+  --paragraph-font-size-xs: 10px;
+  --paragraph-font-size-sm: 1.2rem;
+  --paragraph-font-size-md: 1.4rem;
+  --paragraph-font-size-lg: 1.6rem;
 
   --textarea-border-radius: 10px;
 

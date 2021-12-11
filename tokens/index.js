@@ -409,7 +409,7 @@ const decisions = {
     tertiaryInverted: choices.color.base.white,
   },
   backgroundColor: {
-    primary: choices.color.brand.hintOfRed,
+    primary: choices.color.brand.whiteLilac,
     primaryHighlight: choices.color.brand.romance,
   },
   container: {
@@ -429,6 +429,14 @@ const decisions = {
     background: choices.color.base.white,
     borderRadius: choices.borderRadius.lg,
     fontSize: choices.fontSize.sm,
+  },
+  paragraph: {
+    fontSize: {
+      xs: choices.fontSize.base,
+      sm: choices.fontSize.xs,
+      md: choices.fontSize.sm,
+      lg: choices.fontSize.md,
+    },
   },
   textarea: {
     borderRadius: choices.borderRadius.sm,

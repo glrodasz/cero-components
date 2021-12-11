@@ -82,6 +82,15 @@ exports[`Storyshots Atoms/Link Sizes 1`] = `
     className="link color-primary"
   >
     <div
+      className="paragraph color-primary size-xs weight-semibold is-inline"
+    >
+      Mouths Muil
+    </div>
+  </a>
+  <a
+    className="link color-primary"
+  >
+    <div
       className="paragraph color-primary size-sm weight-semibold is-inline"
     >
       Mouths Muil

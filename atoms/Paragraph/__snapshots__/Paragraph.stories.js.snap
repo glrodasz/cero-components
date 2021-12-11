@@ -105,6 +105,11 @@ exports[`Storyshots Atoms/Paragraph Sizes 1`] = `
   }
 >
   <div
+    className="paragraph color-base size-xs weight-normal"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+  <div
     className="paragraph color-base size-sm weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?

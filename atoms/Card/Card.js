@@ -5,6 +5,10 @@ import styles from './Card.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
+export const handleClick = ({ onClick }) => (event) => {
+  onClick(event)
+}
+
 export const Card = ({
   getStyles,
   onClick,
@@ -14,7 +18,7 @@ export const Card = ({
 }) => {
   return (
     <div
-      onClick={onClick}
+      onClick={onClick && handleClick({ onClick })}
       className={getStyles('card', ['color', 'size'], {
         'is-clickable': isClickable,
         'is-draggable': isDraggable,

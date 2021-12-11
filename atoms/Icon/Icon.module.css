@@ -21,24 +21,58 @@
   padding: 15px;
 }
 
-.color-base path {
+.color-base path,
+.color-base circle {
   fill: var(--color-font-base);
 }
 
-.color-highlight path {
+.color-base line,
+.color-base rect {
+  stroke: var(--color-font-base);
+}
+
+.color-highlight path,
+.color-highlight circle {
   fill: var(--color-font-highlight);
 }
 
-.color-muted path {
+.color-highlight line,
+.color-highlight rect {
+  stroke: var(--color-font-highlight);
+}
+
+.color-muted path,
+.color-muted circle {
   fill: var(--color-font-muted);
 }
 
-.color-primary path {
+.color-muted line,
+.color-muted rect {
+  stroke: var(--color-font-muted);
+}
+
+.color-primary path,
+.color-primary circle {
   fill: var(--color-primary);
 }
 
-.color-inverted path {
+.color-primary line,
+.color-primary rect {
+  stroke: var(--color-primary);
+}
+
+.color-inverted path,
+.color-inverted circle {
   fill: var(--color-primary-inverted);
+}
+
+.color-inverted line,
+.color-inverted rect {
+  stroke: var(--color-primary-inverted);
+}
+
+.icon rect:global(.transparent) {
+  fill: var(--color-base-transparent) !important;
 }
 
 .background-base {

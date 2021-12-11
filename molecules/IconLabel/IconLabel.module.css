@@ -1,0 +1,16 @@
+.icon-label {
+  display: flex;
+  align-items: center;
+}
+
+.direction-vertical {
+  flex-direction: column;
+}
+
+.direction-horizontal {
+  flex-direction: row;
+}
+
+.is-clickable {
+  cursor: pointer;
+}
