@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/glrodasz/cero-components/compare/v2.7.0...v2.8.0) (2022-01-07)
+
+
+### Features
+
+* **icon-label:** add IconLabel sizes ([fa70670](https://github.com/glrodasz/cero-components/commit/fa7067059a16aaae45954d4ccf8a405cd57aa8f8))
+
 # [2.7.0](https://github.com/glrodasz/cero-components/compare/v2.6.0...v2.7.0) (2021-12-11)
 
 
