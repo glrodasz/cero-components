@@ -14,6 +14,17 @@ const handleClick = ({ onClick }) => (event) => {
   onClick(event)
 }
 
+const sizesMap = {
+  sm: {
+    icon: 'sm',
+    paragraph: 'xs',
+  },
+  md: {
+    icon: 'md',
+    paragraph: 'sm',
+  },
+}
+
 export const IconLabel = ({
   getStyles,
   icon,
@@ -22,6 +33,7 @@ export const IconLabel = ({
   isClickable,
   direction,
   isActive,
+  size,
 }) => {
   return (
     <div
@@ -35,10 +47,14 @@ export const IconLabel = ({
         name={icon}
         color={isActive ? 'primary' : 'base'}
         background={isActive ? 'highlight' : 'transparent'}
-        size="sm"
+        size={sizesMap[size].icon}
       ></Icon>
       {direction === 'horizontal' && <Spacer.Horizontal size="xs" />}
-      <Paragraph size="xs" color={isActive ? 'primary' : 'base'} isInline>
+      <Paragraph
+        size={sizesMap[size].paragraph}
+        color={isActive ? 'primary' : 'base'}
+        isInline
+      >
         {label}
       </Paragraph>
     </div>
@@ -53,10 +69,12 @@ IconLabel.propTypes = {
   isClickable: PropTypes.bool,
   onClick: PropTypes.func,
   isActive: PropTypes.bool,
+  size: PropTypes.oneOf(options.sizes),
 }
 
 IconLabel.defaultProps = {
   direction: 'vertical',
+  size: 'sm',
   isActive: false,
   getStyles: () => {},
   onClick: () => {},

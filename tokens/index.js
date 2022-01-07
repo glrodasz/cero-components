@@ -318,7 +318,7 @@ const choices = {
     mono: ["'Roboto Mono'", "'Courier New'", 'monospace'],
   },
   fontSize: {
-    base: '10px',
+    base: '14px',
     xs: '1.2rem',
     sm: '1.4rem',
     md: '1.6rem',
@@ -449,6 +449,12 @@ const decisions = {
   },
   task: {
     borderRadius: choices.borderRadius.sm,
+  },
+  chronometer: {
+    backgroundColor: choices.color.gray[300],
+    color: choices.color.yellow[500],
+    borderRadius: choices.borderRadius.full,
+    height: '6px',
   },
 }
 

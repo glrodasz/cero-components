@@ -267,7 +267,7 @@
   --font-family-sans: Quicksand, Arial, sans-serif;
   --font-family-mono: 'Roboto Mono', 'Courier New', monospace;
 
-  --font-size-base: 10px;
+  --font-size-base: 14px;
   --font-size-xs: 1.2rem;
   --font-size-sm: 1.4rem;
   --font-size-md: 1.6rem;
@@ -362,7 +362,7 @@
   --input-border-radius: 30px;
   --input-font-size: 1.4rem;
 
-  --paragraph-font-size-xs: 10px;
+  --paragraph-font-size-xs: 14px;
   --paragraph-font-size-sm: 1.2rem;
   --paragraph-font-size-md: 1.4rem;
   --paragraph-font-size-lg: 1.6rem;
@@ -374,4 +374,9 @@
   --card-border-radius: 10px;
 
   --task-border-radius: 10px;
+
+  --chronometer-background-color: #d4d4d8;
+  --chronometer-color: #eab308;
+  --chronometer-border-radius: 9999px;
+  --chronometer-height: 6px;
 }
