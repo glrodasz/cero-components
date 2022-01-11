@@ -89,6 +89,29 @@ exports[`Storyshots Atoms/Paragraph Inline 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms/Paragraph Monospace 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="paragraph color-base size-md weight-normal is-monospace"
+  >
+    Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms/Paragraph Sizes 1`] = `
 <div
   style={

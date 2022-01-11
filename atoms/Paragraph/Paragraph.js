@@ -11,6 +11,7 @@ export const Paragraph = ({
   className,
   isStriked,
   isInline,
+  isMonospace,
 }) => {
   return (
     <div
@@ -21,6 +22,7 @@ export const Paragraph = ({
         {
           'is-striked': isStriked,
           'is-inline': isInline,
+          'is-monospace': isMonospace,
         }
       )}
     >
@@ -38,6 +40,7 @@ Paragraph.propTypes = {
   className: PropTypes.string,
   isStriked: PropTypes.bool,
   isInline: PropTypes.bool,
+  isMonospace: PropTypes.bool,
 }
 
 Paragraph.defaultProps = {

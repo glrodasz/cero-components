@@ -32,6 +32,9 @@ Striked.args = { isStriked: true }
 export const Inline = Template.bind({})
 Inline.args = { isInline: true, children: 'Swords are no more.' }
 
+export const Monospace = Template.bind({})
+Monospace.args = { isMonospace: true }
+
 export const Colors = ListTemplate.bind({})
 Colors.args = { items: options.colors.map((color) => ({ color })) }
 

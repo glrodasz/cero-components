@@ -58,3 +58,7 @@
   display: inline-block;
   max-width: max-content;
 }
+
+.is-monospace {
+  font-family: var(--font-family-mono);
+}
