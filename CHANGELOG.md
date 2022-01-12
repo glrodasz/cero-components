@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/glrodasz/cero-components/compare/v2.8.0...v2.9.0) (2022-01-12)
+
+
+### Features
+
+* **paragraph:** support monospace font family ([180ede5](https://github.com/glrodasz/cero-components/commit/180ede5bc18b013b3cce87cdea9bdbe03fd82bbb))
+
 # [2.8.0](https://github.com/glrodasz/cero-components/compare/v2.7.0...v2.8.0) (2022-01-07)
 
 
