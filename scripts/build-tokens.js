@@ -2,25 +2,25 @@ const { choices, decisions } = require('../tokens')
 const toKebabCase = require('../utils/toKebabCase')
 const fs = require('fs')
 
-const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
+// No hace falta esta línea ya que se pueden usar solo secuencias de escape sin espacios
+// escritos en el código como voy a mostrar en los cambios realizados
+/* const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n') */
 
 function transformTokens(parentKey, object) {
   const objectKeys = Object.keys(object)
 
   return objectKeys.reduce((transformedTokens, objectKey) => {
     const value = object[objectKey]
-    const customProperty = parentKey
+    
+    if (typeof value === 'object') {
+      const customProperty = parentKey
       ? toKebabCase(`${parentKey}-${objectKey}`)
       : toKebabCase(`${objectKey}`)
 
-    if (Array.isArray(value)) {
-      return `${transformedTokens}\n  --${customProperty}: ${value.join(', ')};`
-    } else if (typeof value === 'object') {
-      return `${transformedTokens}\n${transformTokens(customProperty, value)}`
-    }
+      return `${tokensTransformed}${transformTokens(`${customProperty}`, value)}\r`;
+    };
 
-    const label = `--${parentKey}-${toKebabCase(objectKey)}`
-    return `${transformedTokens}\n  ${label}: ${value};`
+    return `${tokensTransformed}\r\t--${parentKey}-${objectKey}: ${value};`;
   }, '')
 }
 
@@ -29,7 +29,7 @@ function buildTokens() {
   const transformedDecisions = transformTokens(null, decisions)
   const customProperties = `${transformedChoices}${transformedDecisions}`
 
-  const data = `:root {\n  ${cleanLines(customProperties)}\n}\n`
+  const data = `:root {${customProperties}}`;
 
   fs.writeFile('./styles/tokens.css', data, 'utf8', (error) => {
     if (error) throw error
