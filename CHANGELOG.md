@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/glrodasz/cero-components/compare/v2.9.0...v2.10.0) (2022-01-27)
+
+
+### Features
+
+* **icon:** add play icon ([720adb1](https://github.com/glrodasz/cero-components/commit/720adb18e394daa27e75284aa15e8e248c324c34))
+
 # [2.9.0](https://github.com/glrodasz/cero-components/compare/v2.8.0...v2.9.0) (2022-01-12)
 
 
