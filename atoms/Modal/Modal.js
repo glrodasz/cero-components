@@ -6,7 +6,7 @@ import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 import Icon from '../Icon'
 import Container from '../../layout/Container'
-import isEmptyObject from '../../utils/isEmptyObject'
+import isEmpty from '../../utils/isEmpty'
 
 const handleClose = ({ onClose }) => () => {
   onClose()
@@ -38,7 +38,7 @@ export const Modal = ({
             onClick={handleClose({ onClose })}
           />
         )}
-        {secondaryAction && !isEmptyObject(secondaryAction) && (
+        {secondaryAction && !isEmpty(secondaryAction) && (
           <Icon
             color="inverted"
             name={secondaryAction?.icon}

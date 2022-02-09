@@ -14,6 +14,7 @@ import {
   handleBlur,
   handleFocus,
 } from './handlers'
+import { useKeydownEnterKey } from './hooks'
 import { shouldShowHelpText } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
@@ -27,12 +28,17 @@ export const AddButton = ({
   icon,
   onAdd,
   defaultIsEditable,
+  defaultIsFocused,
   defaultValue,
+  defaultIsInvalid,
 }) => {
   const [isEditable, setIsEditable] = useState(defaultIsEditable)
   const [inputValue, setInputValue] = useState(defaultValue)
-  const [isFocused, setIsFocused] = useState(false)
+  const [isInvalid, setIsInvalid] = useState(defaultIsInvalid)
+  const [isFocused, setIsFocused] = useState(defaultIsFocused)
   const inputRef = useRef(null)
+
+  useKeydownEnterKey(() => setIsEditable(true))
 
   return (
     <div
@@ -40,6 +46,7 @@ export const AddButton = ({
       className={getStyles('add-button', ['type'], {
         'is-editable': isEditable,
         'is-focused': isFocused,
+        'is-invalid': isInvalid,
       })}
       onClick={handleClick({ setIsEditable, inputRef })}
     >
@@ -52,12 +59,18 @@ export const AddButton = ({
             value={inputValue}
             autoFocus={!defaultIsEditable}
             onFocus={handleFocus({ setIsFocused })}
-            onBlur={handleBlur({ inputValue, setIsEditable, setIsFocused })}
-            onChange={handleChange({ setInputValue })}
+            onBlur={handleBlur({
+              inputValue,
+              setIsEditable,
+              setIsFocused,
+              setIsInvalid,
+            })}
+            onChange={handleChange({ setInputValue, setIsInvalid })}
             onKeyDown={handleKeyDown({
               setInputValue,
               setIsEditable,
               inputValue,
+              setIsInvalid,
               onAdd,
             })}
           />
@@ -104,7 +117,10 @@ AddButton.propTypes = {
   focusHelpText: PropTypes.string,
   blurHelpText: PropTypes.string,
   defaultIsEditable: PropTypes.bool,
+  defaultIsFocused: PropTypes.bool,
+  defaultIsInvalid: PropTypes.bool,
   defaultValue: PropTypes.string,
+  isInvalid: PropTypes.bool,
 }
 
 AddButton.defaultProps = {
@@ -112,6 +128,7 @@ AddButton.defaultProps = {
   type: 'primary',
   icon: 'plusCircle',
   defaultIsEditable: false,
+  defaultIsFocused: false,
   defaultValue: '',
   onAdd: () => {},
   getStyles: () => {},

@@ -162,6 +162,45 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
 </div>
 `;
 
+exports[`Storyshots Molecules/AddButton Invalid 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="add-button type-primary is-editable is-focused is-invalid"
+    id="-add-button"
+    onClick={[Function]}
+  >
+    <div
+      className="edit-container"
+    >
+      <input
+        autoFocus={false}
+        id="-add-button-input"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        type="text"
+        value=""
+      />
+      
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Molecules/AddButton Types 1`] = `
 <div
   style={

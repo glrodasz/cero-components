@@ -31,6 +31,13 @@ EditMode.args = {
   defaultIsEditable: true,
 }
 
+export const Invalid = Template.bind({})
+Invalid.args = {
+  defaultIsInvalid: true,
+  defaultIsEditable: true,
+  defaultIsFocused: true,
+}
+
 export const HelpText = Template.bind({})
 HelpText.args = {
   defaultValue: "Understand bravely halfling's rank balls.",

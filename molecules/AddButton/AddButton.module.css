@@ -35,6 +35,15 @@
   box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
 }
 
+.is-editable.is-focused.is-invalid {
+  animation: shake 0.8s cubic-bezier(0.36, 0.07, 0.19, 0.97) both,
+    fadeOutInvalidBorderColor 2s ease-out forwards,
+    fadeOutInvalidBoxShadow 2s ease-out forwards;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: translate3d(0, 0, 0);
+}
+
 .is-editable input {
   overflow: hidden;
   width: 100%;
@@ -70,4 +79,50 @@
 .edit-container :global(.help-text) {
   width: 100%;
   max-width: max-content;
+}
+
+@keyframes fadeOutInvalidBoxShadow {
+  0%,
+  50% {
+    box-shadow: 0 0 0 1px var(--color-rose-500),
+      0 0 10px 0 var(--color-rose-500);
+  }
+
+  100% {
+    box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
+  }
+}
+
+@keyframes fadeOutInvalidBorderColor {
+  0%,
+  50% {
+    border-color: var(--color-rose-500);
+  }
+
+  100% {
+    border-color: var(--color-primary);
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
