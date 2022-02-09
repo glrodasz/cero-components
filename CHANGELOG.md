@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/glrodasz/cero-components/compare/v2.10.0...v2.11.0) (2022-02-09)
+
+
+### Features
+
+* **add button:** key shortcuts and is invalid animation ([1af7644](https://github.com/glrodasz/cero-components/commit/1af76449f3de862647def11eda9f0e0ab31cb3d9))
+
 # [2.10.0](https://github.com/glrodasz/cero-components/compare/v2.9.0...v2.10.0) (2022-01-27)
 
 
