@@ -12,7 +12,7 @@ import Icon from '../../atoms/Icon'
 export const Error = ({ title, children, getStyles }) => {
   return (
     <div className={getStyles('error')}>
-      <Icon className="icon-warning" name="warning" size="xs" />
+      <Icon className="icon-warning" name="warning" size="md" />
       <Spacer.Horizontal size="sm" />
       <div>
         {title && <Heading>{title}</Heading>}
