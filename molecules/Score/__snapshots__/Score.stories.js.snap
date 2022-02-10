@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Score Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="score"
+  >
+    <div
+      className="face"
+      onClick={[Function]}
+    >
+      <SvgrURL />
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": 5,
+          }
+        }
+      />
+      <div
+        className="paragraph color-base size-md weight-normal"
+      >
+        Frustrado
+      </div>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 40,
+        }
+      }
+    />
+    <div
+      className="face"
+      onClick={[Function]}
+    >
+      <SvgrURL />
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": 5,
+          }
+        }
+      />
+      <div
+        className="paragraph color-base size-md weight-normal"
+      >
+        Normal
+      </div>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 40,
+        }
+      }
+    />
+    <div
+      className="face"
+      onClick={[Function]}
+    >
+      <SvgrURL />
+      <div
+        className="spacer vertical"
+        style={
+          Object {
+            "height": 5,
+          }
+        }
+      />
+      <div
+        className="paragraph color-base size-md weight-normal"
+      >
+        Muy motivado
+      </div>
+    </div>
+  </div>
+</div>
+`;

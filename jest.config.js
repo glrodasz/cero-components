@@ -1,5 +1,8 @@
 module.exports = {
-  moduleNameMapper: { '\\.css$': 'identity-obj-proxy' },
+  moduleNameMapper: {
+    '\\.css$': 'identity-obj-proxy',
+    '\\.svg$': '<rootDir>/utils/testUtils/svgrMock.js',
+  },
   setupFilesAfterEnv: ['./jest.setup.js'],
   transform: {
     '^.+\\.stories\\.jsx?$': '@storybook/addon-storyshots/injectFileName',
