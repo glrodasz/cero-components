@@ -63,7 +63,7 @@ Follow these steps to `start the project` in development
 
 ## Running the tests
 
-1. Run `yarn run test`or `npm run test``
+1. Run `yarn run test`or `npm run test`
 2. To keep the tests running, run `yarn run test:watch`
 
 ## Methodologies
