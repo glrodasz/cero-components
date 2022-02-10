@@ -8,7 +8,7 @@
 ## The idea behind
 The idea behind this sessions is to show a real developer experience where we explore every decision that a common programmer do in daily basis with JavaScript and other tools. You will see failing tests, refactors, Google and StackOverflow searchs, but also a lot of fun and the struggle of naming things.
 
-Watch the project in live streaming in 🇪🇸 Spanish, from **Tuesdays** to **Thursdays**. [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream) 
+Watch the project in live streaming in 🇪🇸 Spanish, from **Tuesdays** to **Fridays**. [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream) 
 
 ## Table of Contents
 
