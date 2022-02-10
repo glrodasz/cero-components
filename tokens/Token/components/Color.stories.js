@@ -15,7 +15,7 @@ export default {
     value: { control: null },
     label: { control: null },
   },
-  parameters: { __sb: { mh: 250 } },
+  parameters: { __sb: { mh: 300 } },
 }
 
 const getItems = getTokenItems(choices.color, 'color')
@@ -34,13 +34,13 @@ Default.args = {
 export const Base = ListTemplate.bind({})
 Base.args = { items: getItems('base') }
 Base.parameters = {
-  __sb: { fd: 'row' },
+  __sb: { fd: 'row', mh: 300 },
 }
 
 export const Brand = ListTemplate.bind({})
 Brand.args = { items: getItems('brand') }
 Brand.parameters = {
-  __sb: { mh: 300 },
+  __sb: { mh: 450 },
 }
 
 export const Decisions = ListTemplate.bind({})
@@ -48,7 +48,7 @@ Decisions.args = {
   items: getDecisionItems(),
 }
 Decisions.parameters = {
-  __sb: { mh: 400 },
+  __sb: { mh: 600 },
 }
 
 export const Backgrounds = ListTemplate.bind({})
