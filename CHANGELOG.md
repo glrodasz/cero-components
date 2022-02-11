@@ -1,3 +1,11 @@
+## [2.11.1](https://github.com/glrodasz/cero-components/compare/v2.11.0...v2.11.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* **test:** fix svgr mock for tests ([4c32d5b](https://github.com/glrodasz/cero-components/commit/4c32d5bc98dd7a18c56c5f391a7cd19abdf77d24))
+* **tokens:** fix token story size ([e3655a6](https://github.com/glrodasz/cero-components/commit/e3655a67885fd66fee00304a4d7f9e664ff4bcb4))
+
 # [2.11.0](https://github.com/glrodasz/cero-components/compare/v2.10.0...v2.11.0) (2022-02-09)
 
 
