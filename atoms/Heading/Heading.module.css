@@ -1,6 +1,5 @@
 .heading {
-  display: flex;
-  align-items: center;
+  width: 100%;
   font-family: var(--font-family-sans);
   line-height: var(--line-height-tight);
 }
@@ -51,4 +50,13 @@
 
 .weight-bold {
   font-weight: var(--font-weight-bold);
+}
+
+.is-centered {
+  text-align: center;
+}
+
+.is-inline {
+  display: inline-block;
+  max-width: max-content;
 }

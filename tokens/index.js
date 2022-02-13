@@ -456,6 +456,13 @@ const decisions = {
     borderRadius: choices.borderRadius.full,
     height: '6px',
   },
+  modal: {
+    backdropColor: 'rgba(255, 255, 255, 0.85)',
+    desktop: {
+      height: '650px',
+      maxWidth: '750px',
+    },
+  },
 }
 
 module.exports = { choices, decisions }

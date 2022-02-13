@@ -1,3 +1,7 @@
+.picture {
+  user-select: none;
+}
+
 .picture img {
   display: block;
   width: 100%;

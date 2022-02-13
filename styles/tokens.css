@@ -379,4 +379,9 @@
   --chronometer-color: #eab308;
   --chronometer-border-radius: 9999px;
   --chronometer-height: 6px;
+
+  --modal-backdrop-color: rgba(255, 255, 255, 0.85);
+
+  --modal-desktop-height: 650px;
+  --modal-desktop-max-width: 750px;
 }

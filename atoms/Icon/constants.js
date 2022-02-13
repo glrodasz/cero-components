@@ -452,6 +452,23 @@ export const iconsMap = {
       </>
     ),
   },
+  cross: {
+    viewBox: '0 0 28 28',
+    svg: (
+      <>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M1.65702 27.6578L0.343018 26.3418L26.343 0.341797L27.657 1.6578L1.65702 27.6578Z"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M26.343 27.6578L0.343018 1.6578L1.65702 0.341797L27.657 26.3418L26.343 27.6578Z"
+        />
+      </>
+    ),
+  },
 }
 
 export const options = {

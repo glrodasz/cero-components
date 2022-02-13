@@ -49,6 +49,9 @@
   ],
   "author": "Guillermo Rodas <glrodasz@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "classnames": "2.3.1"
+  },
   "devDependencies": {
     "@babel/core": "7.11.6",
     "@babel/preset-env": "7.11.5",
@@ -93,7 +96,6 @@
     "watch": "1.0.2"
   },
   "peerDependencies": {
-    "classnames": "2.3.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }

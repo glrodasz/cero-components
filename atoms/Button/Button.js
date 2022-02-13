@@ -7,6 +7,9 @@ import styles from './Button.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
+import isEmpty from '../../utils/isEmpty'
+import isObject from '../../utils/isObject'
+
 export const handleClick = ({ onClick }) => (event) => {
   onClick(event)
 }
@@ -29,7 +32,11 @@ export const Button = ({
   >
     {addons && addons.prepend}
 
-    <Heading color={type === 'primary' ? 'inverted' : 'primary'}>
+    <Heading
+      color={type === 'primary' ? 'inverted' : 'primary'}
+      isCentered
+      isInline={isObject(addons) && !isEmpty(addons)}
+    >
       {children}
     </Heading>
 
