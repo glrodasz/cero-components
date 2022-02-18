@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/glrodasz/cero-components/compare/v2.11.1...v2.12.0) (2022-02-18)
+
+
+### Features
+
+* **modal:** add modal animation ([e49a5a4](https://github.com/glrodasz/cero-components/commit/e49a5a4e01cb54047db4c9a2166b36bb69e09211))
+
 ## [2.11.1](https://github.com/glrodasz/cero-components/compare/v2.11.0...v2.11.1) (2022-02-10)
 
 
