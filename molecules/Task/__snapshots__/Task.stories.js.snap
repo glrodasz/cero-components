@@ -70,11 +70,11 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-muted size-md weight-medium is-striked"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -186,11 +186,11 @@ exports[`Storyshots Molecules/Task Default 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -302,11 +302,11 @@ exports[`Storyshots Molecules/Task Long 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Swords are no more use here. Moments shiny rings Cirith nowhere garrison ax pointy endless mention trousers. Retribution Frodo's wrong? Them leaf question require spared houses sapphire Balin. Kind pouring Lothlórien ragged retribution covers lair less goings recognizes unleash. Whence Precious token hidden hire bandy make farming. Shards farmer unfriendly handle Bain gongs. Mend recall sorry oncoming roll unmade cries visitors Lobelia Sackville-Baggins was bidden. Dank rather between short doomed Mellon tomb consequence girl crescent attacking.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -430,11 +430,11 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -558,11 +558,11 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -668,11 +668,11 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -784,11 +784,11 @@ exports[`Storyshots Molecules/Task Types 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"
@@ -882,11 +882,11 @@ exports[`Storyshots Molecules/Task Types 1`] = `
               }
             }
           />
-          <div
+          <p
             className="paragraph color-base size-md weight-medium"
           >
             Sir Goblin-town feels characters ruined precautions.
-          </div>
+          </p>
         </div>
         <div
           className="spacer horizontal"

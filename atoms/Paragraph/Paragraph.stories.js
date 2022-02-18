@@ -32,6 +32,13 @@ Striked.args = { isStriked: true }
 export const Inline = Template.bind({})
 Inline.args = { isInline: true, children: 'Swords are no more.' }
 
+export const Centered = Template.bind({})
+Centered.args = {
+  isCentered: true,
+  children:
+    'Lose consequence night studies Wolves should wizards destruction burglar? All right, then. Keep your secrets.',
+}
+
 export const Monospace = Template.bind({})
 Monospace.args = { isMonospace: true }
 

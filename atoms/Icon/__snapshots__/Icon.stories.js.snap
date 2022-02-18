@@ -1127,6 +1127,33 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
       />
     </svg>
   </div>
+  <div
+    className="icon color-base size-md background-transparent"
+    style={
+      Object {
+        "height": 35,
+        "width": 35,
+      }
+    }
+  >
+    <svg
+      height={35}
+      viewBox="0 0 28 28"
+      width={35}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M1.65702 27.6578L0.343018 26.3418L26.343 0.341797L27.657 1.6578L1.65702 27.6578Z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M26.343 27.6578L0.343018 1.6578L1.65702 0.341797L27.657 26.3418L26.343 27.6578Z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
 </div>
 `;
 

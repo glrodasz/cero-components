@@ -73,11 +73,11 @@ exports[`Storyshots Molecules/LoadingError Error 1`] = `
       }
     />
     <div>
-      <div
+      <p
         className="paragraph color-base size-md weight-normal"
       >
         ext Grimbold sneak-thief cheekbones myth overfond task
-      </div>
+      </p>
     </div>
   </div>
 </div>

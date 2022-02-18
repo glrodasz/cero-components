@@ -19,11 +19,11 @@ exports[`Storyshots Atoms/Button Addon Append 1`] = `
     className="button type-primary"
     onClick={[Function]}
   >
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered is-inline"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
     But ill-tempered Thengel.
   </button>
 </div>
@@ -49,11 +49,11 @@ exports[`Storyshots Atoms/Button Addon Prepend 1`] = `
     onClick={[Function]}
   >
     Dare Erebor forgive most.
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered is-inline"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
 </div>
 `;
@@ -77,11 +77,11 @@ exports[`Storyshots Atoms/Button Default 1`] = `
     className="button type-primary"
     onClick={[Function]}
   >
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
 </div>
 `;
@@ -105,11 +105,11 @@ exports[`Storyshots Atoms/Button Inline 1`] = `
     className="button type-primary is-inline"
     onClick={[Function]}
   >
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
 </div>
 `;
@@ -133,11 +133,11 @@ exports[`Storyshots Atoms/Button Muted 1`] = `
     className="button type-primary is-muted"
     onClick={[Function]}
   >
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
 </div>
 `;
@@ -161,31 +161,31 @@ exports[`Storyshots Atoms/Button Types 1`] = `
     className="button type-primary"
     onClick={[Function]}
   >
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
   <button
     className="button type-secondary"
     onClick={[Function]}
   >
-    <header
-      className="heading color-primary size-md weight-bold"
+    <h1
+      className="heading color-primary size-md weight-bold is-centered"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
   <button
     className="button type-tertiary is-inline"
     onClick={[Function]}
   >
-    <header
-      className="heading color-primary size-md weight-bold"
+    <h1
+      className="heading color-primary size-md weight-bold is-centered"
     >
       You Shall Not Pass!
-    </header>
+    </h1>
   </button>
 </div>
 `;

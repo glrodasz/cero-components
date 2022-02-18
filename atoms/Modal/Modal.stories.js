@@ -9,7 +9,6 @@ import {
 const Template = getTemplate(Modal, styles)
 const ListTemplate = getListTemplate(Modal, styles)
 
-// FIXME: Make onClose an storybook action
 export default {
   title: 'Atoms/Modal',
   component: Modal,

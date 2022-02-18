@@ -1,5 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms/Paragraph Centered 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <p
+    className="paragraph color-base size-md weight-normal is-centered"
+  >
+    Lose consequence night studies Wolves should wizards destruction burglar? All right, then. Keep your secrets.
+  </p>
+</div>
+`;
+
 exports[`Storyshots Atoms/Paragraph Colors 1`] = `
 <div
   style={
@@ -15,31 +38,31 @@ exports[`Storyshots Atoms/Paragraph Colors 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-muted size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-inverted size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-primary size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-tertiary size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
+  </p>
 </div>
 `;
 
@@ -58,11 +81,11 @@ exports[`Storyshots Atoms/Paragraph Default 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
+  </p>
 </div>
 `;
 
@@ -81,11 +104,11 @@ exports[`Storyshots Atoms/Paragraph Inline 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-md weight-normal is-inline"
   >
     Swords are no more.
-  </div>
+  </p>
 </div>
 `;
 
@@ -104,11 +127,11 @@ exports[`Storyshots Atoms/Paragraph Monospace 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-md weight-normal is-monospace"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
+  </p>
 </div>
 `;
 
@@ -127,26 +150,26 @@ exports[`Storyshots Atoms/Paragraph Sizes 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-xs weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-base size-sm weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-base size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-base size-lg weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
+  </p>
 </div>
 `;
 
@@ -165,11 +188,11 @@ exports[`Storyshots Atoms/Paragraph Striked 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-md weight-normal is-striked"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
+  </p>
 </div>
 `;
 
@@ -188,20 +211,20 @@ exports[`Storyshots Atoms/Paragraph Weights 1`] = `
     }
   }
 >
-  <div
+  <p
     className="paragraph color-base size-md weight-normal"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-base size-md weight-medium"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
-  <div
+  </p>
+  <p
     className="paragraph color-base size-md weight-semibold"
   >
     Swords are no more use here. Esquire days mountain Fangorn champion brace waiting laboring preparing! Canopy plunder deceit cakehole strange Udùn piled fighters potent?
-  </div>
+  </p>
 </div>
 `;

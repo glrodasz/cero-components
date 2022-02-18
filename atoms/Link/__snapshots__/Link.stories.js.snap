@@ -18,20 +18,20 @@ exports[`Storyshots Atoms/Link Colors 1`] = `
   <a
     className="link color-primary"
   >
-    <div
+    <p
       className="paragraph color-primary size-md weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
   <a
     className="link color-tertiary"
   >
-    <div
+    <p
       className="paragraph color-tertiary size-md weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
 </div>
 `;
@@ -54,11 +54,11 @@ exports[`Storyshots Atoms/Link Default 1`] = `
   <a
     className="link color-primary"
   >
-    <div
+    <p
       className="paragraph color-primary size-md weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
 </div>
 `;
@@ -81,38 +81,38 @@ exports[`Storyshots Atoms/Link Sizes 1`] = `
   <a
     className="link color-primary"
   >
-    <div
+    <p
       className="paragraph color-primary size-xs weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
   <a
     className="link color-primary"
   >
-    <div
+    <p
       className="paragraph color-primary size-sm weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
   <a
     className="link color-primary"
   >
-    <div
+    <p
       className="paragraph color-primary size-md weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
   <a
     className="link color-primary"
   >
-    <div
+    <p
       className="paragraph color-primary size-lg weight-semibold is-inline"
     >
       Mouths Muil
-    </div>
+    </p>
   </a>
 </div>
 `;

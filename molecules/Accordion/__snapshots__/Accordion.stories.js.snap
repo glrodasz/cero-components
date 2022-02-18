@@ -54,11 +54,11 @@ exports[`Storyshots Molecules/Accordion Addon Append 1`] = `
           }
         }
       />
-      <div
+      <p
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </div>
+      </p>
       But ill-tempered Thengel.
     </div>
     <div
@@ -131,11 +131,11 @@ exports[`Storyshots Molecules/Accordion Addon Prepend 1`] = `
         }
       />
       Dare Erebor forgive most.
-      <div
+      <p
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </div>
+      </p>
     </div>
     <div
       className="spacer vertical"
@@ -206,11 +206,11 @@ exports[`Storyshots Molecules/Accordion Default 1`] = `
           }
         }
       />
-      <div
+      <p
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </div>
+      </p>
     </div>
     <div
       className="spacer vertical"

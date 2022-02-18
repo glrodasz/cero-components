@@ -62,3 +62,7 @@
 .is-monospace {
   font-family: var(--font-family-mono);
 }
+
+.is-centered {
+  text-align: center;
+}
