@@ -31,11 +31,11 @@ exports[`Storyshots Molecules/Score Default 1`] = `
           }
         }
       />
-      <div
+      <p
         className="paragraph color-base size-md weight-normal"
       >
         Frustrado
-      </div>
+      </p>
     </div>
     <div
       className="spacer horizontal"
@@ -60,11 +60,11 @@ exports[`Storyshots Molecules/Score Default 1`] = `
           }
         }
       />
-      <div
+      <p
         className="paragraph color-base size-md weight-normal"
       >
         Normal
-      </div>
+      </p>
     </div>
     <div
       className="spacer horizontal"
@@ -89,11 +89,11 @@ exports[`Storyshots Molecules/Score Default 1`] = `
           }
         }
       />
-      <div
+      <p
         className="paragraph color-base size-md weight-normal"
       >
         Muy motivado
-      </div>
+      </p>
     </div>
   </div>
 </div>

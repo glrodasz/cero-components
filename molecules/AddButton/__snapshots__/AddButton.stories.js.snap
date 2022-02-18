@@ -62,11 +62,11 @@ exports[`Storyshots Molecules/AddButton Default 1`] = `
         }
       }
     />
-    <div
+    <p
       className="paragraph color-base size-md weight-medium"
     >
       Caves they've pick stealth Dwarf?
-    </div>
+    </p>
   </div>
 </div>
 `;
@@ -142,11 +142,11 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
         type="text"
         value="Understand bravely halfling's rank balls."
       />
-      <div
+      <p
         className="help-text paragraph color-inverted size-sm weight-normal"
       >
         Morgul-rats cripples you'll?
-      </div>
+      </p>
       <div
         className="spacer horizontal"
         style={
@@ -263,11 +263,11 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
         }
       }
     />
-    <div
+    <p
       className="paragraph color-base size-md weight-medium"
     >
       Caves they've pick stealth Dwarf?
-    </div>
+    </p>
   </div>
   <div
     className="add-button type-secondary"
@@ -316,11 +316,11 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
         }
       }
     />
-    <div
+    <p
       className="paragraph color-base size-md weight-medium"
     >
       Caves they've pick stealth Dwarf?
-    </div>
+    </p>
   </div>
 </div>
 `;

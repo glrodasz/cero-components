@@ -21,16 +21,16 @@ exports[`Storyshots Molecules/TaskCounter Default 1`] = `
     <div
       className="container"
     >
-      <div
+      <p
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </div>
-      <div
+      </p>
+      <p
         className="paragraph color-base size-md weight-medium is-inline"
       >
         2
-      </div>
+      </p>
     </div>
     <div
       className="spacer vertical"
@@ -102,16 +102,16 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
           }
         }
       />
-      <div
+      <p
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </div>
-      <div
+      </p>
+      <p
         className="paragraph color-base size-md weight-medium is-inline"
       >
         2/10
-      </div>
+      </p>
     </div>
     <div
       className="spacer vertical"
@@ -149,16 +149,16 @@ exports[`Storyshots Molecules/TaskCounter Total 1`] = `
     <div
       className="container"
     >
-      <div
+      <p
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </div>
-      <div
+      </p>
+      <p
         className="paragraph color-base size-md weight-medium is-inline"
       >
         2/10
-      </div>
+      </p>
     </div>
     <div
       className="spacer vertical"

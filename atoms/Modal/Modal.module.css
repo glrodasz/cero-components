@@ -4,9 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: fadeInModal 0.2s ease-in forwards;
   background: var(--modal-backdrop-color);
   inset: 0;
+}
+
+.backdrop:not(.is-playground) {
+  animation: fadeInModal 0.2s ease-in forwards;
 }
 
 .backdrop.on-fade-out {
@@ -19,6 +22,9 @@
   height: 100%;
   flex-direction: column;
   padding: 16px 32px;
+}
+
+:not(.is-playground) > .modal {
   animation: fadeInModal 0.4s ease-in forwards;
   opacity: 0;
 }

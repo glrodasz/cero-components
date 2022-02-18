@@ -41,11 +41,11 @@ exports[`Storyshots Molecules/IconLabel Active 1`] = `
         />
       </svg>
     </div>
-    <div
+    <p
       className="paragraph color-primary size-xs weight-normal is-inline"
     >
       User
-    </div>
+    </p>
   </div>
 </div>
 `;
@@ -91,11 +91,11 @@ exports[`Storyshots Molecules/IconLabel Clickable 1`] = `
         />
       </svg>
     </div>
-    <div
+    <p
       className="paragraph color-base size-xs weight-normal is-inline"
     >
       User
-    </div>
+    </p>
   </div>
 </div>
 `;
@@ -141,11 +141,11 @@ exports[`Storyshots Molecules/IconLabel Default 1`] = `
         />
       </svg>
     </div>
-    <div
+    <p
       className="paragraph color-base size-xs weight-normal is-inline"
     >
       User
-    </div>
+    </p>
   </div>
 </div>
 `;
@@ -201,11 +201,11 @@ exports[`Storyshots Molecules/IconLabel Horizontal 1`] = `
         }
       }
     />
-    <div
+    <p
       className="paragraph color-base size-xs weight-normal is-inline"
     >
       User
-    </div>
+    </p>
   </div>
 </div>
 `;

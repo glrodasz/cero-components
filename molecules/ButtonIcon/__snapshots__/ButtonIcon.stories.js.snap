@@ -19,11 +19,11 @@ exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
     className="button type-secondary is-inline"
     onClick={[Function]}
   >
-    <header
-      className="heading color-primary size-md weight-bold"
+    <h1
+      className="heading color-primary size-md weight-bold is-centered is-inline"
     >
       Cowards Agreed
-    </header>
+    </h1>
     <div
       className="spacer horizontal"
       style={
@@ -84,11 +84,11 @@ exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
     className="button type-primary is-inline"
     onClick={[Function]}
   >
-    <header
-      className="heading color-inverted size-md weight-bold"
+    <h1
+      className="heading color-inverted size-md weight-bold is-centered is-inline"
     >
       Cowards Agreed
-    </header>
+    </h1>
     <div
       className="spacer horizontal"
       style={
@@ -131,11 +131,11 @@ exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
     className="button type-secondary is-inline"
     onClick={[Function]}
   >
-    <header
-      className="heading color-primary size-md weight-bold"
+    <h1
+      className="heading color-primary size-md weight-bold is-centered is-inline"
     >
       Cowards Agreed
-    </header>
+    </h1>
     <div
       className="spacer horizontal"
       style={
