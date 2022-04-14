@@ -1,3 +1,10 @@
+## [2.12.1](https://github.com/glrodasz/cero-components/compare/v2.12.0...v2.12.1) (2022-04-14)
+
+
+### Bug Fixes
+
+* **score:** remove temporarily Score component ([458e814](https://github.com/glrodasz/cero-components/commit/458e814624855a5a2387f2e0785bd42c8ca6fb89))
+
 # [2.12.0](https://github.com/glrodasz/cero-components/compare/v2.11.1...v2.12.0) (2022-02-18)
 
 
