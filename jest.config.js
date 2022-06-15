@@ -6,7 +6,6 @@ module.exports = {
   },
   setupFilesAfterEnv: ['./jest.setup.js'],
   transform: {
-    '^.+\\.stories\\.jsx?$': '@storybook/addon-storyshots/injectFileName',
     '^.+\\.jsx?$': 'babel-jest',
   },
   collectCoverageFrom: [

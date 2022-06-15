@@ -1,10 +1,23 @@
 import React from 'react'
 import { render, fireEvent, screen } from '@testing-library/react'
+import { composeStories } from '@storybook/testing-react'
+import * as stories from './Button.stories'
 
 import Button, { handleClick } from './Button'
 
+const composedStories = composeStories(stories)
+
 describe('[ atoms / Button ]', () => {
   describe('#Button', () => {
+    Object.entries(composedStories).forEach(([story, Component]) => {
+      describe(`when 'Button' ${story} is mounted`, () => {
+        it('should render', () => {
+          const { asFragment } = render(<Component />)
+          expect(asFragment()).toMatchSnapshot()
+        })
+      })
+    })
+
     describe('when `Button`is clicked', () => {
       it('should call `onClick`', () => {
         // Arrange
