@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ molecules / TaskCounter ] #TaskCounter when 'TaskCounter' Default is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="task-counter"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="paragraph color-base size-md weight-medium"
+      >
+        Em Sméagol body.
+      </p>
+      <p
+        class="paragraph color-base size-md weight-medium is-inline"
+      >
+        2
+      </p>
+    </div>
+    <div
+      class="spacer vertical"
+      style="height: 5px;"
+    />
+    <div
+      class="divider"
+    />
+    Fells defeated veins this. There and Back Again. A Hobbit's Tale. Loved lucky Istari difficult lay? Dale fellow's rioting. Blanket Misty Mountain started rival wriggles flatten convinced succumbed closing? Slug town fond pipe-weed flatten recognizes Goblins! Innards pouf admirable freely nothingness sleepless exactly afternoon cruelty Bofur? Craftsmen tested fair Alfrid gets figure words winter's field offer healed squash? These galumphing Grima tread mustn't seen melt ideal picked recover employment. Nazgûl alas luckiest?
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ molecules / TaskCounter ] #TaskCounter when 'TaskCounter' Toggleable is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="accordion"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="icon color-inverted size-sm background-muted"
+        style="width: 25px; height: 25px;"
+      >
+        <svg
+          height="25"
+          viewBox="0 0 15 9"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div
+        class="spacer horizontal"
+        style="height: 100%; max-height: auto; width: 15px;"
+      />
+      <p
+        class="paragraph color-base size-md weight-medium"
+      >
+        Em Sméagol body.
+      </p>
+      <p
+        class="paragraph color-base size-md weight-medium is-inline"
+      >
+        2/10
+      </p>
+    </div>
+    <div
+      class="spacer vertical"
+      style="height: 5px;"
+    />
+    <div
+      class="divider"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ molecules / TaskCounter ] #TaskCounter when 'TaskCounter' Total is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="task-counter"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="paragraph color-base size-md weight-medium"
+      >
+        Em Sméagol body.
+      </p>
+      <p
+        class="paragraph color-base size-md weight-medium is-inline"
+      >
+        2/10
+      </p>
+    </div>
+    <div
+      class="spacer vertical"
+      style="height: 5px;"
+    />
+    <div
+      class="divider"
+    />
+    Fells defeated veins this. There and Back Again. A Hobbit's Tale. Loved lucky Istari difficult lay? Dale fellow's rioting. Blanket Misty Mountain started rival wriggles flatten convinced succumbed closing? Slug town fond pipe-weed flatten recognizes Goblins! Innards pouf admirable freely nothingness sleepless exactly afternoon cruelty Bofur? Craftsmen tested fair Alfrid gets figure words winter's field offer healed squash? These galumphing Grima tread mustn't seen melt ideal picked recover employment. Nazgûl alas luckiest?
+  </div>
+</DocumentFragment>
+`;

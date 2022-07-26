@@ -17,14 +17,18 @@ const createHandlerClick = () => (event) => {
   event?.stopPropagation()
 }
 
-const createHandlerClose = ({ onClose, setOnFadeOut }) => () => {
-  setOnFadeOut(true)
-  setTimeout(onClose, FADE_OUT_ANIMATION_TIME)
-}
+const createHandlerClose =
+  ({ onClose, setOnFadeOut }) =>
+  () => {
+    setOnFadeOut(true)
+    setTimeout(onClose, FADE_OUT_ANIMATION_TIME)
+  }
 
-const handleSecondaryAction = ({ onSecondaryAction }) => () => {
-  onSecondaryAction()
-}
+const handleSecondaryAction =
+  ({ onSecondaryAction }) =>
+  () => {
+    onSecondaryAction()
+  }
 
 export const Modal = ({
   onClose,

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ atoms / Card ] #Card when 'Card' Clickable is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="card color-base size-sm is-clickable"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Card ] #Card when 'Card' Colors is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="card color-base size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    class="card color-primary size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    class="card color-secondary size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Card ] #Card when 'Card' Default is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="card color-base size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Card ] #Card when 'Card' Dragabble is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="card color-base size-sm is-draggable"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Card ] #Card when 'Card' Sizes is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="card color-base size-sm"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    class="card color-base size-md"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+  <div
+    class="card color-base size-lg"
+  >
+    Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ layout / Spacer ] #Spacer when 'Spacer' Default is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="spacer is-playground"
+    style="display: inline-block; width: 0px; height: 0px;"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ layout / Spacer ] #Spacer when 'Spacer' Sizes is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="spacer is-playground"
+    style="display: inline-block; width: 0px; height: 0px;"
+  />
+  <div
+    class="spacer is-playground"
+    style="display: inline-block; width: 5px; height: 5px;"
+  />
+  <div
+    class="spacer is-playground"
+    style="display: inline-block; width: 15px; height: 15px;"
+  />
+  <div
+    class="spacer is-playground"
+    style="display: inline-block; width: 20px; height: 20px;"
+  />
+  <div
+    class="spacer is-playground"
+    style="display: inline-block; width: 40px; height: 40px;"
+  />
+</DocumentFragment>
+`;

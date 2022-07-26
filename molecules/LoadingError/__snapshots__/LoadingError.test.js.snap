@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ molecules / LoadingError ] #LoadingError when 'LoadingError' Default is mounted should render 1`] = `
+<DocumentFragment>
+  Exile ruins brook Angmar inn wars retaken. Swiftly attacks Grma merely! Opinion Eorlingas inquisitive windlance? You are full of surprises, Master Baggins. Houses warning garden noble innocent silver charm numerous thirsty came Treebeard's warm.
+</DocumentFragment>
+`;
+
+exports[`[ molecules / LoadingError ] #LoadingError when 'LoadingError' Error is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+  >
+    <div
+      class="icon-warning icon color-base size-md background-transparent"
+      style="width: 35px; height: 35px;"
+    >
+      <svg
+        height="35"
+        viewBox="0 0 20 20"
+        width="35"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 20C4.48612 20 0 15.5139 0 10C0 4.48612 4.48612 0 10 0C15.5139 0 20 4.48612 20 10C20 15.5139 15.5139 20 10 20ZM10 1.09864C5.09155 1.09864 1.09864 5.09155 1.09864 10C1.09864 14.9084 5.09155 18.9014 10 18.9014C14.9084 18.9014 18.9014 14.9084 18.9014 10C18.9014 5.09155 14.9084 1.09864 10 1.09864Z"
+          fill-rule="evenodd"
+        />
+        <path
+          d="M10.7837 11.8579H9.25293L9.08447 4.33594H10.9595L10.7837 11.8579ZM9.0332 14.1577C9.0332 13.8794 9.12354 13.6499 9.3042 13.4692C9.48486 13.2837 9.73145 13.1909 10.0439 13.1909C10.3564 13.1909 10.603 13.2837 10.7837 13.4692C10.9644 13.6499 11.0547 13.8794 11.0547 14.1577C11.0547 14.4263 10.9668 14.6509 10.791 14.8315C10.6152 15.0122 10.3662 15.1025 10.0439 15.1025C9.72168 15.1025 9.47266 15.0122 9.29688 14.8315C9.12109 14.6509 9.0332 14.4263 9.0332 14.1577Z"
+        />
+      </svg>
+    </div>
+    <div
+      class="spacer horizontal"
+      style="height: 100%; max-height: auto; width: 15px;"
+    />
+    <div>
+      <p
+        class="paragraph color-base size-md weight-normal"
+      >
+        ext Grimbold sneak-thief cheekbones myth overfond task
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ molecules / LoadingError ] #LoadingError when 'LoadingError' Loading is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="loading is-shown"
+    />
+  </div>
+</DocumentFragment>
+`;

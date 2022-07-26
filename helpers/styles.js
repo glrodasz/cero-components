@@ -22,16 +22,19 @@ export const getObjectClasses = (cssModule, object) => {
   }, {})
 }
 
-export const getClasses = (cssModule = {}) => (props) => (...args) => {
-  return classNames(
-    args.map((arg) => {
-      if (Array.isArray(arg)) {
-        return getDynamicClasses(cssModule, props, arg)
-      } else if (typeof arg === 'string') {
-        return getModuleClasses(cssModule, arg)
-      } else if (typeof arg === 'object') {
-        return getObjectClasses(cssModule, arg)
-      }
-    })
-  )
-}
+export const getClasses =
+  (cssModule = {}) =>
+  (props) =>
+  (...args) => {
+    return classNames(
+      args.map((arg) => {
+        if (Array.isArray(arg)) {
+          return getDynamicClasses(cssModule, props, arg)
+        } else if (typeof arg === 'string') {
+          return getModuleClasses(cssModule, arg)
+        } else if (typeof arg === 'object') {
+          return getObjectClasses(cssModule, arg)
+        }
+      })
+    )
+  }
