@@ -18,6 +18,7 @@
     "build": "run-s build:tokens build:storybook",
     "build:docs": "yarn build:tokens && yarn build:storybook --docs --no-manager-cache",
     "cc": "node ./scripts/create-component",
+    "cm": "cz",
     "deploy:prod": "run-s build:docs deploy:vercel:prod",
     "deploy:stag": "run-s build deploy:vercel:stag",
     "deploy:vercel:prod": "vercel --prod",
