@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ atoms / Loading ] #Loading when 'Loading' Default is mounted should render 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="loading"
+    />
+  </div>
+</DocumentFragment>
+`;

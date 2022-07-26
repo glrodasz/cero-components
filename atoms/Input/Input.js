@@ -5,9 +5,11 @@ import styles from './Input.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleChange = ({ onChange }) => () => {
-  onChange()
-}
+const handleChange =
+  ({ onChange }) =>
+  () => {
+    onChange()
+  }
 
 export const Input = ({
   getStyles,

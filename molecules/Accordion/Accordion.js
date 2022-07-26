@@ -9,10 +9,12 @@ import Spacer from '../../layout/Spacer'
 import styles from './Accordion.module.css'
 import withStyles from '../../hocs/withStyles'
 
-const handleToggle = ({ onToggle, isCollapsed, setIsCollapsed }) => () => {
-  setIsCollapsed(!isCollapsed)
-  onToggle(!isCollapsed)
-}
+const handleToggle =
+  ({ onToggle, isCollapsed, setIsCollapsed }) =>
+  () => {
+    setIsCollapsed(!isCollapsed)
+    onToggle(!isCollapsed)
+  }
 
 export const Accordion = ({
   title,

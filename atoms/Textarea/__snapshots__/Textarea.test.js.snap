@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ atoms / Textarea ] #Textarea when 'Textarea' Default is mounted should render 1`] = `
+<DocumentFragment>
+  <textarea
+    class="textarea"
+    placeholder="Country speed seat newfound ah stained Gundabad stinking runt."
+    rows="5"
+  />
+</DocumentFragment>
+`;
