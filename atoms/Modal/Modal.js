@@ -10,25 +10,11 @@ import isEmpty from '../../utils/isEmpty'
 
 import useMedia from '../../hook/useMedia'
 
-// Sync with ./Modal.module.css#L13-L17
-const FADE_OUT_ANIMATION_TIME = 400
-
-const createHandlerClick = () => (event) => {
-  event?.stopPropagation()
-}
-
-const createHandlerClose =
-  ({ onClose, setOnFadeOut }) =>
-  () => {
-    setOnFadeOut(true)
-    setTimeout(onClose, FADE_OUT_ANIMATION_TIME)
-  }
-
-const handleSecondaryAction =
-  ({ onSecondaryAction }) =>
-  () => {
-    onSecondaryAction()
-  }
+import {
+  createHandlerClick,
+  createHandlerClose,
+  createHandlerSecondaryAction,
+} from './handlers'
 
 export const Modal = ({
   onClose,
@@ -70,7 +56,7 @@ export const Modal = ({
               color="inverted"
               name={secondaryAction?.icon}
               background="muted"
-              onClick={handleSecondaryAction({
+              onClick={createHandlerSecondaryAction({
                 onSecondaryAction: secondaryAction?.handler,
               })}
             />

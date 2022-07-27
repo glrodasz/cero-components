@@ -10,11 +10,7 @@ import withStyles from '../../hocs/withStyles'
 import isEmpty from '../../utils/isEmpty'
 import isObject from '../../utils/isObject'
 
-export const handleClick =
-  ({ onClick }) =>
-  (event) => {
-    onClick(event)
-  }
+import handleClick from '../../handlers/handleClick'
 
 export const Button = ({
   type,

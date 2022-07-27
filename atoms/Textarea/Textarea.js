@@ -6,11 +6,7 @@ import withStyles from '../../hocs/withStyles'
 
 const DEFAULT_TEXTAREA_ROWS = 5
 
-const handleChange =
-  ({ onChange }) =>
-  () => {
-    onChange()
-  }
+import handleChange from '../../handlers/handleChange'
 
 export const Textarea = ({
   children,

@@ -5,11 +5,7 @@ import styles from './Card.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-export const handleClick =
-  ({ onClick }) =>
-  (event) => {
-    onClick(event)
-  }
+import handleClick from '../../handlers/handleClick'
 
 export const Card = ({
   getStyles,
