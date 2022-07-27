@@ -10,9 +10,11 @@ import Paragraph from '../../atoms/Paragraph'
 import { options } from './constants'
 import Spacer from '../../layout/Spacer'
 
-const handleClick = ({ onClick }) => (event) => {
-  onClick(event)
-}
+const handleClick =
+  ({ onClick }) =>
+  (event) => {
+    onClick(event)
+  }
 
 const sizesMap = {
   sm: {

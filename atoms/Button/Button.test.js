@@ -1,10 +1,15 @@
 import React from 'react'
 import { render, fireEvent, screen } from '@testing-library/react'
+import createSnapshotFromStories from '../../utils/testUtils/createSnapshotFromStories'
+
+import * as stories from './Button.stories'
 
 import Button, { handleClick } from './Button'
 
 describe('[ atoms / Button ]', () => {
   describe('#Button', () => {
+    createSnapshotFromStories('Button', stories)
+
     describe('when `Button`is clicked', () => {
       it('should call `onClick`', () => {
         // Arrange

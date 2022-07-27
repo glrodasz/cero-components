@@ -6,9 +6,11 @@ import styles from './Icon.module.css'
 import { options, iconsMap } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleClick = ({ onClick }) => (event) => {
-  onClick(event)
-}
+const handleClick =
+  ({ onClick }) =>
+  (event) => {
+    onClick(event)
+  }
 
 export const Icon = ({
   id,

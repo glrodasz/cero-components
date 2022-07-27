@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ atoms / Picture ] #Picture when 'Picture' Border is mounted should render 1`] = `
+<DocumentFragment>
+  <picture
+    class="picture with-border"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
+    />
+  </picture>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Picture ] #Picture when 'Picture' Default is mounted should render 1`] = `
+<DocumentFragment>
+  <picture
+    class="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
+    />
+  </picture>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Picture ] #Picture when 'Picture' Height is mounted should render 1`] = `
+<DocumentFragment>
+  <picture
+    class="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/800"
+      style="height: 400px; max-width: 200px;"
+    />
+  </picture>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Picture ] #Picture when 'Picture' Rounded is mounted should render 1`] = `
+<DocumentFragment>
+  <picture
+    class="picture is-rounded"
+  >
+    <img
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
+    />
+  </picture>
+</DocumentFragment>
+`;
+
+exports[`[ atoms / Picture ] #Picture when 'Picture' Width is mounted should render 1`] = `
+<DocumentFragment>
+  <picture
+    class="picture"
+  >
+    <img
+      src="https://picsum.photos/id/1033/800/400"
+      style="height: auto; max-width: 400px;"
+    />
+  </picture>
+</DocumentFragment>
+`;

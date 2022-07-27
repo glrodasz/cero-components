@@ -11,25 +11,29 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => (
-  event
-) => {
-  event && event.stopPropagation()
+const handleCheck =
+  ({ isChecked, setIsChecked, isPending, onCheck }) =>
+  (event) => {
+    event && event.stopPropagation()
 
-  if (!isPending) {
-    setIsChecked(!isChecked)
-    onCheck({ isChecked: !isChecked })
+    if (!isPending) {
+      setIsChecked(!isChecked)
+      onCheck({ isChecked: !isChecked })
+    }
   }
-}
 
-const handleDelete = ({ onDelete }) => (event) => {
-  event && event.stopPropagation()
-  onDelete()
-}
+const handleDelete =
+  ({ onDelete }) =>
+  (event) => {
+    event && event.stopPropagation()
+    onDelete()
+  }
 
-const handleClick = ({ onClick }) => () => {
-  onClick()
-}
+const handleClick =
+  ({ onClick }) =>
+  () => {
+    onClick()
+  }
 
 export const Task = ({
   children,
