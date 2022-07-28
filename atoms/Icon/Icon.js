@@ -6,7 +6,7 @@ import styles from './Icon.module.css'
 import { options, iconsMap } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-import handleClick from '../../handlers/handleClick'
+import createHandlerClick from '../../handlers/createHandlerClick'
 
 export const Icon = ({
   id,
@@ -27,7 +27,7 @@ export const Icon = ({
         'is-clickable': isClickable || !!onClick,
       })}
       style={{ width: mappedSize, height: mappedSize }}
-      onClick={onClick && handleClick({ onClick })}
+      onClick={onClick && createHandlerClick({ onClick })}
     >
       <svg
         viewBox={icon.viewBox}

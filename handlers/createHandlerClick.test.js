@@ -1,14 +1,14 @@
-import handleClick from './handleClick'
+import createHandlerClick from './createHandlerClick'
 
 describe('[ handlers ]', () => {
-  describe('#handleClick', () => {
-    describe('when `handleClick` is called', () => {
+  describe('#createHandlerClick', () => {
+    describe('when `createHandlerClick` is called', () => {
       it('should return a function', () => {
         // Arrange
         const params = {}
 
         // Act
-        const result = typeof handleClick(params)
+        const result = typeof createHandlerClick(params)
         const expected = 'function'
 
         // Assert
@@ -16,7 +16,7 @@ describe('[ handlers ]', () => {
       })
     })
 
-    describe('when `handleClick` returned function is called', () => {
+    describe('when `createHandlerClick` returned function is called', () => {
       it('should call `onClick` with the `event`', () => {
         // Arrange
         const onClickMock = jest.fn()
@@ -27,7 +27,7 @@ describe('[ handlers ]', () => {
         const event = 'event'
 
         // Act
-        handleClick(params)(event)
+        createHandlerClick(params)(event)
 
         // Assert
         expect(onClickMock).toHaveBeenCalledWith(event)

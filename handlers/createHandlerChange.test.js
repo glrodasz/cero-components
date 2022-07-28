@@ -1,15 +1,15 @@
-import handleChange from './handleChange'
+import createHandlerChange from './createHandlerChange'
 
 describe('[ handlers ]', () => {
-  describe('#handleChange', () => {
+  describe('#createHandlerChange', () => {
     // Given, When, Then
-    describe('when `handleChange` is called', () => {
+    describe('when `createHandlerChange` is called', () => {
       it('should return a function', () => {
         // Arrange
         const params = {}
 
         // Act
-        const result = typeof handleChange(params)
+        const result = typeof createHandlerChange(params)
         const expected = 'function'
 
         // Assert
@@ -17,7 +17,7 @@ describe('[ handlers ]', () => {
       })
     })
 
-    describe('when `handleChange` returned function is called', () => {
+    describe('when `createHandlerChange` returned function is called', () => {
       it('should call `onChange` with the `event`', () => {
         // Arrange
         const onChangeMock = jest.fn()
@@ -28,7 +28,7 @@ describe('[ handlers ]', () => {
         const event = 'event'
 
         // Act
-        handleChange(params)(event)
+        createHandlerChange(params)(event)
 
         // Assert
         expect(onChangeMock).toHaveBeenCalledWith(event)

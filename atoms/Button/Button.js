@@ -10,7 +10,7 @@ import withStyles from '../../hocs/withStyles'
 import isEmpty from '../../utils/isEmpty'
 import isObject from '../../utils/isObject'
 
-import handleClick from '../../handlers/handleClick'
+import createHandlerClick from '../../handlers/createHandlerClick'
 
 export const Button = ({
   type,
@@ -26,7 +26,7 @@ export const Button = ({
       'is-inline': isInline || type === 'tertiary',
       'is-muted': isMuted && type === 'primary',
     })}
-    onClick={onClick && handleClick({ onClick })}
+    onClick={onClick && createHandlerClick({ onClick })}
   >
     {addons && addons.prepend}
 

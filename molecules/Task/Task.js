@@ -11,6 +11,8 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
+import createHandlerClick from '../../handlers/createHandlerClick'
+
 const handleCheck =
   ({ isChecked, setIsChecked, isPending, onCheck }) =>
   (event) => {
@@ -29,12 +31,6 @@ const handleDelete =
     onDelete()
   }
 
-const handleClick =
-  ({ onClick }) =>
-  () => {
-    onClick()
-  }
-
 export const Task = ({
   children,
   defaultIsChecked,
@@ -49,7 +45,7 @@ export const Task = ({
   return (
     <div className={getStyles('container')}>
       <Card
-        onClick={handleClick({ onClick })}
+        onClick={createHandlerClick({ onClick })}
         isClickable={!isPending}
         isDraggable={isPending}
       >
