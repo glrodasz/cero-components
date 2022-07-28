@@ -6,11 +6,7 @@ import withStyles from '../../hocs/withStyles'
 
 const DEFAULT_TEXTAREA_ROWS = 5
 
-const handleChange =
-  ({ onChange }) =>
-  () => {
-    onChange()
-  }
+import createHandlerChange from '../../handlers/createHandlerChange'
 
 export const Textarea = ({
   children,
@@ -24,7 +20,7 @@ export const Textarea = ({
       className={getStyles('textarea')}
       rows={rows}
       placeholder={placeholder}
-      onChange={handleChange({ onChange })}
+      onChange={createHandlerChange({ onChange })}
     >
       {children}
     </textarea>

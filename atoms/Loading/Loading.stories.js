@@ -15,3 +15,9 @@ export default {
 }
 
 export const Default = Template.bind({})
+
+export const Children = Template.bind({})
+Children.args = {
+  isPlayground: false,
+  isShown: false,
+}

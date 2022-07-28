@@ -4,10 +4,11 @@ import createSnapshotFromStories from '../../utils/testUtils/createSnapshotFromS
 
 import * as stories from './Button.stories'
 
-import Button, { handleClick } from './Button'
+import Button from './Button'
 
 describe('[ atoms / Button ]', () => {
   describe('#Button', () => {
+    // Snapshots based on stories
     createSnapshotFromStories('Button', stories)
 
     describe('when `Button`is clicked', () => {
@@ -24,41 +25,6 @@ describe('[ atoms / Button ]', () => {
 
         // Assert
         expect(onClickMock).toHaveBeenCalled()
-      })
-    })
-  })
-
-  describe('#handleClick', () => {
-    // Given, When, Then
-    describe('when `handleClick` is called', () => {
-      it('should return a function', () => {
-        // Arrange
-        const params = {}
-
-        // Act
-        const result = typeof handleClick(params)
-        const expected = 'function'
-
-        // Assert
-        expect(result).toBe(expected)
-      })
-    })
-
-    describe('when `handleClick` returned function is called', () => {
-      it('should call `onClick` with the `event`', () => {
-        // Arrange
-        const onClickMock = jest.fn()
-        const params = {
-          onClick: onClickMock,
-        }
-
-        const event = 'event'
-
-        // Act
-        handleClick(params)(event)
-
-        // Assert
-        expect(onClickMock).toHaveBeenCalledWith(event)
       })
     })
   })
