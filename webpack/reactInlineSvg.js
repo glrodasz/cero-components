@@ -12,8 +12,9 @@ const reactInlineSvg = (config) => {
 
   // We add a our custom rule for `*.svg` files
   config.module.rules.push({
-    test: /\.svg$/,
-    loader: ['@svgr/webpack'],
+    test: /\.svg$/i,
+    issuer: /\.[jt]sx?$/,
+    use: ['@svgr/webpack'],
   })
 
   return config
