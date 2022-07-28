@@ -105,10 +105,5 @@
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
