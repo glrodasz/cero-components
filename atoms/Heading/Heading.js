@@ -5,13 +5,26 @@ import styles from './Heading.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-export const Heading = ({ children, isCentered, isInline, getStyles }) => {
+import { createHandlerBlur } from './handlers'
+
+export const Heading = ({
+  children,
+  isCentered,
+  isInline,
+  isEditable,
+  onBlur,
+  getStyles,
+}) => {
   return (
     <h1
       className={getStyles('heading', ['color', 'size', 'weight'], {
         'is-centered': isCentered,
         'is-inline': isInline,
       })}
+      onBlur={createHandlerBlur({
+        onBlur,
+      })}
+      contentEditable={isEditable}
     >
       {children}
     </h1>
@@ -23,6 +36,8 @@ Heading.propTypes = {
   getStyles: PropTypes.func.isRequired,
   isInline: PropTypes.bool,
   isCentered: PropTypes.bool,
+  isEditable: PropTypes.bool,
+  onBlur: PropTypes.func,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
   weight: PropTypes.oneOf(options.weights),
@@ -32,6 +47,8 @@ Heading.defaultProps = {
   color: 'base',
   size: 'md',
   weight: 'bold',
+  isEditable: false,
+  onBlur: () => {},
 }
 
 export default withStyles(styles)(Heading)
