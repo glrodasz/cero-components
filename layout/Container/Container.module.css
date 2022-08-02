@@ -4,9 +4,12 @@
   max-width: var(--container-max-width);
   height: 100%;
   flex: auto;
-  justify-content: center;
   padding: 20px 15px 20px;
   margin: 0 auto;
+}
+
+.is-centered {
+  justify-content: center;
 }
 
 .is-playground {
