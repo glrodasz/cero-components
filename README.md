@@ -1,6 +1,6 @@
 # Cero a Producción — Components
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/glrodasz/cero-components/Release)](https://github.com/glrodasz/cero-components/actions/workflows/release.yml) [![Codecov](https://img.shields.io/codecov/c/github/glrodasz/cero-components)](https://app.codecov.io/gh/glrodasz/cero-components) [![npm](https://img.shields.io/npm/v/@glrodasz/components)](https://www.npmjs.com/package/@glrodasz/components) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
- [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybooks/storybook)
+ [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybookjs/storybook)
 
 
 0️⃣ 🚀 **Cero a Producción** is a project of live coding sessions where we develop a a productivity management app called **RETO** from the scratch to production.
@@ -22,7 +22,7 @@ Watch the project in live streaming in English, from **Tuesdays** to **Fridays**
 
 ## Getting Started
 
-> You must have `react, react-dom and classnames installed` thiose are peer dependencies of this project.
+> You must have `react and react-dom installed` those are peer dependencies of this project.
 
 #### 1. Installation
 

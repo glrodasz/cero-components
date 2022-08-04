@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Tokens/FontSize ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 14px;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-base)
+      </span>
+      <span
+        class="label"
+      >
+        14px
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Tokens/FontSize ] should render Sizes 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 14px;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-base)
+      </span>
+      <span
+        class="label"
+      >
+        14px
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 1.2rem;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-xs)
+      </span>
+      <span
+        class="label"
+      >
+        1.2rem
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 1.4rem;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-sm)
+      </span>
+      <span
+        class="label"
+      >
+        1.4rem
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 1.6rem;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-md)
+      </span>
+      <span
+        class="label"
+      >
+        1.6rem
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 1.8rem;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-lg)
+      </span>
+      <span
+        class="label"
+      >
+        1.8rem
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 2.2rem;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-xl)
+      </span>
+      <span
+        class="label"
+      >
+        2.2rem
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-size"
+      style="font-size: 6rem;"
+    >
+      Woodland lasted crowned holiday pirate brother wrath.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-size-2xl)
+      </span>
+      <span
+        class="label"
+      >
+        6rem
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

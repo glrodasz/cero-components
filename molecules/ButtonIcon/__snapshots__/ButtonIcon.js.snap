@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Molecules/ButtonIcon ] should render Default 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-secondary is-inline"
+  >
+    <h1
+      class="heading color-primary size-md weight-bold is-centered is-inline"
+    >
+      Cowards Agreed
+    </h1>
+    <div
+      class="spacer horizontal"
+      style="height: 100%; max-height: auto; width: 5px;"
+    />
+    <div
+      class="icon color-primary size-md background-transparent"
+      style="width: 35px; height: 35px;"
+    >
+      <svg
+        height="35"
+        viewBox="0 0 19 20"
+        width="35"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Molecules/ButtonIcon ] should render Types 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary is-inline"
+  >
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered is-inline"
+    >
+      Cowards Agreed
+    </h1>
+    <div
+      class="spacer horizontal"
+      style="height: 100%; max-height: auto; width: 5px;"
+    />
+    <div
+      class="icon color-inverted size-md background-transparent"
+      style="width: 35px; height: 35px;"
+    >
+      <svg
+        height="35"
+        viewBox="0 0 19 20"
+        width="35"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+  <button
+    class="button type-secondary is-inline"
+  >
+    <h1
+      class="heading color-primary size-md weight-bold is-centered is-inline"
+    >
+      Cowards Agreed
+    </h1>
+    <div
+      class="spacer horizontal"
+      style="height: 100%; max-height: auto; width: 5px;"
+    />
+    <div
+      class="icon color-primary size-md background-transparent"
+      style="width: 35px; height: 35px;"
+    >
+      <svg
+        height="35"
+        viewBox="0 0 19 20"
+        width="35"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8.65792 19.316L7.34192 18L15.6849 9.658L7.34192 1.316L8.65792 0L18.3149 9.658L8.65792 19.316Z"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M0 8.65796H17V10.658H0V8.65796Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;

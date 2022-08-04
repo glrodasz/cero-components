@@ -24,7 +24,7 @@ export const Heading = ({
       onBlur={createHandlerBlur({
         onBlur,
       })}
-      contentEditable={isEditable}
+      contentEditable={isEditable || undefined}
     >
       {children}
     </h1>

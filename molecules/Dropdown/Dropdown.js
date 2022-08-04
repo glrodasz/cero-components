@@ -54,6 +54,7 @@ Dropdown.defaultProps = {
   isInline: false,
   onChange: () => {},
   getStyles: () => {},
+  options: [],
 }
 
 export default withStyles(styles)(Dropdown)
