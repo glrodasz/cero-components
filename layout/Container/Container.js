@@ -30,7 +30,7 @@ Container.propTypes = {
 
 Container.defaultProps = {
   isPlayground: false,
-  isCentered: true,
+  isCentered: false,
   getStyles: () => {},
 }
 
