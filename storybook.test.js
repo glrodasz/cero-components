@@ -51,6 +51,7 @@ describe('[ storybook ]', () => {
         it(`should render ${story}`, () => {
           const { asFragment } = render(<Component {..._default.args} />)
           const snapshotPath = getSnapshotPath(filePath)
+
           expect(asFragment()).toMatchSpecificSnapshot(snapshotPath)
         })
       })
