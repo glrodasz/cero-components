@@ -7,33 +7,52 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import { composeStories } from '@storybook/testing-react'
 
-let storiesModules = []
-
-try {
-  storiesModules = glob
-    .sync('{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)')
-    .map((file) => ({ module: require(path.join(__dirname, file)), file }))
-} catch (error) {
-  console.error('Error reading story files using a glob pattern', error)
+const getStoryPaths = (file) => {
+  const resolvedFilePath = path.resolve(__dirname, file)
+  const dirnamePath = path.dirname(resolvedFilePath)
+  return { resolvedFilePath, dirnamePath }
 }
 
+const getStoriesModules = (globPath) => {
+  try {
+    return glob.sync(globPath).map((filePath) => ({
+      module: require(getStoryPaths(filePath).resolvedFilePath),
+      filePath,
+    }))
+  } catch (error) {
+    console.error('Error reading story files using a glob pattern', error)
+  }
+}
+
+const getComponentNameStoryFilePath = (filePath) => {
+  return filePath.split('/').pop().split('.').shift()
+}
+
+const getSnapshotPath = (filePath) => {
+  const SNAPSHOTS_FOLDER = '__snapshots__'
+  const SNAPSHOT_EXT = '.js.snap'
+
+  const { dirnamePath } = getStoryPaths(filePath)
+  const componentName = getComponentNameStoryFilePath(filePath)
+
+  return `${dirnamePath}/${SNAPSHOTS_FOLDER}/${componentName}${SNAPSHOT_EXT}`
+}
+
+const storiesModules = getStoriesModules(
+  '{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'
+)
+
 describe('[ storybook ]', () => {
-  storiesModules.forEach(({ module, file }) => {
+  storiesModules.forEach(({ module, filePath }) => {
     const { default: _default, ...stories } = module
     const composedStories = composeStories(stories)
-    const storyTitle = _default.title
 
-    describe(`[ ${storyTitle} ]`, () => {
+    describe(`[ ${_default.title} ]`, () => {
       Object.entries(composedStories).forEach(([story, Component]) => {
         it(`should render ${story}`, () => {
-          const filePath = path.resolve(process.cwd(), file)
-          const dirnamePath = path.dirname(filePath)
-          const componentName = file.split('/').pop().split('.').shift()
-
           const { asFragment } = render(<Component {..._default.args} />)
-          expect(asFragment()).toMatchSpecificSnapshot(
-            `${dirnamePath}/__snapshots__/${componentName}.js.snap`
-          )
+          const snapshotPath = getSnapshotPath(filePath)
+          expect(asFragment()).toMatchSpecificSnapshot(snapshotPath)
         })
       })
     })
