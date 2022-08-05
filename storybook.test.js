@@ -7,6 +7,10 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import { composeStories } from '@storybook/testing-react'
 
+const SNAPSHOTS_FOLDER = '__snapshots__'
+const SNAPSHOT_EXT = '.js.snap'
+const STORIES_GLOB = '{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'
+
 const getStoryPaths = (file) => {
   const resolvedFilePath = path.resolve(__dirname, file)
   const dirnamePath = path.dirname(resolvedFilePath)
@@ -29,18 +33,13 @@ const getComponentNameStoryFilePath = (filePath) => {
 }
 
 const getSnapshotPath = (filePath) => {
-  const SNAPSHOTS_FOLDER = '__snapshots__'
-  const SNAPSHOT_EXT = '.js.snap'
-
   const { dirnamePath } = getStoryPaths(filePath)
   const componentName = getComponentNameStoryFilePath(filePath)
 
   return `${dirnamePath}/${SNAPSHOTS_FOLDER}/${componentName}${SNAPSHOT_EXT}`
 }
 
-const storiesModules = getStoriesModules(
-  '{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'
-)
+const storiesModules = getStoriesModules(STORIES_GLOB)
 
 describe('[ storybook ]', () => {
   storiesModules.forEach(({ module, filePath }) => {
