@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Atoms/Button ] should render AddonAppend 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary"
+  >
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered is-inline"
+    >
+      You Shall Not Pass!
+    </h1>
+    But ill-tempered Thengel.
+  </button>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Button ] should render AddonPrepend 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary"
+  >
+    Dare Erebor forgive most.
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered is-inline"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Button ] should render Default 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary"
+  >
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Button ] should render Inline 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary is-inline"
+  >
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Button ] should render Muted 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary is-muted"
+  >
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Button ] should render Types 1`] = `
+<DocumentFragment>
+  <button
+    class="button type-primary"
+  >
+    <h1
+      class="heading color-inverted size-md weight-bold is-centered"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+  <button
+    class="button type-secondary"
+  >
+    <h1
+      class="heading color-primary size-md weight-bold is-centered"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+  <button
+    class="button type-tertiary is-inline"
+  >
+    <h1
+      class="heading color-primary size-md weight-bold is-centered"
+    >
+      You Shall Not Pass!
+    </h1>
+  </button>
+</DocumentFragment>
+`;

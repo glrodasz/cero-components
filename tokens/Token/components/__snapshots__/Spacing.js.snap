@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Tokens/Spacing ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="spacer"
+    >
+      <div
+        class="spacer is-playground"
+        style="display: inline-block; width: 0px; height: 0px;"
+      />
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--spacing-none)
+      </span>
+      <span
+        class="label"
+      >
+        0
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Tokens/Spacing ] should render Sizes 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="spacer"
+    >
+      <div
+        class="spacer is-playground"
+        style="display: inline-block; width: 0px; height: 0px;"
+      />
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--spacing-none)
+      </span>
+      <span
+        class="label"
+      >
+        0
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="spacer"
+    >
+      <div
+        class="spacer is-playground"
+        style="display: inline-block; width: 5px; height: 5px;"
+      />
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--spacing-xs)
+      </span>
+      <span
+        class="label"
+      >
+        5
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="spacer"
+    >
+      <div
+        class="spacer is-playground"
+        style="display: inline-block; width: 15px; height: 15px;"
+      />
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--spacing-sm)
+      </span>
+      <span
+        class="label"
+      >
+        15
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="spacer"
+    >
+      <div
+        class="spacer is-playground"
+        style="display: inline-block; width: 20px; height: 20px;"
+      />
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--spacing-md)
+      </span>
+      <span
+        class="label"
+      >
+        20
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="spacer"
+    >
+      <div
+        class="spacer is-playground"
+        style="display: inline-block; width: 40px; height: 40px;"
+      />
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--spacing-lg)
+      </span>
+      <span
+        class="label"
+      >
+        40
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

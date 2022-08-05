@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Tokens/FontFamily ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-family"
+      style="font-family: Quicksand,Arial,sans-serif;"
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-family-sans)
+      </span>
+      <span
+        class="label"
+      >
+        Quicksand, Arial, sans-serif
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Tokens/FontFamily ] should render Types 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-family"
+      style="font-family: Quicksand,Arial,sans-serif;"
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-family-sans)
+      </span>
+      <span
+        class="label"
+      >
+        Quicksand, Arial, sans-serif
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-family"
+      style="font-family: 'Roboto Mono','Courier New',monospace;"
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-family-mono)
+      </span>
+      <span
+        class="label"
+      >
+        'Roboto Mono', 'Courier New', monospace
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

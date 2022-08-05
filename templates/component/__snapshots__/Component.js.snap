@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Atomic/Component ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="component"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atomic/Component ] should render List 1`] = `<DocumentFragment />`;

@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Tokens/FontWeight ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 400;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-normal)
+      </span>
+      <span
+        class="label"
+      >
+        400
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Tokens/FontWeight ] should render Sizes 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 100;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-hairline)
+      </span>
+      <span
+        class="label"
+      >
+        100
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 200;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-thin)
+      </span>
+      <span
+        class="label"
+      >
+        200
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 300;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-light)
+      </span>
+      <span
+        class="label"
+      >
+        300
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 400;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-normal)
+      </span>
+      <span
+        class="label"
+      >
+        400
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 500;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-medium)
+      </span>
+      <span
+        class="label"
+      >
+        500
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 600;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-semibold)
+      </span>
+      <span
+        class="label"
+      >
+        600
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 700;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-bold)
+      </span>
+      <span
+        class="label"
+      >
+        700
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 800;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-extrabold)
+      </span>
+      <span
+        class="label"
+      >
+        800
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-weight"
+      style="font-weight: 900;"
+    >
+      Cheap doors deny rune Mithrandir spawning brown dishes?
+    </div>
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-weight-black)
+      </span>
+      <span
+        class="label"
+      >
+        900
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

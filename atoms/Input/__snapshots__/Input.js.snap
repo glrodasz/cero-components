@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Atoms/Input ] should render Default 1`] = `
+<DocumentFragment>
+  <input
+    class="input"
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Input ] should render Inline 1`] = `
+<DocumentFragment>
+  <input
+    class="input is-inline"
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Input ] should render Types 1`] = `
+<DocumentFragment>
+  <input
+    class="input"
+    placeholder="Kingdom slowed"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Input ] should render Value 1`] = `
+<DocumentFragment>
+  <input
+    class="input"
+    placeholder="Kingdom slowed"
+    type="text"
+    value="Others mainly cakehole Thorin moldy facial."
+  />
+</DocumentFragment>
+`;

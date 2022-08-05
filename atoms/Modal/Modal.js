@@ -62,7 +62,7 @@ export const Modal = ({
             />
           )}
         </div>
-        <Container>{children}</Container>
+        <Container isCentered={false}>{children}</Container>
       </div>
     </div>
   )
