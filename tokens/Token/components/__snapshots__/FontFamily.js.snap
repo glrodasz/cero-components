@@ -8,7 +8,9 @@ exports[`[ storybook ] [ Tokens/FontFamily ] should render Default 1`] = `
     <div
       class="font-family"
       style="font-family: Quicksand,Arial,sans-serif;"
-    />
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
     <div
       class="description"
     >
@@ -35,7 +37,9 @@ exports[`[ storybook ] [ Tokens/FontFamily ] should render Types 1`] = `
     <div
       class="font-family"
       style="font-family: Quicksand,Arial,sans-serif;"
-    />
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
     <div
       class="description"
     >
@@ -57,7 +61,9 @@ exports[`[ storybook ] [ Tokens/FontFamily ] should render Types 1`] = `
     <div
       class="font-family"
       style="font-family: 'Roboto Mono','Courier New',monospace;"
-    />
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
     <div
       class="description"
     >

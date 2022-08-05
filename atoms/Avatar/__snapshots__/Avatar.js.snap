@@ -9,6 +9,7 @@ exports[`[ storybook ] [ Atoms/Avatar ] should render Default 1`] = `
       class="picture is-rounded with-border"
     >
       <img
+        src="https://picsum.photos/id/1027/200/200"
         style="height: 44px; max-width: 44px;"
       />
     </picture>
@@ -25,6 +26,7 @@ exports[`[ storybook ] [ Atoms/Avatar ] should render Sizes 1`] = `
       class="picture is-rounded with-border"
     >
       <img
+        src="https://picsum.photos/id/1027/200/200"
         style="height: 22px; max-width: 22px;"
       />
     </picture>
@@ -36,6 +38,7 @@ exports[`[ storybook ] [ Atoms/Avatar ] should render Sizes 1`] = `
       class="picture is-rounded with-border"
     >
       <img
+        src="https://picsum.photos/id/1027/200/200"
         style="height: 44px; max-width: 44px;"
       />
     </picture>
@@ -47,6 +50,7 @@ exports[`[ storybook ] [ Atoms/Avatar ] should render Sizes 1`] = `
       class="picture is-rounded with-border"
     >
       <img
+        src="https://picsum.photos/id/1027/200/200"
         style="height: 66px; max-width: 66px;"
       />
     </picture>

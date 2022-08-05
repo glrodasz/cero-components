@@ -4,6 +4,7 @@ exports[`[ storybook ] [ Atoms/Textarea ] should render Default 1`] = `
 <DocumentFragment>
   <textarea
     class="textarea"
+    placeholder="Country speed seat newfound ah stained Gundabad stinking runt."
     rows="5"
   />
 </DocumentFragment>

@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[ storybook ] [ Molecules/LoadingError ] should render Default 1`] = `<DocumentFragment />`;
+exports[`[ storybook ] [ Molecules/LoadingError ] should render Default 1`] = `
+<DocumentFragment>
+  Exile ruins brook Angmar inn wars retaken. Swiftly attacks Grma merely! Opinion Eorlingas inquisitive windlance? You are full of surprises, Master Baggins. Houses warning garden noble innocent silver charm numerous thirsty came Treebeard's warm.
+</DocumentFragment>
+`;
 
 exports[`[ storybook ] [ Molecules/LoadingError ] should render Error 1`] = `
 <DocumentFragment>

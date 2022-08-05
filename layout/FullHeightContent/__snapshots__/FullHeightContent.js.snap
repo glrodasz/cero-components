@@ -3,18 +3,22 @@
 exports[`[ storybook ] [ Layout/FullHeightContent ] should render Default 1`] = `
 <DocumentFragment>
   <div
-    class="full-height-content"
+    class="full-height-content is-playground"
   >
     <div
       class="content"
-    />
+    >
+      Mice defiling required Bilbo sailing unspoiled this hunting. 14th refuge knowing breath Middle-earth sack demon children?
+    </div>
     <div
       class="spacer vertical"
       style="height: 15px;"
     />
     <div
       class="footer"
-    />
+    >
+      Ambition living aid indeed mutton suffered l failing kindness Éothain? Red others Goblin-town spot stuff riddles hero?
+    </div>
   </div>
 </DocumentFragment>
 `;

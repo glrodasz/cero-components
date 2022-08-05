@@ -10,11 +10,13 @@ exports[`[ storybook ] [ Molecules/TaskCounter ] should render Default 1`] = `
     >
       <p
         class="paragraph color-base size-md weight-medium"
-      />
+      >
+        Em Sméagol body.
+      </p>
       <p
         class="paragraph color-base size-md weight-medium is-inline"
       >
-        0
+        2
       </p>
     </div>
     <div
@@ -24,6 +26,7 @@ exports[`[ storybook ] [ Molecules/TaskCounter ] should render Default 1`] = `
     <div
       class="divider"
     />
+    Fells defeated veins this. There and Back Again. A Hobbit's Tale. Loved lucky Istari difficult lay? Dale fellow's rioting. Blanket Misty Mountain started rival wriggles flatten convinced succumbed closing? Slug town fond pipe-weed flatten recognizes Goblins! Innards pouf admirable freely nothingness sleepless exactly afternoon cruelty Bofur? Craftsmen tested fair Alfrid gets figure words winter's field offer healed squash? These galumphing Grima tread mustn't seen melt ideal picked recover employment. Nazgûl alas luckiest?
   </div>
 </DocumentFragment>
 `;
@@ -59,11 +62,13 @@ exports[`[ storybook ] [ Molecules/TaskCounter ] should render Toggleable 1`] = 
       />
       <p
         class="paragraph color-base size-md weight-medium"
-      />
+      >
+        Em Sméagol body.
+      </p>
       <p
         class="paragraph color-base size-md weight-medium is-inline"
       >
-        0/10
+        2/10
       </p>
     </div>
     <div
@@ -87,11 +92,13 @@ exports[`[ storybook ] [ Molecules/TaskCounter ] should render Total 1`] = `
     >
       <p
         class="paragraph color-base size-md weight-medium"
-      />
+      >
+        Em Sméagol body.
+      </p>
       <p
         class="paragraph color-base size-md weight-medium is-inline"
       >
-        0/10
+        2/10
       </p>
     </div>
     <div
@@ -101,6 +108,7 @@ exports[`[ storybook ] [ Molecules/TaskCounter ] should render Total 1`] = `
     <div
       class="divider"
     />
+    Fells defeated veins this. There and Back Again. A Hobbit's Tale. Loved lucky Istari difficult lay? Dale fellow's rioting. Blanket Misty Mountain started rival wriggles flatten convinced succumbed closing? Slug town fond pipe-weed flatten recognizes Goblins! Innards pouf admirable freely nothingness sleepless exactly afternoon cruelty Bofur? Craftsmen tested fair Alfrid gets figure words winter's field offer healed squash? These galumphing Grima tread mustn't seen melt ideal picked recover employment. Nazgûl alas luckiest?
   </div>
 </DocumentFragment>
 `;

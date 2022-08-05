@@ -11,7 +11,7 @@ let storiesModules = []
 
 try {
   storiesModules = glob
-    .sync('!(node_modules)/**/*.stories.js')
+    .sync('{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)')
     .map((file) => ({ module: require(path.join(__dirname, file)), file }))
 } catch (error) {
   console.error('Error reading story files using a glob pattern', error)
@@ -30,7 +30,7 @@ describe('[ storybook ]', () => {
           const dirnamePath = path.dirname(filePath)
           const componentName = file.split('/').pop().split('.').shift()
 
-          const { asFragment } = render(<Component />)
+          const { asFragment } = render(<Component {..._default.args} />)
           expect(asFragment()).toMatchSpecificSnapshot(
             `${dirnamePath}/__snapshots__/${componentName}.js.snap`
           )

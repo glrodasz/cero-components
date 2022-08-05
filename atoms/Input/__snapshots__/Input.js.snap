@@ -4,7 +4,7 @@ exports[`[ storybook ] [ Atoms/Input ] should render Default 1`] = `
 <DocumentFragment>
   <input
     class="input"
-    placeholder=""
+    placeholder="Kingdom slowed"
     type="text"
     value=""
   />
@@ -15,7 +15,7 @@ exports[`[ storybook ] [ Atoms/Input ] should render Inline 1`] = `
 <DocumentFragment>
   <input
     class="input is-inline"
-    placeholder=""
+    placeholder="Kingdom slowed"
     type="text"
     value=""
   />
@@ -26,7 +26,7 @@ exports[`[ storybook ] [ Atoms/Input ] should render Types 1`] = `
 <DocumentFragment>
   <input
     class="input"
-    placeholder=""
+    placeholder="Kingdom slowed"
     type="text"
     value=""
   />
@@ -37,7 +37,7 @@ exports[`[ storybook ] [ Atoms/Input ] should render Value 1`] = `
 <DocumentFragment>
   <input
     class="input"
-    placeholder=""
+    placeholder="Kingdom slowed"
     type="text"
     value="Others mainly cakehole Thorin moldy facial."
   />

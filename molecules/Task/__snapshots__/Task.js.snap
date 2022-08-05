@@ -46,7 +46,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render Checked 1`] = `
           />
           <p
             class="paragraph color-muted size-md weight-medium is-striked"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"
@@ -127,7 +129,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render Default 1`] = `
           />
           <p
             class="paragraph color-base size-md weight-medium"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"
@@ -209,7 +213,7 @@ exports[`[ storybook ] [ Molecules/Task ] should render Long 1`] = `
           <p
             class="paragraph color-base size-md weight-medium"
           >
-            Swords are no more use here. Moments shiny rings Cirith nowhere garrison ax pointy endless mention trousers. Retribution Frodo's wrong? Them leaf question require spared houses sapphire Balin. Kind pouring Lothlórien ragged retribution covers lair less goings recognizes unleash. Whence Precious token hidden hire bandy make farming. Shards farmer unfriendly handle Bain gongs. Mend recall sorry oncoming roll unmade cries visitors Lobelia Sackville-Baggins was bidden. Dank rather between short doomed Mellon tomb consequence girl crescent attacking.
+            Sir Goblin-town feels characters ruined precautions.
           </p>
         </div>
         <div
@@ -299,7 +303,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render Pending 1`] = `
           />
           <p
             class="paragraph color-base size-md weight-medium"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"
@@ -388,7 +394,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render PendingTypes 1`] = `
           />
           <p
             class="paragraph color-base size-md weight-medium"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"
@@ -472,7 +480,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render PendingTypes 1`] = `
           />
           <p
             class="paragraph color-base size-md weight-medium"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"
@@ -553,7 +563,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render Types 1`] = `
           />
           <p
             class="paragraph color-base size-md weight-medium"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"
@@ -629,7 +641,9 @@ exports[`[ storybook ] [ Molecules/Task ] should render Types 1`] = `
           />
           <p
             class="paragraph color-base size-md weight-medium"
-          />
+          >
+            Sir Goblin-town feels characters ruined precautions.
+          </p>
         </div>
         <div
           class="spacer horizontal"

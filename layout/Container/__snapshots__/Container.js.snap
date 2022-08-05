@@ -3,15 +3,19 @@
 exports[`[ storybook ] [ Layout/Container ] should render Centered 1`] = `
 <DocumentFragment>
   <div
-    class="container is-centered"
-  />
+    class="container is-playground is-centered"
+  >
+    Farthings pulled strain? Half they'll greater land sordid Elessar
+  </div>
 </DocumentFragment>
 `;
 
 exports[`[ storybook ] [ Layout/Container ] should render Default 1`] = `
 <DocumentFragment>
   <div
-    class="container"
-  />
+    class="container is-playground"
+  >
+    Farthings pulled strain? Half they'll greater land sordid Elessar
+  </div>
 </DocumentFragment>
 `;

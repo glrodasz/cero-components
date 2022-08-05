@@ -3,7 +3,7 @@
 exports[`[ storybook ] [ Layout/Spacer/Vertical ] should render Default 1`] = `
 <DocumentFragment>
   <div
-    class="spacer vertical"
+    class="spacer vertical is-playground"
     style="height: 0px;"
   />
 </DocumentFragment>
@@ -12,23 +12,23 @@ exports[`[ storybook ] [ Layout/Spacer/Vertical ] should render Default 1`] = `
 exports[`[ storybook ] [ Layout/Spacer/Vertical ] should render Sizes 1`] = `
 <DocumentFragment>
   <div
-    class="spacer vertical"
+    class="spacer vertical is-playground"
     style="height: 0px;"
   />
   <div
-    class="spacer vertical"
+    class="spacer vertical is-playground"
     style="height: 5px;"
   />
   <div
-    class="spacer vertical"
+    class="spacer vertical is-playground"
     style="height: 15px;"
   />
   <div
-    class="spacer vertical"
+    class="spacer vertical is-playground"
     style="height: 20px;"
   />
   <div
-    class="spacer vertical"
+    class="spacer vertical is-playground"
     style="height: 40px;"
   />
 </DocumentFragment>

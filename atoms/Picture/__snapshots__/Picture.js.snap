@@ -6,7 +6,8 @@ exports[`[ storybook ] [ Atoms/Picture ] should render Border 1`] = `
     class="picture with-border"
   >
     <img
-      style="height: auto;"
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
     />
   </picture>
 </DocumentFragment>
@@ -18,7 +19,8 @@ exports[`[ storybook ] [ Atoms/Picture ] should render Default 1`] = `
     class="picture"
   >
     <img
-      style="height: auto;"
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
     />
   </picture>
 </DocumentFragment>
@@ -30,8 +32,8 @@ exports[`[ storybook ] [ Atoms/Picture ] should render Height 1`] = `
     class="picture"
   >
     <img
-      src="https://picsum.photos/id/1033/400/800"
-      style="height: 400px;"
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: 400px; max-width: 200px;"
     />
   </picture>
 </DocumentFragment>
@@ -43,7 +45,8 @@ exports[`[ storybook ] [ Atoms/Picture ] should render Rounded 1`] = `
     class="picture is-rounded"
   >
     <img
-      style="height: auto;"
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
     />
   </picture>
 </DocumentFragment>
@@ -55,8 +58,8 @@ exports[`[ storybook ] [ Atoms/Picture ] should render Width 1`] = `
     class="picture"
   >
     <img
-      src="https://picsum.photos/id/1033/800/400"
-      style="height: auto; max-width: 400px;"
+      src="https://picsum.photos/id/1033/400/400"
+      style="height: auto; max-width: 200px;"
     />
   </picture>
 </DocumentFragment>

@@ -7,7 +7,9 @@ exports[`[ storybook ] [ Molecules/ButtonIcon ] should render Default 1`] = `
   >
     <h1
       class="heading color-primary size-md weight-bold is-centered is-inline"
-    />
+    >
+      Cowards Agreed
+    </h1>
     <div
       class="spacer horizontal"
       style="height: 100%; max-height: auto; width: 5px;"
@@ -45,7 +47,9 @@ exports[`[ storybook ] [ Molecules/ButtonIcon ] should render Types 1`] = `
   >
     <h1
       class="heading color-inverted size-md weight-bold is-centered is-inline"
-    />
+    >
+      Cowards Agreed
+    </h1>
     <div
       class="spacer horizontal"
       style="height: 100%; max-height: auto; width: 5px;"
@@ -78,7 +82,9 @@ exports[`[ storybook ] [ Molecules/ButtonIcon ] should render Types 1`] = `
   >
     <h1
       class="heading color-primary size-md weight-bold is-centered is-inline"
-    />
+    >
+      Cowards Agreed
+    </h1>
     <div
       class="spacer horizontal"
       style="height: 100%; max-height: auto; width: 5px;"

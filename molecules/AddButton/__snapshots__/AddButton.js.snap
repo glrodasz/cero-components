@@ -39,7 +39,9 @@ exports[`[ storybook ] [ Molecules/AddButton ] should render Default 1`] = `
     />
     <p
       class="paragraph color-base size-md weight-medium"
-    />
+    >
+      Caves they've pick stealth Dwarf?
+    </p>
   </div>
 </DocumentFragment>
 `;
@@ -149,7 +151,9 @@ exports[`[ storybook ] [ Molecules/AddButton ] should render Types 1`] = `
     />
     <p
       class="paragraph color-base size-md weight-medium"
-    />
+    >
+      Caves they've pick stealth Dwarf?
+    </p>
   </div>
   <div
     class="add-button type-secondary"
@@ -188,7 +192,9 @@ exports[`[ storybook ] [ Molecules/AddButton ] should render Types 1`] = `
     />
     <p
       class="paragraph color-base size-md weight-medium"
-    />
+    >
+      Caves they've pick stealth Dwarf?
+    </p>
   </div>
 </DocumentFragment>
 `;

@@ -24,7 +24,18 @@ exports[`[ storybook ] [ Molecules/Dropdown ] should render Default 1`] = `
     </div>
     <select
       class="dropdown-select"
-    />
+    >
+      <option
+        value="800"
+      >
+        8:00 AM
+      </option>
+      <option
+        value="1300"
+      >
+        1:00 PM
+      </option>
+    </select>
   </div>
 </DocumentFragment>
 `;
@@ -53,7 +64,18 @@ exports[`[ storybook ] [ Molecules/Dropdown ] should render Inline 1`] = `
     </div>
     <select
       class="dropdown-select"
-    />
+    >
+      <option
+        value="800"
+      >
+        8:00 AM
+      </option>
+      <option
+        value="1300"
+      >
+        1:00 PM
+      </option>
+    </select>
   </div>
 </DocumentFragment>
 `;
@@ -82,7 +104,18 @@ exports[`[ storybook ] [ Molecules/Dropdown ] should render Value 1`] = `
     </div>
     <select
       class="dropdown-select"
-    />
+    >
+      <option
+        value="800"
+      >
+        8:00 AM
+      </option>
+      <option
+        value="1300"
+      >
+        1:00 PM
+      </option>
+    </select>
   </div>
 </DocumentFragment>
 `;

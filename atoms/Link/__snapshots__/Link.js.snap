@@ -7,14 +7,18 @@ exports[`[ storybook ] [ Atoms/Link ] should render Colors 1`] = `
   >
     <p
       class="paragraph color-primary size-md weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
   <a
     class="link color-tertiary"
   >
     <p
       class="paragraph color-tertiary size-md weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
 </DocumentFragment>
 `;
@@ -26,7 +30,9 @@ exports[`[ storybook ] [ Atoms/Link ] should render Default 1`] = `
   >
     <p
       class="paragraph color-primary size-md weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
 </DocumentFragment>
 `;
@@ -38,28 +44,36 @@ exports[`[ storybook ] [ Atoms/Link ] should render Sizes 1`] = `
   >
     <p
       class="paragraph color-primary size-xs weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
   <a
     class="link color-primary"
   >
     <p
       class="paragraph color-primary size-sm weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
   <a
     class="link color-primary"
   >
     <p
       class="paragraph color-primary size-md weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
   <a
     class="link color-primary"
   >
     <p
       class="paragraph color-primary size-lg weight-semibold is-inline"
-    />
+    >
+      Mouths Muil
+    </p>
   </a>
 </DocumentFragment>
 `;

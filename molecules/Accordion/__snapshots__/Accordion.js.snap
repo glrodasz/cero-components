@@ -31,7 +31,9 @@ exports[`[ storybook ] [ Molecules/Accordion ] should render AddonAppend 1`] = `
       />
       <p
         class="paragraph color-base size-md weight-medium"
-      />
+      >
+        Em Sméagol body.
+      </p>
       But ill-tempered Thengel.
     </div>
     <div
@@ -77,7 +79,9 @@ exports[`[ storybook ] [ Molecules/Accordion ] should render AddonPrepend 1`] = 
       Dare Erebor forgive most.
       <p
         class="paragraph color-base size-md weight-medium"
-      />
+      >
+        Em Sméagol body.
+      </p>
     </div>
     <div
       class="spacer vertical"
@@ -121,7 +125,9 @@ exports[`[ storybook ] [ Molecules/Accordion ] should render Default 1`] = `
       />
       <p
         class="paragraph color-base size-md weight-medium"
-      />
+      >
+        Em Sméagol body.
+      </p>
     </div>
     <div
       class="spacer vertical"

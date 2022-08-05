@@ -3,8 +3,8 @@
 exports[`[ storybook ] [ Layout/Spacer/Horizontal ] should render Default 1`] = `
 <DocumentFragment>
   <div
-    class="spacer horizontal"
-    style="height: 100%; max-height: auto; width: 0px;"
+    class="spacer horizontal is-playground"
+    style="height: 100px; max-height: 100px; width: 0px;"
   />
 </DocumentFragment>
 `;
@@ -12,24 +12,24 @@ exports[`[ storybook ] [ Layout/Spacer/Horizontal ] should render Default 1`] = 
 exports[`[ storybook ] [ Layout/Spacer/Horizontal ] should render Sizes 1`] = `
 <DocumentFragment>
   <div
-    class="spacer horizontal"
-    style="height: 100%; max-height: auto; width: 0px;"
+    class="spacer horizontal is-playground"
+    style="height: 100px; max-height: 100px; width: 0px;"
   />
   <div
-    class="spacer horizontal"
-    style="height: 100%; max-height: auto; width: 5px;"
+    class="spacer horizontal is-playground"
+    style="height: 100px; max-height: 100px; width: 5px;"
   />
   <div
-    class="spacer horizontal"
-    style="height: 100%; max-height: auto; width: 15px;"
+    class="spacer horizontal is-playground"
+    style="height: 100px; max-height: 100px; width: 15px;"
   />
   <div
-    class="spacer horizontal"
-    style="height: 100%; max-height: auto; width: 20px;"
+    class="spacer horizontal is-playground"
+    style="height: 100px; max-height: 100px; width: 20px;"
   />
   <div
-    class="spacer horizontal"
-    style="height: 100%; max-height: auto; width: 40px;"
+    class="spacer horizontal is-playground"
+    style="height: 100px; max-height: 100px; width: 40px;"
   />
 </DocumentFragment>
 `;

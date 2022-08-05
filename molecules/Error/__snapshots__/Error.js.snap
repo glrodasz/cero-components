@@ -32,7 +32,9 @@ exports[`[ storybook ] [ Molecules/Error ] should render Default 1`] = `
     <div>
       <p
         class="paragraph color-base size-md weight-normal"
-      />
+      >
+        Meets counts consumed 200 Meriadoc tombs rabble noble crash thread. Another kind Imladris. Dump each Kingdom mere other's by blame ugly sending bestow mist adventure.
+      </p>
     </div>
   </div>
 </DocumentFragment>
@@ -75,7 +77,9 @@ exports[`[ storybook ] [ Molecules/Error ] should render Title 1`] = `
       </h1>
       <p
         class="paragraph color-base size-md weight-normal"
-      />
+      >
+        Meets counts consumed 200 Meriadoc tombs rabble noble crash thread. Another kind Imladris. Dump each Kingdom mere other's by blame ugly sending bestow mist adventure.
+      </p>
     </div>
   </div>
 </DocumentFragment>

@@ -5,7 +5,7 @@ exports[`[ storybook ] [ Atoms/Heading ] should render Centered 1`] = `
   <h1
     class="heading color-base size-md weight-bold is-centered"
   >
-    Lose consequence night studies Wolves should wizards destruction burglar? All right, then. Keep your secrets.
+    Consent doubt Tuckborough challenge destroying.
   </h1>
 </DocumentFragment>
 `;
@@ -14,16 +14,24 @@ exports[`[ storybook ] [ Atoms/Heading ] should render Colors 1`] = `
 <DocumentFragment>
   <h1
     class="heading color-base size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-primary size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-tertiary size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-inverted size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
 </DocumentFragment>
 `;
 
@@ -31,7 +39,9 @@ exports[`[ storybook ] [ Atoms/Heading ] should render Default 1`] = `
 <DocumentFragment>
   <h1
     class="heading color-base size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
 </DocumentFragment>
 `;
 
@@ -39,7 +49,9 @@ exports[`[ storybook ] [ Atoms/Heading ] should render Inline 1`] = `
 <DocumentFragment>
   <h1
     class="heading color-base size-md weight-bold is-inline"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
 </DocumentFragment>
 `;
 
@@ -47,22 +59,34 @@ exports[`[ storybook ] [ Atoms/Heading ] should render Sizes 1`] = `
 <DocumentFragment>
   <h1
     class="heading color-base size-xs weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-base size-sm weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-base size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-base size-lg weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-base size-xl weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-base size-2xl weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
 </DocumentFragment>
 `;
 
@@ -70,9 +94,13 @@ exports[`[ storybook ] [ Atoms/Heading ] should render Weights 1`] = `
 <DocumentFragment>
   <h1
     class="heading color-base size-md weight-normal"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
   <h1
     class="heading color-base size-md weight-bold"
-  />
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h1>
 </DocumentFragment>
 `;
