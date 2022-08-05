@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Atoms/Loading ] should render Children 1`] = `<DocumentFragment />`;
+
+exports[`[ storybook ] [ Atoms/Loading ] should render Default 1`] = `<DocumentFragment />`;

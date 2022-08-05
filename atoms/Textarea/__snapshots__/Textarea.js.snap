@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Atoms/Textarea ] should render Default 1`] = `
+<DocumentFragment>
+  <textarea
+    class="textarea"
+    rows="5"
+  />
+</DocumentFragment>
+`;

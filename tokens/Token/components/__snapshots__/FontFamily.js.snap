@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Tokens/FontFamily ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-family"
+      style="font-family: Quicksand,Arial,sans-serif;"
+    />
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-family-sans)
+      </span>
+      <span
+        class="label"
+      >
+        Quicksand, Arial, sans-serif
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Tokens/FontFamily ] should render Types 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="font-family"
+      style="font-family: Quicksand,Arial,sans-serif;"
+    />
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-family-sans)
+      </span>
+      <span
+        class="label"
+      >
+        Quicksand, Arial, sans-serif
+      </span>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="font-family"
+      style="font-family: 'Roboto Mono','Courier New',monospace;"
+    />
+    <div
+      class="description"
+    >
+      <span
+        class="label"
+      >
+        var(--font-family-mono)
+      </span>
+      <span
+        class="label"
+      >
+        'Roboto Mono', 'Courier New', monospace
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

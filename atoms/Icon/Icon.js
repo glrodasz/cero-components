@@ -17,7 +17,7 @@ export const Icon = ({
   isClickable,
   getStyles,
 }) => {
-  const icon = iconsMap[name]
+  const icon = iconsMap[name] ?? {}
   const mappedSize = mapSize(size)
 
   return (

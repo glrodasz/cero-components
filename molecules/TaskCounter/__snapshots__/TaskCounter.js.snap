@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Molecules/TaskCounter ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="task-counter"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="paragraph color-base size-md weight-medium"
+      />
+      <p
+        class="paragraph color-base size-md weight-medium is-inline"
+      >
+        0
+      </p>
+    </div>
+    <div
+      class="spacer vertical"
+      style="height: 5px;"
+    />
+    <div
+      class="divider"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Molecules/TaskCounter ] should render Toggleable 1`] = `
+<DocumentFragment>
+  <div
+    class="accordion"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="icon color-inverted size-sm background-muted"
+        style="width: 25px; height: 25px;"
+      >
+        <svg
+          height="25"
+          viewBox="0 0 15 9"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div
+        class="spacer horizontal"
+        style="height: 100%; max-height: auto; width: 15px;"
+      />
+      <p
+        class="paragraph color-base size-md weight-medium"
+      />
+      <p
+        class="paragraph color-base size-md weight-medium is-inline"
+      >
+        0/10
+      </p>
+    </div>
+    <div
+      class="spacer vertical"
+      style="height: 5px;"
+    />
+    <div
+      class="divider"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Molecules/TaskCounter ] should render Total 1`] = `
+<DocumentFragment>
+  <div
+    class="task-counter"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="paragraph color-base size-md weight-medium"
+      />
+      <p
+        class="paragraph color-base size-md weight-medium is-inline"
+      >
+        0/10
+      </p>
+    </div>
+    <div
+      class="spacer vertical"
+      style="height: 5px;"
+    />
+    <div
+      class="divider"
+    />
+  </div>
+</DocumentFragment>
+`;

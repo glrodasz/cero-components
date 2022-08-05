@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Atoms/Heading ] should render Centered 1`] = `
+<DocumentFragment>
+  <h1
+    class="heading color-base size-md weight-bold is-centered"
+  >
+    Lose consequence night studies Wolves should wizards destruction burglar? All right, then. Keep your secrets.
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Heading ] should render Colors 1`] = `
+<DocumentFragment>
+  <h1
+    class="heading color-base size-md weight-bold"
+  />
+  <h1
+    class="heading color-primary size-md weight-bold"
+  />
+  <h1
+    class="heading color-tertiary size-md weight-bold"
+  />
+  <h1
+    class="heading color-inverted size-md weight-bold"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Heading ] should render Default 1`] = `
+<DocumentFragment>
+  <h1
+    class="heading color-base size-md weight-bold"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Heading ] should render Inline 1`] = `
+<DocumentFragment>
+  <h1
+    class="heading color-base size-md weight-bold is-inline"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Heading ] should render Sizes 1`] = `
+<DocumentFragment>
+  <h1
+    class="heading color-base size-xs weight-bold"
+  />
+  <h1
+    class="heading color-base size-sm weight-bold"
+  />
+  <h1
+    class="heading color-base size-md weight-bold"
+  />
+  <h1
+    class="heading color-base size-lg weight-bold"
+  />
+  <h1
+    class="heading color-base size-xl weight-bold"
+  />
+  <h1
+    class="heading color-base size-2xl weight-bold"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Atoms/Heading ] should render Weights 1`] = `
+<DocumentFragment>
+  <h1
+    class="heading color-base size-md weight-normal"
+  />
+  <h1
+    class="heading color-base size-md weight-bold"
+  />
+</DocumentFragment>
+`;

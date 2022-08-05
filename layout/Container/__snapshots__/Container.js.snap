@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Layout/Container ] should render Centered 1`] = `
+<DocumentFragment>
+  <div
+    class="container is-centered"
+  />
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Layout/Container ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  />
+</DocumentFragment>
+`;

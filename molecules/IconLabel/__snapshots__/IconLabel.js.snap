@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ storybook ] [ Molecules/IconLabel ] should render Active 1`] = `
+<DocumentFragment>
+  <div
+    class="icon-label is-clickable direction-vertical"
+  >
+    <div
+      class="icon color-primary size-sm background-highlight"
+      style="width: 25px; height: 25px;"
+    >
+      <svg
+        height="25"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+    <p
+      class="paragraph color-primary size-xs weight-normal is-inline"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Molecules/IconLabel ] should render Clickable 1`] = `
+<DocumentFragment>
+  <div
+    class="icon-label is-clickable direction-vertical"
+  >
+    <div
+      class="icon color-base size-sm background-transparent"
+      style="width: 25px; height: 25px;"
+    >
+      <svg
+        height="25"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+    <p
+      class="paragraph color-base size-xs weight-normal is-inline"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Molecules/IconLabel ] should render Default 1`] = `
+<DocumentFragment>
+  <div
+    class="icon-label is-clickable direction-vertical"
+  >
+    <div
+      class="icon color-base size-sm background-transparent"
+      style="width: 25px; height: 25px;"
+    >
+      <svg
+        height="25"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+    <p
+      class="paragraph color-base size-xs weight-normal is-inline"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`[ storybook ] [ Molecules/IconLabel ] should render Horizontal 1`] = `
+<DocumentFragment>
+  <div
+    class="icon-label is-clickable direction-horizontal"
+  >
+    <div
+      class="icon color-base size-sm background-transparent"
+      style="width: 25px; height: 25px;"
+    >
+      <svg
+        height="25"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+    <div
+      class="spacer horizontal"
+      style="height: 100%; max-height: auto; width: 5px;"
+    />
+    <p
+      class="paragraph color-base size-xs weight-normal is-inline"
+    />
+  </div>
+</DocumentFragment>
+`;
