@@ -8,7 +8,7 @@ import { render } from '@testing-library/react'
 import { composeStories } from '@storybook/testing-react'
 
 const SNAPSHOTS_FOLDER = '__snapshots__'
-const SNAPSHOT_EXT = '.js.snap'
+const SNAPSHOT_EXT = '.js.snapshot'
 const STORIES_GLOB = '{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'
 
 const getStoryPaths = (file) => {
@@ -17,14 +17,15 @@ const getStoryPaths = (file) => {
   return { resolvedFilePath, dirnamePath }
 }
 
-const getStoriesModules = (globPath) => {
+const getStoryModules = (globPath) => {
   try {
     return glob.sync(globPath).map((filePath) => ({
       module: require(getStoryPaths(filePath).resolvedFilePath),
       filePath,
     }))
   } catch (error) {
-    console.error('Error reading story files using a glob pattern', error)
+    console.warn('Cannot load stories with glob:', globPath)
+    console.error(error)
   }
 }
 
@@ -39,10 +40,16 @@ const getSnapshotPath = (filePath) => {
   return `${dirnamePath}/${SNAPSHOTS_FOLDER}/${componentName}${SNAPSHOT_EXT}`
 }
 
-const storiesModules = getStoriesModules(STORIES_GLOB)
+const storyModules = getStoryModules(STORIES_GLOB)
 
 describe('[ storybook ]', () => {
-  storiesModules.forEach(({ module, filePath }) => {
+  describe('when `storyModules` is loaded', () => {
+    it('should be defined', () => {
+      expect(storyModules).toBeDefined()
+    })
+  })
+
+  storyModules?.forEach(({ module, filePath }) => {
     const { default: _default, ...stories } = module
     const composedStories = composeStories(stories)
 

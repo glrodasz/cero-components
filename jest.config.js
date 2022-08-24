@@ -1,3 +1,8 @@
+const esModules = [
+  '@glrodasz/storybook-tools-helpers',
+  '@glrodasz/storybook-tools-styles',
+].join('|')
+
 module.exports = {
   collectCoverageFrom: [
     '{atoms,molecules,layout}/**/!(index).js',
@@ -20,4 +25,5 @@ module.exports = {
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
   },
+  transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
 }

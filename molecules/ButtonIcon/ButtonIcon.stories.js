@@ -3,7 +3,7 @@ import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
-} from '../../helpers/storybook'
+} from '@glrodasz/storybook-tools-helpers'
 
 const Template = getTemplate(ButtonIcon)
 const ListTemplate = getListTemplate(ButtonIcon)

@@ -22,7 +22,7 @@ Watch the project in live streaming in English, from **Tuesdays** to **Fridays**
 
 ## Getting Started
 
-> You must have `react, react-dom and classnames installed` thiose are peer dependencies of this project.
+> You must have `react and react-dom installed` those are peer dependencies of this project.
 
 #### 1. Installation
 

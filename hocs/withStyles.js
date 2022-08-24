@@ -1,5 +1,5 @@
 import React from 'react'
-import { getClasses } from '../helpers/styles'
+import { getClasses } from '@glrodasz/storybook-tools-styles'
 
 const withStyles = (styles) => (WrappedComponent) => {
   const WithStylesComponent = (props) => {
