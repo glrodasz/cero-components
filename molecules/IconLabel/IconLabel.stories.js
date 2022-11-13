@@ -1,6 +1,9 @@
 import { IconLabel, styles, options } from '.'
 
-import { getTemplate, getOptionsArgTypes } from '@glrodasz/storybook-tools-helpers'
+import {
+  getTemplate,
+  getOptionsArgTypes,
+} from '@glrodasz/storybook-tools-helpers'
 
 const Template = getTemplate(IconLabel, styles)
 
