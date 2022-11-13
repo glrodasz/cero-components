@@ -1,6 +1,6 @@
 const esModules = [
   '@glrodasz/storybook-tools-helpers',
-  '@glrodasz/storybook-tools-styles',
+  '@glrodasz/storybook-tools-snapshots',
 ].join('|')
 
 module.exports = {

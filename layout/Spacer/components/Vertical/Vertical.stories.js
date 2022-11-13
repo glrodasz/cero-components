@@ -5,7 +5,7 @@ import {
   getTemplate,
   getListTemplate,
   getOptionsArgTypes,
-} from '../../@glrodasz/storybook-tools-helpers'
+} from '@glrodasz/storybook-tools-helpers'
 
 const Template = getTemplate(Vertical, styles)
 const ListTemplate = getListTemplate(Vertical, styles)

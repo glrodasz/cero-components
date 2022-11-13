@@ -1858,10 +1858,15 @@
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.3.tgz"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@glrodasz/storybook-tools-helpers@0.0.1":
+"@glrodasz/storybook-tools-helpers@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@glrodasz/storybook-tools-helpers/-/storybook-tools-helpers-0.0.2.tgz#340a08e38cdb27f291284ad9401965445d984317"
+  integrity sha512-z3sL6Yxbg340H28KGKGNDknnkJ5YiDE0byo5w42pK07lr+8Q4JcYpkTVpKZ25LYQpYATMl6lhlh13iJWagAOYQ==
+
+"@glrodasz/storybook-tools-snapshots@0.0.1":
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@glrodasz/storybook-tools-helpers/-/storybook-tools-helpers-0.0.1.tgz#31ced7e0c644f1f067655f25c463f9fe9d3fbd12"
-  integrity sha512-x0lIINZcSj84NEVFd9a6G/yS2vV56Y7uZO4DPs5lCzIGZgvfqvyd1LgWolTitSSa7h9i7T4P4k0nwbYi/H4GYw==
+  resolved "https://registry.yarnpkg.com/@glrodasz/storybook-tools-snapshots/-/storybook-tools-snapshots-0.0.1.tgz#950a0619f462c5cd9dc8839905bbedac135db9ae"
+  integrity sha512-MUUbSbU7eYDpe76YWos/gobLP8bXc7LzUihaXDLuyxVm/HZ+B0TOQzte+vGcIhbIfgcBowZIdGU3bWjWXsPA0A==
 
 "@glrodasz/storybook-tools-styles@0.0.1":
   version "0.0.1"
@@ -5919,11 +5924,6 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
-
-classnames@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
-  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 clean-css@^4.2.3:
   version "4.2.3"
