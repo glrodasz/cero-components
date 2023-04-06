@@ -9,7 +9,7 @@ exports[`[ storybook ] [ Molecules/Task ] should render Checked 1`] = `
       class="card color-base size-sm is-clickable"
     >
       <div
-        class="task is-checked"
+        class="task type-undefined is-checked"
       >
         <div
           class="content"
@@ -111,7 +111,7 @@ exports[`[ storybook ] [ Molecules/Task ] should render Default 1`] = `
       class="card color-base size-sm is-clickable"
     >
       <div
-        class="task"
+        class="task type-undefined"
       >
         <div
           class="content"
@@ -194,7 +194,7 @@ exports[`[ storybook ] [ Molecules/Task ] should render Long 1`] = `
       class="card color-base size-sm is-clickable"
     >
       <div
-        class="task"
+        class="task type-undefined"
       >
         <div
           class="content"
@@ -277,7 +277,7 @@ exports[`[ storybook ] [ Molecules/Task ] should render Pending 1`] = `
       class="card color-base size-sm is-draggable"
     >
       <div
-        class="task"
+        class="task type-undefined"
       >
         <div
           class="content"
