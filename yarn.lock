@@ -1866,7 +1866,14 @@
     "@glrodasz/storybook-tools-styles" "^0.0.4"
     react "^18.2.0"
 
-"@glrodasz/storybook-tools-styles@0.0.4", "@glrodasz/storybook-tools-styles@^0.0.4":
+"@glrodasz/storybook-tools-styles@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@glrodasz/storybook-tools-styles/-/storybook-tools-styles-0.0.5.tgz#25dbfdf5a07ccae860d29847241d1613c114b2c0"
+  integrity sha512-e9m7CEz8Y7hUcpBYN3dmHb5uNSjdDQNOBMsB3l8Q5YRlI3e8vhorJ55skhVqF2xRuM25SmSGX6mQ0pdJTsWU0Q==
+  dependencies:
+    classnames "^2.3.2"
+
+"@glrodasz/storybook-tools-styles@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@glrodasz/storybook-tools-styles/-/storybook-tools-styles-0.0.4.tgz#97aa0760b0d089a7bfe154e11ae6574319e9b7f2"
   integrity sha512-1tgvXTLV4FpulMIkyrXZvF8cRDtfZYyI5GIALGS9hHB1u+rdi037eq3Gq24M+tTsfYbiAzHXHa8kufJ5iq5wYw==
