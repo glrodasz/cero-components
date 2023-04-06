@@ -52,7 +52,8 @@
   "author": "Guillermo Rodas <glrodasz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "classnames": "2.3.1"
+    "@glrodasz/storybook-tools-helpers": "0.0.3",
+    "@glrodasz/storybook-tools-styles": "0.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.18.9",
@@ -65,7 +66,6 @@
     "@storybook/addon-actions": "6.5.9",
     "@storybook/addon-essentials": "6.5.9",
     "@storybook/addon-links": "6.5.9",
-    "@storybook/addon-storyshots": "6.5.9",
     "@storybook/builder-webpack5": "6.5.9",
     "@storybook/manager-webpack5": "6.5.9",
     "@storybook/react": "6.5.9",

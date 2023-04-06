@@ -1,7 +1,7 @@
 import Token from '..'
 import { choices } from '../..'
 
-import { getTemplate, getListTemplate } from '../../../helpers/storybook'
+import { getTemplate, getListTemplate } from '@glrodasz/storybook-tools-helpers'
 import { getTokenItems } from '../helpers'
 
 const Template = getTemplate(Token.Spacing)

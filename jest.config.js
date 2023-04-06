@@ -1,3 +1,11 @@
+const babelPresets = require('./.babelrc.json').presets
+
+// FIXME: Migrate this to CommonJS
+const esModules = [
+  '@glrodasz/storybook-tools-styles',
+  '@glrodasz/storybook-tools-helpers',
+].join('|')
+
 module.exports = {
   collectCoverageFrom: [
     '{atoms,molecules,layout}/**/!(index).js',
@@ -18,6 +26,7 @@ module.exports = {
   setupFilesAfterEnv: ['./jest.setup.js'],
   testEnvironment: 'jsdom',
   transform: {
-    '^.+\\.jsx?$': 'babel-jest',
+    '^.+\\.jsx?$': ['babel-jest', { presets: babelPresets }],
   },
+  transformIgnorePatterns: [`node_modules/(?!${esModules})`],
 }

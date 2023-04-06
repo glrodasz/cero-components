@@ -1,6 +1,6 @@
 import { Textarea, styles } from '.'
 
-import { getTemplate } from '../../helpers/storybook'
+import { getTemplate } from '@glrodasz/storybook-tools-helpers'
 
 const Template = getTemplate(Textarea, styles)
 

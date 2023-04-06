@@ -375,10 +375,10 @@
 
   --task-border-radius: 10px;
 
-  --chronometer-background-color: #d4d4d8;
-  --chronometer-color: #eab308;
-  --chronometer-border-radius: 9999px;
-  --chronometer-height: 6px;
+  --stopwatch-background-color: #d4d4d8;
+  --stopwatch-color: #eab308;
+  --stopwatch-border-radius: 9999px;
+  --stopwatch-height: 6px;
 
   --modal-backdrop-color: rgba(255, 255, 255, 0.85);
 

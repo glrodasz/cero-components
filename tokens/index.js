@@ -450,7 +450,7 @@ const decisions = {
   task: {
     borderRadius: choices.borderRadius.sm,
   },
-  chronometer: {
+  stopwatch: {
     backgroundColor: choices.color.gray[300],
     color: choices.color.yellow[500],
     borderRadius: choices.borderRadius.full,
