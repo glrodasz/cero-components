@@ -52,8 +52,8 @@
   "author": "Guillermo Rodas <glrodasz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@glrodasz/storybook-tools-helpers": "0.0.2",
-    "@glrodasz/storybook-tools-styles": "0.0.1"
+    "@glrodasz/storybook-tools-helpers": "0.0.3",
+    "@glrodasz/storybook-tools-styles": "0.0.4"
   },
   "devDependencies": {
     "@babel/core": "7.18.9",
@@ -61,7 +61,6 @@
     "@babel/preset-react": "7.18.6",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
-    "@glrodasz/storybook-tools-snapshots": "0.0.1",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "@storybook/addon-actions": "6.5.9",

@@ -8,7 +8,7 @@ exports[`[ storybook ] [ Molecules/Score ] should render Default 1`] = `
     <div
       class="face"
     >
-      <svgrurl />
+      <span />
       <div
         class="spacer vertical"
         style="height: 5px;"
@@ -26,7 +26,7 @@ exports[`[ storybook ] [ Molecules/Score ] should render Default 1`] = `
     <div
       class="face"
     >
-      <svgrurl />
+      <span />
       <div
         class="spacer vertical"
         style="height: 5px;"
@@ -44,7 +44,7 @@ exports[`[ storybook ] [ Molecules/Score ] should render Default 1`] = `
     <div
       class="face"
     >
-      <svgrurl />
+      <span />
       <div
         class="spacer vertical"
         style="height: 5px;"
