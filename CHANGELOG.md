@@ -1,3 +1,10 @@
+# [2.13.0](https://github.com/glrodasz/cero-components/compare/v2.12.1...v2.13.0) (2023-04-07)
+
+
+### Features
+
+* **heading:** make heading editable ([5226d2c](https://github.com/glrodasz/cero-components/commit/5226d2c30efcce3a43885f2c710cea849a87d019))
+
 ## [2.12.1](https://github.com/glrodasz/cero-components/compare/v2.12.0...v2.12.1) (2022-04-14)
 
 
