@@ -1,3 +1,5 @@
+// When transformInorePatterns is used, transform needs to be
+// explicitly defined for the files that need to be transformed
 const babelPresets = require('./.babelrc.json').presets
 
 // FIXME: Migrate this to CommonJS
