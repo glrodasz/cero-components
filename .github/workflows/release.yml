@@ -93,8 +93,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GH_SEMANTIC_RELEASE_TOKEN }}
       - name: Setup Node.js v16
         uses: actions/setup-node@v1
         with:
