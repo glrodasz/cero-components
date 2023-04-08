@@ -1,4 +1,4 @@
-# Cero a Producción — Components
+# Cero Components
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/glrodasz/cero-components/Release)](https://github.com/glrodasz/cero-components/actions/workflows/release.yml) [![Codecov](https://img.shields.io/codecov/c/github/glrodasz/cero-components)](https://app.codecov.io/gh/glrodasz/cero-components) [![npm](https://img.shields.io/npm/v/@glrodasz/components)](https://www.npmjs.com/package/@glrodasz/components) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
  [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybookjs/storybook)
 
@@ -6,9 +6,9 @@
 0️⃣ 🚀 **Cero a Producción** is a project of live coding sessions where we develop a a productivity management app called **RETO** from the scratch to production.
 
 ## The idea behind
-The idea behind this sessions is to show a real developer experience where we explore every decision that a common programmer do in daily basis with JavaScript and other tools. You will see failing tests, refactors, Google and StackOverflow searchs, but also a lot of fun and the struggle of naming things.
+The objective of these sessions is to provide an authentic developer experience where we delve into the myriad of decisions that a typical programmer makes on a daily basis, using JavaScript and other relevant tools. Participants will observe failed tests, code refactoring, and the utilization of search engines such as Google and StackOverflow. Additionally, participants can expect to enjoy the process and witness the challenges of naming variables and functions.
 
-Watch the project in live streaming on [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream)
+Check the video sessions of this product [here](https://glrz.me/youtube-cero) and follow me on [![Twitch Status](https://img.shields.io/twitch/status/guillermorodas?style=social)](https://glrz.me/stream)
 
 ## Table of Contents
 
