@@ -1,3 +1,10 @@
+## [2.13.1](https://github.com/glrodasz/cero-components/compare/v2.13.0...v2.13.1) (2023-04-08)
+
+
+### Bug Fixes
+
+* **ci:** fix ci publishing ([bf971a9](https://github.com/glrodasz/cero-components/commit/bf971a9bf44e45f8d1cfd92882070dea7a629c88))
+
 # [2.13.0](https://github.com/glrodasz/cero-components/compare/v2.12.1...v2.13.0) (2023-04-07)
 
 
