@@ -6,6 +6,7 @@ const path = require('path')
 import React from 'react'
 import { render } from '@testing-library/react'
 import { composeStories } from '@storybook/testing-react'
+import * as previewAnnotations from './.storybook/preview'
 
 const SNAPSHOTS_FOLDER = '__snapshots__'
 const SNAPSHOT_EXT = '.js.snap'
@@ -44,7 +45,7 @@ const storiesModules = getStoriesModules(STORIES_GLOB)
 describe('[ storybook ]', () => {
   storiesModules.forEach(({ module, filePath }) => {
     const { default: _default, ...stories } = module
-    const composedStories = composeStories(stories)
+    const composedStories = composeStories(stories, previewAnnotations)
 
     describe(`[ ${_default.title} ]`, () => {
       Object.entries(composedStories).forEach(([story, Component]) => {
