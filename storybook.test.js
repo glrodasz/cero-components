@@ -5,7 +5,7 @@ const glob = require('glob')
 const path = require('path')
 import React from 'react'
 import { render } from '@testing-library/react'
-import { composeStories } from '@storybook/testing-react'
+import { composeStories } from '@storybook/react'
 
 const SNAPSHOTS_FOLDER = '__snapshots__'
 const SNAPSHOT_EXT = '.js.snap'
@@ -43,13 +43,13 @@ const storiesModules = getStoriesModules(STORIES_GLOB)
 
 describe('[ storybook ]', () => {
   storiesModules.forEach(({ module, filePath }) => {
-    const { default: _default, ...stories } = module
-    const composedStories = composeStories(stories)
+    const composedStories = composeStories(module)
+    const { default: _default } = module
 
     describe(`[ ${_default.title} ]`, () => {
       Object.entries(composedStories).forEach(([story, Component]) => {
         it(`should render ${story}`, () => {
-          const { asFragment } = render(<Component {..._default.args} />)
+          const { asFragment } = render(<Component />)
           const snapshotPath = getSnapshotPath(filePath)
 
           expect(asFragment()).toMatchSpecificSnapshot(snapshotPath)

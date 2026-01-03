@@ -6,6 +6,8 @@ const babelPresets = require('./.babelrc.json').presets
 const esModules = [
   '@glrodasz/storybook-tools-styles',
   '@glrodasz/storybook-tools-helpers',
+  '@storybook',
+  'storybook',
 ].join('|')
 
 module.exports = {
