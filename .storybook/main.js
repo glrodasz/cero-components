@@ -14,8 +14,7 @@ module.exports = {
     name: '@storybook/react-webpack5',
     options: {
       builder: {
-        fsCache: true,
-        lazyCompilation: true
+        fsCache: true
       }
     }
   },
