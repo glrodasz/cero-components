@@ -2,9 +2,38 @@
 // yarn dev:storybook --debug-webpack
 
 const cssModules = (config) => {
-  // Insert CSS Modules rule at the beginning for priority
-  // This rule will match first due to being at index 0
-  config.module.rules.unshift({
+  // Find all CSS-related rules and exclude .module.css from them
+  config.module.rules.forEach((rule) => {
+    if (rule.test && rule.test.toString().includes('css')) {
+      // Exclude .module.css files from this rule
+      if (rule.exclude) {
+        // If exclude already exists, make it an array and add our exclusion
+        rule.exclude = Array.isArray(rule.exclude)
+          ? [...rule.exclude, /\.module\.css$/]
+          : [rule.exclude, /\.module\.css$/]
+      } else {
+        rule.exclude = /\.module\.css$/
+      }
+    }
+
+    // Handle oneOf pattern (Storybook may use this)
+    if (rule.oneOf) {
+      rule.oneOf.forEach((oneOfRule) => {
+        if (oneOfRule.test && oneOfRule.test.toString().includes('css')) {
+          if (oneOfRule.exclude) {
+            oneOfRule.exclude = Array.isArray(oneOfRule.exclude)
+              ? [...oneOfRule.exclude, /\.module\.css$/]
+              : [oneOfRule.exclude, /\.module\.css$/]
+          } else {
+            oneOfRule.exclude = /\.module\.css$/
+          }
+        }
+      })
+    }
+  })
+
+  // Add CSS Modules rule
+  config.module.rules.push({
     test: /\.module\.css$/,
     use: [
       'style-loader',
@@ -12,9 +41,7 @@ const cssModules = (config) => {
         loader: 'css-loader',
         options: {
           modules: {
-            mode: 'local',
             localIdentName: '[name]__[local]--[hash:base64:5]',
-            exportLocalsConvention: 'camelCase',
           },
         },
       },
