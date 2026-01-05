@@ -2,31 +2,32 @@
 // yarn dev:storybook --debug-webpack
 
 const cssModules = (config) => {
-  // Find the rule for .css files
-  const cssRuleIndex = config.module.rules.findIndex(
-    (rule) => rule.test && rule.test.toString().includes('.css')
-  )
+  // Remove or modify existing CSS rules to avoid conflicts
+  config.module.rules = config.module.rules.map(rule => {
+    // Find rules that match .css files
+    if (rule.test && rule.test.toString().includes('.css')) {
+      // Modify the rule to exclude .module.css files
+      return {
+        ...rule,
+        exclude: /\.module\.css$/
+      }
+    }
+    return rule
+  })
 
-  if (cssRuleIndex !== -1) {
-    const cssRule = config.module.rules[cssRuleIndex]
-
-    // Exclude .module.css files from the standard CSS rule
-    cssRule.exclude = /\.module\.css$/
-  }
-
-  // Add custom rule for .module.css files
-  config.module.rules.push({
+  // Add rule for CSS modules - insert at beginning for priority
+  config.module.rules.unshift({
     test: /\.module\.css$/,
     use: [
-      'style-loader',
+      require.resolve('style-loader'),
       {
-        loader: 'css-loader',
+        loader: require.resolve('css-loader'),
         options: {
           modules: {
-            auto: true,
             localIdentName: '[name]__[local]--[hash:base64:5]',
           },
           importLoaders: 1,
+          sourceMap: true,
         },
       },
     ],
