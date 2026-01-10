@@ -34,6 +34,6 @@ module.exports = {
     }
   },
   docs: {
-    autodocs: 'tag',
+    autodocs: true,
   }
 }
