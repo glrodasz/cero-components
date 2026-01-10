@@ -6,8 +6,8 @@ const reactInlineSvg = require('../webpack/reactInlineSvg')
 module.exports = {
   stories: ['../{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'],
   addons: [
-    '@storybook/addon-webpack5-compiler-babel',
-    '@storybook/addon-essentials',
+    '@storybook/addon-docs',
+    '@storybook/addon-webpack5-compiler-babel'
   ],
   webpackFinal: async (config) => {
     // Apply custom webpack configurations
@@ -21,6 +21,8 @@ module.exports = {
       'react': path.resolve(__dirname, '../node_modules/react'),
       'react-dom': path.resolve(__dirname, '../node_modules/react-dom'),
       'react/jsx-runtime': path.resolve(__dirname, '../node_modules/react/jsx-runtime'),
+      '@emotion/react': path.resolve(__dirname, '../node_modules/@emotion/react'),
+      '@emotion/styled': path.resolve(__dirname, '../node_modules/@emotion/styled'),
     }
 
     return config

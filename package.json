@@ -60,11 +60,14 @@
     "@babel/preset-react": "7.28.5",
     "@commitlint/cli": "20.3.0",
     "@commitlint/config-conventional": "20.3.0",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
+    "@storybook/addon-docs": "10.1.11",
     "@storybook/addon-webpack5-compiler-babel": "4.0.0",
-    "@storybook/react": "10.0.1",
-    "@storybook/react-webpack5": "10.0.1",
+    "@storybook/react": "10.1.11",
+    "@storybook/react-webpack5": "10.1.11",
     "@svgr/webpack": "8.1.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.1.0",
@@ -96,7 +99,7 @@
     "react-is": "19.2.3",
     "react-test-renderer": "19.2.3",
     "semantic-release": "24.2.0",
-    "storybook": "10.0.1",
+    "storybook": "10.1.11",
     "style-loader": "4.0.0",
     "stylelint": "16.12.0",
     "stylelint-config-idiomatic-order": "10.0.0",
@@ -104,7 +107,7 @@
     "watch": "1.0.2"
   },
   "peerDependencies": {
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   }
 }

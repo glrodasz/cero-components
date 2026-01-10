@@ -49,7 +49,7 @@ describe('[ storybook ]', () => {
     describe(`[ ${_default.title} ]`, () => {
       Object.entries(composedStories).forEach(([story, Component]) => {
         it(`should render ${story}`, () => {
-          const { asFragment } = render(<Component />)
+          const { asFragment } = render(<Component {..._default.args} />)
           const snapshotPath = getSnapshotPath(filePath)
 
           expect(asFragment()).toMatchSpecificSnapshot(snapshotPath)
