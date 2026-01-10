@@ -11,6 +11,7 @@ const ListTemplate = getListTemplate(Button, styles)
 export default {
   title: 'Atoms/Button',
   component: Button,
+  tags: ['autodocs'],
   args: {
     children: 'You Shall Not Pass!',
   },
