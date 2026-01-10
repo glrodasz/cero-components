@@ -6,7 +6,8 @@ const reactInlineSvg = require('../webpack/reactInlineSvg')
 module.exports = {
   stories: ['../{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'],
   addons: [
-    '@storybook/addon-webpack5-compiler-babel'
+    '@storybook/addon-webpack5-compiler-babel',
+    '@storybook/addon-essentials',
   ],
   webpackFinal: async (config) => {
     // Apply custom webpack configurations
@@ -32,5 +33,7 @@ module.exports = {
       }
     }
   },
-  docs: {}
+  docs: {
+    autodocs: 'tag',
+  }
 }
