@@ -7,12 +7,9 @@ exports[`[ storybook ] [ Molecules/Dropdown ] should render Default 1`] = `
   >
     <div
       class="dropdown-icon icon color-base size-md background-highlight"
-      style="width: 35px; height: 35px;"
     >
       <svg
-        height="35"
         viewBox="0 0 15 9"
-        width="35"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -47,12 +44,9 @@ exports[`[ storybook ] [ Molecules/Dropdown ] should render Inline 1`] = `
   >
     <div
       class="dropdown-icon icon color-base size-md background-highlight"
-      style="width: 35px; height: 35px;"
     >
       <svg
-        height="35"
         viewBox="0 0 15 9"
-        width="35"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -87,12 +81,9 @@ exports[`[ storybook ] [ Molecules/Dropdown ] should render Value 1`] = `
   >
     <div
       class="dropdown-icon icon color-base size-md background-highlight"
-      style="width: 35px; height: 35px;"
     >
       <svg
-        height="35"
         viewBox="0 0 15 9"
-        width="35"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path

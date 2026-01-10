@@ -18,14 +18,16 @@
   height: var(--input-height);
   padding: 10px 30px 10px 20px;
   border: var(--border-width-thin) solid var(--color-primary);
-  background: var(--input-background);
   border-radius: var(--input-border-radius);
+  background: var(--input-background);
   color: var(--color-font-base);
   transition: box-shadow 0.2s ease;
 }
 
 .dropdown-select:focus {
-  box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
+  box-shadow:
+    0 0 0 1px var(--color-primary),
+    0 0 10px 0 var(--color-primary);
   outline: none;
 }
 

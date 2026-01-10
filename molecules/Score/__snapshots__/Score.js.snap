@@ -21,7 +21,7 @@ exports[`[ storybook ] [ Molecules/Score ] should render Default 1`] = `
     </div>
     <div
       class="spacer horizontal"
-      style="height: 100%; max-height: auto; width: 40px;"
+      style="width: 40px;"
     />
     <div
       class="face"
@@ -39,7 +39,7 @@ exports[`[ storybook ] [ Molecules/Score ] should render Default 1`] = `
     </div>
     <div
       class="spacer horizontal"
-      style="height: 100%; max-height: auto; width: 40px;"
+      style="width: 40px;"
     />
     <div
       class="face"

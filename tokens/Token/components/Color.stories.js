@@ -22,7 +22,7 @@ const getItems = getTokenItems(choices.color, 'color')
 const getDecisionItems = getTokenItems(decisions.color, 'color')
 const getBackgroundItems = getTokenItems(
   decisions.backgroundColor,
-  'background-color'
+  'background-color',
 )
 
 export const Default = Template.bind({})

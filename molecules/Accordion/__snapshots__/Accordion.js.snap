@@ -27,7 +27,7 @@ exports[`[ storybook ] [ Molecules/Accordion ] should render AddonAppend 1`] = `
       </div>
       <div
         class="spacer horizontal"
-        style="height: 100%; max-height: auto; width: 15px;"
+        style="width: 15px;"
       />
       <p
         class="paragraph color-base size-md weight-medium"
@@ -74,7 +74,7 @@ exports[`[ storybook ] [ Molecules/Accordion ] should render AddonPrepend 1`] = 
       </div>
       <div
         class="spacer horizontal"
-        style="height: 100%; max-height: auto; width: 15px;"
+        style="width: 15px;"
       />
       Dare Erebor forgive most.
       <p
@@ -121,7 +121,7 @@ exports[`[ storybook ] [ Molecules/Accordion ] should render Default 1`] = `
       </div>
       <div
         class="spacer horizontal"
-        style="height: 100%; max-height: auto; width: 15px;"
+        style="width: 15px;"
       />
       <p
         class="paragraph color-base size-md weight-medium"

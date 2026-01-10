@@ -33,4 +33,5 @@ module.exports = {
     '^.+\\.jsx?$': ['babel-jest', { presets: babelPresets }],
   },
   transformIgnorePatterns: [`node_modules/(?!${esModules})`],
+  resolver: '<rootDir>/jest.resolver.js',
 }

@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const fs = require('fs').promises
 const path = require('path')
 const enquirer = require('enquirer')
@@ -20,7 +19,7 @@ function createComponentFolder(componentPath) {
 function readComponentFile(componentTemplate) {
   return fs.readFile(
     path.join(__dirname, `../${COMPONENT_TEMPLATE_PATH}/${componentTemplate}`),
-    'utf8'
+    'utf8',
   )
 }
 
@@ -28,7 +27,7 @@ function replaceComponentFile(
   componentIsStory,
   componentFile,
   componentName,
-  mappedType
+  mappedType,
 ) {
   if (!componentIsStory) {
     return componentFile
@@ -50,7 +49,7 @@ async function createComponent(componentTemplates, type, componentName) {
   const mappedType = ATOMIC_DESIGN_TYPES[type]
   const atomicComponentPath = path.join(
     __dirname,
-    `../${mappedType}/${componentName}`
+    `../${mappedType}/${componentName}`,
   )
 
   try {
@@ -60,7 +59,7 @@ async function createComponent(componentTemplates, type, componentName) {
     for (const componentTemplate of componentTemplates) {
       const componentTemplateRenamed = componentTemplate.replace(
         /Component/g,
-        toPascalCase(componentName)
+        toPascalCase(componentName),
       )
       const componentIsStory = componentTemplate.search('stories') !== -1
 
@@ -69,11 +68,11 @@ async function createComponent(componentTemplates, type, componentName) {
         componentIsStory,
         componentFile,
         componentName,
-        mappedType
+        mappedType,
       )
       await createComponentFile(
         path.join(atomicComponentPath, componentTemplateRenamed),
-        replacedComponentFile
+        replacedComponentFile,
       )
       console.log(`🔧 component file ${componentTemplateRenamed} created!`)
     }
@@ -106,7 +105,7 @@ async function getPromptParams() {
 
   try {
     const componentTemplates = await fs.readdir(
-      path.join(__dirname, `../${COMPONENT_TEMPLATE_PATH}`)
+      path.join(__dirname, `../${COMPONENT_TEMPLATE_PATH}`),
     )
 
     if (componentTemplates.length !== 0) {
@@ -114,8 +113,8 @@ async function getPromptParams() {
     } else {
       throw new Error(
         `There are not template files to create the component: ${toPascalCase(
-          componentName
-        )}`
+          componentName,
+        )}`,
       )
     }
   } catch (error) {

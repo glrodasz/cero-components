@@ -3,8 +3,8 @@
   height: var(--input-height);
   padding: 12px 17px;
   border: var(--border-width-thin) solid var(--color-primary);
-  background: var(--input-background);
   border-radius: var(--input-border-radius);
+  background: var(--input-background);
   color: var(--color-font-base);
   font-family: var(--font-family-sans);
   font-size: var(--input-font-size);
@@ -18,7 +18,9 @@
 }
 
 .input:focus {
-  box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
+  box-shadow:
+    0 0 0 1px var(--color-primary),
+    0 0 10px 0 var(--color-primary);
   outline: none;
 }
 

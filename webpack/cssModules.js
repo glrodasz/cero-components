@@ -3,7 +3,7 @@
 
 const cssModules = (config) => {
   const cssRule = config.module.rules.find(
-    (rule) => rule.test && rule.test.test('.css')
+    (rule) => rule.test && rule.test.test('.css'),
   )
 
   cssRule.exclude = /\.module\.css$/
@@ -18,7 +18,7 @@ const cssModules = (config) => {
           modules: {
             namedExport: false,
             exportLocalsConvention: 'as-is',
-          }
+          },
         },
       },
     ],

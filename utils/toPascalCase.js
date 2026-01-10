@@ -9,7 +9,7 @@ function toPascalCase(str) {
     return str
       .replace(
         /\w\S*/g,
-        (word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase()
+        (word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase(),
       )
       .replace(/ /g, '')
   } else {

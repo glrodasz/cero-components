@@ -33,7 +33,7 @@ exports[`[ storybook ] [ Molecules/LoadingError ] should render Error 1`] = `
     </div>
     <div
       class="spacer horizontal"
-      style="height: 100%; max-height: auto; width: 15px;"
+      style="width: 15px;"
     />
     <div>
       <p

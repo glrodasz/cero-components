@@ -117,7 +117,7 @@ exports[`[ storybook ] [ Molecules/IconLabel ] should render Horizontal 1`] = `
     </div>
     <div
       class="spacer horizontal"
-      style="height: 100%; max-height: auto; width: 5px;"
+      style="width: 5px;"
     />
     <p
       class="paragraph color-base size-xs weight-normal is-inline"
