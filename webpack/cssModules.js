@@ -42,7 +42,10 @@ const cssModules = (config) => {
         options: {
           modules: {
             localIdentName: '[name]__[local]--[hash:base64:5]',
+            namedExport: false,
+            exportLocalsConvention: 'as-is',
           },
+          importLoaders: 0,
         },
       },
     ],
