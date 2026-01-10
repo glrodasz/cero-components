@@ -2426,8 +2426,8 @@ __metadata:
     "@babel/preset-react": "npm:7.28.5"
     "@commitlint/cli": "npm:20.3.0"
     "@commitlint/config-conventional": "npm:20.3.0"
-    "@glrodasz/storybook-tools-helpers": "npm:0.0.3"
-    "@glrodasz/storybook-tools-styles": "npm:0.0.5"
+    "@glrodasz/storybook-tools-helpers": "npm:1.0.0"
+    "@glrodasz/storybook-tools-styles": "npm:1.0.0"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@storybook/addon-webpack5-compiler-babel": "npm:4.0.0"
@@ -2476,31 +2476,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@glrodasz/storybook-tools-helpers@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@glrodasz/storybook-tools-helpers@npm:0.0.3"
+"@glrodasz/storybook-tools-helpers@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@glrodasz/storybook-tools-helpers@npm:1.0.0"
   dependencies:
-    "@glrodasz/storybook-tools-styles": "npm:^0.0.4"
-    react: "npm:^18.2.0"
-  checksum: 10c0/aab97550e56e4d1dda765344705383d1ec4da3e2972980b3827b5202e62be051cb4314ec004b837791b015336fb9443091d052f43e8c9915d75807bd651b0542
+    "@glrodasz/storybook-tools-styles": "npm:1.0.0"
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0
+  checksum: 10c0/e75893e5bbd5858f9e301f1a1909c302afbff0274580864c84fdb6bd529065604a7de7eaa8b85356b424b3ee2a5c22fb37fb141e55c017587a82ce55d4323405
   languageName: node
   linkType: hard
 
-"@glrodasz/storybook-tools-styles@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@glrodasz/storybook-tools-styles@npm:0.0.5"
+"@glrodasz/storybook-tools-styles@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@glrodasz/storybook-tools-styles@npm:1.0.0"
   dependencies:
-    classnames: "npm:^2.3.2"
-  checksum: 10c0/5ba975ad63cfc6250f393b4766ff9b85955a54caff155499bfb572d1647659c9812a515c9ec937c3323f4f736a5eb86545b42db1c926f6014e82f834af3bd838
-  languageName: node
-  linkType: hard
-
-"@glrodasz/storybook-tools-styles@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "@glrodasz/storybook-tools-styles@npm:0.0.4"
-  dependencies:
-    classnames: "npm:^2.3.2"
-  checksum: 10c0/84063b2831b945097b075399bc609846ab7ab289ca7835db51ed2212d667aa94ee75d34c4948a8960dfaaf3e235542922ef506573122e2ac2a61eba4906e8c8f
+    classnames: "npm:^2.5.1"
+  checksum: 10c0/b782eeb247c157d143bbd3ed72cad2e80282c40329c49e1403425583bdc9c822e295194d259a1d66ef243e2f5e00baacbddd24ef8c7f3a20e92cbc31f9f01526
   languageName: node
   linkType: hard
 
@@ -5844,10 +5836,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.3.2":
-  version: 2.3.2
-  resolution: "classnames@npm:2.3.2"
-  checksum: 10c0/cd50ead57b4f97436aaa9f9885c6926323efc7c2bea8e3d4eb10e4e972aa6a1cfca1c7a0e06f8a199ca7498d4339e30bb6002e589e61c9f21248cbf3e8b0b18d
+"classnames@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "classnames@npm:2.5.1"
+  checksum: 10c0/afff4f77e62cea2d79c39962980bf316bacb0d7c49e13a21adaadb9221e1c6b9d3cdb829d8bb1b23c406f4e740507f37e1dcf506f7e3b7113d17c5bab787aa69
   languageName: node
   linkType: hard
 
@@ -11459,7 +11451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -13686,15 +13678,6 @@ __metadata:
   version: 19.2.3
   resolution: "react@npm:19.2.3"
   checksum: 10c0/094220b3ba3a76c1b668f972ace1dd15509b157aead1b40391d1c8e657e720c201d9719537375eff08f5e0514748c0319063392a6f000e31303aafc4471f1436
-  languageName: node
-  linkType: hard
-
-"react@npm:^18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
   languageName: node
   linkType: hard
 

@@ -51,8 +51,8 @@
   "author": "Guillermo Rodas <glrodasz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@glrodasz/storybook-tools-helpers": "0.0.3",
-    "@glrodasz/storybook-tools-styles": "0.0.5"
+    "@glrodasz/storybook-tools-helpers": "1.0.0",
+    "@glrodasz/storybook-tools-styles": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
