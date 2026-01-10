@@ -60,8 +60,6 @@
     "@babel/preset-react": "7.28.5",
     "@commitlint/cli": "20.3.0",
     "@commitlint/config-conventional": "20.3.0",
-    "@emotion/react": "11.14.0",
-    "@emotion/styled": "11.14.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@storybook/addon-docs": "10.1.11",
