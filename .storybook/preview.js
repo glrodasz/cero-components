@@ -29,4 +29,7 @@ export const parameters = {
     getStyles: { table: { disable: true } },
   },
   actions: { argTypesRegex: '^on[A-Z].*' },
+  docs: {
+    toc: true, // Enable table of contents
+  },
 }

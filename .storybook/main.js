@@ -32,8 +32,5 @@ module.exports = {
         fsCache: true
       }
     }
-  },
-  docs: {
-    autodocs: true,
   }
 }
