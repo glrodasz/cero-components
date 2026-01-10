@@ -2,35 +2,13 @@
 // yarn dev:storybook --debug-webpack
 
 const cssModules = (config) => {
-  // Find all CSS-related rules and exclude .module.css from them
-  config.module.rules.forEach((rule) => {
-    if (rule.test && rule.test.toString().includes('css')) {
-      // Exclude .module.css files from this rule
-      if (rule.exclude) {
-        // If exclude already exists, make it an array and add our exclusion
-        rule.exclude = Array.isArray(rule.exclude)
-          ? [...rule.exclude, /\.module\.css$/]
-          : [rule.exclude, /\.module\.css$/]
-      } else {
-        rule.exclude = /\.module\.css$/
-      }
-    }
+  // We search the rule defined for `*.css` files
+  const cssRule = config.module.rules.find(
+    (rule) => rule.test && rule.test.test('.css')
+  )
 
-    // Handle oneOf pattern (Storybook may use this)
-    if (rule.oneOf) {
-      rule.oneOf.forEach((oneOfRule) => {
-        if (oneOfRule.test && oneOfRule.test.toString().includes('css')) {
-          if (oneOfRule.exclude) {
-            oneOfRule.exclude = Array.isArray(oneOfRule.exclude)
-              ? [...oneOfRule.exclude, /\.module\.css$/]
-              : [oneOfRule.exclude, /\.module\.css$/]
-          } else {
-            oneOfRule.exclude = /\.module\.css$/
-          }
-        }
-      })
-    }
-  })
+  // We exclude `*.module.css` files from the previous rule
+  cssRule.exclude = /\.module\.css$/
 
   // Add CSS Modules rule
   config.module.rules.push({
