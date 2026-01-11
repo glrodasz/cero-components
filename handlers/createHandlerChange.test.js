@@ -1,3 +1,4 @@
+import { vi } from 'vitest'
 import createHandlerChange from './createHandlerChange'
 
 describe('[ handlers ]', () => {
@@ -20,7 +21,7 @@ describe('[ handlers ]', () => {
     describe('when `createHandlerChange` returned function is called', () => {
       it('should call `onChange` with the `event`', () => {
         // Arrange
-        const onChangeMock = jest.fn()
+        const onChangeMock = vi.fn()
         const params = {
           onChange: onChangeMock,
         }

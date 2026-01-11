@@ -1,5 +1,5 @@
 import './utils/testUtils/matchMediaMock'
-import 'jest-specific-snapshot'
+import { expect } from 'vitest'
 
 const glob = require('glob')
 const path = require('path')
@@ -50,9 +50,8 @@ describe('[ storybook ]', () => {
       Object.entries(composedStories).forEach(([story, Component]) => {
         it(`should render ${story}`, () => {
           const { asFragment } = render(<Component {..._default.args} />)
-          const snapshotPath = getSnapshotPath(filePath)
 
-          expect(asFragment()).toMatchSpecificSnapshot(snapshotPath)
+          expect(asFragment()).toMatchSnapshot()
         })
       })
     })

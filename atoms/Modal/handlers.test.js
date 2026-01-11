@@ -1,10 +1,11 @@
+import { vi } from 'vitest'
 import {
   createHandlerClick,
   createHandlerClose,
   createHandlerSecondaryAction,
 } from './handlers'
 
-jest.useFakeTimers()
+vi.useFakeTimers()
 
 describe('[ atoms / Modal / handlers ]', () => {
   describe('#createHandlerClick', () => {
@@ -25,7 +26,7 @@ describe('[ atoms / Modal / handlers ]', () => {
     describe('when `createHandlerClick` returned function is called', () => {
       it('should call `event.stopPropagation`', () => {
         // Arrange
-        const stopPropagationMock = jest.fn()
+        const stopPropagationMock = vi.fn()
         const event = {
           stopPropagation: stopPropagationMock,
         }
@@ -57,7 +58,7 @@ describe('[ atoms / Modal / handlers ]', () => {
     describe('when `createHandlerClose` returned function is called', () => {
       it('should call `setOnFadeOut` with `true`', () => {
         // Arrange
-        const setOnFadeOutMock = jest.fn()
+        const setOnFadeOutMock = vi.fn()
         const onClose = () => {}
 
         // Act
@@ -70,11 +71,11 @@ describe('[ atoms / Modal / handlers ]', () => {
       it('should call `onClose` after `FADE_OUT_ANIMATION_TIME` is done', () => {
         // Arrange
         const setOnFadeOut = () => {}
-        const onCloseMock = jest.fn()
+        const onCloseMock = vi.fn()
 
         // Act
         createHandlerClose({ onClose: onCloseMock, setOnFadeOut })()
-        jest.runAllTimers()
+        vi.runAllTimers()
 
         // Assert
         expect(onCloseMock).toHaveBeenCalled()
