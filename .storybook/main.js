@@ -1,9 +1,23 @@
-import { mergeConfig } from 'vite'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import react from '@vitejs/plugin-react'
+import { transformSync } from 'esbuild'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
+
+// Custom plugin to transform JSX in .js files before import analysis
+const jsxPlugin = () => ({
+  name: 'jsx-transform',
+  enforce: 'pre',
+  transform(code, id) {
+    if (id.endsWith('.js') && code.includes('<')) {
+      const result = transformSync(code, {
+        loader: 'jsx',
+        jsx: 'automatic',
+      })
+      return { code: result.code, map: result.map }
+    }
+  },
+})
 
 export default {
   stories: ['../{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'],
@@ -16,34 +30,39 @@ export default {
   },
 
   async viteFinal(config) {
-    // Replace the existing react plugin with one that handles all .js files
-    const reactPluginIndex = config.plugins.findIndex(
-      (p) => p && p.name === 'vite:react-babel'
-    )
-    if (reactPluginIndex !== -1) {
-      config.plugins.splice(reactPluginIndex, 1)
+    config.plugins = [jsxPlugin(), ...config.plugins]
+
+    config.resolve = {
+      ...config.resolve,
+      alias: {
+        ...config.resolve?.alias,
+        react: path.resolve(__dirname, '../node_modules/react'),
+        'react-dom': path.resolve(__dirname, '../node_modules/react-dom'),
+        'react/jsx-runtime': path.resolve(
+          __dirname,
+          '../node_modules/react/jsx-runtime',
+        ),
+      },
     }
 
-    return mergeConfig(config, {
-      plugins: [
-        react({
-          include: /\.(jsx|js|tsx|ts|mdx)$/,
-        }),
-      ],
-      resolve: {
-        alias: {
-          // Force all packages to use the same React version (React 19)
-          'react': path.resolve(__dirname, '../node_modules/react'),
-          'react-dom': path.resolve(__dirname, '../node_modules/react-dom'),
-          'react/jsx-runtime': path.resolve(__dirname, '../node_modules/react/jsx-runtime'),
+    config.css = {
+      ...config.css,
+      modules: {
+        localsConvention: 'camelCase',
+        generateScopedName: '[name]__[local]--[hash:base64:5]',
+      },
+    }
+
+    config.optimizeDeps = {
+      ...config.optimizeDeps,
+      esbuildOptions: {
+        ...config.optimizeDeps?.esbuildOptions,
+        loader: {
+          '.js': 'jsx',
         },
       },
-      css: {
-        modules: {
-          localsConvention: 'camelCase',
-          generateScopedName: '[name]__[local]--[hash:base64:5]',
-        },
-      },
-    })
+    }
+
+    return config
   },
 }
