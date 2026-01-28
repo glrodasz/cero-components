@@ -75,7 +75,7 @@ describe('[ atoms / Modal / handlers ]', () => {
 
         // Act
         createHandlerClose({ onClose: onCloseMock, setOnFadeOut })()
-        vi.runAllTimers()
+        vi.advanceTimersByTime(400)
 
         // Assert
         expect(onCloseMock).toHaveBeenCalled()

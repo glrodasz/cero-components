@@ -7,17 +7,22 @@ export default defineConfig({
   plugins: [
     react({
       jsxRuntime: 'automatic',
+      include: /\.(jsx|js|tsx|ts|mdx)$/, // Handle JSX in all .js files
     }),
     svgr(),
   ],
   esbuild: {
+    include: /\.(jsx|js|tsx|ts)$/,
+    exclude: [],
     loader: 'jsx',
-    include: [
-      /\.jsx$/,
-      /\.tsx$/,
-      /\.js$/,
-      /\.ts$/,
-    ],
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx',
+        '.jsx': 'jsx',
+      },
+    },
   },
   resolve: {
     alias: {
@@ -37,6 +42,11 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './vitest.setup.js',
+    server: {
+      deps: {
+        inline: [/@storybook/],
+      },
+    },
     resolveSnapshotPath: (testPath, snapExtension) => {
       // For storybook tests, place snapshots in component folders
       if (testPath.includes('.stories.')) {
