@@ -4,7 +4,7 @@
 const reactInlineSvg = (config) => {
   // We search the rule defined for `*.svg` files
   const fileRule = config.module.rules.find(
-    (rule) => rule.test && rule.test.test('.svg')
+    (rule) => rule.test && rule.test.test('.svg'),
   )
 
   // We exclude `*.svg` files from the previous rule

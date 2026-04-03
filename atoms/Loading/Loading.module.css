@@ -8,9 +8,9 @@
 .loading:after {
   width: var(--size);
   height: var(--size);
+  border-radius: var(--border-radius-full);
   animation: pulse 1.8s infinite ease-in-out;
   animation-fill-mode: both;
-  border-radius: var(--border-radius-full);
 }
 
 .loading {

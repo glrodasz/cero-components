@@ -27,7 +27,7 @@ exports[`[ storybook ] [ Molecules/Error ] should render Default 1`] = `
     </div>
     <div
       class="spacer horizontal"
-      style="height: 100%; max-height: auto; width: 15px;"
+      style="width: 15px;"
     />
     <div>
       <p
@@ -67,7 +67,7 @@ exports[`[ storybook ] [ Molecules/Error ] should render Title 1`] = `
     </div>
     <div
       class="spacer horizontal"
-      style="height: 100%; max-height: auto; width: 15px;"
+      style="width: 15px;"
     />
     <div>
       <h1

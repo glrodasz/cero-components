@@ -7,9 +7,9 @@ import withStyles from '../../hocs/withStyles'
 import Spacer from '../../layout/Spacer'
 import Paragraph from '../../atoms/Paragraph'
 
-import SadFace from './faces/sad.svg'
-import NormalFace from './faces/normal.svg'
-import HappyFace from './faces/happy.svg'
+import SadFace from './faces/sad.svg?react'
+import NormalFace from './faces/normal.svg?react'
+import HappyFace from './faces/happy.svg?react'
 
 const handleClickScore =
   ({ score, onClickScore }) =>

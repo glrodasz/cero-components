@@ -119,7 +119,7 @@ describe('[ utils / isEmpty ]', () => {
 
         // Assert
         expect(result).toThrow(expected)
-      }
+      },
     )
   })
 })

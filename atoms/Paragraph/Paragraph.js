@@ -25,7 +25,7 @@ export const Paragraph = ({
           'is-inline': isInline,
           'is-monospace': isMonospace,
           'is-centered': isCentered,
-        }
+        },
       )}
     >
       {children}

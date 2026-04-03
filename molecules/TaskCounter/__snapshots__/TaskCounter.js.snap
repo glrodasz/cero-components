@@ -58,7 +58,7 @@ exports[`[ storybook ] [ Molecules/TaskCounter ] should render Toggleable 1`] = 
       </div>
       <div
         class="spacer horizontal"
-        style="height: 100%; max-height: auto; width: 15px;"
+        style="width: 15px;"
       />
       <p
         class="paragraph color-base size-md weight-medium"

@@ -1,3 +1,4 @@
+import { vi } from 'vitest'
 import createHandlerClick from './createHandlerClick'
 
 describe('[ handlers ]', () => {
@@ -19,7 +20,7 @@ describe('[ handlers ]', () => {
     describe('when `createHandlerClick` returned function is called', () => {
       it('should call `onClick` with the `event`', () => {
         // Arrange
-        const onClickMock = jest.fn()
+        const onClickMock = vi.fn()
         const params = {
           onClick: onClickMock,
         }

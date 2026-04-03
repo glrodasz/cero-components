@@ -465,4 +465,4 @@ const decisions = {
   },
 }
 
-module.exports = { choices, decisions }
+export { choices, decisions }

@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Setup Node.js v18
-        uses: actions/setup-node@v1
+        uses: actions/checkout@v4
+      - name: Setup Node.js v24
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint code
@@ -29,36 +31,40 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Setup Node.js v18
-        uses: actions/setup-node@v1
+        uses: actions/checkout@v4
+      - name: Setup Node.js v24
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Run coverage tests
         run: yarn test:coverage
       - name: Upload coverage
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v4
   visual:
     name: Vistual testing
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Node.js v18
-        uses: actions/setup-node@v1
+      - name: Setup Node.js v24
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build storybook
         run: yarn build
       - name: Publish in Chromatic
-        uses: chromaui/action@v1
+        uses: chromaui/action@v11
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
@@ -69,17 +75,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Setup Node.js v18
-        uses: actions/setup-node@v1
+        uses: actions/checkout@v4
+      - name: Setup Node.js v24
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build storybook docs
         run: yarn build:docs
       - name: Deploy in Vercel (prod)
-        uses: amondnet/vercel-action@v20
+        uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -92,13 +100,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_SEMANTIC_RELEASE_TOKEN }}
-      - name: Setup Node.js v18
-        uses: actions/setup-node@v1
+      - name: Setup Node.js v24
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint code

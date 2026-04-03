@@ -5,7 +5,10 @@ const withStyles = (styles) => (WrappedComponent) => {
   const WithStylesComponent = (props) => {
     const allProps = { ...WrappedComponent.defaultProps, ...props }
     return (
-      <WrappedComponent getStyles={getClasses(styles)(allProps)} {...props} />
+      <WrappedComponent
+        {...allProps}
+        getStyles={getClasses(styles)(allProps)}
+      />
     )
   }
 

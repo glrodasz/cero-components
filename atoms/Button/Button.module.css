@@ -10,11 +10,15 @@
   border-radius: var(--button-border-radius-lg);
   box-shadow: var(--box-shadow-sm);
   cursor: pointer;
-  transition: filter 0.5s ease, box-shadow 0.2s ease-in;
+  transition:
+    filter 0.5s ease,
+    box-shadow 0.2s ease-in;
 }
 
 .button:focus {
-  box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
+  box-shadow:
+    0 0 0 1px var(--color-primary),
+    0 0 10px 0 var(--color-primary);
   outline: none;
 }
 
@@ -32,7 +36,8 @@
 }
 
 .type-primary:focus {
-  box-shadow: 0 0 0 1px var(--color-primary-inverted),
+  box-shadow:
+    0 0 0 1px var(--color-primary-inverted),
     0 0 10px 0 var(--color-primary);
 }
 
@@ -44,9 +49,9 @@
 .type-tertiary {
   height: 25px;
   padding: 0;
+  border-radius: var(--border-radius-none);
   border-bottom: 1px solid var(--color-primary);
   background: var(--color-base-transparent);
-  border-radius: var(--border-radius-none);
   box-shadow: var(--shadows-none);
 }
 

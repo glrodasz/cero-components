@@ -16,8 +16,8 @@
   min-width: max-content;
   padding: 4px 8px;
   border: var(--picture-border);
-  background-color: var(--color-blue-gray-50);
   border-radius: var(--border-radius-sm);
+  background-color: var(--color-blue-gray-50);
   color: var(--color-gray-700);
   font-family: var(--font-family-mono);
   font-size: var(--font-size-base);

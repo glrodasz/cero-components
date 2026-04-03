@@ -6,6 +6,8 @@ const babelPresets = require('./.babelrc.json').presets
 const esModules = [
   '@glrodasz/storybook-tools-styles',
   '@glrodasz/storybook-tools-helpers',
+  '@storybook',
+  'storybook',
 ].join('|')
 
 module.exports = {
@@ -31,4 +33,5 @@ module.exports = {
     '^.+\\.jsx?$': ['babel-jest', { presets: babelPresets }],
   },
   transformIgnorePatterns: [`node_modules/(?!${esModules})`],
+  resolver: '<rootDir>/jest.resolver.js',
 }

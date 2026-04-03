@@ -76,8 +76,8 @@
 }
 
 .background-base {
-  background: var(--color-gray-100);
   border-radius: var(--border-radius-full);
+  background: var(--color-gray-100);
 }
 
 .background-transparent {
@@ -85,25 +85,25 @@
 }
 
 .background-highlight {
-  background: var(--color-primary-highlight);
   border-radius: var(--border-radius-full);
+  background: var(--color-primary-highlight);
 }
 
 .background-muted {
-  background: var(--color-primary-muted);
   border-radius: var(--border-radius-full);
+  background: var(--color-primary-muted);
 }
 
 .background-inverted {
   border: var(--picture-border);
-  background: var(--color-font-inverted);
   border-radius: var(--border-radius-full);
+  background: var(--color-font-inverted);
   box-shadow: var(--box-shadow-sm);
 }
 
 .background-spotlight {
-  background: var(--color-yellow-100);
   border-radius: var(--border-radius-full);
+  background: var(--color-yellow-100);
   box-shadow: var(--box-shadow-sm);
 }
 
