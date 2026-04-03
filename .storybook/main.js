@@ -17,8 +17,9 @@ const jsxPlugin = () => ({
       const result = transformSync(code, {
         loader: 'jsx',
         jsx: 'automatic',
+        sourcemap: true,
       })
-      return { code: result.code, map: result.map }
+      return { code: result.code, map: result.map || null }
     }
   },
 })
