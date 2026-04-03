@@ -1,27 +1,7 @@
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { transformSync } from 'esbuild'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-
-// Custom plugin to transform JSX in .js files before import analysis
-const jsxPlugin = () => ({
-  name: 'jsx-transform',
-  enforce: 'pre',
-  transform(code, id) {
-    if (
-      id.endsWith('.js') &&
-      !id.includes('node_modules') &&
-      code.includes('<')
-    ) {
-      const result = transformSync(code, {
-        loader: 'jsx',
-        jsx: 'automatic',
-      })
-      return { code: result.code, map: result.map }
-    }
-  },
-})
 
 export default {
   stories: ['../{tokens,atoms,molecules,layout}/**/*.stories.@(js|mdx)'],
@@ -34,7 +14,12 @@ export default {
   },
 
   async viteFinal(config) {
-    config.plugins = [jsxPlugin(), ...config.plugins]
+    config.esbuild = {
+      ...config.esbuild,
+      loader: 'jsx',
+      include: /\.(jsx|js|tsx|ts)$/,
+      exclude: [],
+    }
 
     config.resolve = {
       ...config.resolve,
