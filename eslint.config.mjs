@@ -33,6 +33,7 @@ export default [
         ...globals.node,
         ...globals.commonjs,
         ...globals.jest,
+        ...globals.vitest,
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
       },
