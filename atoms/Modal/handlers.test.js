@@ -97,5 +97,18 @@ describe('[ atoms / Modal / handlers ]', () => {
         expect(result).toBe(expected)
       })
     })
+
+    describe('when `createHandlerSecondaryAction` returned function is called', () => {
+      it('should call `onSecondaryAction`', () => {
+        // Arrange
+        const onSecondaryAction = vi.fn()
+
+        // Act
+        createHandlerSecondaryAction({ onSecondaryAction })()
+
+        // Assert
+        expect(onSecondaryAction).toHaveBeenCalled()
+      })
+    })
   })
 })

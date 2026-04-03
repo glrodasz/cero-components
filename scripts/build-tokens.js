@@ -1,6 +1,12 @@
 const { choices, decisions } = require('../tokens')
-const toKebabCase = require('../utils/toKebabCase')
 const fs = require('fs')
+
+const toKebabCase = (string) =>
+  string
+    .replace(/([A-Z])([A-Z])/g, '$1-$2')
+    .replace(/([a-z])([A-Z])/g, '$1-$2')
+    .replace(/[\s_]+/g, '-')
+    .toLowerCase()
 
 const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
 

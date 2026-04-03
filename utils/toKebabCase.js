@@ -5,4 +5,4 @@ const toKebabCase = (string) =>
     .replace(/[\s_]+/g, '-')
     .toLowerCase()
 
-module.exports = toKebabCase
+export default toKebabCase
