@@ -27,9 +27,12 @@ export default defineConfig({
   resolve: {
     alias: {
       // Force all packages to use the same React version (React 19)
-      'react': path.resolve(__dirname, './node_modules/react'),
+      react: path.resolve(__dirname, './node_modules/react'),
       'react-dom': path.resolve(__dirname, './node_modules/react-dom'),
-      'react/jsx-runtime': path.resolve(__dirname, './node_modules/react/jsx-runtime'),
+      'react/jsx-runtime': path.resolve(
+        __dirname,
+        './node_modules/react/jsx-runtime',
+      ),
     },
   },
   css: {
