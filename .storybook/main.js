@@ -9,7 +9,11 @@ const jsxPlugin = () => ({
   name: 'jsx-transform',
   enforce: 'pre',
   transform(code, id) {
-    if (id.endsWith('.js') && code.includes('<')) {
+    if (
+      id.endsWith('.js') &&
+      !id.includes('node_modules') &&
+      code.includes('<')
+    ) {
       const result = transformSync(code, {
         loader: 'jsx',
         jsx: 'automatic',
