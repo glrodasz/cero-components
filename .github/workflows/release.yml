@@ -95,6 +95,11 @@ jobs:
     name: Release package
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write # npm trusted publishing (OIDC) and provenance
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -117,5 +122,4 @@ jobs:
       - name: Publish in NPM
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
