@@ -95,7 +95,7 @@
     "react-is": "19.2.3",
     "react-test-renderer": "19.2.3",
     "semantic-release": "24.2.0",
-    "storybook": "10.1.11",
+    "storybook": "10.6.2",
     "stylelint": "16.12.0",
     "stylelint-config-idiomatic-order": "10.0.0",
     "stylelint-config-recommended": "14.0.1",
