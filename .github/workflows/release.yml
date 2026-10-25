@@ -87,13 +87,10 @@ jobs:
       - name: Build storybook docs
         run: yarn build:docs
       - name: Deploy in Vercel (prod)
-        uses: amondnet/vercel-action@v25
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          vercel-org-id: ${{ secrets.ORG_ID}}
-          vercel-project-id: ${{ secrets.PROJECT_ID}}
-          vercel-args: '--prod'
+        run: npx vercel@65.2.0 deploy --yes --prod --token=${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: ${{ secrets.ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.PROJECT_ID }}
   release:
     name: Release package
     if: "!contains(github.event.head_commit.message, 'skip ci')"
