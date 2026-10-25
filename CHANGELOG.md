@@ -1,3 +1,40 @@
+# [2.14.0](https://github.com/glrodasz/cero-components/compare/v2.13.1...v2.14.0) (2026-10-25)
+
+
+### Bug Fixes
+
+* add height 100% to #storybook-root to restore full-height expansion ([ab8438c](https://github.com/glrodasz/cero-components/commit/ab8438c34ba15b416d8297101142037dc022d803)), closes [#storybook-root](https://github.com/glrodasz/cero-components/issues/storybook-root) [#storybook-root](https://github.com/glrodasz/cero-components/issues/storybook-root) [#root](https://github.com/glrodasz/cero-components/issues/root)
+* add Score Default snapshot to storybook.snapx ([16e7580](https://github.com/glrodasz/cero-components/commit/16e7580e26c1ba4ff4fa7b4b9ae046f239bc3769))
+* add style-loader and css-loader dependencies ([abe024b](https://github.com/glrodasz/cero-components/commit/abe024b61c30573bc4baf0e9d0e6e61025abe5e6))
+* add vitest globals to eslint config to resolve vi is not defined errors ([2f5d931](https://github.com/glrodasz/cero-components/commit/2f5d93155d700b4cfd34c6f3ed6df1aa664fb513))
+* apply prettier formatting to jsxPlugin condition ([db685bc](https://github.com/glrodasz/cero-components/commit/db685bca9f4185f97b453ff85e265ea5e9f266c2))
+* complete Vitest migration - 159/160 tests passing (99.4%) ([36afa47](https://github.com/glrodasz/cero-components/commit/36afa47172848640bfd514b88db4a19a57058c9c))
+* configure Babel for React 19 automatic JSX runtime ([4229c9a](https://github.com/glrodasz/cero-components/commit/4229c9ab10ab6412c21882dc0f478ce349a26cb2))
+* configure CSS modules to export default object ([13fc7d4](https://github.com/glrodasz/cero-components/commit/13fc7d4a3ac1d1637a886852345eacab87ad6446))
+* convert toKebabCase to ESM to resolve rollup default export error ([450550e](https://github.com/glrodasz/cero-components/commit/450550edcb01af9002be3fdf492eaedaaf823184))
+* disable lazyCompilation to fix HMR communication error ([24db2a1](https://github.com/glrodasz/cero-components/commit/24db2a1fbcb80eab8fefcb94500d38087b74fa34))
+* enable autodocs for all stories automatically ([d41a45d](https://github.com/glrodasz/cero-components/commit/d41a45d03f3e5210b0331f144f78f9f7cc14aa7e))
+* exclude node_modules from jsxPlugin transform in Storybook config ([ab720e0](https://github.com/glrodasz/cero-components/commit/ab720e041f3717d67207247186b64bfa17105334))
+* force Storybook to use Babel instead of SWC compiler ([8bef12b](https://github.com/glrodasz/cero-components/commit/8bef12b4627bcc236ca5bb56d20900f98c525c69))
+* generate sourcemaps in jsx-transform plugin to prevent JSON parse error ([a3e9226](https://github.com/glrodasz/cero-components/commit/a3e92264e8fb4424f9caaa11e64308c6ce945126))
+* migrate to Storybook 10 tags-based autodocs system ([6579d74](https://github.com/glrodasz/cero-components/commit/6579d748776e562c760fd7d7c8a8b2bb5fb3696d))
+* pass defaultProps to wrapped components for React 19 compatibility ([44036a6](https://github.com/glrodasz/cero-components/commit/44036a654a0d747cb39c8125d326ee8ff52b0df8))
+* properly exclude .module.css from default CSS rules ([4280b3e](https://github.com/glrodasz/cero-components/commit/4280b3efddce4bf33032c703cf9a599330face5d))
+* refactor CSS modules webpack config for higher priority ([091b66f](https://github.com/glrodasz/cero-components/commit/091b66f132c84b1d4bdc313b7c789f46c2e3f59e))
+* remove @storybook/addon-essentials from addons array ([55d7608](https://github.com/glrodasz/cero-components/commit/55d7608441e7504583b18a93c0e8f9a643cf05cc))
+* resolve multiple React versions with webpack aliases ([794ac2c](https://github.com/glrodasz/cero-components/commit/794ac2cd3ebd964b248eb5eafc889182c8ab6235))
+* resolve prettier lint errors in vite.config.js and vitest.setup.js ([647dfbc](https://github.com/glrodasz/cero-components/commit/647dfbcebbb1bf7db84c376ee8386ea1d7db7750))
+* simplify CSS modules config to minimal working version ([6e60410](https://github.com/glrodasz/cero-components/commit/6e604100cdb7913cc2d959e2c5f0fdfbedc388df))
+* update CSS modules configuration for Storybook 10 ([656bf60](https://github.com/glrodasz/cero-components/commit/656bf6024c6fd0314c8e77292f1ca49743e9923f))
+* use ?react suffix for SVG imports in Score component ([fc578bf](https://github.com/glrodasz/cero-components/commit/fc578bf156c9cb61bc8ba32331646b91eafc92a4))
+
+
+### Features
+
+* add autodocs tag to Button story ([184baa7](https://github.com/glrodasz/cero-components/commit/184baa7c3c84779a8046e40929cb0b5bc0f83b8a))
+* enable docs for all stories ([eac7b92](https://github.com/glrodasz/cero-components/commit/eac7b92c8d577503d18117f7aeb777509b7e4bb6))
+* migrate from Jest/Webpack to Vitest/Vite ([5398d9d](https://github.com/glrodasz/cero-components/commit/5398d9dc0d4460537cc33ea3718eae5594e0f476))
+
 ## [2.13.1](https://github.com/glrodasz/cero-components/compare/v2.13.0...v2.13.1) (2023-04-08)
 
 
