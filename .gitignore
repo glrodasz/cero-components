@@ -307,3 +307,6 @@ storybook-static
 
 # project
 !Icon
+
+# yarn
+.yarn/install-state.gz
