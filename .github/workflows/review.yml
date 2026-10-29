@@ -2,7 +2,7 @@ name: Code Review
 on:
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   build:
     name: Build, Lint, and Test
@@ -44,6 +44,8 @@ jobs:
         uses: codecov/codecov-action@v4
   visual:
     name: Vistual testing
+    # Dependabot PRs don't receive Actions secrets (Chromatic/Vercel tokens)
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -68,6 +70,8 @@ jobs:
           storybookBuildDir: 'storybook-static'
   deploy:
     name: Deploy Storybook
+    # Dependabot PRs don't receive Actions secrets (Chromatic/Vercel tokens)
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
