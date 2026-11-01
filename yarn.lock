@@ -2103,6 +2103,7 @@ __metadata:
     minireset.css: "npm:0.0.7"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.4.2"
+    prop-types: "npm:^15.8.1"
     react: "npm:19.2.3"
     react-dom: "npm:19.2.3"
     react-is: "npm:19.2.3"
