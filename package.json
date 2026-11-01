@@ -43,7 +43,7 @@
     "test:coverage:html": "yarn test:coverage && open coverage/index.html",
     "test:ui": "vitest --ui",
     "test:watch": "CONSOLE_LEVEL=debug vitest",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "keywords": [
     "react",
