@@ -1,5 +1,4 @@
-<!-- Logo slot: add docs/assets/logo.svg, then uncomment this line and the <br clear="left"> below the badges. -->
-<!-- <img src="docs/assets/logo.svg" width="164" align="left" alt="@glrodasz/components logo: <what it depicts>"> -->
+<img src="docs/assets/logo.svg" width="164" align="left" alt="@glrodasz/components logo: a zero orbited by an electron, on a purple tile">
 
 # Cero a Producción — Components
 
@@ -7,11 +6,11 @@
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/glrodasz/cero-components/release.yml?branch=main)](https://github.com/glrodasz/cero-components/actions/workflows/release.yml) [![Codecov](https://img.shields.io/codecov/c/github/glrodasz/cero-components)](https://app.codecov.io/gh/glrodasz/cero-components) [![npm](https://img.shields.io/npm/v/@glrodasz/components)](https://www.npmjs.com/package/@glrodasz/components) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://cero-components.vercel.app)
 
-<!-- <br clear="left"> -->
+<br clear="left">
 
 [**Storybook**](https://cero-components.vercel.app) · [npm](https://www.npmjs.com/package/@glrodasz/components) · [How it works](#how-it-works) · [Architecture](#architecture) · [Quick start](#quick-start) · [Changelog](CHANGELOG.md)
 
-<img src="docs/assets/components-grid.png" alt="Components rendered from this repo's Storybook: primary, secondary and tertiary buttons, buttons with an icon, input, time dropdown, accordion, mood score, active, standby, completed and pending tasks, the add-task button and the icon set" width="860">
+<img src="docs/assets/og.png" alt="Cero a Producción: the React UI kit behind RETO. 26 Atomic Design components on 337 CSS design tokens, built live on stream. Atomic Design, design tokens, Storybook." width="860">
 
 0️⃣ 🚀 **Cero a Producción** is a series of live coding sessions where we build
 **RETO**, a productivity app, from scratch to production — real decisions,
