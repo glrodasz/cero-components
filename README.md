@@ -1,5 +1,4 @@
-<!-- TODO(logo): no logo or app icon exists in this repo yet. When one is added (square tile, readable at 32px, works on light and dark),
-     uncomment this line and the <br clear="left"> below the badges; the column beside it is sized for a 164px logo. -->
+<!-- Logo slot: add docs/assets/logo.svg, then uncomment this line and the <br clear="left"> below the badges. -->
 <!-- <img src="docs/assets/logo.svg" width="164" align="left" alt="@glrodasz/components logo: <what it depicts>"> -->
 
 # Cero a Producción — Components
@@ -53,8 +52,7 @@ ships its source untranspiled (see [Quick start](#quick-start)).
 yarn add @glrodasz/components prop-types
 ```
 
-The components import `prop-types`, which the package doesn't declare as a dependency yet,
-so install it alongside.
+The components import `prop-types`, so install it alongside the package.
 
 #### 2. Using the library
 
@@ -181,8 +179,6 @@ Every push to `main` fans out to three services: **npm** gets a new version when
 call for one, **Vercel** hosts the Storybook, and **Chromatic** keeps a visual baseline of every
 story. [`cero-web`](https://github.com/glrodasz/cero-web) (teal) is the only app that consumes
 the kit. Gray marks people and external services.
-
-The diagram source lives in [`docs/diagrams/src/`](docs/diagrams/src).
 
 ### Tech stack
 
