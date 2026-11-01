@@ -39,6 +39,7 @@ function replaceComponentFile(
     return componentFile
       .replace(/component/g, toKebabCase(componentName))
       .replace(/Component/g, componentName)
+      .replace(/Atomic/g, toCapitalize(mappedType))
   } else {
     return componentFile
       .replace(/Component/g, componentName)
@@ -47,8 +48,22 @@ function replaceComponentFile(
   }
 }
 
-function createComponentFile(componentPath, replacedComponentFile) {
+async function createComponentFile(componentPath, replacedComponentFile) {
+  await fs.mkdir(path.dirname(componentPath), { recursive: true })
   return fs.writeFile(componentPath, replacedComponentFile, 'utf8')
+}
+
+async function readComponentTemplates(templatesPath) {
+  const entries = await fs.readdir(templatesPath, {
+    recursive: true,
+    withFileTypes: true,
+  })
+
+  return entries
+    .filter((entry) => entry.isFile())
+    .map((entry) =>
+      path.relative(templatesPath, path.join(entry.parentPath, entry.name)),
+    )
 }
 
 async function createComponent(componentTemplates, type, componentName) {
@@ -110,7 +125,7 @@ async function getPromptParams() {
   })
 
   try {
-    const componentTemplates = await fs.readdir(
+    const componentTemplates = await readComponentTemplates(
       path.join(__dirname, `../${COMPONENT_TEMPLATE_PATH}`),
     )
 
