@@ -1,3 +1,10 @@
+## [2.14.1](https://github.com/glrodasz/cero-components/compare/v2.14.0...v2.14.1) (2026-11-01)
+
+
+### Bug Fixes
+
+* declare prop-types, fix yarn cc, update husky hooks ([#81](https://github.com/glrodasz/cero-components/issues/81)) ([80ca0b7](https://github.com/glrodasz/cero-components/commit/80ca0b7b6a9472bd370024937d05c19be8ea94f9))
+
 # [2.14.0](https://github.com/glrodasz/cero-components/compare/v2.13.1...v2.14.0) (2026-10-25)
 
 
