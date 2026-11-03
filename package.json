@@ -1,7 +1,7 @@
 {
   "name": "@glrodasz/components",
   "version": "2.14.1",
-  "description": "A components library to create apps from zero to production",
+  "description": "React UI kit for RETO, part of the Cero project: design tokens, Atomic Design and Storybook",
   "main": "index.js",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 <img src="docs/assets/logo.svg" width="164" align="left" alt="@glrodasz/components logo: a zero orbited by an electron, on a purple tile">
 
-# Cero a Producción — Components
+# Cero Components
 
 **The React UI kit behind the RETO productivity app: 26 Atomic Design components on 337 CSS design tokens.**
 
@@ -12,13 +12,9 @@
 
 <img src="docs/assets/og.png" alt="Cero a Producción: the React UI kit behind RETO. 26 Atomic Design components on 337 CSS design tokens, built live on stream. Atomic Design, design tokens, Storybook." width="860">
 
-0️⃣ 🚀 **Cero a Producción** is a series of live coding sessions where we build
-**RETO**, a productivity app, from scratch to production — real decisions,
-failing tests, refactors and all. This package is its UI layer, published to npm
+Part of [Cero](https://github.com/glrodasz/cero), the project that builds **RETO**, a
+productivity app, from scratch to production. This package is its UI layer, published to npm
 as `@glrodasz/components` and consumed by [`cero-web`](https://github.com/glrodasz/cero-web).
-
-📺 [YouTube](https://glrz.me/youtube-cero) · 🟣 [Twitch](https://glrz.me/stream)
-(live in 🇪🇸 Spanish, Tuesdays to Fridays) · Part of the [Cero a Producción project](https://github.com/glrodasz/cero).
 
 ## Why
 
@@ -37,7 +33,7 @@ that know nothing about RETO's data or routes.
 - **Versioned like a real package.** Conventional commits drive semantic-release, which
   publishes to npm and writes the [CHANGELOG](CHANGELOG.md).
 
-It is built for RETO and for people following the series. It is **not** a general-purpose
+It is built for RETO and for people following the Cero project. It is **not** a general-purpose
 design system: the tokens are RETO's brand, there are no TypeScript types, and the package
 ships its source untranspiled (see [Quick start](#quick-start)).
 
@@ -131,8 +127,8 @@ Components follow [Atomic Design](https://shop.bradfrost.com/products/atomic-des
 This library only builds **Atoms** and **Molecules**, plus the layout primitives they sit in;
 organisms, templates and pages live in the app.
 
-- **Atom** — a component composed of a single atom with or without HTML tags, or just HTML tags.
-- **Molecule** — a component composed of at least 2 different atoms.
+- **Atom:** a component composed of a single atom with or without HTML tags, or just HTML tags.
+- **Molecule:** a component composed of at least 2 different atoms.
 
 | Layer | Exported from [`index.js`](index.js) |
 |---|---|
@@ -209,7 +205,7 @@ index.js             public entry point: every exported component
 | [Storybook](https://cero-components.vercel.app) | Every component, prop and variant, plus the token pages |
 | [CHANGELOG.md](CHANGELOG.md) | Release notes for every version, written by semantic-release |
 | [npm package](https://www.npmjs.com/package/@glrodasz/components) | Published versions |
-| [Cero a Producción](https://github.com/glrodasz/cero) | The series and the other RETO repositories |
+| [Cero](https://github.com/glrodasz/cero) | The project hub: how it started and the other repositories |
 | [cero-web](https://github.com/glrodasz/cero-web) | The RETO web app that consumes this kit |
 
 ## Contributing
