@@ -10,7 +10,7 @@
 
 [**Storybook**](https://cero-components.vercel.app) · [npm](https://www.npmjs.com/package/@glrodasz/components) · [How it works](#how-it-works) · [Architecture](#architecture) · [Quick start](#quick-start) · [Changelog](CHANGELOG.md)
 
-<img src="docs/assets/og.png" alt="Cero a Producción: the React UI kit behind RETO. 26 Atomic Design components on 337 CSS design tokens, built live on stream. Atomic Design, design tokens, Storybook." width="860">
+<img src="docs/assets/og.png" alt="Cero: the React UI kit behind RETO. 26 Atomic Design components on 337 CSS design tokens, built live on stream. Atomic Design, design tokens, Storybook." width="860">
 
 Part of [Cero](https://github.com/glrodasz/cero), the project that builds **RETO**, a
 productivity app, from scratch to production. This package is its UI layer, published to npm
