@@ -127,8 +127,8 @@ Components follow [Atomic Design](https://shop.bradfrost.com/products/atomic-des
 This library only builds **Atoms** and **Molecules**, plus the layout primitives they sit in;
 organisms, templates and pages live in the app.
 
-- **Atom** — a component composed of a single atom with or without HTML tags, or just HTML tags.
-- **Molecule** — a component composed of at least 2 different atoms.
+- **Atom:** a component composed of a single atom with or without HTML tags, or just HTML tags.
+- **Molecule:** a component composed of at least 2 different atoms.
 
 | Layer | Exported from [`index.js`](index.js) |
 |---|---|
